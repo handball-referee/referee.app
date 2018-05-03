@@ -1,0 +1,9 @@
+{
+  "name": "Handball Referee Test",
+  "short_name": "Handball",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#3f51b5",
+  "background_color": "#fafafa"
+}
