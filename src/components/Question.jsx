@@ -41,7 +41,7 @@ class Question extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      question: null,
+      question: Questions[Math.floor(Math.random() * Questions.length)],
       answers: [],
       showCorrect: false,
     };
@@ -77,24 +77,23 @@ class Question extends Component {
   }
 
   checkAnswers() {
+    const { onCorrect, onWrong } = this.props;
+    const { question, answers } = this.state;
+
     this.setState({
       showCorrect: true,
     });
+
+    if (question.correct.length === answers.length && question.correct.every(u => answers.indexOf(u) > -1)) {
+      onCorrect();
+    } else {
+      onWrong();
+    }
   }
 
   render() {
     const { question, answers, showCorrect } = this.state;
     const { classes } = this.props;
-
-    if (!question) {
-      return (
-        <Paper elevation={1}>
-          <Button className={classes.button} variant="raised" onClick={this.nextQuestion}>
-            Start
-          </Button>
-        </Paper>
-      );
-    }
 
     return (
       <div>

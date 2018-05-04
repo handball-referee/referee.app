@@ -5,7 +5,7 @@ import Drawer from 'material-ui/Drawer';
 import List, { ListItem, ListItemText, ListItemIcon, ListSubheader } from 'material-ui/List';
 import Collapse from 'material-ui/transitions/Collapse';
 import TestIcon from '@material-ui/icons/Assignment';
-import RulesIcon from '@material-ui/icons/Book';
+import RulesIcon from '@material-ui/icons/FormatListBulleted';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
 

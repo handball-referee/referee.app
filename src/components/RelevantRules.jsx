@@ -124,6 +124,10 @@ const Rule18Component = Loadable({
 const RuleSwitchComponent = ({ rule }) => {
   const res = rule.match(/^([0-9]{1,2}):[0-9]{1,2}/);
 
+  if (!res) {
+    return (<Typography>Rule Text not found</Typography>)
+  }
+
   switch (res[1]) {
     case "1":
       return <Rule1Component/>;
@@ -162,8 +166,6 @@ const RuleSwitchComponent = ({ rule }) => {
     case "18":
       return <Rule18Component/>;
     default:
-      console.log(rule);
-      console.log(res);
       return (<Typography>Rule Text not found</Typography>)
   }
 };
