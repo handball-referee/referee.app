@@ -77,6 +77,9 @@ const config = {
       {
         from: 'static/*',
       },
+      {
+        from: 'favicon.ico',
+      },
     ]),
     new CnameWebpackPlugin({
       domain: 'referee.app',

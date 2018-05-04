@@ -6,8 +6,16 @@
   "orientation": "portrait",
   "theme_color": "#689f38",
   "background_color": "#fafafa",
-  "icons": {
-    "192": "static/logo192.png",
-    "512": "static/logo512.png"
-  }
+  "icons": [
+    {
+      "src": "static/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "static/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
