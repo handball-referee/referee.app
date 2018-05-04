@@ -3,6 +3,7 @@ import CopyPlugin from 'copy-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import SWPrecacheWebpackPlugin from 'sw-precache-webpack-plugin';
 import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
+import CnameWebpackPlugin from 'cname-webpack-plugin';
 
 const appPath = path.resolve(__dirname, 'src');
 const buildPath = path.resolve(__dirname, 'dist');
@@ -64,7 +65,7 @@ const config = {
       cacheId: 'handball',
       filename: 'sw.js',
       minify: true,
-      staticFileGlobsIgnorePatterns: [/\.map$/],
+      staticFileGlobsIgnorePatterns: [/\.map$/, /CNAME/, /\.woff2?$/, /logo[0-9]{3}\.png$/],
     }),
     new CopyPlugin([
       {
@@ -73,7 +74,13 @@ const config = {
       {
         from: 'data/diagrams/*',
       },
+      {
+        from: 'static/*',
+      },
     ]),
+    new CnameWebpackPlugin({
+      domain: 'handball.kraemer.io',
+    }),
     /* new BundleAnalyzerPlugin({
       analyzerMode: "static",
       generateStatsFile: true,
