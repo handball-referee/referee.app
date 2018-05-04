@@ -64,7 +64,7 @@ class AppShell extends Component {
           </Toolbar>
         </AppBar>
         <Route path="/rules" component={HandballRules} />
-        <Route path="/test" component={RulesTest} />
+        <Route path="/" component={RulesTest} exact />
       </div>
     );
   }

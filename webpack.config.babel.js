@@ -2,6 +2,7 @@ import path from 'path';
 import CopyPlugin from 'copy-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import SWPrecacheWebpackPlugin from 'sw-precache-webpack-plugin';
+import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
 
 const appPath = path.resolve(__dirname, 'src');
 const buildPath = path.resolve(__dirname, 'dist');
@@ -47,6 +48,14 @@ const config = {
       },
     ],
   },
+  optimization: {
+    runtimeChunk: {
+      name: "manifest",
+    },
+    splitChunks: {
+      chunks: "initial",
+    },
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'index.html',
@@ -65,6 +74,10 @@ const config = {
         from: 'data/diagrams/*',
       },
     ]),
+    /* new BundleAnalyzerPlugin({
+      analyzerMode: "static",
+      generateStatsFile: true,
+    })*/
   ],
   devServer: {
     historyApiFallback: true

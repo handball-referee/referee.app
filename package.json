@@ -4,7 +4,7 @@
   "description": "App to study for handball referee tests",
   "license": "MIT",
   "scripts": {
-    "build": "webpack -p",
+    "build": "rimraf dist && webpack -p",
     "server": "webpack-dev-server -d",
     "deploy": "gh-pages -d dist"
   },
@@ -36,9 +36,11 @@
     "gh-pages": "^1.1.0",
     "html-webpack-plugin": "^3.2.0",
     "raw-loader": "^0.5.1",
+    "rimraf": "^2.6.2",
     "style-loader": "^0.21.0",
     "sw-precache-webpack-plugin": "^0.11.5",
     "webpack": "^4.6.0",
+    "webpack-bundle-analyzer": "^2.11.1",
     "webpack-cli": "^2.1.2",
     "webpack-dev-server": "^3.1.4"
   },

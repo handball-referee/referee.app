@@ -44,7 +44,7 @@ class Menu extends Component {
     return (
       <Drawer open={open} onClose={onClose}>
         <List component="nav" subheader={SubHeader}>
-          <ListItem button component={Link} to="/test" onClick={onClose}>
+          <ListItem button component={Link} to="/" onClick={onClose}>
             <ListItemIcon>
               <TestIcon />
             </ListItemIcon>
