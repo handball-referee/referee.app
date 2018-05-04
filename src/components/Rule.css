@@ -1,0 +1,25 @@
+.rule {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.46429em;
+}
+
+.rule h1 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.rule h2 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.rule h3 {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.rule a {
+  color: #000000;
+}

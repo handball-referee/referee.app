@@ -1,5 +1,6 @@
 import React from 'react';
 import Markdown from 'react-markdown';
+import './Rule.css';
 
 function flatten(text, child) {
   return typeof child === 'string'
@@ -18,6 +19,6 @@ function Heading({ children, level }) {
 
 export default ({ source }) => (
   <div className="rule">
-    <Markdown source={source} renderers={{heading: Heading}} />
+    <Markdown source={source} renderers={{heading: Heading}} transformImageUri={(uri) => `../data/diagrams/${uri}`} />
   </div>
 )

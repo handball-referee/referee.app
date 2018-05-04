@@ -37,7 +37,14 @@ const config = {
       {
         test: /\.png$/,
         loader: "file-loader"
-      }
+      },
+      {
+        test: /\.(ttf|eot|woff|woff2)$/,
+        loader: "file-loader",
+        options: {
+          name: "fonts/[name].[ext]",
+        },
+      },
     ],
   },
   plugins: [
@@ -54,8 +61,14 @@ const config = {
       {
         from: 'manifest.json',
       },
+      {
+        from: 'data/diagrams/*',
+      },
     ]),
   ],
+  devServer: {
+    historyApiFallback: true
+  }
 };
 
 export default config;

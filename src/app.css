@@ -2,22 +2,3 @@ body {
   background-color: #fafafa;
   margin: 0;
 }
-
-.rule {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.46429em;
-}
-
-.rule h1 {
-  font-size: 1.125rem;
-}
-
-.rule h2 {
-  font-size: 1rem;
-}
-
-.rule h3 {
-  font-size: 0.875rem;
-}
