@@ -206,7 +206,7 @@
     ]
   },
   {
-    "id": "2.1",
+    "id": "2.10",
     "question": "For a shoot-out through 7-meter throws, who decides which goal should be used?",
     "answers": {
       "a": "The team that wins the coin toss",
@@ -277,7 +277,10 @@
       "a",
       "c"
     ],
-    "rule": "2:9 comment, 9:2"
+    "rule": [
+      "2:9 comment",
+      "9:2"
+    ]
   },
   {
     "id": "2.14",
@@ -293,7 +296,10 @@
       "c",
       "d"
     ],
-    "rule": "2:9, Clarification 3"
+    "rule": [
+      "2:9",
+      "Clarification 3"
+    ]
   },
   {
     "id": "2.15",
@@ -308,7 +314,10 @@
       "b",
       "d"
     ],
-    "rule": "2:8, Clarification 2"
+    "rule": [
+      "2:8",
+      "Clarification 2"
+    ]
   },
   {
     "id": "2.16",
@@ -380,10 +389,16 @@
       "c",
       "d"
     ],
-    "rule": "2:2 comment, 4:11, 16:5, 16:6b, 16:10"
+    "rule": [
+      "2:2 comment",
+      "4:11",
+      "16:5",
+      "16:6b",
+      "16:10"
+    ]
   },
   {
-    "id": "2.2",
+    "id": "2.20",
     "question": "Goalkeeper WHITE 12 stops a shot 5 seconds before the end of the game. The ball hits the ceiling above the goal area. The automatic final signal sounds immediately before the throw-in is executed by BLACK team. Correct decision?",
     "answers": {
       "a": "Throw-in for BLACK team after whistle signal",
@@ -433,7 +448,10 @@
       "b",
       "c"
     ],
-    "rule": "2:2 comment, 16:5"
+    "rule": [
+      "2:2 comment",
+      "16:5"
+    ]
   },
   {
     "id": "2.23",
@@ -449,7 +467,11 @@
       "a",
       "e"
     ],
-    "rule": "2:4, 2:5, 2:9 Comment, 4:5, 9:1, 3. paragraph"
+    "rule": [
+      "2:4, 2:5, 2:9 Comment",
+      "4:5",
+      "9:1 3. paragraph"
+    ]
   },
   {
     "id": "2.24",
@@ -461,7 +483,10 @@
     "correct": [
       "b"
     ],
-    "rule": "2:2 comment, 16:3d"
+    "rule": [
+      "2:2 comment",
+      "16:3d"
+    ]
   },
   {
     "id": "2.25",
@@ -563,10 +588,15 @@
       "e",
       "f"
     ],
-    "rule": "2:9, 2:9 comment, 13:4a, 15:5b, Clarification 3, 10. paragraph"
+    "rule": [
+      "2:9, 2:9 comment",
+      "13:4a",
+      "15:5b",
+      "Clarification 3, 10. paragraph"
+    ]
   },
   {
-    "id": "2.3",
+    "id": "2.30",
     "question": "The whistle signal ending the first half has come one minute too soon. At the time of the whistle signal, neither of the teams was in possession of the ball, and there was no rules violation. The ball was on the floor in the playing area. Both teams are still on the court. Correct decision?",
     "answers": {
       "a": "The one minute is not played",
@@ -639,7 +669,13 @@
       "b",
       "c"
     ],
-    "rule": "2:8, 8:7c, 15:9, 16:1b, Clarification 2c"
+    "rule": [
+      "2:8",
+      "8:7c",
+      "15:9",
+      "16:1b",
+      "Clarification 2c"
+    ]
   },
   {
     "id": "2.34",
@@ -656,7 +692,10 @@
       "c",
       "e"
     ],
-    "rule": "2:8, Clarification 2"
+    "rule": [
+      "2:8",
+      "Clarification 2"
+    ]
   },
   {
     "id": "2.35",
@@ -670,7 +709,9 @@
     "correct": [
       "a"
     ],
-    "rule": "Clarification 3"
+    "rule": [
+      "Clarification 3"
+    ]
   },
   {
     "id": "2.36",
@@ -687,7 +728,10 @@
       "d",
       "e"
     ],
-    "rule": "2:10, Clarification 3"
+    "rule": [
+      "2:10",
+      "Clarification 3"
+    ]
   },
   {
     "id": "2.37",
@@ -701,7 +745,10 @@
     "correct": [
       "c"
     ],
-    "rule": "2:10, Clarification 3"
+    "rule": [
+      "2:10",
+      "Clarification 3"
+    ]
   },
   {
     "id": "2.38",
@@ -716,7 +763,10 @@
       "b",
       "d"
     ],
-    "rule": "6:5, Clarification 3"
+    "rule": [
+      "6:5",
+      "Clarification 3"
+    ]
   },
   {
     "id": "2.39",
@@ -730,10 +780,12 @@
     "correct": [
       "d"
     ],
-    "rule": "Clarification 3"
+    "rule": [
+      "Clarification 3"
+    ]
   },
   {
-    "id": "2.4",
+    "id": "2.40",
     "question": "WHITE 4 blocks a shot from BLACK 11. The ball touches the ceiling above the goal area. Immediately after this, the official A from BLACK team puts the green card on the table in front of the timekeeper. Correct decision?",
     "answers": {
       "a": "BLACK team immediately receives at team time-out",
@@ -744,7 +796,10 @@
     "correct": [
       "a"
     ],
-    "rule": "2:8, 2:10, Clarification 3"
+    "rule": [
+      "2:8, 2:10",
+      "Clarification 3"
+    ]
   },
   {
     "id": "2.41",
@@ -759,7 +814,10 @@
       "a",
       "d"
     ],
-    "rule": "2:8, 2:9 comment, Clarification 3"
+    "rule": [
+      "2:8, 2:9 comment",
+      "Clarification 3"
+    ]
   },
   {
     "id": "2.42",
@@ -773,7 +831,9 @@
     "correct": [
       "a"
     ],
-    "rule": "2:2 Comment"
+    "rule": [
+      "2:2 Comment"
+    ]
   },
   {
     "id": "2.43",
@@ -787,7 +847,10 @@
       "b",
       "c"
     ],
-    "rule": "2:10 Clarification 3"
+    "rule": [
+      "2:10",
+      "Clarification 3"
+    ]
   },
   {
     "id": "3.1",
@@ -949,7 +1012,10 @@
       "c",
       "d"
     ],
-    "rule": "4:3, 16.1b"
+    "rule": [
+      "4:3",
+      "16.1b"
+    ]
   },
   {
     "id": "4.7",
@@ -964,7 +1030,12 @@
       "a",
       "d"
     ],
-    "rule": "4:5, 13:3, 16:3a, clarification 7"
+    "rule": [
+      "4:5",
+      "13:3",
+      "16:3a",
+      "Clarification 7"
+    ]
   },
   {
     "id": "4.8",
@@ -1002,7 +1073,7 @@
     ]
   },
   {
-    "id": "4.1",
+    "id": "4.10",
     "question": "The referee whistles to indicate a time-out because WHITE 2 is being given his third 2-minute suspension. As the referee turns to the timekeeper and scorekeeper to report the disqualification, responsible team official from WHITE team runs onto the court to protest about the suspension. Team official B from WHITE team has already previously been given a warning. Correct decision?",
     "answers": {
       "a": "Disqualification of responsible team official from WHITE team (red card shown by the referees) and a reduction of WHITE team by an additional player for 2 minutes",
@@ -1189,7 +1260,7 @@
     ]
   },
   {
-    "id": "4.2",
+    "id": "4.20",
     "question": "Goalkeeper WHITE 3 wants to carry out a 7-meter throw. To protect the empty goal WHITE 15 enters the court in a goalkeeper uniform replacing a court player. Correct decision?",
     "answers": {
       "a": "2-minute suspension for WHITE 3",
@@ -1338,7 +1409,12 @@
       "a",
       "d"
     ],
-    "rule": "4:5, 14:1a, 16:3a, clarification 7"
+    "rule": [
+      "4:5",
+      "14:1a",
+      "16:3a",
+      "Clarification 7"
+    ]
   },
   {
     "id": "4.28",
@@ -1351,7 +1427,9 @@
     "correct": [
       "a"
     ],
-    "rule": "4:4 comment"
+    "rule": [
+      "4:4 comment"
+    ]
   },
   {
     "id": "4.29",
@@ -1372,7 +1450,7 @@
     ]
   },
   {
-    "id": "4.3",
+    "id": "4.30",
     "question": "There is a time-out due to an injured of WHITE 6 because of an incident, that did not lead to a progressive punishment against a player from BLACK team. The referees have given permission for two persons to enter the court to assist WHITE 6. Official C from WHITE team is assisting WHITE 6. Official A from WHITE team pursues BLACK 5, who in his opinion has caused the injury. He follows BLACK 5 into the substitution area of BLACK team and hits him in the face. Correct decision?",
     "answers": {
       "a": "Disqualification of official A from WHITE team, written report (red and blue card shown by the referees), WHITE team is reduced by one player on the court for 2 minutes",
@@ -1561,7 +1639,7 @@
     ]
   },
   {
-    "id": "4.4",
+    "id": "4.40",
     "question": "Playing time: 43:27 – Interruption by the timekeeper after a goal from WHITE 15 and throw- off. The timekeeper informs the referees, that WHITE 15 is not registered in the score sheet. 14 players are already listed for WHITE team. The referees realize, that WHITE 11 is even not present. Correct decision?",
     "answers": {
       "a": "The goal is cancelled",
@@ -1600,7 +1678,10 @@
       "e",
       "f"
     ],
-    "rule": "4.11 – clarification 8"
+    "rule": [
+      "4.11",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.42",
@@ -1612,7 +1693,10 @@
     "correct": [
       "b"
     ],
-    "rule": "4.11 – clarification 8"
+    "rule": [
+      "4.11",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.43",
@@ -1637,7 +1721,13 @@
       "g",
       "i"
     ],
-    "rule": "2:8, 4:5, 4:11, 13:2, 14:1, clarification 8"
+    "rule": [
+      "2:8",
+      "4:5, 4:11",
+      "13:2",
+      "14:1",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.44",
@@ -1651,7 +1741,10 @@
     "correct": [
       "c"
     ],
-    "rule": "4.11 -clarification 8"
+    "rule": [
+      "4.11",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.45",
@@ -1670,7 +1763,13 @@
       "d",
       "f"
     ],
-    "rule": "2.8, 4.11, 8.4, 16.3c, clarification 8"
+    "rule": [
+      "2.8",
+      "4.11",
+      "8.4",
+      "16.3c",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.46",
@@ -1689,7 +1788,13 @@
       "e",
       "f"
     ],
-    "rule": "2.8, 4.11, 8.4, 16.3c, clarification 8"
+    "rule": [
+      "2.8",
+      "4.11",
+      "8.4",
+      "16.3c",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.47",
@@ -1703,7 +1808,12 @@
       "b",
       "c"
     ],
-    "rule": "4.11, 8-7, 16.1b, clarification 8"
+    "rule": [
+      "4.11",
+      "8:7",
+      "16.1b",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.48",
@@ -1716,7 +1826,10 @@
     "correct": [
       "a"
     ],
-    "rule": "4.11, clarification 8"
+    "rule": [
+      "4.11",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.49",
@@ -1730,10 +1843,13 @@
       "a",
       "c"
     ],
-    "rule": "4.11, clarification 8"
+    "rule": [
+      "4.11",
+      "Clarification 8"
+    ]
   },
   {
-    "id": "4.5",
+    "id": "4.50",
     "question": "WHITE 2 is injured and needs medical care in the court. The first half finishes after the first attack of his tea8.19m. When the referee whistles to start the second half, WHITE 2 is in the court during the attack of his team. Correct decision?",
     "answers": {
       "a": "The timekeeper interrupts the game immediately and informs the referees",
@@ -1745,7 +1861,9 @@
     "correct": [
       "c"
     ],
-    "rule": "4:11 third paragraph"
+    "rule": [
+      "4:11 third paragraph"
+    ]
   },
   {
     "id": "4.51",
@@ -1758,7 +1876,10 @@
     "correct": [
       "c"
     ],
-    "rule": "4.11, clarification 8"
+    "rule": [
+      "4.11",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.52",
@@ -1770,7 +1891,10 @@
     "correct": [
       "b"
     ],
-    "rule": "4.11, clarification 8"
+    "rule": [
+      "4.11",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.53",
@@ -1782,7 +1906,10 @@
     "correct": [
       "b"
     ],
-    "rule": "4.11, clarification 8"
+    "rule": [
+      "4.11",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.54",
@@ -1794,7 +1921,10 @@
     "correct": [
       "b"
     ],
-    "rule": "4.11, clarification 8"
+    "rule": [
+      "4.11",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.55",
@@ -1806,7 +1936,10 @@
     "correct": [
       "b"
     ],
-    "rule": "4.11, clarification 8"
+    "rule": [
+      "4.11",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.56",
@@ -1818,7 +1951,10 @@
     "correct": [
       "b"
     ],
-    "rule": "4.11, clarification 8"
+    "rule": [
+      "4.11",
+      "Clarification 8"
+    ]
   },
   {
     "id": "4.57",
@@ -1836,7 +1972,10 @@
       "d",
       "f"
     ],
-    "rule": "4:9, Regulations on protective equipment and accessories"
+    "rule": [
+      "4:9",
+      "Regulations on protective equipment and accessories"
+    ]
   },
   {
     "id": "4.58",
@@ -2015,7 +2154,7 @@
     ]
   },
   {
-    "id": "5.1",
+    "id": "5.10",
     "question": "The referees give a free-throw for WHITE team at the goal-area line of WHITE team. Goalkeeper WHITE 1 is standing with one foot in the goal-area and one foot in the playing area. He passes the ball to WHITE 8, who scores a goal. Correct decision?",
     "answers": {
       "a": "Goal for WHITE team",
@@ -2235,10 +2374,14 @@
     "correct": [
       "b"
     ],
-    "rule": "6:2c, 14:1a, Clarification 6.a"
+    "rule": [
+      "6:2c",
+      "14:1a",
+      "Clarification 6.a"
+    ]
   },
   {
-    "id": "6.1",
+    "id": "6.10",
     "question": "WHITE 10 passes the ball in direction his own goal area. Goalkeeper WHITE 1 jumps from the goal area and catches the ball in the air. WHITE 1 firmly holds on to the ball and lands outside the goal area. Correct decision?",
     "answers": {
       "a": "The game continues without interruption",
@@ -2303,7 +2446,12 @@
       "a",
       "b"
     ],
-    "rule": "4:5, 6:5, 2. paragraph, 13:3, 16:3a"
+    "rule": [
+      "4:5",
+      "6:5, 2. paragraph",
+      "13:3",
+      "16:3a"
+    ]
   },
   {
     "id": "6.14",
@@ -2409,10 +2557,14 @@
       "b",
       "c"
     ],
-    "rule": "4:5, 6:5, 1. paragraph, 16:3a"
+    "rule": [
+      "4:5",
+      "6:5, 1. paragraph",
+      "16:3a"
+    ]
   },
   {
-    "id": "6.2",
+    "id": "6.20",
     "question": "WHITE 5 takes a shot on goal. The shot is blocked by goalkeeper BLACK 12 and is going in the air over the goal-area in direction of pivot WHITE 11, who is standing at the goal-area line in a clear chance of scoring ready to catch the ball. Defender BLACK 2 jumps in direction of the ball, and while hanging in the air over the goal area, he plays the ball in direction of the side-line. Because of glue on the ball, the ball comes to rest in the goal area without the goalkeeper touching it. Correct decision?",
     "answers": {
       "a": "Goalkeeper-throw for BLACK team",
@@ -2606,7 +2758,7 @@
     ]
   },
   {
-    "id": "7.1",
+    "id": "7.10",
     "question": "After bouncing the ball once WHITE 7 wants to pass the ball to WHITE 5, but WHITE 5 is covered up by an opponent. WHITE 7 becomes so confused in a way, that he drops the ball but manage to catch it again before it has touched the floor. Correct decision?",
     "answers": {
       "a": "The game continues without interruption",
@@ -2772,7 +2924,7 @@
     ]
   },
   {
-    "id": "7.2",
+    "id": "7.20",
     "question": "WHITE 10 tries to pass the ball to WHITE 8, who is at the goal-area line of BLACK team. BLACK 10 stand completely still in front of WHITE 8, when the ball hits his foot. Correct decision?",
     "answers": {
       "a": "Free-throw for WHITE team",
@@ -2796,7 +2948,9 @@
     "correct": [
       "a"
     ],
-    "rule": "7:1, 7:3 comment"
+    "rule": [
+      "7:1, 7:3 comment"
+    ]
   },
   {
     "id": "7.22",
@@ -2809,7 +2963,10 @@
     "correct": [
       "b"
     ],
-    "rule": "7:11, Clarification 4"
+    "rule": [
+      "7:11",
+      "Clarification 4"
+    ]
   },
   {
     "id": "7.23",
@@ -2824,7 +2981,10 @@
     "correct": [
       "a"
     ],
-    "rule": "7:11, 7:12, Clarification 4.B.2"
+    "rule": [
+      "7:11, 7:12",
+      "Clarification 4.B.2"
+    ]
   },
   {
     "id": "7.24",
@@ -2840,7 +3000,9 @@
       "a",
       "b"
     ],
-    "rule": "Clarification 4.C"
+    "rule": [
+      "Clarification 4.C"
+    ]
   },
   {
     "id": "7.25",
@@ -2856,7 +3018,9 @@
       "c",
       "d"
     ],
-    "rule": "Clarification 4"
+    "rule": [
+      "Clarification 4"
+    ]
   },
   {
     "id": "7.26",
@@ -2871,7 +3035,10 @@
     "correct": [
       "d"
     ],
-    "rule": "7:11, 7:12, Clarification 4.B.B1"
+    "rule": [
+      "7:11, 7:12",
+      "Clarification 4.B.B1"
+    ]
   },
   {
     "id": "7.27",
@@ -2888,7 +3055,9 @@
       "d",
       "e"
     ],
-    "rule": "Clarification 4"
+    "rule": [
+      "Clarification 4"
+    ]
   },
   {
     "id": "7.28",
@@ -2906,7 +3075,10 @@
       "d",
       "e"
     ],
-    "rule": "7:11, Clarification 4"
+    "rule": [
+      "7:11",
+      "Clarification 4"
+    ]
   },
   {
     "id": "7.29",
@@ -2919,10 +3091,14 @@
     "correct": [
       "c"
     ],
-    "rule": "7:11-12, Clarification 4, Appendix 3"
+    "rule": [
+      "7:11-12",
+      "Clarification 4",
+      "Appendix 3"
+    ]
   },
   {
-    "id": "7.3",
+    "id": "7.30",
     "question": "WHITE team is in possession of the ball. The referees show the forewarning signal for passive play. WHITE 9 tries to pass the ball to WHITE 2, but the pass is blocked by BLACK 8, and the ball bounces back to WHITE 9- WHITE 9 tries to make a breakthrough the defense but is rewarded a free-throw. WHITE 8 executes the free-throw by passing the ball to WHITE 2. How many passes are completed?",
     "answers": {
       "a": 1,
@@ -2932,7 +3108,11 @@
     "correct": [
       "b"
     ],
-    "rule": "7:11-12, Clarification 4, Appendix 3"
+    "rule": [
+      "7:11-12",
+      "Clarification 4",
+      "Appendix 3"
+    ]
   },
   {
     "id": "7.31",
@@ -2946,7 +3126,10 @@
     "correct": [
       "c"
     ],
-    "rule": "7:11-12, Clarification 4"
+    "rule": [
+      "7:11-12",
+      "Clarification 4"
+    ]
   },
   {
     "id": "7.32",
@@ -2960,7 +3143,11 @@
     "correct": [
       "c"
     ],
-    "rule": "7:11-12, Clarification 3, Appendix 3"
+    "rule": [
+      "7:11-12",
+      "Clarification 3",
+      "Appendix 3"
+    ]
   },
   {
     "id": "7.33",
@@ -2976,7 +3163,11 @@
       "b",
       "c"
     ],
-    "rule": "7:11-12, Clarification 3, Appendix 3"
+    "rule": [
+      "7:11-12",
+      "Clarification 3",
+      "Appendix 3"
+    ]
   },
   {
     "id": "8.1",
@@ -3135,7 +3326,12 @@
       "b",
       "c"
     ],
-    "rule": "8:5 comment, 14:1a, 16:6a, Clarification 6b"
+    "rule": [
+      "8:5 comment",
+      "14:1a",
+      "16:6a",
+      "Clarification 6b"
+    ]
   },
   {
     "id": "8.9",
@@ -3406,7 +3602,12 @@
       "b",
       "d"
     ],
-    "rule": "8:5, 13:1b, 16:6a, clarification 6"
+    "rule": [
+      "8:5",
+      "13:1b",
+      "16:6a",
+      "Clarification 6"
+    ]
   },
   {
     "id": "8.23",
@@ -3691,7 +3892,11 @@
       "c",
       "f"
     ],
-    "rule": "8:5 comment, 14:1a, 16:6a"
+    "rule": [
+      "8:5 comment",
+      "14:1a",
+      "16:6a"
+    ]
   },
   {
     "id": "8.37",
@@ -3732,7 +3937,7 @@
       "8:10a",
       "16:6b",
       "16:8",
-      "SAR5"
+      "Substitution Area Regulations 5"
     ]
   },
   {
@@ -3850,7 +4055,12 @@
       "c",
       "e"
     ],
-    "rule": "8:5 comment, 14:1a, 16:6a, Clarification 6c"
+    "rule": [
+      "8:5 comment",
+      "14:1a",
+      "16:6a",
+      "Clarification 6c"
+    ]
   },
   {
     "id": "8.45",
@@ -3889,7 +4099,11 @@
       "c",
       "e"
     ],
-    "rule": "8:5 Comment 2nd paragraph, 14:1, 14:2, Guidelines"
+    "rule": [
+      "8:5 Comment 2nd paragraph",
+      "14:1, 14:2",
+      "Guidelines and Interpretations"
+    ]
   },
   {
     "id": "8.47",
@@ -3904,7 +4118,12 @@
     "correct": [
       "c"
     ],
-    "rule": "4:1, 8:1, 8:2, 14:1a,Clarification 6c"
+    "rule": [
+      "4:1",
+      "8:1, 8:2",
+      "14:1a",
+      "Clarification 6c"
+    ]
   },
   {
     "id": "8.48",
@@ -3921,7 +4140,14 @@
       "d",
       "e"
     ],
-    "rule": "2:8, 4:1, 8:4b, 14:1a, 16:3c, Clarification 6c"
+    "rule": [
+      "2:8",
+      "4:1",
+      "8:4b",
+      "14:1a",
+      "16:3c",
+      "Clarification 6c"
+    ]
   },
   {
     "id": "8.49",
@@ -3956,7 +4182,11 @@
       "b",
       "e"
     ],
-    "rule": "2:8, 4:1, 4:4-6, 12:1 (II)"
+    "rule": [
+      "2:8",
+      "4:1, 4:4-6",
+      "12:1 (II)"
+    ]
   },
   {
     "id": "8.51",
@@ -4013,7 +4243,10 @@
       "a",
       "c"
     ],
-    "rule": "4:1, 4:4-5, 13:1b"
+    "rule": [
+      "4:1, 4:4-5",
+      "13:1b"
+    ]
   },
   {
     "id": "8.54",
@@ -4029,7 +4262,10 @@
       "a",
       "d"
     ],
-    "rule": "4:1, 4:4-5, 14:1"
+    "rule": [
+      "4:1, 4:4-5",
+      "14:1"
+    ]
   },
   {
     "id": "8.55",
@@ -4297,7 +4533,9 @@
       "b",
       "d"
     ],
-    "rule": "9.1, comment"
+    "rule": [
+      "9.1, comment"
+    ]
   },
   {
     "id": "9.7",
@@ -4313,7 +4551,9 @@
       "c",
       "e"
     ],
-    "rule": "9.1, comment"
+    "rule": [
+      "9.1, comment"
+    ]
   },
   {
     "id": "9.8",
@@ -4354,7 +4594,7 @@
     ]
   },
   {
-    "id": "9.1",
+    "id": "9.10",
     "question": "WHITE 9 tries to stop a low shot with his lower leg, but in doing so, he deflects the ball which goes into his own goal. This is the second time, that he tries to stop a shot with his leg. Correct decision?",
     "answers": {
       "a": "Goal for BLACK team",
@@ -4706,7 +4946,10 @@
     "correct": [
       "a"
     ],
-    "rule": "12:1, Hand signals"
+    "rule": [
+      "12:1",
+      "Hand signals"
+    ]
   },
   {
     "id": "12.8",
@@ -4742,7 +4985,7 @@
     ]
   },
   {
-    "id": "12.1",
+    "id": "12.10",
     "question": "Goalkeeper-throw for BLACK team. Goalkeeper BLACK 1 is in a hurry, because his team is behind in the game. While executing the goalkeeper-throw, the ball slides out of his hand and goes to BLACK 6, who still is in the goal area. BLACK 6 rolls the ball back to BLACK 1 with his foot. Correct decision?",
     "answers": {
       "a": "Goalkeeper-throw for BLACK team after whistle signal",
@@ -4834,7 +5077,11 @@
       "b",
       "d"
     ],
-    "rule": "8:8b, 13:5, 13:6 Comment, 16:3f"
+    "rule": [
+      "8:8b",
+      "13:5, 13:6 Comment",
+      "16:3f"
+    ]
   },
   {
     "id": "13.4",
@@ -4904,7 +5151,12 @@
       "c",
       "d"
     ],
-    "rule": "4:11, 13:4b, Clarification 2, Clarification 8"
+    "rule": [
+      "4:11",
+      "13:4b",
+      "Clarification 2",
+      "Clarification 8"
+    ]
   },
   {
     "id": "13.8",
@@ -4918,7 +5170,11 @@
     "correct": [
       "c"
     ],
-    "rule": "8:8b, 13:5, 13:6 comment, 16:3f"
+    "rule": [
+      "8:8b",
+      "13:5, 13:6 comment",
+      "16:3f"
+    ]
   },
   {
     "id": "13.9",
@@ -4940,7 +5196,7 @@
     ]
   },
   {
-    "id": "13.1",
+    "id": "13.10",
     "question": "Which of the following statements about the place of execution of a free-throw are correct?",
     "answers": {
       "a": "If the ball is not put down immediately after the free-throw decision, the opponents are allowed to execute the free-throw at the place, where the ball is",
@@ -4953,7 +5209,10 @@
       "c",
       "d"
     ],
-    "rule": "7:11, 13:6, 13:6 comment"
+    "rule": [
+      "7:11",
+      "13:6, 13:6 comment"
+    ]
   },
   {
     "id": "13.11",
@@ -4987,8 +5246,7 @@
     "rule": [
       "8:7",
       "13:6",
-      "SAR5",
-      "SAR6"
+      "Substitution Area Regulations 5, Substitution Area Regulations 6"
     ]
   },
   {
@@ -5143,7 +5401,11 @@
     "correct": [
       "a"
     ],
-    "rule": "6:2c, 14:1a, Clarification 6"
+    "rule": [
+      "6:2c",
+      "14:1a",
+      "Clarification 6"
+    ]
   },
   {
     "id": "14.9",
@@ -5164,7 +5426,7 @@
     ]
   },
   {
-    "id": "14.1",
+    "id": "14.10",
     "question": "WHITE 9 is standing completely alone at the goal-area line of the opponents, ready to receive the ball. This is noticed by WHITE 10, who plays a bounce pass through the goal area to feed WHITE 9. This is noticed by BLACK 3, who clearly enters his own goal area to stop the ball, standing with both feet in the goal area. It is the second time in the game, that he takes this action. Correct decision?",
     "answers": {
       "a": "Free-throw for WHITE team",
@@ -5175,7 +5437,12 @@
       "b",
       "c"
     ],
-    "rule": "8:7f, 14:1a, 16:1b, Clarification 6a"
+    "rule": [
+      "8:7f",
+      "14:1a",
+      "16:1b",
+      "Clarification 6a"
+    ]
   },
   {
     "id": "14.11",
@@ -5191,7 +5458,11 @@
       "c",
       "d"
     ],
-    "rule": "8:2c, 14:1a, clarification 6a"
+    "rule": [
+      "8:2c",
+      "14:1a",
+      "Clarification 6a"
+    ]
   },
   {
     "id": "14.12",
@@ -5224,7 +5495,11 @@
       "b",
       "c"
     ],
-    "rule": "2:3, 14:1b, Clarification 6a"
+    "rule": [
+      "2:3",
+      "14:1b",
+      "Clarification 6a"
+    ]
   },
   {
     "id": "14.14",
@@ -5280,7 +5555,10 @@
       "d",
       "e"
     ],
-    "rule": "14:1c, Clarification 2a"
+    "rule": [
+      "14:1c",
+      "Clarification 2a"
+    ]
   },
   {
     "id": "14.17",
@@ -5331,7 +5609,11 @@
       "a",
       "b"
     ],
-    "rule": "8:5, 13:1b, Clarification 6"
+    "rule": [
+      "8:5",
+      "13:1b",
+      "Clarification 6"
+    ]
   },
   {
     "id": "15.1",
@@ -5496,7 +5778,7 @@
     ]
   },
   {
-    "id": "15.1",
+    "id": "15.10",
     "question": "BLACK 9 wants to execute a free-throw, but WHITE 11 is only 2 meters away from the ball, and he tries to delay the throw. Correct decision?",
     "answers": {
       "a": "Personal punishment against WHITE 11, free-throw for BLACK team after whistle signal",
@@ -5677,7 +5959,7 @@
     ]
   },
   {
-    "id": "15.2",
+    "id": "15.20",
     "question": "The result in the game is 30-30 just 4 seconds before the end. WHITE team scores to lead 31-30. BLACK team wants to take a quick throw-of. BLACK 10 stands with one foot behind the centre line and the other one in front of it. Without a whistle signal, he throws the ball, and it goes into the goal of WHITE team. The automatic signal from the public clock for the end of the game sounds. Correct decision?",
     "answers": {
       "a": "Goal for BLACK team",
@@ -5708,7 +5990,10 @@
       "b",
       "c"
     ],
-    "rule": "13:7, 15:1, 15:5, 15:6, 15:7, 2. paragraph"
+    "rule": [
+      "13:7",
+      "15:1, 15:5, 15:6, 15:7, 2. paragraph"
+    ]
   },
   {
     "id": "15.22",
@@ -5772,7 +6057,10 @@
     "correct": [
       "a"
     ],
-    "rule": "13:2, 15:7, 2. paragraph"
+    "rule": [
+      "13:2",
+      "15:7, 2. paragraph"
+    ]
   },
   {
     "id": "16.1",
@@ -5819,7 +6107,9 @@
     "correct": [
       "b"
     ],
-    "rule": "16:1 Comment"
+    "rule": [
+      "16:1 Comment"
+    ]
   },
   {
     "id": "16.4",
@@ -5936,7 +6226,7 @@
     ]
   },
   {
-    "id": "16.1",
+    "id": "16.10",
     "question": "When a player is disqualified, the team is reduced by one player on the court for 2 minutes, except if the disqualification is given for:",
     "answers": {
       "a": "seriously unsportsmanlike conduct during the half-time break",
@@ -6119,7 +6409,7 @@
     ]
   },
   {
-    "id": "16.2",
+    "id": "16.20",
     "question": "BLACK 8 is given his first 2-minute suspension following a time-out signal. When he leaves the court, before the game is restarted, he addresses the referees in an unsportsmanlike manner. Correct decision?",
     "answers": {
       "a": "An additional 2-minute suspension for BLACK 8, BLACK team will be reduced by two players on the court for 2 minutes",
@@ -6417,7 +6707,7 @@
       "13:6",
       "16:6b",
       "Clarification 7.B.b",
-      "SAR5"
+      "Substitution Area Regulations 5"
     ]
   },
   {
@@ -6433,7 +6723,10 @@
       "a",
       "d"
     ],
-    "rule": "13:4a, Clarification 7.B.a"
+    "rule": [
+      "13:4a",
+      "Clarification 7.B.a"
+    ]
   },
   {
     "id": "18.6",
@@ -6450,7 +6743,7 @@
     ],
     "rule": [
       "Clarification 7B",
-      "SAR5"
+      "Substitution Area Regulations 5"
     ]
   },
   {
@@ -6494,7 +6787,7 @@
       "d"
     ],
     "rule": [
-      "SAR1"
+      "Substitution Area Regulations 1"
     ]
   },
   {
@@ -6514,8 +6807,7 @@
     "rule": [
       "8:7a",
       "16:3e",
-      "SAR5",
-      "SAR6"
+      "Substitution Area Regulations 5, Substitution Area Regulations 6"
     ]
   }
 ]
