@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Route } from 'react-router';
 import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
@@ -7,8 +8,8 @@ import Typography from 'material-ui/Typography';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Loadable from 'react-loadable';
-import Menu from "./Menu";
-import Loading from "./Loading";
+import Menu from './Menu';
+import Loading from './Loading';
 
 const styles = {
   flex: {
@@ -38,13 +39,13 @@ class AppShell extends Component {
     };
 
     this.toggleMenu = this.toggleMenu.bind(this);
-  };
+  }
 
   toggleMenu(open) {
     this.setState({
       menuOpen: open,
     });
-  };
+  }
 
   render() {
     const { menuOpen } = this.state;
@@ -69,5 +70,12 @@ class AppShell extends Component {
     );
   }
 }
+
+AppShell.propTypes = {
+  classes: PropTypes.shape({
+    menuButton: PropTypes.object,
+    flex: PropTypes.object,
+  }).isRequired,
+};
 
 export default withStyles(styles)(AppShell);

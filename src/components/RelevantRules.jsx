@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ExpansionPanel, {
   ExpansionPanelSummary,
   ExpansionPanelDetails,
@@ -9,9 +10,9 @@ import Loadable from 'react-loadable';
 import Loading from './Loading';
 import Rule from './Rule';
 
-const render = (loaded) => (
-  <Rule source={loaded.default}/>
-)
+const render = loaded => (
+  <Rule source={loaded.default} />
+);
 
 const Rule1Component = Loadable({
   loader: () => import('../data/rules/1.md'),
@@ -125,70 +126,74 @@ const RuleSwitchComponent = ({ rule }) => {
   const res = rule.match(/^([0-9]{1,2}):[0-9]{1,2}/);
 
   if (!res) {
-    return (<Typography>Rule Text not found</Typography>)
+    return (<Typography>Rule Text not found</Typography>);
   }
 
   switch (res[1]) {
-    case "1":
-      return <Rule1Component/>;
-    case "2":
-      return <Rule2Component/>;
-    case "3":
-      return <Rule3Component/>;
-    case "4":
-      return <Rule4Component/>;
-    case "5":
-      return <Rule5Component/>;
-    case "6":
-      return <Rule6Component/>;
-    case "7":
-      return <Rule7Component/>;
-    case "8":
-      return <Rule8Component/>;
-    case "9":
-      return <Rule9Component/>;
-    case "10":
-      return <Rule10Component/>;
-    case "11":
-      return <Rule11Component/>;
-    case "12":
-      return <Rule12Component/>;
-    case "13":
-      return <Rule13Component/>;
-    case "14":
-      return <Rule14Component/>;
-    case "15":
-      return <Rule15Component/>;
-    case "16":
-      return <Rule16Component/>;
-    case "17":
-      return <Rule17Component/>;
-    case "18":
-      return <Rule18Component/>;
+    case '1':
+      return <Rule1Component />;
+    case '2':
+      return <Rule2Component />;
+    case '3':
+      return <Rule3Component />;
+    case '4':
+      return <Rule4Component />;
+    case '5':
+      return <Rule5Component />;
+    case '6':
+      return <Rule6Component />;
+    case '7':
+      return <Rule7Component />;
+    case '8':
+      return <Rule8Component />;
+    case '9':
+      return <Rule9Component />;
+    case '10':
+      return <Rule10Component />;
+    case '11':
+      return <Rule11Component />;
+    case '12':
+      return <Rule12Component />;
+    case '13':
+      return <Rule13Component />;
+    case '14':
+      return <Rule14Component />;
+    case '15':
+      return <Rule15Component />;
+    case '16':
+      return <Rule16Component />;
+    case '17':
+      return <Rule17Component />;
+    case '18':
+      return <Rule18Component />;
     default:
-      return (<Typography>Rule Text not found</Typography>)
+      return (<Typography>Rule Text not found</Typography>);
   }
 };
 
-export default ({ rules }) => {
+const RelevantRules = ({ rules }) => {
   if (!rules || !Array.isArray(rules)) {
-    return (<div/>)
+    return (<div />);
   }
 
   return (
     <div>
-      {rules.map((rule) => {
-        return (
-          <ExpansionPanel key={rule}>
-            <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography>{rule}</Typography>
-            </ExpansionPanelSummary>
-            <ExpansionPanelDetails>
-              <RuleSwitchComponent rule={rule} />
-            </ExpansionPanelDetails>
-          </ExpansionPanel>
-        );
-      })}
+      {rules.map(rule => (
+        <ExpansionPanel key={rule}>
+          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+            <Typography>{rule}</Typography>
+          </ExpansionPanelSummary>
+          <ExpansionPanelDetails>
+            <RuleSwitchComponent rule={rule} />
+          </ExpansionPanelDetails>
+        </ExpansionPanel>
+        ))}
     </div>
   );
-}
+};
+
+RelevantRules.propTypes = {
+  rules: PropTypes.arrayOf(PropTypes.object).isRequired,
+};
+
+export default RelevantRules;

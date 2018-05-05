@@ -34,7 +34,7 @@ const styles = theme => ({
   },
   questionText: {
     padding: theme.spacing.unit * 3,
-  }
+  },
 });
 
 class Question extends Component {
@@ -84,7 +84,10 @@ class Question extends Component {
       showCorrect: true,
     });
 
-    if (question.correct.length === answers.length && question.correct.every(u => answers.indexOf(u) > -1)) {
+    if (
+      question.correct.length === answers.length &&
+      question.correct.every(u => answers.indexOf(u) > -1)
+    ) {
       onCorrect();
     } else {
       onWrong();
@@ -153,7 +156,15 @@ class Question extends Component {
 }
 
 Question.propTypes = {
-  classes: PropTypes.object.isRequired,
+  classes: PropTypes.shape({
+    button: PropTypes.object,
+    rule: PropTypes.object,
+    checked: PropTypes.object,
+    correct: PropTypes.object,
+    wrong: PropTypes.object,
+  }).isRequired,
+  onCorrect: PropTypes.func.isRequired,
+  onWrong: PropTypes.func.isRequired,
 };
 
 export default withStyles(styles)(Question);

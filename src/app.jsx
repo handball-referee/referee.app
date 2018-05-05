@@ -1,4 +1,4 @@
-import 'typeface-roboto';
+import 'typeface-roboto'; // eslint-disable-line import/extensions
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
@@ -18,18 +18,19 @@ const rootElement = document.getElementById('app');
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: primary[700]
+      main: primary[700],
     },
     secondary: {
-      main: secondary[500]
-    }
-  }
+      main: secondary[500],
+    },
+  },
 });
 
-render((
+render(
   <MuiThemeProvider theme={theme}>
     <BrowserRouter>
       <AppShell />
     </BrowserRouter>
-  </MuiThemeProvider>
-), rootElement);
+  </MuiThemeProvider>,
+  rootElement,
+);

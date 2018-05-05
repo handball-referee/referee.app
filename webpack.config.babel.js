@@ -2,7 +2,7 @@ import path from 'path';
 import CopyPlugin from 'copy-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import SWPrecacheWebpackPlugin from 'sw-precache-webpack-plugin';
-import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
+// import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import CnameWebpackPlugin from 'cname-webpack-plugin';
 
 const appPath = path.resolve(__dirname, 'src');
@@ -34,27 +34,27 @@ const config = {
       },
       {
         test: /\.md$/,
-        use: "raw-loader"
+        use: 'raw-loader',
       },
       {
         test: /\.png$/,
-        loader: "file-loader"
+        loader: 'file-loader',
       },
       {
         test: /\.(ttf|eot|woff|woff2)$/,
-        loader: "file-loader",
+        loader: 'file-loader',
         options: {
-          name: "fonts/[name].[ext]",
+          name: 'fonts/[name].[ext]',
         },
       },
     ],
   },
   optimization: {
     runtimeChunk: {
-      name: "manifest",
+      name: 'manifest',
     },
     splitChunks: {
-      chunks: "initial",
+      chunks: 'initial',
     },
   },
   plugins: [
@@ -84,11 +84,11 @@ const config = {
     /* new BundleAnalyzerPlugin({
       analyzerMode: "static",
       generateStatsFile: true,
-    })*/
+    }) */
   ],
   devServer: {
-    historyApiFallback: true
-  }
+    historyApiFallback: true,
+  },
 };
 
 export default config;

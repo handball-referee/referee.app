@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Route } from 'react-router';
 import Paper from 'material-ui/Paper';
 import { withStyles } from 'material-ui/styles';
@@ -36,48 +37,52 @@ import SAR from '../data/rules/SAR.md';
 import Guidelines from '../data/rules/Guidelines.md';
 import GuidelinesPlayingCourts from '../data/rules/GuidelinesPlayingCourts.md';
 
-const ForwordComponent = () => (<Rule source={Foreword}/>);
-const RulesOfTheGameComponent = () => (<div>
-  <Typography variant="title">Rules of the Game</Typography>
-  <Rule source={Rule1}/>
-  <Rule source={Rule2}/>
-  <Rule source={Rule3}/>
-  <Rule source={Rule4}/>
-  <Rule source={Rule5}/>
-  <Rule source={Rule6}/>
-  <Rule source={Rule7}/>
-  <Rule source={Rule8}/>
-  <Rule source={Rule9}/>
-  <Rule source={Rule10}/>
-  <Rule source={Rule11}/>
-  <Rule source={Rule12}/>
-  <Rule source={Rule13}/>
-  <Rule source={Rule14}/>
-  <Rule source={Rule15}/>
-  <Rule source={Rule16}/>
-  <Rule source={Rule17}/>
-  <Rule source={Rule18}/>
-</div>);
-const HandSignalsComponent = () => (<Rule source={HandSignals}/>);
-const ClarificationsComponent = () => (<div>
-  <Typography variant="title">Clarifications to the Rules of the Game</Typography>
-  <Rule source={Clarifications1}/>
-  <Rule source={Clarifications2}/>
-  <Rule source={Clarifications3}/>
-  <Rule source={Clarifications4}/>
-  <Rule source={Clarifications5}/>
-  <Rule source={Clarifications6}/>
-  <Rule source={Clarifications7}/>
-  <Rule source={Clarifications8}/>
-</div>);
-const SubstitutionAreaRegulationsComponent = () => (<Rule source={SAR}/>);
-const GuidelinesComponent = () => (<Rule source={Guidelines}/>);
-const CourtAndGoalComponent = () => (<Rule source={GuidelinesPlayingCourts}/>);
+const ForwordComponent = () => (<Rule source={Foreword} />);
+const RulesOfTheGameComponent = () => (
+  <div>
+    <Typography variant="title">Rules of the Game</Typography>
+    <Rule source={Rule1} />
+    <Rule source={Rule2} />
+    <Rule source={Rule3} />
+    <Rule source={Rule4} />
+    <Rule source={Rule5} />
+    <Rule source={Rule6} />
+    <Rule source={Rule7} />
+    <Rule source={Rule8} />
+    <Rule source={Rule9} />
+    <Rule source={Rule10} />
+    <Rule source={Rule11} />
+    <Rule source={Rule12} />
+    <Rule source={Rule13} />
+    <Rule source={Rule14} />
+    <Rule source={Rule15} />
+    <Rule source={Rule16} />
+    <Rule source={Rule17} />
+    <Rule source={Rule18} />
+  </div>
+);
+const HandSignalsComponent = () => (<Rule source={HandSignals} />);
+const ClarificationsComponent = () => (
+  <div>
+    <Typography variant="title">Clarifications to the Rules of the Game</Typography>
+    <Rule source={Clarifications1} />
+    <Rule source={Clarifications2} />
+    <Rule source={Clarifications3} />
+    <Rule source={Clarifications4} />
+    <Rule source={Clarifications5} />
+    <Rule source={Clarifications6} />
+    <Rule source={Clarifications7} />
+    <Rule source={Clarifications8} />
+  </div>
+);
+const SubstitutionAreaRegulationsComponent = () => (<Rule source={SAR} />);
+const GuidelinesComponent = () => (<Rule source={Guidelines} />);
+const CourtAndGoalComponent = () => (<Rule source={GuidelinesPlayingCourts} />);
 
 const styles = theme => ({
   root: {
     padding: theme.spacing.unit * 3,
-  }
+  },
 });
 
 const HandballRules = ({ classes, match }) => (
@@ -94,5 +99,13 @@ const HandballRules = ({ classes, match }) => (
   </Paper>
 );
 
+HandballRules.propTypes = {
+  classes: PropTypes.shape({
+    root: PropTypes.object,
+  }).isRequired,
+  match: PropTypes.shape({
+    url: PropTypes.string,
+  }).isRequired,
+};
 
 export default withStyles(styles)(HandballRules);

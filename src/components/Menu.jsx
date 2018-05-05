@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { withStyles } from 'material-ui/styles';
 import Drawer from 'material-ui/Drawer';
@@ -84,8 +85,16 @@ class Menu extends Component {
           </Collapse>
         </List>
       </Drawer>
-    )
+    );
   }
 }
+
+Menu.propTypes = {
+  open: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
+  classes: PropTypes.shape({
+    nested: PropTypes.object,
+  }).isRequired,
+};
 
 export default withStyles(styles)(Menu);
