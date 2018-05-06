@@ -1,11 +1,14 @@
 import 'typeface-roboto'; // eslint-disable-line import/extensions
 import React from 'react';
 import { render } from 'react-dom';
+import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
+import { createStore } from 'redux';
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 import primary from 'material-ui/colors/lightGreen';
 import secondary from 'material-ui/colors/lime';
 import AppShell from './components/AppShell';
+import reducer from './reducers/question';
 import './app.css';
 
 if (process.env.NODE_ENV === 'production') {
@@ -25,12 +28,15 @@ const theme = createMuiTheme({
     },
   },
 });
+const store = createStore(reducer);
 
 render(
   <MuiThemeProvider theme={theme}>
-    <BrowserRouter>
-      <AppShell />
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <AppShell />
+      </BrowserRouter>
+    </Provider>
   </MuiThemeProvider>,
   rootElement,
 );

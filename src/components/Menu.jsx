@@ -7,6 +7,7 @@ import List, { ListItem, ListItemText, ListItemIcon, ListSubheader } from 'mater
 import Collapse from 'material-ui/transitions/Collapse';
 import TestIcon from '@material-ui/icons/Assignment';
 import RulesIcon from '@material-ui/icons/FormatListBulleted';
+import StatsIcon from '@material-ui/icons/TrendingUp';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
 
@@ -84,6 +85,12 @@ class Menu extends Component {
             </List>
           </Collapse>
         </List>
+        <ListItem button component={Link} to="/stats" onClick={onClose}>
+          <ListItemIcon>
+            <StatsIcon />
+          </ListItemIcon>
+          <ListItemText primary="Statistics" />
+        </ListItem>
       </Drawer>
     );
   }
@@ -93,7 +100,7 @@ Menu.propTypes = {
   open: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
   classes: PropTypes.shape({
-    nested: PropTypes.object,
+    nested: PropTypes.string,
   }).isRequired,
 };
 

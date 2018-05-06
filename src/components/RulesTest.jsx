@@ -1,16 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import Button from 'material-ui/Button';
 import { withStyles } from 'material-ui/styles';
 import Badge from 'material-ui/Badge';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
-import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
 import CheckIcon from '@material-ui/icons/Check';
 import CrossIcon from '@material-ui/icons/Close';
 import green from 'material-ui/colors/green';
 import red from 'material-ui/colors/red';
-import Question from './Question';
+import RulesTestQuestion from './RulesTestQuestion';
+import { getCorrect, getCurrentQuestion, getPercentage, getWrong } from '../reducers/question';
+import { checkAnswers, nextQuestion, reset } from '../actions';
 
 const styles = theme => ({
   correct: {
@@ -29,72 +32,80 @@ const styles = theme => ({
   },
 });
 
-class RulesTest extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      correct: 0,
-      wrong: 0,
-    };
-
-    this.onCorrect = this.onCorrect.bind(this);
-    this.onWrong = this.onWrong.bind(this);
-    this.reset = this.reset.bind(this);
-  }
-
-  onCorrect() {
-    const { correct } = this.state;
-    this.setState({
-      correct: correct + 1,
-    });
-  }
-
-  onWrong() {
-    const { wrong } = this.state;
-    this.setState({
-      wrong: wrong + 1,
-    });
-  }
-
-  reset() {
-    this.setState({
-      correct: 0,
-      wrong: 0,
-    });
-  }
-
-  render() {
-    const { classes } = this.props;
-    const { correct, wrong } = this.state;
-    return (
-      <div>
-        <AppBar color="secondary" position="sticky">
-          <Toolbar>
-            <Badge classes={{ root: classes.badge, badge: classes.correct }} badgeContent={correct}>
-              <CheckIcon />
-            </Badge>
-            <Badge classes={{ root: classes.badge, badge: classes.wrong }} badgeContent={wrong}>
-              <CrossIcon />
-            </Badge>
-            <Typography variant="subheading" color="inherit" className={classes.flex}>
-              {(correct + wrong) > 0 ? Math.round((100 / (correct + wrong)) * correct) : 0}% correct
-            </Typography>
-            <Button color="inherit" onClick={this.reset}>Reset</Button>
-          </Toolbar>
-        </AppBar>
-        <Question onCorrect={this.onCorrect} onWrong={this.onWrong} />
-      </div>
-    );
-  }
-}
+const RulesTest = ({
+  classes,
+  question,
+  handleCheckAnswers,
+  handleNextQuestion,
+  correct,
+  wrong,
+  percentage,
+  handleReset,
+}) => (
+  <div>
+    <AppBar color="secondary" position="sticky">
+      <Toolbar>
+        <Badge classes={{ root: classes.badge, badge: classes.correct }} badgeContent={correct}>
+          <CheckIcon />
+        </Badge>
+        <Badge classes={{ root: classes.badge, badge: classes.wrong }} badgeContent={wrong}>
+          <CrossIcon />
+        </Badge>
+        <Typography variant="subheading" color="inherit" className={classes.flex}>
+          {percentage}% correct
+        </Typography>
+        <Button color="inherit" onClick={handleReset}>Reset</Button>
+      </Toolbar>
+    </AppBar>
+    <RulesTestQuestion
+      question={question}
+      checkAnswers={handleCheckAnswers}
+      nextQuestion={handleNextQuestion}
+    />
+  </div>
+);
 
 RulesTest.propTypes = {
   classes: PropTypes.shape({
-    badge: PropTypes.object,
-    correct: PropTypes.object,
-    wrong: PropTypes.object,
-    flex: PropTypes.object,
+    badge: PropTypes.string,
+    correct: PropTypes.string,
+    wrong: PropTypes.string,
+    flex: PropTypes.string,
   }).isRequired,
+  question: PropTypes.shape({
+    question: PropTypes.string,
+    answers: PropTypes.objectOf(PropTypes.string),
+    correct: PropTypes.arrayOf(PropTypes.string),
+  }).isRequired,
+  correct: PropTypes.number,
+  wrong: PropTypes.number,
+  percentage: PropTypes.number,
+  handleCheckAnswers: PropTypes.func.isRequired,
+  handleNextQuestion: PropTypes.func.isRequired,
+  handleReset: PropTypes.func.isRequired,
 };
 
-export default withStyles(styles)(RulesTest);
+RulesTest.defaultProps = {
+  correct: 0,
+  wrong: 0,
+  percentage: 0,
+};
+
+const mapStateToProps = state => ({
+  question: getCurrentQuestion(state),
+  correct: getCorrect(state),
+  wrong: getWrong(state),
+  percentage: getPercentage(state),
+});
+
+const mapDispatchToProps = dispatch => ({
+  handleCheckAnswers: answers => dispatch(checkAnswers(answers)),
+  handleNextQuestion: () => dispatch(nextQuestion()),
+  handleReset: () => dispatch(reset()),
+});
+
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(withStyles(styles)(RulesTest));

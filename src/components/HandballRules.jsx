@@ -101,7 +101,7 @@ const HandballRules = ({ classes, match }) => (
 
 HandballRules.propTypes = {
   classes: PropTypes.shape({
-    root: PropTypes.object,
+    root: PropTypes.string,
   }).isRequired,
   match: PropTypes.shape({
     url: PropTypes.string,

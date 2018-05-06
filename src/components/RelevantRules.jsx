@@ -193,7 +193,7 @@ const RelevantRules = ({ rules }) => {
 };
 
 RelevantRules.propTypes = {
-  rules: PropTypes.arrayOf(PropTypes.object).isRequired,
+  rules: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default RelevantRules;

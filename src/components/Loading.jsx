@@ -12,16 +12,26 @@ const styles = theme => ({
   },
 });
 
-const Loading = ({ classes }) => (
-  <div>
-    <CircularProgress className={classes.loading} />
-  </div>
-);
+const Loading = ({ classes, error }) => {
+  if (error) {
+    console.log(error);
+  }
+  return (
+    <div>
+      <CircularProgress className={classes.loading} />
+    </div>
+  );
+};
 
 Loading.propTypes = {
   classes: PropTypes.shape({
-    loading: PropTypes.object,
+    loading: PropTypes.string,
   }).isRequired,
+  error: PropTypes.instanceOf(Error),
+};
+
+Loading.defaultProps = {
+  error: null,
 };
 
 export default withStyles(styles)(Loading);

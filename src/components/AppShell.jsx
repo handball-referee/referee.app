@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { Route } from 'react-router';
+import Loadable from 'react-loadable';
+import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import Loadable from 'react-loadable';
 import Menu from './Menu';
 import Loading from './Loading';
 
@@ -31,9 +31,15 @@ const RulesTest = Loadable({
   loading: Loading,
 });
 
+const Statistics = Loadable({
+  loader: () => import('./Statistics'),
+  loading: Loading,
+});
+
 class AppShell extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
       menuOpen: false,
     };
@@ -65,6 +71,7 @@ class AppShell extends Component {
           </Toolbar>
         </AppBar>
         <Route path="/rules" component={HandballRules} />
+        <Route path="/stats" component={Statistics} />
         <Route path="/" component={RulesTest} exact />
       </div>
     );
@@ -73,8 +80,8 @@ class AppShell extends Component {
 
 AppShell.propTypes = {
   classes: PropTypes.shape({
-    menuButton: PropTypes.object,
-    flex: PropTypes.object,
+    menuButton: PropTypes.string,
+    flex: PropTypes.string,
   }).isRequired,
 };
 

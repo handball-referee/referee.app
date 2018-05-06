@@ -1,16 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import green from 'material-ui/colors/green';
+import { Checkbox, Divider, List, ListItem, ListItemText, Typography } from 'material-ui';
+import { withStyles } from 'material-ui/styles/index';
 import red from 'material-ui/colors/red';
-import Button from 'material-ui/Button';
-import List, { ListItem, ListItemText } from 'material-ui/List';
-import Checkbox from 'material-ui/Checkbox';
-import Divider from 'material-ui/Divider';
-import Paper from 'material-ui/Paper';
-import Typography from 'material-ui/Typography';
-import Questions from '../data/questions.json';
-import RelevantRules from './RelevantRules';
+import green from 'material-ui/colors/green';
 
 const styles = theme => ({
   correct: {
@@ -26,41 +19,39 @@ const styles = theme => ({
       color: red[500],
     },
   },
-  button: {
-    margin: theme.spacing.unit * 3,
-  },
-  question: {
-    marginBottom: theme.spacing.unit * 3,
-  },
   questionText: {
     padding: theme.spacing.unit * 3,
   },
 });
 
 class Question extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      question: Questions[Math.floor(Math.random() * Questions.length)],
-      answers: [],
-      showCorrect: false,
-    };
+  static propTypes = {
+    onAnswerSelect: PropTypes.func,
+    answers: PropTypes.arrayOf(PropTypes.string),
+    classes: PropTypes.shape({
+      questionText: PropTypes.string,
+      correct: PropTypes.string,
+      wrong: PropTypes.string,
+      checked: PropTypes.string,
+    }).isRequired,
+    showCorrect: PropTypes.bool,
+    question: PropTypes.shape({
+      question: PropTypes.string,
+      answers: PropTypes.objectOf(PropTypes.string),
+      correct: PropTypes.arrayOf(PropTypes.string),
+    }).isRequired,
+    viewOnly: PropTypes.bool,
+  };
 
-    this.nextQuestion = this.nextQuestion.bind(this);
-    this.updateAnswers = this.updateAnswers.bind(this);
-    this.checkAnswers = this.checkAnswers.bind(this);
-  }
+  static defaultProps = {
+    onAnswerSelect: () => {},
+    answers: [],
+    showCorrect: false,
+    viewOnly: false,
+  };
 
-  nextQuestion() {
-    this.setState({
-      question: Questions[Math.floor(Math.random() * Questions.length)],
-      answers: [],
-      showCorrect: false,
-    });
-  }
-
-  updateAnswers(option, checked) {
-    const { answers } = this.state;
+  updateAnswers = (option, checked) => {
+    const { onAnswerSelect, answers } = this.props;
 
     if (checked) {
       answers.push(option);
@@ -71,100 +62,65 @@ class Question extends Component {
       }
     }
 
-    this.setState({
-      answers,
-    });
-  }
-
-  checkAnswers() {
-    const { onCorrect, onWrong } = this.props;
-    const { question, answers } = this.state;
-
-    this.setState({
-      showCorrect: true,
-    });
-
-    if (
-      question.correct.length === answers.length &&
-      question.correct.every(u => answers.indexOf(u) > -1)
-    ) {
-      onCorrect();
-    } else {
-      onWrong();
-    }
+    onAnswerSelect(answers);
   }
 
   render() {
-    const { question, answers, showCorrect } = this.state;
-    const { classes } = this.props;
+    const {
+      question,
+      classes,
+      showCorrect,
+      answers,
+      viewOnly
+    } = this.props;
 
     return (
       <div>
-        <Paper className={classes.question} elevation={1}>
-          <Typography className={classes.questionText}>
-            {question.question}
-          </Typography>
-          <Divider />
-          <List>
-            {Object.keys(question.answers).map((option) => {
-              const text = question.answers[option];
-              const selected = answers.indexOf(option) > -1;
-              const correct = question.correct.indexOf(option) > -1;
-              let className = '';
-              if (showCorrect) {
-                if ((correct && selected) || (!correct && !selected)) {
-                  className = classes.correct;
-                } else {
-                  className = classes.wrong;
-                }
+        <Typography className={classes.questionText}>
+          {question.question}
+        </Typography>
+        <Divider />
+        <List>
+          {Object.keys(question.answers).map((option) => {
+            const text = question.answers[option];
+            let selected = answers.indexOf(option) > -1;
+            const correct = question.correct.indexOf(option) > -1;
+            let className = '';
+            if (showCorrect && !viewOnly) {
+              if ((correct && selected) || (!correct && !selected)) {
+                className = classes.correct;
+              } else {
+                className = classes.wrong;
               }
-              return (
-                <ListItem key={option}>
-                  <Checkbox
-                    tabIndex={-1}
-                    disableRipple
-                    color="primary"
-                    classes={{
-                      root: className,
-                      checked: classes.checked,
-                    }}
-                    checked={selected}
-                    onChange={(obj, checked) => this.updateAnswers(option, checked)}
-                  />
-                  <ListItemText primary={text} />
-                </ListItem>
-              );
-            })}
-          </List>
-          { showCorrect && (
-            <Button className={classes.button} variant="raised" onClick={this.nextQuestion}>
-              Next
-            </Button>
-          )}
-          { !showCorrect && (
-            <Button className={classes.button} variant="raised" onClick={this.checkAnswers}>
-              Check
-            </Button>
-          )}
-        </Paper>
-        { showCorrect && (
-          <RelevantRules rules={question.rule} />
-        )}
+            }
+            if (viewOnly) {
+              if (showCorrect) {
+                selected = correct;
+              } else {
+                selected = false;
+              }
+            }
+            return (
+              <ListItem key={option}>
+                <Checkbox
+                  tabIndex={-1}
+                  disableRipple
+                  color="primary"
+                  classes={{
+                    root: className,
+                    checked: classes.checked,
+                  }}
+                  checked={selected}
+                  onChange={(obj, checked) => this.updateAnswers(option, checked)}
+                />
+                <ListItemText primary={text} />
+              </ListItem>
+            );
+          })}
+        </List>
       </div>
     );
   }
 }
-
-Question.propTypes = {
-  classes: PropTypes.shape({
-    button: PropTypes.object,
-    rule: PropTypes.object,
-    checked: PropTypes.object,
-    correct: PropTypes.object,
-    wrong: PropTypes.object,
-  }).isRequired,
-  onCorrect: PropTypes.func.isRequired,
-  onWrong: PropTypes.func.isRequired,
-};
 
 export default withStyles(styles)(Question);

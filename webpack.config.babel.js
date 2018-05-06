@@ -79,7 +79,7 @@ const config = {
       },
     ]),
     new CnameWebpackPlugin({
-      domain: 'handball.kraemer.io',
+      domain: 'referee.app',
     }),
     /* new BundleAnalyzerPlugin({
       analyzerMode: "static",
