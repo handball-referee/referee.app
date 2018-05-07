@@ -40,14 +40,14 @@ const reducer = (state = initialState, action) => {
       ) {
         const correct = state.correct + 1;
         const total = correct + state.wrong;
-        const percentage = Math.round((100 / total) * correct);
+        const correctPercentage = Math.round((100 / total) * correct);
         const testAsked = question.testAsked + 1;
         const testCorrect = question.testCorrect + 1;
         const testPercentageCorrect = Math.round((100 / testAsked) * testCorrect);
         const testPercentageWrong = Math.round((100 / testAsked) * question.testWrong);
         return u({
           correct,
-          percentage,
+          correctPercentage,
           questions: {
             [question.id]: {
               testAsked,
@@ -60,14 +60,14 @@ const reducer = (state = initialState, action) => {
       }
       const wrong = state.wrong + 1;
       const total = wrong + state.correct;
-      const percentage = Math.round((100 / total) * state.correct);
+      const correctPercentage = Math.round((100 / total) * state.correct);
       const testAsked = question.testAsked + 1;
       const testWrong = question.testWrong + 1;
       const testPercentageCorrect = Math.round((100 / testAsked) * question.testCorrect);
       const testPercentageWrong = Math.round((100 / testAsked) * testWrong);
       return u({
         wrong,
-        percentage,
+        correctPercentage,
         questions: {
           [question.id]: {
             testAsked,
