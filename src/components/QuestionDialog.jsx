@@ -3,9 +3,13 @@ import PropTypes from 'prop-types';
 import { Checkbox, Dialog, DialogTitle, Typography } from 'material-ui';
 import { withStyles } from 'material-ui/styles';
 import Question from './Question';
+import RelevantRules from './RelevantRules';
 
 const styles = theme => ({
   root: {
+    paddingLeft: theme.spacing.unit * 1,
+  },
+  subheader: {
     paddingLeft: theme.spacing.unit * 3,
   },
 });
@@ -14,6 +18,7 @@ class QuestionDialog extends Component {
   static propTypes = {
     classes: PropTypes.shape({
       root: PropTypes.string.isRequired,
+      subheader: PropTypes.string.isRequired,
     }).isRequired,
     question: PropTypes.shape({
       question: PropTypes.string,
@@ -53,6 +58,10 @@ class QuestionDialog extends Component {
           Show answers
         </Typography>
         <Question question={question} showCorrect={showAnswers} viewOnly />
+        <Typography variant="subheading" className={classes.subheader}>
+          Relevant Rules
+        </Typography>
+        {question && <RelevantRules rules={question.rule} />}
       </Dialog>
     );
   }
