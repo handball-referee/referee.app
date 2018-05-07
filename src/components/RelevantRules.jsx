@@ -122,53 +122,132 @@ const Rule18Component = Loadable({
   render,
 });
 
+const Clarification1Component = Loadable({
+  loader: () => import('../data/rules/Clarification1.md'),
+  loading: Loading,
+  render,
+});
+
+const Clarification2Component = Loadable({
+  loader: () => import('../data/rules/Clarification2.md'),
+  loading: Loading,
+  render,
+});
+
+const Clarification3Component = Loadable({
+  loader: () => import('../data/rules/Clarification3.md'),
+  loading: Loading,
+  render,
+});
+
+const Clarification4Component = Loadable({
+  loader: () => import('../data/rules/Clarification4.md'),
+  loading: Loading,
+  render,
+});
+
+const Clarification5Component = Loadable({
+  loader: () => import('../data/rules/Clarification5.md'),
+  loading: Loading,
+  render,
+});
+
+const Clarification6Component = Loadable({
+  loader: () => import('../data/rules/Clarification6.md'),
+  loading: Loading,
+  render,
+});
+
+const Clarification7Component = Loadable({
+  loader: () => import('../data/rules/Clarification7.md'),
+  loading: Loading,
+  render,
+});
+
+const Clarification8Component = Loadable({
+  loader: () => import('../data/rules/Clarification8.md'),
+  loading: Loading,
+  render,
+});
+
+const HandSignalComponent = Loadable({
+  loader: () => import('../data/rules/HandSignals.md'),
+  loading: Loading,
+  render,
+});
+
 const RuleSwitchComponent = ({ rule }) => {
   const res = rule.match(/^([0-9]{1,2}):[0-9]{1,2}/);
 
-  if (!res) {
-    return (<Typography>Rule Text not found</Typography>);
+  if (res) {
+    switch (res[1]) {
+      case '1':
+        return <Rule1Component />;
+      case '2':
+        return <Rule2Component />;
+      case '3':
+        return <Rule3Component />;
+      case '4':
+        return <Rule4Component />;
+      case '5':
+        return <Rule5Component />;
+      case '6':
+        return <Rule6Component />;
+      case '7':
+        return <Rule7Component />;
+      case '8':
+        return <Rule8Component />;
+      case '9':
+        return <Rule9Component />;
+      case '10':
+        return <Rule10Component />;
+      case '11':
+        return <Rule11Component />;
+      case '12':
+        return <Rule12Component />;
+      case '13':
+        return <Rule13Component />;
+      case '14':
+        return <Rule14Component />;
+      case '15':
+        return <Rule15Component />;
+      case '16':
+        return <Rule16Component />;
+      case '17':
+        return <Rule17Component />;
+      case '18':
+        return <Rule18Component />;
+    }
   }
 
-  switch (res[1]) {
-    case '1':
-      return <Rule1Component />;
-    case '2':
-      return <Rule2Component />;
-    case '3':
-      return <Rule3Component />;
-    case '4':
-      return <Rule4Component />;
-    case '5':
-      return <Rule5Component />;
-    case '6':
-      return <Rule6Component />;
-    case '7':
-      return <Rule7Component />;
-    case '8':
-      return <Rule8Component />;
-    case '9':
-      return <Rule9Component />;
-    case '10':
-      return <Rule10Component />;
-    case '11':
-      return <Rule11Component />;
-    case '12':
-      return <Rule12Component />;
-    case '13':
-      return <Rule13Component />;
-    case '14':
-      return <Rule14Component />;
-    case '15':
-      return <Rule15Component />;
-    case '16':
-      return <Rule16Component />;
-    case '17':
-      return <Rule17Component />;
-    case '18':
-      return <Rule18Component />;
-    default:
-      return (<Typography>Rule Text not found</Typography>);
+  const cla = rule.match(/^Clarification ([0-9])/);
+
+  if (cla) {
+    switch (cla[1]) {
+      case '1':
+        return <Clarification1Component />;
+      case '2':
+        return <Clarification2Component />;
+      case '3':
+        return <Clarification3Component />;
+      case '4':
+        return <Clarification4Component />;
+      case '5':
+        return <Clarification5Component />;
+      case '6':
+        return <Clarification6Component />;
+      case '7':
+        return <Clarification7Component />;
+      case '8':
+        return <Clarification8Component />;
+    }
   }
+
+  if (rule === "Hand Signals") {
+    return <HandSignalComponent />;
+  }
+
+  return (<Typography>Rule Text not found</Typography>);
 };
 
 const RelevantRules = ({ rules }) => {
