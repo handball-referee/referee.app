@@ -71,7 +71,7 @@ class Question extends Component {
       classes,
       showCorrect,
       answers,
-      viewOnly
+      viewOnly,
     } = this.props;
 
     return (
