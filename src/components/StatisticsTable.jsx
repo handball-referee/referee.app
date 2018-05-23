@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Table, { TableBody, TableRow, TableCell, TablePagination } from 'material-ui/Table';
-import { Button } from 'material-ui';
-import { withStyles } from 'material-ui/styles/index';
+import Table, { TableBody, TableRow, TableCell, TablePagination } from '@material-ui/core/Table';
+import { Button } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles/index';
 import StatisticsTableHead from './StatisticsTableHead';
 
 const styles = () => ({

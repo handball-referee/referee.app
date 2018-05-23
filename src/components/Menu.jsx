@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { withStyles } from 'material-ui/styles';
-import Drawer from 'material-ui/Drawer';
-import List, { ListItem, ListItemText, ListItemIcon, ListSubheader } from 'material-ui/List';
-import Collapse from 'material-ui/transitions/Collapse';
+import { withStyles } from '@material-ui/core/styles';
+import Drawer from '@material-ui/core/Drawer';
+import List, { ListItem, ListItemText, ListItemIcon, ListSubheader } from '@material-ui/core/List';
+import Collapse from '@material-ui/core/Collapse';
 import TestIcon from '@material-ui/icons/Assignment';
 import RulesIcon from '@material-ui/icons/FormatListBulleted';
 import StatsIcon from '@material-ui/icons/TrendingUp';

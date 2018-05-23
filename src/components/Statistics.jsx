@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { Typography, Paper } from 'material-ui';
-import { withStyles } from 'material-ui/styles';
+import { Typography, Paper } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles';
 import StatisticsTable from './StatisticsTable';
 import { getOrder, getOrderBy, getQuestions } from '../reducers/question';
 import { sort } from '../actions';

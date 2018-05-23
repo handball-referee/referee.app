@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import ExpansionPanel, {
   ExpansionPanelSummary,
   ExpansionPanelDetails,
-} from 'material-ui/ExpansionPanel';
-import Typography from 'material-ui/Typography';
+} from '@material-ui/core/ExpansionPanel';
+import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Loadable from 'react-loadable';
 import Loading from './Loading';

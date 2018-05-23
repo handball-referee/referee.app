@@ -5,8 +5,8 @@ import {
   TableHead,
   TableRow,
   TableSortLabel,
-} from 'material-ui/Table';
-import Tooltip from 'material-ui/Tooltip';
+} from '@material-ui/core/Table';
+import Tooltip from '@material-ui/core/Tooltip';
 
 const columnData = [
   {

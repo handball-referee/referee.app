@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Route } from 'react-router';
-import Paper from 'material-ui/Paper';
-import { withStyles } from 'material-ui/styles';
-import Typography from 'material-ui/Typography';
+import Paper from '@material-ui/core/Paper';
+import { withStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
 import Rule from './Rule';
 import Foreword from '../data/rules/Foreword.md';
 import Rule1 from '../data/rules/1.md';

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Checkbox, Divider, List, ListItem, ListItemText, Typography } from 'material-ui';
-import { withStyles } from 'material-ui/styles/index';
-import red from 'material-ui/colors/red';
-import green from 'material-ui/colors/green';
+import { Checkbox, Divider, List, ListItem, ListItemText, Typography } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles/index';
+import red from '@material-ui/core/colors/red';
+import green from '@material-ui/core/colors/green';
 
 const styles = theme => ({
   correct: {

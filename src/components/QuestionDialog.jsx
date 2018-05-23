@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Checkbox, Dialog, DialogTitle, Typography } from 'material-ui';
-import { withStyles } from 'material-ui/styles';
+import { Checkbox, Dialog, DialogTitle, Typography } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles';
 import Question from './Question';
 import RelevantRules from './RelevantRules';
 
