@@ -4,6 +4,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import SWPrecacheWebpackPlugin from 'sw-precache-webpack-plugin';
 // import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import CnameWebpackPlugin from 'cname-webpack-plugin';
+import { DefinePlugin } from 'webpack';
 
 const appPath = path.resolve(__dirname, 'src');
 const buildPath = path.resolve(__dirname, 'dist');
@@ -60,6 +61,12 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'index.html',
+    }),
+    new DefinePlugin({
+      AWS_REGION: JSON.stringify(process.env.AWS_REGION),
+      IDENTITY_POOL_ID: JSON.stringify(process.env.IDENTITY_POOL_ID),
+      USER_POOL_ID: JSON.stringify(process.env.USER_POOL_ID),
+      WEB_CLIENT_ID: JSON.stringify(process.env.WEB_CLIENT_ID),
     }),
     new SWPrecacheWebpackPlugin({
       cacheId: 'handball',

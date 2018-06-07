@@ -1,4 +1,5 @@
 import 'typeface-roboto'; // eslint-disable-line import/extensions
+import Amplify from 'aws-amplify';
 import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
@@ -16,6 +17,15 @@ if (process.env.NODE_ENV === 'production') {
     navigator.serviceWorker.register('/sw.js');
   }
 }
+
+Amplify.configure({
+  Auth: {
+    identityPoolId: IDENTITY_POOL_ID,
+    region: AWS_REGION,
+    userPoolId: USER_POOL_ID,
+    userPoolWebClientId: WEB_CLIENT_ID,
+  },
+});
 
 const rootElement = document.getElementById('app');
 const theme = createMuiTheme({
