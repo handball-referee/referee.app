@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import Table, { TableBody, TableRow, TableCell, TablePagination } from '@material-ui/core/Table';
+import * as PropTypes from 'prop-types';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableRow from '@material-ui/core/TableRow';
+import TableCell from '@material-ui/core/TableCell';
+import TablePagination from '@material-ui/core/TablePagination';
 import { Button } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles/index';
 import StatisticsTableHead from './StatisticsTableHead';
@@ -77,13 +81,19 @@ class StatisticsTable extends Component {
                 key={n.id}
               >
                 <TableCell padding="none">
-                  <Button variant="raised" onClick={() => onShowDetails(n)}>{n.id}</Button>
+                  <Button variant="contained" onClick={() => onShowDetails(n)}>{n.id}</Button>
                 </TableCell>
-                <TableCell numeric>{n.testAsked}</TableCell>
-                <TableCell numeric>{n.testCorrect}</TableCell>
-                <TableCell numeric>{n.testPercentageCorrect}%</TableCell>
-                <TableCell numeric>{n.testWrong}</TableCell>
-                <TableCell numeric>{n.testPercentageWrong}%</TableCell>
+                <TableCell align="right">{n.testAsked}</TableCell>
+                <TableCell align="right">{n.testCorrect}</TableCell>
+                <TableCell align="right">
+                  {n.testPercentageCorrect}
+%
+                </TableCell>
+                <TableCell align="right">{n.testWrong}</TableCell>
+                <TableCell align="right">
+                  {n.testPercentageWrong}
+%
+                </TableCell>
               </TableRow>
             ))}
             {emptyRows > 0 && (

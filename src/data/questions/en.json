@@ -7,13 +7,7 @@
       "b": "42 x 20 meters",
       "c": "38 x 18 meters",
       "d": "Length between 38 and 42, width between 18 and 22 meters"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "1:1"
-    ]
+    }
   },
   {
     "id": "1.2",
@@ -23,13 +17,7 @@
       "b": "2.00 x 3.00 meters",
       "c": "2.05 x 3.05 meters",
       "d": "2.08 x 3.08 meters"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "1:2"
-    ]
+    }
   },
   {
     "id": "1.3",
@@ -39,13 +27,7 @@
       "b": "6 cm",
       "c": "8 cm",
       "d": "10 cm"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "1:3"
-    ]
+    }
   },
   {
     "id": "2.1",
@@ -55,16 +37,7 @@
       "b": "Free-throw for WHITE team",
       "c": "Without whistle signal",
       "d": "After whistle signal"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "2:7",
-      "12:1",
-      "15:5b"
-    ]
+    }
   },
   {
     "id": "2.2",
@@ -74,13 +47,7 @@
       "b": "The one minute is lost and not made up for",
       "c": "After the half-time, first play one minute on the same sides as in the first half, then change ends and begin second half normally",
       "d": "Keep players on the court and have them play the remaining minute"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "2:7"
-    ]
+    }
   },
   {
     "id": "2.3",
@@ -91,16 +58,7 @@
       "c": "Free-throw for WHITE team",
       "d": "After whistle signal",
       "e": "Without whistle signal"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "2:7",
-      "12:1",
-      "15:5b"
-    ]
+    }
   },
   {
     "id": "2.4",
@@ -112,17 +70,7 @@
       "d": "There is no reason for the timekeeper to whistle",
       "e": "Free-throw for WHITE team",
       "f": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "a",
-      "c",
-      "e"
-    ],
-    "rule": [
-      "2:5",
-      "4:5",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "2.5",
@@ -132,14 +80,7 @@
       "b": "The free-throw for BLACK team must be retaken without whistle signal",
       "c": "The free-throw for BLACK team must be retaken with whistle signal",
       "d": "7-meter throw for BLACK team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "2:4",
-      "15:5"
-    ]
+    }
   },
   {
     "id": "2.6",
@@ -149,14 +90,7 @@
       "b": "Free-throw for BLACK team",
       "c": "7-meter throw for BLACK team",
       "d": "End of the match, note in the match report"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "2:4",
-      "14:1a"
-    ]
+    }
   },
   {
     "id": "2.7",
@@ -165,13 +99,7 @@
       "a": "Goal",
       "b": "The 7-meter throw is to be retaken",
       "c": "Half-time break; no further decision"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "2:4"
-    ]
+    }
   },
   {
     "id": "2.8",
@@ -181,13 +109,7 @@
       "b": "One of the two referees",
       "c": "The court referee",
       "d": "The goal-line referee"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "2:4"
-    ]
+    }
   },
   {
     "id": "2.9",
@@ -197,13 +119,7 @@
       "b": "When the ball leaves the throwers hand",
       "c": "When the timekeeper starts the stopwatch or the public clock",
       "d": "After the whistle for the throw-off is blown by the court referee"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "2:3"
-    ]
+    }
   },
   {
     "id": "2.10",
@@ -213,14 +129,7 @@
       "b": "The team that loses the coin toss",
       "c": "The referees",
       "d": "The first named referee"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "2:2",
-      "comments"
-    ]
+    }
   },
   {
     "id": "2.11",
@@ -231,17 +140,7 @@
       "c": "2-minute suspension for WHITE 11 due to faulty substitution",
       "d": "The timekeeper must not whistle, as there is no rule violation",
       "e": "WHITE 11 must return to the substitution area; either WHITE 8 or WHITE 9 may re-enter the court"
-    },
-    "correct": [
-      "a",
-      "b",
-      "e"
-    ],
-    "rule": [
-      "2:5",
-      "4:5",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "2.12",
@@ -252,17 +151,7 @@
       "c": "Disqualification of WHITE 7, written report (red and blue card shown by the referees)",
       "d": "7-meter throw for BLACK team",
       "e": "Disqualification of WHITE 7 (red card shown by the referees)"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "2:4",
-      "8:10a",
-      "14:1a",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "2.13",
@@ -272,15 +161,7 @@
       "b": "Up to the final whistle",
       "c": "It must be disallowed, if it was scored after the timekeeper interrupted the game, also if the throw-off was taken before the interruption was noticed",
       "d": "It can never be disallowed"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "2:9 comment",
-      "9:2"
-    ]
+    }
   },
   {
     "id": "2.14",
@@ -290,16 +171,7 @@
       "b": "The timekeeper whistles, stops the clock and shows hand signal no. 15",
       "c": "The referees confirm the team time-out for WHITE team",
       "d": "The scorekeeper enters the team time-out in the score sheet"
-    },
-    "correct": [
-      "b",
-      "c",
-      "d"
-    ],
-    "rule": [
-      "2:9",
-      "Clarification 3"
-    ]
+    }
   },
   {
     "id": "2.15",
@@ -309,15 +181,7 @@
       "b": "2-minute suspension",
       "c": "External influence",
       "d": "Disqualification"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "2:8",
-      "Clarification 2"
-    ]
+    }
   },
   {
     "id": "2.16",
@@ -327,15 +191,7 @@
       "b": "Goalkeeper-throw for BLACK team",
       "c": "Free-throw for WHITE team",
       "d": "After whistle signal"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "2:7",
-      "15:5b"
-    ]
+    }
   },
   {
     "id": "2.17",
@@ -345,14 +201,7 @@
       "b": "Five minutes break before overtime starts",
       "c": "One minute break at the end of the first half of overtime",
       "d": "Five minutes break at the end of the first half of overtime"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "2:2"
-    ]
+    }
   },
   {
     "id": "2.18",
@@ -364,15 +213,7 @@
       "d": "Faulty substitution",
       "e": "Warning",
       "f": "Throw-in"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "2:8",
-      "4:5"
-    ]
+    }
   },
   {
     "id": "2.19",
@@ -383,19 +224,7 @@
       "c": "A player whose 2-minute suspension had not expired at the end of overtime",
       "d": "A disqualified player",
       "e": "A player, who has received medical care on the court and not yet has served 3 attack from his team"
-    },
-    "correct": [
-      "a",
-      "c",
-      "d"
-    ],
-    "rule": [
-      "2:2 comment",
-      "4:11",
-      "16:5",
-      "16:6b",
-      "16:10"
-    ]
+    }
   },
   {
     "id": "2.20",
@@ -405,15 +234,7 @@
       "b": "Time-out",
       "c": "The game is over",
       "d": "Wait for the result of the throw-in, thereafter the game is over"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "2:3",
-      "2:4",
-      "11:1"
-    ]
+    }
   },
   {
     "id": "2.21",
@@ -424,16 +245,7 @@
       "c": "Warning for BLACK 8",
       "d": "No action possible",
       "e": "BLACK team will be reduced by on player on the court for 2 minutes from the restart of the match after the team time-out"
-    },
-    "correct": [
-      "b",
-      "e"
-    ],
-    "rule": [
-      "2:8",
-      "8:7a",
-      "16:3d"
-    ]
+    }
   },
   {
     "id": "2.22",
@@ -443,15 +255,7 @@
       "b": "Players who have not received a disqualification",
       "c": "Players who were not serving a 2-minute suspension, when overtime expired",
       "d": "Players who have received permission from the referees"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "2:2 comment",
-      "16:5"
-    ]
+    }
   },
   {
     "id": "2.23",
@@ -462,16 +266,7 @@
       "c": "Goal for BLACK team",
       "d": "7-meter throw for BLACK team",
       "e": "Repetition of the free-throw for BLACK team after whistle signal"
-    },
-    "correct": [
-      "a",
-      "e"
-    ],
-    "rule": [
-      "2:4, 2:5, 2:9 Comment",
-      "4:5",
-      "9:1 3. paragraph"
-    ]
+    }
   },
   {
     "id": "2.24",
@@ -479,14 +274,7 @@
     "answers": {
       "a": "WHITE 7 is allowed to participate",
       "b": "WHITE 7 is not allowed to participate"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "2:2 comment",
-      "16:3d"
-    ]
+    }
   },
   {
     "id": "2.25",
@@ -498,17 +286,7 @@
       "d": "When the referees are required to consult each other to reach a joint decision",
       "e": "After a seriously unsportsmanlike conduct",
       "f": "After a yellow card shown to a team official"
-    },
-    "correct": [
-      "a",
-      "b",
-      "c",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "2:8"
-    ]
+    }
   },
   {
     "id": "2.26",
@@ -520,18 +298,7 @@
       "d": "Free-throw for BLACK team",
       "e": "Disqualification of WHITE 7, written report (red and blue card shown by the referees)",
       "f": "WHITE team will be reduced by one player on the court for 2 minutes from the beginning of the second half"
-    },
-    "correct": [
-      "c",
-      "e",
-      "f"
-    ],
-    "rule": [
-      "2:4",
-      "8:6",
-      "14:1a",
-      "16:6a"
-    ]
+    }
   },
   {
     "id": "2.27",
@@ -542,14 +309,7 @@
       "c": "Only players of the attacking team",
       "d": "Only one player from the attacking team",
       "e": "A court player from the defending team with a goalkeeper, if the team at the time of the final whistle plays without goalkeeper"
-    },
-    "correct": [
-      "d",
-      "e"
-    ],
-    "rule": [
-      "2:5"
-    ]
+    }
   },
   {
     "id": "2.28",
@@ -560,16 +320,7 @@
       "c": "The opponents must be 3 meters away from the thrower or at their own goal-area line",
       "d": "All teammates of the thrower must be at least 3 meters away from the thrower",
       "e": "All teammates of the thrower may stay together with the thrower at the free-throw line of the opponents"
-    },
-    "correct": [
-      "a",
-      "c",
-      "d"
-    ],
-    "rule": [
-      "2:5",
-      "13:8"
-    ]
+    }
   },
   {
     "id": "2.29",
@@ -581,19 +332,7 @@
       "d": "Goalkeeper-throw for BLACK team",
       "e": "Whistle signal for restart",
       "f": "Restart with a free-throw for WHITE team at the position of WHITE 7 at the time of the whistle from the timekeeper"
-    },
-    "correct": [
-      "b",
-      "c",
-      "e",
-      "f"
-    ],
-    "rule": [
-      "2:9, 2:9 comment",
-      "13:4a",
-      "15:5b",
-      "Clarification 3, 10. paragraph"
-    ]
+    }
   },
   {
     "id": "2.30",
@@ -605,15 +344,7 @@
       "d": "The one minute is added to the second half",
       "e": "It is decided through a coin toss, which team gets the ball, when the one minute is played",
       "f": "The team, that last was in possession of the ball, gets the ball, when the game starts again"
-    },
-    "correct": [
-      "b",
-      "f"
-    ],
-    "rule": [
-      "2:7",
-      "13:4b"
-    ]
+    }
   },
   {
     "id": "2.31",
@@ -625,15 +356,7 @@
       "d": "The one minute is added to the second half",
       "e": "The team, that was last in possession of the ball, gets the ball, when the game starts again",
       "f": "The game is restarted with a goalkeeper-throw"
-    },
-    "correct": [
-      "b",
-      "e"
-    ],
-    "rule": [
-      "2:7",
-      "13:4a"
-    ]
+    }
   },
   {
     "id": "2.32",
@@ -645,15 +368,7 @@
       "d": "The one minute is added to the second half",
       "e": "The team, that was last in possession of the ball, gets the ball, when the game starts again",
       "f": "The game is restarted with a goalkeeper-throw"
-    },
-    "correct": [
-      "b",
-      "e"
-    ],
-    "rule": [
-      "2:7",
-      "13:4b"
-    ]
+    }
   },
   {
     "id": "2.33",
@@ -663,19 +378,7 @@
       "b": "Throw-off for BLACK team",
       "c": "Progressive punishment against WHITE 3",
       "d": "Free-throw for WHITE team"
-    },
-    "correct": [
-      "a",
-      "b",
-      "c"
-    ],
-    "rule": [
-      "2:8",
-      "8:7c",
-      "15:9",
-      "16:1b",
-      "Clarification 2c"
-    ]
+    }
   },
   {
     "id": "2.34",
@@ -686,16 +389,7 @@
       "c": "A player seems injured",
       "d": "When the referees indicate different directions, when making a decision",
       "e": "A court player’s substitution with a goalkeeper to execute a goalkeeper-throw"
-    },
-    "correct": [
-      "a",
-      "c",
-      "e"
-    ],
-    "rule": [
-      "2:8",
-      "Clarification 2"
-    ]
+    }
   },
   {
     "id": "2.35",
@@ -705,13 +399,7 @@
       "b": "A player",
       "c": "Only the responsible team official",
       "d": "The team captain"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "Clarification 3"
-    ]
+    }
   },
   {
     "id": "2.36",
@@ -722,16 +410,7 @@
       "c": "The 1-minute period for the team time-out starts, when the timekeeper whistles",
       "d": "Rules violations during a team time-out have the same consequences as during the playing time",
       "e": "Following the team time-out, the game is always restarted with a throw for the team, that requested the team time-out"
-    },
-    "correct": [
-      "b",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "2:10",
-      "Clarification 3"
-    ]
+    }
   },
   {
     "id": "2.37",
@@ -741,14 +420,7 @@
       "b": "The timekeeper whistles as soon as BLACK team gains possession of the ball",
       "c": "The timekeeper gives the green card back to the official",
       "d": "Only the responsible team official can request a team time-out"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "2:10",
-      "Clarification 3"
-    ]
+    }
   },
   {
     "id": "2.38",
@@ -758,15 +430,7 @@
       "b": "The timekeeper gives the green card back to the responsible team official from BLACK team",
       "c": "The game is restarted with a free-throw for BLACK team",
       "d": "Goalkeeper-throw for WHITE team"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "6:5",
-      "Clarification 3"
-    ]
+    }
   },
   {
     "id": "2.39",
@@ -776,13 +440,7 @@
       "b": "Free-throw for WHITE team at the substitution area of WHITE team",
       "c": "7-meter throw for WHITE team",
       "d": "Free-throw for WHITE team at the free-throw line of BLACK team"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "Clarification 3"
-    ]
+    }
   },
   {
     "id": "2.40",
@@ -792,14 +450,7 @@
       "b": "BLACK team does not receive a team time-out, because the ball touched the ceiling",
       "c": "BLACK team does not receive a team time-out, because WHITE team has possession of the ball, when the game is restarted",
       "d": "BLACK team receives a team time-out, but after the game has restarted"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "2:8, 2:10",
-      "Clarification 3"
-    ]
+    }
   },
   {
     "id": "2.41",
@@ -809,15 +460,7 @@
       "b": "The game is restarted with a free-throw for BLACK team",
       "c": "Team time-out is not awarded",
       "d": "The game is restarted with a free-throw for WHITE team"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "2:8, 2:9 comment",
-      "Clarification 3"
-    ]
+    }
   },
   {
     "id": "2.42",
@@ -827,13 +470,7 @@
       "b": "Goal is not valid, WHITE 7 is not allowed to participate",
       "c": "The throw is considered as failed",
       "d": "Disqualification for WHITE 7"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "2:2 Comment"
-    ]
+    }
   },
   {
     "id": "2.43",
@@ -842,15 +479,7 @@
       "a": "Team time-out is possible",
       "b": "Team time-out is not possible",
       "c": "The technical delegate should have taken away the 3th green card when the 2nd team   time-out was requested"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "2:10",
-      "Clarification 3"
-    ]
+    }
   },
   {
     "id": "3.1",
@@ -860,13 +489,7 @@
       "b": 2,
       "c": 3,
       "d": "Unlimited"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "3:1"
-    ]
+    }
   },
   {
     "id": "3.2",
@@ -876,13 +499,7 @@
       "b": "Circumference 58 cm, weight 400 g",
       "c": "Circumference 59 cm, weight 425 g",
       "d": "Circumference 60 cm, weight 500 g"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "3:2"
-    ]
+    }
   },
   {
     "id": "3.3",
@@ -892,13 +509,7 @@
       "b": "Circumference 54 cm, weight 300 g",
       "c": "Circumference 55 cm, weight 425 g",
       "d": "Circumference 56 cm, weight 375 g"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "3:2"
-    ]
+    }
   },
   {
     "id": "3.4",
@@ -908,13 +519,7 @@
       "b": "It cannot be used again, expect if it becomes impossible to continue to use the reserve ball",
       "c": "When the referees find it necessary to use it again",
       "d": "If one of the teams requests it"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "3:4"
-    ]
+    }
   },
   {
     "id": "4.1",
@@ -924,14 +529,7 @@
       "b": "WHITE 11 can be replaced if the opponents accept this",
       "c": "WHITE 11 normally can be replaced in the match report and his substitute can wear number 11. However the referees may have to observe special deviating regulations for the respective competition",
       "d": "WHITE 11 can be replaced, but his substitute cannot wear number 11"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "4:1",
-      "4:3"
-    ]
+    }
   },
   {
     "id": "4.2",
@@ -941,13 +539,7 @@
       "b": "BLACK 5 can no longer be used as a court player",
       "c": "BLACK 5 can be used as a court player if the officials of WHITE team accept this",
       "d": "BLACK 5 can be used as a court player, as soon as the intended goalkeeper is present"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "4:1"
-    ]
+    }
   },
   {
     "id": "4.3",
@@ -958,14 +550,7 @@
       "c": "One of the officials must leave the substitution area",
       "d": "Whoever is not entered in the score sheet must leave the substitution area",
       "e": "The “responsible team official” gets a progressive punishment"
-    },
-    "correct": [
-      "d",
-      "e"
-    ],
-    "rule": [
-      "4:2"
-    ]
+    }
   },
   {
     "id": "4.4",
@@ -975,13 +560,7 @@
       "b": "4 court players and 1 goalkeeper",
       "c": "5 court players and 1 goalkeeper",
       "d": "6 court players"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "4:1"
-    ]
+    }
   },
   {
     "id": "4.5",
@@ -991,13 +570,7 @@
       "b": "A player who is not present at the beginning of the game but is entered in the score sheet",
       "c": "A player who is present at the beginning of the game but not entered in the score sheet",
       "d": "A player who has received permission to play from the timekeeper but is not entered in the score sheet"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "4:3"
-    ]
+    }
   },
   {
     "id": "4.6",
@@ -1007,15 +580,7 @@
       "b": "2-minute suspension for WHITE 7, who must be included in the score sheet",
       "c": "WHITE 7 must be entered in the score sheet, if this in conformity with the regulations of the responsible federation",
       "d": "Progressive punishment against the “responsible team official” of WHITE team"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "4:3",
-      "16.1b"
-    ]
+    }
   },
   {
     "id": "4.7",
@@ -1025,17 +590,7 @@
       "b": "Free-throw for BLACK team at the team’s own free-throw line",
       "c": "Free-throw for BLACK team at the substitution area of WHITE team",
       "d": "2-minute suspension for WHITE 9"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "4:5",
-      "13:3",
-      "16:3a",
-      "Clarification 7"
-    ]
+    }
   },
   {
     "id": "4.8",
@@ -1045,16 +600,7 @@
       "b": "Free-throw for WHITE team at the timekeeper’s table",
       "c": "The number is to be corrected in the score sheet",
       "d": "The game is continued with the throw corresponding to the situation. Written report"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "4:3",
-      "13:3",
-      "13:4"
-    ]
+    }
   },
   {
     "id": "4.9",
@@ -1064,13 +610,7 @@
       "b": "During a match interruption and with permission from a referee",
       "c": "When a player is injured",
       "d": "With permission from the timekeeper"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "4:11"
-    ]
+    }
   },
   {
     "id": "4.10",
@@ -1081,15 +621,7 @@
       "c": "Disqualification of responsible team official from WHITE team with a written report (red and blue card shown by the referees)",
       "d": "2-minute suspension for responsible team official from WHITE team",
       "e": "Reduction of WHITE team by an additional player for 2 minutes on the court"
-    },
-    "correct": [
-      "d",
-      "e"
-    ],
-    "rule": [
-      "4:2",
-      "16:3e"
-    ]
+    }
   },
   {
     "id": "4.11",
@@ -1099,15 +631,7 @@
       "b": "Progressive punishment against the responsible team official from WHITE team",
       "c": "Disqualification of WHITE 2 (red card shown by the referees)",
       "d": "2-minute suspension for WHITE 2 and a reduction of his team by one player on the court for 2 minutes"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "4:4",
-      "4:6",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.12",
@@ -1118,15 +642,7 @@
       "c": "The “responsible team official” of BLACK team receives a warning",
       "d": "Progressive punishment against team official B from BLACK team",
       "e": "After receiving medical care on the playing court, WHITE 5 has to leave the court immediately, and he can only re-enter the court following the third attack of his team"
-    },
-    "correct": [
-      "d",
-      "e"
-    ],
-    "rule": [
-      "4:2",
-      "4:11"
-    ]
+    }
   },
   {
     "id": "4.13",
@@ -1136,13 +652,7 @@
       "b": "Free-throw for BLACK team",
       "c": "2-minute suspension for WHITE 5",
       "d": "Disqualification of WHITE 5 (red card shown by the referees)"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "4:1"
-    ]
+    }
   },
   {
     "id": "4.14",
@@ -1153,17 +663,7 @@
       "c": "2-minute suspension for WHITE 4",
       "d": "2-minute suspension for WHITE 11",
       "e": "2-minute suspension for WHITE 4 and WHITE 11"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "4:4",
-      "4:5",
-      "13:6",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.15",
@@ -1173,16 +673,7 @@
       "b": "2-minute suspension for BLACK 3",
       "c": "Free-throw for WHITE team",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "4:5",
-      "13:3",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.16",
@@ -1192,16 +683,7 @@
       "b": "7-meter throw for WHITE team",
       "c": "Goalkeeper-throw for BLACK team",
       "d": "2-minute suspension for WHITE 27"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "4:5",
-      "13:3",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.17",
@@ -1211,16 +693,7 @@
       "b": "Free-throw for WHITE team",
       "c": "2-minute suspension for BLACK 10",
       "d": "2-minute suspension for BLACK 6"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "4:5",
-      "13:3",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.18",
@@ -1230,14 +703,7 @@
       "b": "The court player, who starts the match as a goalkeeper, can also be used as a court player later in the game",
       "c": "Late-arriving goalkeepers of WHITE team must be registered as number 1, 12 or 16 in the score sheet",
       "d": "One of the two late arriving goalkeepers can only be used as a court player"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "4:1",
-      "4:8"
-    ]
+    }
   },
   {
     "id": "4.19",
@@ -1248,16 +714,7 @@
       "c": "2-minute suspension for WHITE 5",
       "d": "Free-throw for BLACK team",
       "e": "WHITE team remains in possession of the ball"
-    },
-    "correct": [
-      "c",
-      "e"
-    ],
-    "rule": [
-      "4:5",
-      "13:3",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.20",
@@ -1268,17 +725,7 @@
       "c": "No punishment",
       "d": "7-meter throw for WHITE team",
       "e": "Free-throw for BLACK team at height of the substitution area of WHITE team"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "4:1",
-      "4:5",
-      "13:3",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.21",
@@ -1288,16 +735,7 @@
       "b": "Immediate suspension for BLACK 3 and 7-meter throw for WHITE team",
       "c": "Wait until the chance of scoring has passed, then suspension for BLACK 3 and free-throw for WHITE team",
       "d": "Wait until the chance of scoring has passed, then suspension for BLACK 3 and an appropriate throw according to the situation"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "4:5",
-      "13:2",
-      "14:2",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.22",
@@ -1308,17 +746,7 @@
       "c": "2-minute suspension for WHITE 5",
       "d": "Disqualification of WHITE 5 (red card shown by the referees)",
       "e": "WHITE team reduced by one player on the court for 2 minutes"
-    },
-    "correct": [
-      "a",
-      "c",
-      "e"
-    ],
-    "rule": [
-      "4:6",
-      "13:1a",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.23",
@@ -1329,16 +757,7 @@
       "c": "2-minute suspension for WHITE 3 and WHITE team is to be further reduced by one player on the court for 30 seconds",
       "d": "30 seconds for WHITE 3 and WHITE team is to be reduced by one player on the court for 2 minutes",
       "e": "Disqualification of WHITE 3 (red card shown by the referees) and WHITE team is to be further reduced by one player on the court for 30 seconds"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "4:6",
-      "13:1a",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.24",
@@ -1347,14 +766,7 @@
       "a": "Another 2-minute suspension for WHITE 5, and WHITE team is to be reduced by one player on the court for 2 minutes and 15 seconds",
       "b": "Disqualification for WHITE 5 (red card shown by the referees), and WHITE team is to be reduced by two players on the court for 15 seconds and by one player on the court for 1 minute and 45 seconds",
       "c": "Another 2-minute suspension for WHITE 5, and WHITE team is to be reduced by two players on the court for 15 seconds and by one player on the court for 1 minute and 45 seconds"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "4:6",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.25",
@@ -1364,17 +776,7 @@
       "b": "7-meter throw for WHITE team",
       "c": "Free-throw for WHITE team",
       "d": "2-minute suspension for goalkeeper BLACK 1"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "4:1",
-      "4:5",
-      "13:1",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.26",
@@ -1385,16 +787,7 @@
       "c": "The player, who replaces the bleeding player, can enter the court beyond the substitution line",
       "d": "The player must not re-enter the court, until the next interruption of the game",
       "e": "If the player refuses to follow the instructions of the referees to leave the court, he must be punished for unsportsmanlike conduct"
-    },
-    "correct": [
-      "a",
-      "e"
-    ],
-    "rule": [
-      "4:10",
-      "8:7",
-      "16:1b"
-    ]
+    }
   },
   {
     "id": "4.27",
@@ -1404,17 +797,7 @@
       "b": "Disqualification for BLACK 11, written report (red and blue card shown by the referees)",
       "c": "Free-throw for WHITE team",
       "d": "7-meter throw for WHITE team"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "4:5",
-      "14:1a",
-      "16:3a",
-      "Clarification 7"
-    ]
+    }
   },
   {
     "id": "4.28",
@@ -1423,13 +806,7 @@
       "a": "The game continues without interruption, as this is allowed",
       "b": "2-minute suspension for BLACK 1 for faulty substitution",
       "c": "Free-throw for WHITE team at the substitution area of BLACK team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "4:4 comment"
-    ]
+    }
   },
   {
     "id": "4.29",
@@ -1439,15 +816,7 @@
       "b": "Warning for team official D from BLACK team",
       "c": "2-minutes suspension for team official D from BLACK team",
       "d": "Disqualification for team official D from BLACK team (red and blue card show by the referees)"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "4:2",
-      "8:7",
-      "16:3e"
-    ]
+    }
   },
   {
     "id": "4.30",
@@ -1459,19 +828,7 @@
       "d": "Free-throw for BLACK team",
       "e": "Disqualification without written report of official A from WHITE team (red card shown by the referees), WHITE team is reduced by one player on the court for 2 minutes",
       "f": "After receiving medical care on the court, WHITE 6 must leave the court and he can only re-enter the court following the third attack of his team"
-    },
-    "correct": [
-      "a",
-      "b",
-      "f"
-    ],
-    "rule": [
-      "4:11",
-      "8:6b",
-      "13:3",
-      "16:6a",
-      "16:8"
-    ]
+    }
   },
   {
     "id": "4.31",
@@ -1481,16 +838,7 @@
       "b": "Personal punishment for the responsible team official from BLACK team",
       "c": "An additional team official must leave the substitution area",
       "d": "The game is restarted with a free-throw for WHITE team"
-    },
-    "correct": [
-      "a",
-      "b",
-      "d"
-    ],
-    "rule": [
-      "4:2",
-      "13:1"
-    ]
+    }
   },
   {
     "id": "4.32",
@@ -1500,15 +848,7 @@
       "b": "The players must have at least 20 cm high numbers in both the front and the back",
       "c": "The goalkeepers are allowed to wear head protection if it is made of soft material",
       "d": "The players including the goalkeepers may use numbers from 1 to 100"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "4:7",
-      "4:8",
-      "4:9"
-    ]
+    }
   },
   {
     "id": "4.33",
@@ -1518,15 +858,7 @@
       "b": "Disqualification of WHITE 10",
       "c": "WHITE team will be reduced by one player on the court until 25:00",
       "d": "WHITE team will be reduced by two players on the court until 23:00 and then by one player on the court until 23:30"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "4:6",
-      "16:3d"
-    ]
+    }
   },
   {
     "id": "4.34",
@@ -1538,17 +870,7 @@
       "d": "When a player, who is not entitled to participate, enters the court",
       "e": "If incorrect equipment is detected after the start of the game",
       "f": "If there are violations in the substitution area, which cannot clearly be referred to individuals"
-    },
-    "correct": [
-      "b",
-      "d",
-      "e",
-      "f"
-    ],
-    "rule": [
-      "4:2",
-      "4:3"
-    ]
+    }
   },
   {
     "id": "4.35",
@@ -1559,13 +881,7 @@
       "c": "Two persons (officials or players) from WHITE team",
       "d": "Two persons (officials or players) from both WHITE and BLACK team",
       "e": "The doctor of WHITE team, if he is not one of the four team officials"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "4:11"
-    ]
+    }
   },
   {
     "id": "4.36",
@@ -1575,14 +891,7 @@
       "b": "2-minute suspension for official B from WHITE team; he must leave the bench for 2 minutes",
       "c": "Disqualification of official B from WHITE team (red card shown by the referees, WHITE team will be reduced by one player on the court for 2 minutes",
       "d": "2-minute suspension for official B from WHITE team, WHITE team will be reduced by one player on the court for 2 minutes, official B can stay in the substitution area"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "4:2",
-      "16:3e"
-    ]
+    }
   },
   {
     "id": "4.37",
@@ -1591,15 +900,7 @@
       "a": "The players of BLACK team stand near the side line in order to get instructions from the coach",
       "b": "Players of WHITE team make substitutions outside the substitutions line",
       "c": "One of the team officials of WHITE team, who is on the court, moves far away from the injured player and gives instructions to the other players in his team"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "4:4",
-      "4:11"
-    ]
+    }
   },
   {
     "id": "4.38",
@@ -1611,16 +912,7 @@
       "d": "WHITE team will be reduced by one player on the court for 2 minutes",
       "e": "7-meter throw for BLACK team",
       "f": "Disqualification of WHITE 5, written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "a",
-      "b",
-      "d"
-    ],
-    "rule": [
-      "4:6",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "4.39",
@@ -1629,14 +921,7 @@
       "a": "One player of WHITE team must leave the court, no additional punishment",
       "b": "2-minute suspension for the additional player from WHITE team",
       "c": "WHITE team will be reduced by two players on the court for 57 seconds and by one player for 1 minute and 3 seconds"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "4:6"
-    ]
+    }
   },
   {
     "id": "4.40",
@@ -1648,18 +933,7 @@
       "d": "WHITE 15 is not allowed to play and must leave the court",
       "e": "Progressive punishment for the responsible team official from WHITE team",
       "f": "Written report"
-    },
-    "correct": [
-      "b",
-      "c",
-      "e",
-      "f"
-    ],
-    "rule": [
-      "4:3",
-      "9:1",
-      "9:2"
-    ]
+    }
   },
   {
     "id": "4.41",
@@ -1671,17 +945,7 @@
       "d": "After receiving medical treatment on the court, WHITE 12 can only re-enter the court following the third attack of his team",
       "e": "Regardless of the number of attacks, WHITE 12 can re-enter the court, when the game is continued after the end of a halt-time",
       "f": "If the team officials refuse to provide the necessary treatment of WHITE 12, the responsible team official is to be punished progressively"
-    },
-    "correct": [
-      "b",
-      "d",
-      "e",
-      "f"
-    ],
-    "rule": [
-      "4:11",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.42",
@@ -1689,14 +953,7 @@
     "answers": {
       "a": "WHITE 1 may continue the play after receiving medical treatment on the court, because the treatment was caused by a head injury",
       "b": "After receiving medical treatment on the court, WHITE 1 can only re-enter the court following the third attack of his team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "4:11",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.43",
@@ -1713,21 +970,7 @@
         "h": "Free-throw for BLACK team",
         "i": "Regardless of the number attack of his team WHITE 7 can re-enter the court after serving a 2-minute suspension"
       }
-    },
-    "correct": [
-      "b",
-      "c",
-      "d",
-      "g",
-      "i"
-    ],
-    "rule": [
-      "2:8",
-      "4:5, 4:11",
-      "13:2",
-      "14:1",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.44",
@@ -1737,14 +980,7 @@
       "b": "2-minute suspension of BLACK 11",
       "c": "Play on",
       "d": "Free-throw for WHITE team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "4:11",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.45",
@@ -1756,20 +992,7 @@
       "d": "BLACK 10 may continue the play after receiving medical treatment on the court",
       "e": "After receiving medical treatment on the court, BLACK 10 can only re-enter the court following the third attack of his team",
       "f": "Time-out"
-    },
-    "correct": [
-      "b",
-      "c",
-      "d",
-      "f"
-    ],
-    "rule": [
-      "2:8",
-      "4:11",
-      "8:4",
-      "16:3c",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.46",
@@ -1781,20 +1004,7 @@
       "d": "BLACK 10 may continue the play after receiving medical treatment on the court",
       "e": "After receiving medical treatment on the court, BLACK 10 can only re-enter the court following the third attack of his team",
       "f": "Time-out"
-    },
-    "correct": [
-      "b",
-      "c",
-      "e",
-      "f"
-    ],
-    "rule": [
-      "2:8",
-      "4:11",
-      "8:4",
-      "16:3c",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.47",
@@ -1803,17 +1013,7 @@
       "a": "BLACK 2 may continue the play",
       "b": "BLACK 2 must leave the court and can only re-enter the court following the third attack of his team",
       "c": "Progressive punishment to responsible team official of BLACK team"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "4:11",
-      "8:7",
-      "16:1b",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.48",
@@ -1822,14 +1022,7 @@
       "a": "Play on",
       "b": "2-minute suspension for WHITE 5 because for a faulty substitution (entering the court to early after receiving medical treatment on the court)",
       "c": "Time-out"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "4:11",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.49",
@@ -1838,15 +1031,7 @@
       "a": "After receiving medical treatment on the court, WHITE 4 has to leave the court and can only re-enter following the third attack of his team",
       "b": "As BLACK 5 did not receive medical treatment on the court, he is allowed to continue the game",
       "c": "BLACK 5 has to leave the court and can only re-enter following the third attack of his team"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "4:11",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.50",
@@ -1857,13 +1042,7 @@
       "c": "Play on",
       "d": "Free-throw for BLACK team in the substitution area",
       "e": "Not suspension for WHITE 2 who must leave the court. WHITE Team continues in possession of the ball because is a timekeeper/delegate´s mistake"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "4:11 third paragraph"
-    ]
+    }
   },
   {
     "id": "4.51",
@@ -1872,14 +1051,7 @@
       "a": "Play on – WHITE 4 is allowed to play in defense",
       "b": "Warning for WHITE 4, because he entered the court to early",
       "c": "2-minute suspension for WHITE 4 because a faulty substitution"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "4:11",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.52",
@@ -1887,14 +1059,7 @@
     "answers": {
       "a": "WHITE 11 is allowed to continue the game, because he was lying outside the court, when he received medical treatment",
       "b": "WHITE 11 has to leave the court and can only re-enter following the third attack of his team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "4:11",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.53",
@@ -1902,14 +1067,7 @@
     "answers": {
       "a": "BLACK 3 is allowed to continue the game",
       "b": "BLACK 3 has to leave the court and can only re-enter following the third attack of his team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "4:11",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.54",
@@ -1917,14 +1075,7 @@
     "answers": {
       "a": "BLACK 4 is allowed to continue the game",
       "b": "BLACK 4 has to leave the court and can only re-enter following the third attack of his team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "4:11",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.55",
@@ -1932,14 +1083,7 @@
     "answers": {
       "a": "BLACK 2 is allowed to continue the game, because the injury was caused by a ball in the face",
       "b": "BLACK 2 has to leave the court and can only re-enter following the third attack of his team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "4:11",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.56",
@@ -1947,14 +1091,7 @@
     "answers": {
       "a": "The referees immediately interrupt the game and show hand signal 15 and 16 to call medical treatment on the court for BLACK 2",
       "b": "Play on until there is a result of the counter attack from WHITE team – then interrupt the game to call medical treatment for BLACK 2"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "4:11",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "4.57",
@@ -1966,16 +1103,7 @@
       "d": "Progressive punishment for responsible team official from WHITE team",
       "e": "Free-throw for WHITE team",
       "f": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "b",
-      "d",
-      "f"
-    ],
-    "rule": [
-      "4:9",
-      "Regulations on protective equipment and accessories"
-    ]
+    }
   },
   {
     "id": "4.58",
@@ -1985,15 +1113,7 @@
       "b": "Free-throw for BLACK team",
       "c": "2-minute suspension for WHITE 7",
       "d": "Free-throw for WHITE team"
-    },
-    "correct": [
-      "a",
-      "b"
-    ],
-    "rule": [
-      "4:7",
-      "4:9"
-    ]
+    }
   },
   {
     "id": "5.1",
@@ -2002,17 +1122,7 @@
       "a": "Game continues without interruption",
       "b": "Free-throw for WHITE team",
       "c": "Repeat goalkeeper-throw after restart signal"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "1:3",
-      "5:6",
-      "12:1",
-      "12:2",
-      "15:5b"
-    ]
+    }
   },
   {
     "id": "5.2",
@@ -2022,17 +1132,7 @@
       "b": "The game continues without interruption",
       "c": "Free-throw for BLACK team",
       "d": "2-minute suspension for the goalkeeper"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "1:3",
-      "5:3",
-      "5:9",
-      "6:2b",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "5.3",
@@ -2041,13 +1141,7 @@
       "a": "Free-throw for BLACK team",
       "b": "The game continues without interruption",
       "c": "Goal-keeper-throw for WHITE team after whistle signal"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "5:6"
-    ]
+    }
   },
   {
     "id": "5.4",
@@ -2057,14 +1151,7 @@
       "b": "Free-throw for WHITE team",
       "c": "The game continues without interruption",
       "d": "Progressive punishment against BLACK 1 since he has endangered an opponent"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "5:10",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "5.5",
@@ -2074,14 +1161,7 @@
       "b": "Free-throw for BLACK team",
       "c": "Throw-in for BLACK team",
       "d": "Progressive punishment against the goalkeeper"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "5:10",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "5.6",
@@ -2091,14 +1171,7 @@
       "b": "Progressive punishment against WHITE 1",
       "c": "Free-throw for BLACK team",
       "d": "7-meter throw for BLACK team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "5:10",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "5.7",
@@ -2108,14 +1181,7 @@
       "b": "Throw-in for BLACK team",
       "c": "Free-throw for BLACK team",
       "d": "Warning for WHITE 1"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "5:10",
-      "12:1"
-    ]
+    }
   },
   {
     "id": "5.8",
@@ -2125,15 +1191,7 @@
       "b": "The game continues without interruption",
       "c": "Free-throw to WHITE team",
       "d": "Correction and goalkeeper-throw after whistle signal"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "5:3",
-      "5:6",
-      "15:7"
-    ]
+    }
   },
   {
     "id": "5.9",
@@ -2143,15 +1201,7 @@
       "b": "Time-out",
       "c": "7-meter throw for BLACK team",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "5:9",
-      "6:1",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "5.10",
@@ -2162,13 +1212,7 @@
       "c": "Free-throw for BLACK team at the goal-area line of WHITE team",
       "d": "Goalkeeper-throw for BLACK team",
       "e": "7-meter throw for WHITE team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "5:3"
-    ]
+    }
   },
   {
     "id": "5.11",
@@ -2178,16 +1222,7 @@
       "b": "Goal for WHITE team",
       "c": "Free-throw for BLACK team because of illegal free-throw execution by WHITE 12",
       "d": "Time-out"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "5:3",
-      "7:6",
-      "13:6",
-      "15:1"
-    ]
+    }
   },
   {
     "id": "5.12",
@@ -2198,14 +1233,7 @@
       "c": "Free-throw for WHITE team",
       "d": "7-meter throw for WHITE team",
       "e": "Time-out"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "5:9",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "5.13",
@@ -2215,14 +1243,7 @@
       "b": "7-meter throw for BLACK team",
       "c": "Progressive punishment for WHITE 1",
       "d": "No intervention, because it is allowed"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "5:7",
-      "5:8"
-    ]
+    }
   },
   {
     "id": "6.1",
@@ -2232,15 +1253,7 @@
       "b": "Free-throw for WHITE team",
       "c": "7-meter throw for WHITE team",
       "d": "Goalkeeper-throw for BLACK team"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "1:3",
-      "6:5",
-      "12:1"
-    ]
+    }
   },
   {
     "id": "6.2",
@@ -2250,14 +1263,7 @@
       "b": "Goalkeeper-throw for WHITE team",
       "c": "Goal",
       "d": "Throw-off"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "6:5",
-      "12:1"
-    ]
+    }
   },
   {
     "id": "6.3",
@@ -2267,13 +1273,7 @@
       "b": "7-meter throw for BLACK team",
       "c": "Free-throw for BLACK team",
       "d": "Free-throw for WHITE team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "6:5"
-    ]
+    }
   },
   {
     "id": "6.4",
@@ -2283,13 +1283,7 @@
       "b": "Free-throw for BLACK team",
       "c": "Goalkeeper-throw for BLACK team",
       "d": "Goalkeeper-throw for BLACK team after whistle signal"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "6:5"
-    ]
+    }
   },
   {
     "id": "6.5",
@@ -2299,14 +1293,7 @@
       "b": "Goalkeeper-throw for WHITE team after whistle signal",
       "c": "7-meter throw for BLACK team",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "6:7b",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "6.6",
@@ -2316,14 +1303,7 @@
       "b": "Goal",
       "c": "Free-throw for BLACK team",
       "d": "Goalkeeper-throw for WHITE team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "6:7b",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "6.7",
@@ -2333,14 +1313,7 @@
       "b": "7-meter throw for BLACK team",
       "c": "Free-throw for BLACK team",
       "d": "Throw-off repeated after correction"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "6:7b",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "6.8",
@@ -2350,17 +1323,7 @@
       "b": "Free-throw for WHITE team",
       "c": "Free-throw for BLACK team",
       "d": "Progressive punishment against BLACK 7"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "6:2c",
-      "8:7f",
-      "14:1a",
-      "16:1b"
-    ]
+    }
   },
   {
     "id": "6.9",
@@ -2370,15 +1333,7 @@
       "b": "7-meter throw for WHITE team",
       "c": "Progressive punishment against BLACK 2",
       "d": "Disqualification of BLACK 2 (red card shown by the referees)"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "6:2c",
-      "14:1a",
-      "Clarification 6.a"
-    ]
+    }
   },
   {
     "id": "6.10",
@@ -2388,15 +1343,7 @@
       "b": "Goalkeeper-throw for WHITE team",
       "c": "Free-throw for BLACK team",
       "d": "7-meter throw for BLACK team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "5:3",
-      "5:6",
-      "6:7b"
-    ]
+    }
   },
   {
     "id": "6.11",
@@ -2406,15 +1353,7 @@
       "b": "Goalkeeper-throw for WHITE team",
       "c": "Free-throw for BLACK team",
       "d": "7-meter throw for BLACK team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "5:3",
-      "5:6",
-      "6:7b"
-    ]
+    }
   },
   {
     "id": "6.12",
@@ -2424,14 +1363,7 @@
       "b": "Goalkeeper-throw for BLACK team",
       "c": "Goalkeeper-throw for BLACK team after whistle signal",
       "d": "Free-throw for BLACK team after whistle signal"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "6:2a",
-      "12:1"
-    ]
+    }
   },
   {
     "id": "6.13",
@@ -2441,17 +1373,7 @@
       "b": "2-minute suspension for WHITE 5",
       "c": "Free-throw for BLACK team at the free-throw line of WHITE team",
       "d": "Free-throw for BLACK team at the substitution area of WHITE team"
-    },
-    "correct": [
-      "a",
-      "b"
-    ],
-    "rule": [
-      "4:5",
-      "6:5, 2. paragraph",
-      "13:3",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "6.14",
@@ -2461,16 +1383,7 @@
       "b": "When a player without the ball of the attacking team touches the goal area of the opponents and gains an advantage by doing so",
       "c": "When a player of the attacking team deflects the ball out across the outer goal line of the opponents",
       "d": "When a player with the ball touches the goal area of his own team"
-    },
-    "correct": [
-      "a",
-      "b",
-      "c"
-    ],
-    "rule": [
-      "6:2a",
-      "12:1"
-    ]
+    }
   },
   {
     "id": "6.15",
@@ -2481,13 +1394,7 @@
       "c": "7-meter throw for WHITE team",
       "d": "Goalkeeper-throw for BLACK team",
       "e": "Progressive punishment for BLACK 4"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "6:7b"
-    ]
+    }
   },
   {
     "id": "6.16",
@@ -2498,19 +1405,7 @@
       "c": "Goalkeeper-throw for WHITE team",
       "d": "2-minute suspension for WHITE 10",
       "e": "Free-throw for BLACK team at the free-throw line of WHITE team"
-    },
-    "correct": [
-      "b",
-      "c",
-      "d"
-    ],
-    "rule": [
-      "2:8a",
-      "4:5",
-      "6:4",
-      "12:1",
-      "13:3"
-    ]
+    }
   },
   {
     "id": "6.17",
@@ -2520,14 +1415,7 @@
       "b": "Throw-in for BLACK team",
       "c": "Free-throw for BLACK team",
       "d": "Warning for WHITE 12"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "5:3",
-      "6:7c"
-    ]
+    }
   },
   {
     "id": "6.18",
@@ -2536,13 +1424,7 @@
       "a": "Free-throw for WHITE team",
       "b": "Goalkeeper-throw for BLACK team",
       "c": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "6:5"
-    ]
+    }
   },
   {
     "id": "6.19",
@@ -2552,16 +1434,7 @@
       "b": "2-minute suspension for WHITE 5",
       "c": "Free-throw for BLACK team at the free-throw line of WHITE team",
       "d": "Free-throw for BLACK team at the substitution area of WHITE team"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "4:5",
-      "6:5, 1. paragraph",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "6.20",
@@ -2571,13 +1444,7 @@
       "b": "Free-throw for WHITE team",
       "c": "7-meter throw for WHITE team",
       "d": "Progressive punishment for BLACK 2"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "13:1b"
-    ]
+    }
   },
   {
     "id": "6.21",
@@ -2587,14 +1454,7 @@
       "b": "Free-throw for team WHITE",
       "c": "Correction and repeated goalkeeper throw after whistle",
       "d": "Goal is not valid"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "6:1",
-      "1:3"
-    ]
+    }
   },
   {
     "id": "6.22",
@@ -2603,13 +1463,7 @@
       "a": "Goal for WHITE team",
       "b": "Goalkeeper-throw for BLACK team",
       "c": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "6:2a"
-    ]
+    }
   },
   {
     "id": "7.1",
@@ -2619,14 +1473,7 @@
       "b": "Free-throw for BLACK team",
       "c": "Goal",
       "d": "2-minute suspension for WHITE 3"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:10",
-      "11:1"
-    ]
+    }
   },
   {
     "id": "7.2",
@@ -2636,13 +1483,7 @@
       "b": "Free-throw for WHITE team from BLACK 9’s position",
       "c": "Free-throw for WHITE team from BLACK 11’s position",
       "d": "2-minute suspension for BLACK 11"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "7:1"
-    ]
+    }
   },
   {
     "id": "7.3",
@@ -2652,13 +1493,7 @@
       "b": 2,
       "c": 3,
       "d": 4
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:3a"
-    ]
+    }
   },
   {
     "id": "7.4",
@@ -2668,13 +1503,7 @@
       "b": "3",
       "c": "0",
       "d": "2"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "7:3d"
-    ]
+    }
   },
   {
     "id": "7.5",
@@ -2684,13 +1513,7 @@
       "b": 2,
       "c": 1,
       "d": 0
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:3"
-    ]
+    }
   },
   {
     "id": "7.6",
@@ -2700,15 +1523,7 @@
       "b": "Goal",
       "c": "Goalkeeper-throw for BLACK team",
       "d": "Throw-in for BLACK team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:3",
-      "7:4",
-      "7:7"
-    ]
+    }
   },
   {
     "id": "7.7",
@@ -2718,13 +1533,7 @@
       "b": "Free-throw for WHITE team",
       "c": "The game continues without interruption",
       "d": "7-meter throw for BLACK team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "7:4b"
-    ]
+    }
   },
   {
     "id": "7.8",
@@ -2733,13 +1542,7 @@
       "a": "Free-throw for WHITE team",
       "b": "The game continues without interruption",
       "c": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:6"
-    ]
+    }
   },
   {
     "id": "7.9",
@@ -2748,14 +1551,7 @@
       "a": "Goal",
       "b": "Free-throw for BLACK team",
       "c": "Goalkeeper-throw for BLACK team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:7",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "7.10",
@@ -2764,14 +1560,7 @@
       "a": "The game continues without interruption",
       "b": "Free-throw for BLACK team",
       "c": "Free-throw for WHITE team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:7",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "7.11",
@@ -2781,14 +1570,7 @@
       "b": "Free-throw and 2-minute suspension",
       "c": "Free-throw",
       "d": "Free-throw and disqualification (red card shown by the referees)"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "7:7",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "7.12",
@@ -2797,14 +1579,7 @@
       "a": "Free-throw for WHITE team",
       "b": "Throw-in for BLACK team",
       "c": "Goalkeeper-throw for BLACK team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:9",
-      "11:1"
-    ]
+    }
   },
   {
     "id": "7.13",
@@ -2814,14 +1589,7 @@
       "b": "Free-throw for BLACK team",
       "c": "Free-throw for WHITE team",
       "d": "Goal for WHITE team"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "7:9",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "7.14",
@@ -2831,14 +1599,7 @@
       "b": "Free-throw for BLACK team",
       "c": "2-minute suspension for WHITE 9",
       "d": "Time-out"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "7:4",
-      "8:1a"
-    ]
+    }
   },
   {
     "id": "7.15",
@@ -2848,15 +1609,7 @@
       "b": "Throw-in for BLACK team",
       "c": "Free-throw for BLACK team",
       "d": "The game continues without interruption"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "7:10",
-      "8:1c",
-      "13:1a"
-    ]
+    }
   },
   {
     "id": "7.16",
@@ -2866,13 +1619,7 @@
       "b": "Free-throw for BLACK team",
       "c": "Progressive punishment for WHITE 9",
       "d": "Throw-in for BLACK team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "7:1"
-    ]
+    }
   },
   {
     "id": "7.17",
@@ -2882,13 +1629,7 @@
       "b": "Free-throw for WHITE team",
       "c": "Progressive punishment for BLACK 7",
       "d": "Throw-in for WHITE team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:10"
-    ]
+    }
   },
   {
     "id": "7.18",
@@ -2898,13 +1639,7 @@
       "b": "Immediate free-throw because of passive play",
       "c": "Immediate free-throw because of unsportsmanlike conduct",
       "d": "Progressive punishment"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:12"
-    ]
+    }
   },
   {
     "id": "7.19",
@@ -2914,14 +1649,7 @@
       "b": "Goal for BLACK team",
       "c": "Free-throw for WHITE team or BLACK team depending on the circumstances",
       "d": "Goalkeeper-throw for BLACK team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:1",
-      "7:6"
-    ]
+    }
   },
   {
     "id": "7.20",
@@ -2930,13 +1658,7 @@
       "a": "Free-throw for WHITE team",
       "b": "The game continues without interruption",
       "c": "It depends on, who gets the ball"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:8"
-    ]
+    }
   },
   {
     "id": "7.21",
@@ -2944,13 +1666,7 @@
     "answers": {
       "a": "Goal for WHITE team",
       "b": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "7:1, 7:3 comment"
-    ]
+    }
   },
   {
     "id": "7.22",
@@ -2959,14 +1675,7 @@
       "a": "Correction of the position, restart signal, no other action",
       "b": "Correction of the position, restart signal, the referees show the forewarning signal for passive play",
       "c": "Correction of the position, progressive punishment against WHITE 6, restart signal, the referees show the forewarning signal for passive play"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:11",
-      "Clarification 4"
-    ]
+    }
   },
   {
     "id": "7.23",
@@ -2977,14 +1686,7 @@
       "c": "Immediate free-throw for WHITE team because of passive play",
       "d": "Warning for BLACK 6 or BLACK 8 in case of a repetition",
       "e": "2-minute suspension for BLACK 6 or BLACK 8 in case of a repetition"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "7:11, 7:12",
-      "Clarification 4.B.2"
-    ]
+    }
   },
   {
     "id": "7.24",
@@ -2995,14 +1697,7 @@
       "c": "Team time-out",
       "d": "Forceful action before the team’s next passive actions",
       "e": "Any of the actions under a-d"
-    },
-    "correct": [
-      "a",
-      "b"
-    ],
-    "rule": [
-      "Clarification 4.C"
-    ]
+    }
   },
   {
     "id": "7.25",
@@ -3012,15 +1707,7 @@
       "b": "If the team in possession of the ball requests a team time-out after the forewarning signal has been shown, then the forewarning signal must be shown again, when the game is restarted",
       "c": "If the team in possession of the ball makes no clear effort to get in a position to shoot on goal, after the forewarning signal has been shown, then either the court referee or the goal-line referee gives a free-throw because of passive play",
       "d": "After the forewarning signal is shown, the referees decide on passive play at latest, when no shot on goal is executed after 6 passes"
-    },
-    "correct": [
-      "b",
-      "c",
-      "d"
-    ],
-    "rule": [
-      "Clarification 4"
-    ]
+    }
   },
   {
     "id": "7.26",
@@ -3031,14 +1718,7 @@
       "c": "Time-out; throw-off after whistle signal, immediate hand signal for passive play",
       "d": "Whistle signal for the throw-off, immediate hand signal for passive play",
       "e": "Progressive punishment for the responsible team official from WHITE team"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "7:11, 7:12",
-      "Clarification 4.B.B1"
-    ]
+    }
   },
   {
     "id": "7.27",
@@ -3049,15 +1729,7 @@
       "c": "The forewarning signal must be repeated as a reminder after the first interruption, if it has been shown before the interruption",
       "d": "The forewarning signal is always to be stopped, when a player from the defending team is given a progressive punishment",
       "e": "The referees must show the forewarning signal, when a player has the ball clearly under control"
-    },
-    "correct": [
-      "a",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "Clarification 4"
-    ]
+    }
   },
   {
     "id": "7.28",
@@ -3068,17 +1740,7 @@
       "c": "The referees must observe, if the team is trying to increase the tempo or gain a spacious advantage during the build-up phase",
       "d": "The referees must catch out for passive play, as soon as a team has gained ball possession in its own half of the court",
       "e": "A team, that has tried to make a counter-attack, must be allowed a normal substitution, when switching from counter-attack to a normal build-up phase"
-    },
-    "correct": [
-      "b",
-      "c",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "7:11",
-      "Clarification 4"
-    ]
+    }
   },
   {
     "id": "7.29",
@@ -3087,15 +1749,7 @@
       "a": 3,
       "b": 4,
       "c": 5
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "7:11-12",
-      "Clarification 4",
-      "Appendix 3"
-    ]
+    }
   },
   {
     "id": "7.30",
@@ -3104,15 +1758,7 @@
       "a": 1,
       "b": 2,
       "c": 3
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:11-12",
-      "Clarification 4",
-      "Appendix 3"
-    ]
+    }
   },
   {
     "id": "7.31",
@@ -3122,14 +1768,7 @@
       "b": "WHITE team has 2 passes left to take a shot on goal",
       "c": "WHITE team has 1 pass left to take a shot on goal",
       "d": "WHITE team has to execute the free-throw as a direct shot on goal"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "7:11-12",
-      "Clarification 4"
-    ]
+    }
   },
   {
     "id": "7.32",
@@ -3139,15 +1778,7 @@
       "b": "WHITE team has 6 passes left to take a shot on goal",
       "c": "WHITE team has 2 passes left to take a shot on goal",
       "d": "WHITE team has 1 pass left to take a shot on goal"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "7:11-12",
-      "Clarification 3",
-      "Appendix 3"
-    ]
+    }
   },
   {
     "id": "7.33",
@@ -3158,16 +1789,7 @@
       "c": "Forewarning signal continues",
       "d": "Forewarning signal is no longer valid",
       "e": "WHITE team has no more passes before taking a shot on goal"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "7:11-12",
-      "Clarification 3",
-      "Appendix 3"
-    ]
+    }
   },
   {
     "id": "8.1",
@@ -3178,17 +1800,7 @@
       "c": "Disqualification of player BLACK 7 with a written report (red and blue card shown by the referees)",
       "d": "Free-throw",
       "e": "7-meter throw"
-    },
-    "correct": [
-      "c",
-      "e"
-    ],
-    "rule": [
-      "4:6",
-      "8:10b",
-      "14:1a",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "8.2",
@@ -3199,20 +1811,7 @@
       "c": "Disqualification of BLACK 8 without a written report (red card shown by the referees)",
       "d": "Disqualification of BLACK 8 with a written report (red and blue card shown by the referees)",
       "e": "Progressive punishment against the “responsible team official” of BLACK team"
-    },
-    "correct": [
-      "a",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "4:3",
-      "8:10b",
-      "14:1a",
-      "16:1b",
-      "16:6a",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "8.3",
@@ -3222,16 +1821,7 @@
       "b": "Disqualification of team official B from WHITE team (red card shown by the referees)",
       "c": "WHITE team begins the second half reduced by one player for 2 minutes",
       "d": "No punishment possible but written report"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "8:7a",
-      "16:3e",
-      "16:10"
-    ]
+    }
   },
   {
     "id": "8.4",
@@ -3243,20 +1833,7 @@
       "d": "WHITE team reduced by one player on the court for 2 minutes",
       "e": "WHITE team reduced by two players on the court for 2 minutes",
       "f": "WHITE team reduced by one player on the court for 4 minutes"
-    },
-    "correct": [
-      "a",
-      "c",
-      "f"
-    ],
-    "rule": [
-      "4:5",
-      "8:10a",
-      "16:3a",
-      "16:6d",
-      "16:8",
-      "16:9c"
-    ]
+    }
   },
   {
     "id": "8.5",
@@ -3266,17 +1843,7 @@
       "b": "7-meter throw for BLACK team, an additional suspension for WHITE 2 and a further reduction of WHITE team for the remainder of WHITE 2’s suspension time",
       "c": "7-meter throw, Disqualification without written report of WHITE 2 and a further reduction of WHITE team for the remainder of WHITE 2’s suspension time (red card shown by the referees)",
       "d": "7-meter throw, Disqualification of WHITE 2 and a further reduction of WHITE team for the remainder of WHITE 2’s suspension time; written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "4:6",
-      "8:10b",
-      "14:1a",
-      "16:6b",
-      "16:8"
-    ]
+    }
   },
   {
     "id": "8.6",
@@ -3285,13 +1852,7 @@
       "a": "Free-throw for BLACK team",
       "b": "Progressive punishment against WHITE 7",
       "c": "The game continues without interruption"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "8:1c"
-    ]
+    }
   },
   {
     "id": "8.7",
@@ -3302,15 +1863,7 @@
       "c": "2-minute suspension for BLACK 7",
       "d": "Warning for BLACK 7",
       "e": "No progressive punishment for BLACK 7"
-    },
-    "correct": [
-      "b",
-      "e"
-    ],
-    "rule": [
-      "8:2a",
-      "14:1a"
-    ]
+    }
   },
   {
     "id": "8.8",
@@ -3321,17 +1874,7 @@
       "c": "7-meter throw for WHITE team",
       "d": "Free-throw for WHITE team",
       "e": "Disqualification for BLACK 12, written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "8:5 comment",
-      "14:1a",
-      "16:6a",
-      "Clarification 6b"
-    ]
+    }
   },
   {
     "id": "8.9",
@@ -3341,16 +1884,7 @@
       "b": "2-minute suspension for BLACK 5",
       "c": "Disqualification for BLACK 5 (red card shown by the referees)",
       "d": "Written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "a",
-      "b"
-    ],
-    "rule": [
-      "8:3",
-      "13:1b",
-      "16:3b"
-    ]
+    }
   },
   {
     "id": "8.10",
@@ -3361,16 +1895,7 @@
       "c": "2-minute suspension for BLACK 2",
       "d": "Disqualification for BLACK 2 (red card shown by the referees)",
       "e": "Written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "8:5",
-      "14:1a",
-      "16:6a"
-    ]
+    }
   },
   {
     "id": "8.11",
@@ -3380,16 +1905,7 @@
       "b": "7-meter throw for WHITE team",
       "c": "Warning for BLACK 7",
       "d": "2-minute suspension for BLACK 7"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "8:3",
-      "13:1b",
-      "16:1a"
-    ]
+    }
   },
   {
     "id": "8.12",
@@ -3400,16 +1916,7 @@
       "c": "Disqualification for BLACK 3 (red card shown by the referees)",
       "d": "Free-throw for WHITE team",
       "e": "7-meter throw for WHITE team"
-    },
-    "correct": [
-      "b",
-      "e"
-    ],
-    "rule": [
-      "8:4b",
-      "14:1a",
-      "16:3c"
-    ]
+    }
   },
   {
     "id": "8.13",
@@ -3419,16 +1926,7 @@
       "b": "For extremely unsportsmanlike conduct on or off the court",
       "c": "For repeated unsportsmanlike conduct on the court",
       "d": "For faulty substitution during a suspension (no clear chance of scoring)"
-    },
-    "correct": [
-      "a",
-      "b"
-    ],
-    "rule": [
-      "8:5",
-      "8:6",
-      "16:6a"
-    ]
+    }
   },
   {
     "id": "8.14",
@@ -3440,19 +1938,7 @@
       "d": "Disqualification without written report of team official C from BLACK team (red card shown by the referees)",
       "e": "Disqualification of team official C from BLACK team, written report (red and blue card shown by the referees)",
       "f": "BLACK team reduced with one player on the court for 2 minutes"
-    },
-    "correct": [
-      "a",
-      "c",
-      "e",
-      "f"
-    ],
-    "rule": [
-      "2:8a",
-      "8:10b",
-      "14:1a",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "8.15",
@@ -3464,17 +1950,7 @@
       "d": "Disqualification without written report of team official D from BLACK team (red card shown by the referees)",
       "e": "Disqualification of team official D from BLACK team, written report (red and blue card shown by the referees)",
       "f": "BLACK team reduced with one player on the court for 2 minutes"
-    },
-    "correct": [
-      "b",
-      "e",
-      "f"
-    ],
-    "rule": [
-      "8:10b",
-      "14:1a",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "8.16",
@@ -3484,16 +1960,7 @@
       "b": "A team official is destroying a clear chance of scoring",
       "c": "Spitting on another person",
       "d": "Repeated delays of the game, with the purpose of wasting time"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "8:10a",
-      "8:10b",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "8.17",
@@ -3504,17 +1971,7 @@
       "c": "BLACK team continues without a reduction of players on the court",
       "d": "Disqualification of BLACK 4, written report (red and blue card shown by the referees)",
       "e": "BLACK team can add another player to complete the team’s allowed number of 14 players"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "8:10a",
-      "16:6b",
-      "16:8",
-      "16:11b"
-    ]
+    }
   },
   {
     "id": "8.18",
@@ -3524,15 +1981,7 @@
       "b": "2-minute suspension for team official C from BLACK team, BLACK team is reduced by one player on the court for 2 minutes",
       "c": "Warning for team official C from BLACK team",
       "d": "Free-throw for WHITE team"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "8:7a",
-      "16:1b"
-    ]
+    }
   },
   {
     "id": "8.19",
@@ -3542,15 +1991,7 @@
       "b": "Disqualification of WHITE 3, written report (red and blue card shown by the referees). WHITE team reduced by one player on the court for 2 minutes",
       "c": "2-minute suspension for WHITE 3, and WHITE team reduced by one player on the court for 2 minutes",
       "d": "Time-out"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "8:10a",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "8.20",
@@ -3560,14 +2001,7 @@
       "b": "WHITE 4 is not allowed to play for the next 2 minutes, but the team remains complete on the court",
       "c": "Punishment no longer possible",
       "d": "Disqualification for WHITE 4 (red card shown by the referees), and WHITE team is reduced by one player on the court for 2 minutes"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "8:3",
-      "16:3b"
-    ]
+    }
   },
   {
     "id": "8.21",
@@ -3577,17 +2011,7 @@
       "b": "For destroying a clear chance of scoring through actively blocking a shot or pass by using his foot",
       "c": "For faulty substitution during suspension time (no clear chance of scoring)",
       "d": "For not putting down the ball at free-throw against his own team (not in the last 30 seconds)"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "4:6",
-      "8:7e",
-      "8:8b",
-      "8:9",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "8.22",
@@ -3597,17 +2021,7 @@
       "b": "Disqualification for WHITE 11 (red card shown by the referees)",
       "c": "7-meter throw for BLACK team",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "8:5",
-      "13:1b",
-      "16:6a",
-      "Clarification 6"
-    ]
+    }
   },
   {
     "id": "8.23",
@@ -3618,15 +2032,7 @@
       "c": "When a 7-meter thrower hits the goalkeeper’s head, and the goalkeeper is not moving his head in the direction of the ball",
       "d": "After a decision from the referees, a player demonstratively throws the ball into the stands",
       "e": "A player outside the playing court spits on a spectator"
-    },
-    "correct": [
-      "b",
-      "e"
-    ],
-    "rule": [
-      "8:10",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "8.24",
@@ -3636,14 +2042,7 @@
       "b": "Disqualification without written report for WHITE 3 (red card shown by the referees), which causes an immediate 2-minute reduction of WHITE team on the court",
       "c": "WHITE team reduced by one player on the court for 4 minutes",
       "d": "Disqualification for WHITE 3, written report (red and blue card shown by the referees), which causes an immediate 2-minute reduction of WHITE team on the court"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "8:10a",
-      "16:8"
-    ]
+    }
   },
   {
     "id": "8.25",
@@ -3653,14 +2052,7 @@
       "b": "2-minute suspension for WHITE 3",
       "c": "Disqualification without written report for WHITE 3 (red card shown by the referees)",
       "d": "Disqualification for WHITE 3, written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "8:6b",
-      "16:6a"
-    ]
+    }
   },
   {
     "id": "8.26",
@@ -3670,16 +2062,7 @@
       "b": "Disqualification without written report of BLACK 4 (red card shown by the referees), BLACK team is reduced by one player on the court for 2 minutes at the beginning of the match",
       "c": "Disqualification of BLACK 4, written report (red and blue card shown by the referees), BLACK team may use 14 players in the match",
       "d": "Disqualification of BLACK 4, written report (red and blue card shown by the referees), BLACK team may use 14 players in the match but is reduced by one player on the court for 2 minutes at the beginning of the match"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "8:10a",
-      "16:6b",
-      "16:11b",
-      "17:10"
-    ]
+    }
   },
   {
     "id": "8.27",
@@ -3689,16 +2072,7 @@
       "b": "Disqualification of BLACK 1 and WHITE 3, written reports (red and blue cards shown by the referees). The teams may use 14 players each in the match, but both teams are reduced by one player on the court for 2 minutes at the beginning of the match",
       "c": "Both players receive a 2-minute suspension, which must be served at the beginning of the match. Written report.",
       "d": "Disqualification of BLACK 1 and WHITE 3, written reports (red and blue cards shown by the referees). The teams may use 14 players each in the match."
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "8:10a",
-      "16:6a",
-      "16:11b",
-      "17:10"
-    ]
+    }
   },
   {
     "id": "8.28",
@@ -3709,16 +2083,7 @@
       "c": "Disqualification without written report of BLACK 5 (red card shown by the referees)",
       "d": "2-minute suspension for BLACK 5",
       "e": "Disqualification of BLACK 5, written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "8:5",
-      "13:1b",
-      "16:6a"
-    ]
+    }
   },
   {
     "id": "8.29",
@@ -3729,20 +2094,7 @@
       "c": "7-meter throw into the face of the goalkeeper, who is not moving in direction of the ball",
       "d": "After a referee-decision a player throws the ball into the stands as a protest",
       "e": "The goalkeeper leaves the goal area and gains possession of the ball but causes a collision with an opponent, who is running in a counter-attack"
-    },
-    "correct": [
-      "b",
-      "c",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "8:5",
-      "8:9a",
-      "8:9d",
-      "16:6a",
-      "b"
-    ]
+    }
   },
   {
     "id": "8.30",
@@ -3754,20 +2106,7 @@
       "d": "Written report about the behavior of WHITE 9",
       "e": "Disqualification without written report of BLACK 3 (red card shown by the referees)",
       "f": "WHITE 10 must leave the court after receiving medical care and can only re-enter following the third attack of his team"
-    },
-    "correct": [
-      "a",
-      "b",
-      "d"
-    ],
-    "rule": [
-      "2:8a",
-      "4:11",
-      "8:6a",
-      "16:6a",
-      "17:2",
-      "17:10"
-    ]
+    }
   },
   {
     "id": "8.31",
@@ -3777,20 +2116,7 @@
       "b": "Infractions when the opponents are executing formal throw",
       "c": "Failure to put the ball down on the floor, when a decision is made against one’s own team",
       "d": "A goalkeeper’s attempt to make a substitution, when an opponent is ready to execute a 7- meter throw"
-    },
-    "correct": [
-      "a",
-      "b",
-      "d"
-    ],
-    "rule": [
-      "8:3",
-      "8:7c",
-      "8:8b",
-      "14:10",
-      "16:1b",
-      "16:3c"
-    ]
+    }
   },
   {
     "id": "8.32",
@@ -3802,15 +2128,7 @@
       "d": "Actively blocking a shot by using a foot or lover leg",
       "e": "Repeated entering the goal area for tactical reasons",
       "f": "An act of revenge after having been fouled"
-    },
-    "correct": [
-      "c",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "8:7"
-    ]
+    }
   },
   {
     "id": "8.33",
@@ -3820,17 +2138,7 @@
       "b": "A particularly reckless or dangerous action",
       "c": "An act of revenge after having been fouled",
       "d": "A malicious action, which is not in any way related to the game situation"
-    },
-    "correct": [
-      "a",
-      "b",
-      "d"
-    ],
-    "rule": [
-      "8:5",
-      "8:6",
-      "8:9f"
-    ]
+    }
   },
   {
     "id": "8.34",
@@ -3842,17 +2150,7 @@
       "d": "7-meter throw for WHITE team",
       "e": "Throw-off for WHITE team",
       "f": "Disqualification of BLACK 5, written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "8:10c",
-      "10:3",
-      "15:2",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "8.35",
@@ -3864,18 +2162,7 @@
       "d": "BLACK team will be reduced by two players on the court for the next 2 minutes",
       "e": "Free-throw for WHITE team",
       "f": "Time-out"
-    },
-    "correct": [
-      "a",
-      "c",
-      "e",
-      "f"
-    ],
-    "rule": [
-      "2:8a",
-      "8:7a",
-      "16:3d"
-    ]
+    }
   },
   {
     "id": "8.36",
@@ -3887,16 +2174,7 @@
       "d": "Free-throw for WHITE team",
       "e": "Free-throw for BLACK team",
       "f": "7-meter throw for WHITE team"
-    },
-    "correct": [
-      "c",
-      "f"
-    ],
-    "rule": [
-      "8:5 comment",
-      "14:1a",
-      "16:6a"
-    ]
+    }
   },
   {
     "id": "8.37",
@@ -3908,15 +2186,7 @@
       "d": "Free-throw for WHITE team",
       "e": "7-meter throw for BLACK team",
       "f": "Disqualification of official A from BLACK team, written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "d",
-      "f"
-    ],
-    "rule": [
-      "8:10",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "8.38",
@@ -3926,19 +2196,7 @@
       "b": "2-minute suspension for official A from WHITE team. WHITE team is reduced by one player on the court for 2 minutes",
       "c": "Disqualification of official A from WHITE team, written report (red and blue card shown by the referees). WHITE team is reduced by one player on the court for 2 minutes",
       "d": "Time-out"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "2:8",
-      "8:7a",
-      "8:10a",
-      "16:6b",
-      "16:8",
-      "Substitution Area Regulations 5"
-    ]
+    }
   },
   {
     "id": "8.39",
@@ -3949,20 +2207,7 @@
       "c": "Warning for BLACK 3",
       "d": "2-minute suspension for BLACK 3",
       "e": "Time-out"
-    },
-    "correct": [
-      "b",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "8:7c",
-      "12:2",
-      "15:4",
-      "15:9",
-      "16:1b",
-      "16:3d"
-    ]
+    }
   },
   {
     "id": "8.40",
@@ -3972,17 +2217,7 @@
       "b": "Free-throw for WHITE team",
       "c": "Goalkeeper-throw for BLACK team",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "6:5",
-      "8:2",
-      "8:3",
-      "12:1"
-    ]
+    }
   },
   {
     "id": "8.41",
@@ -3992,14 +2227,7 @@
       "b": "2-minute suspension for WHITE 7, WHITE 7 must remain 4 minutes on the bench",
       "c": "An additional 2-minute suspension for WHITE 7, WHITE team will be reduced by two players on the court for 1 minute and 50 seconds and then by one player on the court for 10 seconds",
       "d": "Warning because the progressive punishment on the bench is separate from the punishments on the court"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "8:8a",
-      "16:3f"
-    ]
+    }
   },
   {
     "id": "8.42",
@@ -4009,14 +2237,7 @@
       "b": "Always with a 2-minute suspension",
       "c": "Disqualification without written report (red card shown by the referees)",
       "d": "Disqualification, written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "8:9",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "8.43",
@@ -4027,19 +2248,7 @@
       "c": "Disqualification of WHITE 12",
       "d": "2-minute suspension for WHITE 12",
       "e": "7-meter throw for BLACK team"
-    },
-    "correct": [
-      "a",
-      "b",
-      "d"
-    ],
-    "rule": [
-      "2:8",
-      "8:4b",
-      "9:1",
-      "10:2",
-      "16:3c"
-    ]
+    }
   },
   {
     "id": "8.44",
@@ -4050,17 +2259,7 @@
       "c": "7-meter throw for WHITE team",
       "d": "Progressive punishment for BLACK 1",
       "e": "Disqualification without written report of BLACK 1 (red card shown by the referees)"
-    },
-    "correct": [
-      "c",
-      "e"
-    ],
-    "rule": [
-      "8:5 comment",
-      "14:1a",
-      "16:6a",
-      "Clarification 6c"
-    ]
+    }
   },
   {
     "id": "8.45",
@@ -4072,18 +2271,7 @@
       "d": "After a referee decision, a player throws the ball demonstratively into the stands",
       "e": "A player outside the playing court spits on a spectator and hits him",
       "f": "A player intentionally hits an opponent in the stomach"
-    },
-    "correct": [
-      "a",
-      "b",
-      "e",
-      "f"
-    ],
-    "rule": [
-      "8:9a",
-      "8:9d",
-      "8:10a"
-    ]
+    }
   },
   {
     "id": "8.46",
@@ -4094,16 +2282,7 @@
       "c": "Red card for WHITE 1",
       "d": "Blue card for WHITE 1",
       "e": "Goalkeeper-Throw"
-    },
-    "correct": [
-      "c",
-      "e"
-    ],
-    "rule": [
-      "8:5 Comment 2nd paragraph",
-      "14:1, 14:2",
-      "Guidelines and Interpretations"
-    ]
+    }
   },
   {
     "id": "8.47",
@@ -4114,16 +2293,7 @@
       "c": "7-meter throw for BLACK team",
       "d": "2-minute suspension for WHITE 2",
       "e": "Time-out"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "4:1",
-      "8:1, 8:2",
-      "14:1a",
-      "Clarification 6c"
-    ]
+    }
   },
   {
     "id": "8.48",
@@ -4134,20 +2304,7 @@
       "c": "7-meter throw for BLACK team",
       "d": "2-minute suspension for WHITE 2",
       "e": "Time-out"
-    },
-    "correct": [
-      "c",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "2:8",
-      "4:1",
-      "8:4b",
-      "14:1a",
-      "16:3c",
-      "Clarification 6c"
-    ]
+    }
   },
   {
     "id": "8.49",
@@ -4156,15 +2313,7 @@
       "a": "Goalkeeper-throw for WHITE team",
       "b": "Free-throw for BLACK team",
       "c": "7-meter throw for BLACK team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "4:1",
-      "8:2",
-      "13:1b"
-    ]
+    }
   },
   {
     "id": "8.50",
@@ -4176,17 +2325,7 @@
       "d": "7-meter throw for BLACK team",
       "e": "2-minute suspension for WHITE 1",
       "f": "2-minute suspension for WHITE 7"
-    },
-    "correct": [
-      "a",
-      "b",
-      "e"
-    ],
-    "rule": [
-      "2:8",
-      "4:1, 4:4-6",
-      "12:1 (II)"
-    ]
+    }
   },
   {
     "id": "8.51",
@@ -4196,18 +2335,7 @@
       "b": "Free-throw for BLACK team",
       "c": "7-meter Throw for BLACK team",
       "d": "Progressive punishment for WHITE 10"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "4:1",
-      "8:7",
-      "14:1a",
-      "16:1b",
-      "16:3d"
-    ]
+    }
   },
   {
     "id": "8.52",
@@ -4217,17 +2345,7 @@
       "b": "The goalkeeper-throw may be executed by any player on the court from WHITE team to keep the flow in the game",
       "c": "WHITE team has to make at substitution to get a goalkeeper on the court to execute the goalkeeper-throw",
       "d": "Time-out is obligatory"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "2:8",
-      "4:1",
-      "12:1",
-      "12:2"
-    ]
+    }
   },
   {
     "id": "8.53",
@@ -4238,15 +2356,7 @@
       "c": "Free-throw for WHITE team",
       "d": "7-meter throw for WHITE team",
       "e": "Goalkeeper throw for BLACK team"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "4:1, 4:4-5",
-      "13:1b"
-    ]
+    }
   },
   {
     "id": "8.54",
@@ -4257,15 +2367,7 @@
       "c": "Free-throw for WHITE team",
       "d": "7-meter throw for WHITE team",
       "e": "Goal for WHITE team"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "4:1, 4:4-5",
-      "14:1"
-    ]
+    }
   },
   {
     "id": "8.55",
@@ -4275,14 +2377,7 @@
       "b": "Time-out",
       "c": "A goalkeeper must enter the court under a correct substitution to get the ball in the goal area",
       "d": "The ball is free to be picked up by any court player from BLACK team"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "4:1"
-    ]
+    }
   },
   {
     "id": "8.56",
@@ -4294,16 +2389,7 @@
       "d": "2-minute suspension for WHITE 3",
       "e": "Disqualification for WHITE 3 (red card shown by the referees)",
       "f": "Disqualification with written report for WHITE 3 (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "8:4b",
-      "13:1b",
-      "16:3c"
-    ]
+    }
   },
   {
     "id": "8.57",
@@ -4315,17 +2401,7 @@
       "d": "2-minute suspension for WHITE 11",
       "e": "Disqualification for WHITE 11 (red card shown by the referees)",
       "f": "Disqualification with written report for WHITE 11 (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "c",
-      "e"
-    ],
-    "rule": [
-      "2:4",
-      "8:5a",
-      "8:10d",
-      "16:6a"
-    ]
+    }
   },
   {
     "id": "8.58",
@@ -4336,18 +2412,7 @@
       "c": "2-minute suspension for WHITE 2",
       "d": "Disqualification for WHITE 2 (red card shown by the referees)",
       "e": "Time-out"
-    },
-    "correct": [
-      "a",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "2:8",
-      "8:5a",
-      "13:1b",
-      "16:6a"
-    ]
+    }
   },
   {
     "id": "8.59",
@@ -4359,16 +2424,7 @@
       "d": "2-minutes suspension for WHITE 2",
       "e": "Disqualification for WHITE 2 (red card shown by the referees)",
       "f": "Disqualification with written report for WHITE 2 (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "a",
-      "c",
-      "e"
-    ],
-    "rule": [
-      "2:8",
-      "8:10c"
-    ]
+    }
   },
   {
     "id": "8.6",
@@ -4378,18 +2434,7 @@
       "b": "Disqualification for WHITE 5 (red card shown by the referees)",
       "c": "Free-throw for BLACK team after whistle signal",
       "d": "7-meter throw for BLACK team"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "2:8",
-      "8:7",
-      "15:7",
-      "15:9",
-      "16:3d"
-    ]
+    }
   },
   {
     "id": "8.61",
@@ -4399,15 +2444,7 @@
       "b": "Disqualification for WHITE 5 (red card shown by the referees)",
       "c": "Free-throw for BLACK team",
       "d": "7-meter throw for BLACK team"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "2:8",
-      "8:10c"
-    ]
+    }
   },
   {
     "id": "8.62",
@@ -4419,16 +2456,7 @@
       "d": "Disqualification for WHITE 2 (red card shown by the referees)",
       "e": "Free-throw for BLACK team",
       "f": "7-meter throw for BLACK team"
-    },
-    "correct": [
-      "b",
-      "d",
-      "f"
-    ],
-    "rule": [
-      "2:8",
-      "8:10c"
-    ]
+    }
   },
   {
     "id": "9.1",
@@ -4438,17 +2466,7 @@
       "b": "Goal for BLACK team",
       "c": "7-meter throw for BLACK team",
       "d": "Progressive punishment against WHITE 7"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "7:8",
-      "9:1",
-      "13:2",
-      "16:1b"
-    ]
+    }
   },
   {
     "id": "9.2",
@@ -4458,15 +2476,7 @@
       "b": "Goal for WHITE team",
       "c": "7-meter throw for WHITE team",
       "d": "Goalkeeper-throw for BLACK team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "7:8",
-      "9:1",
-      "13:2"
-    ]
+    }
   },
   {
     "id": "9.3",
@@ -4476,15 +2486,7 @@
       "b": "7-meter throw for BLACK team",
       "c": "Progressive punishment against WHITE 3",
       "d": "Goal for BLACK team"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "6:3b",
-      "9:1",
-      "13:2"
-    ]
+    }
   },
   {
     "id": "9.4",
@@ -4493,15 +2495,7 @@
       "a": "Goal for BLACK team",
       "b": "Free-throw for BLACK team",
       "c": "Goalkeeper-throw for WHITE team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "6:4",
-      "9:1",
-      "12:1"
-    ]
+    }
   },
   {
     "id": "9.5",
@@ -4511,14 +2505,7 @@
       "b": "7-meter throw for BLACK team",
       "c": "Goal for BLACK team",
       "d": "Goalkeeper-throw for WHITE team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "9:1",
-      "14:2"
-    ]
+    }
   },
   {
     "id": "9.6",
@@ -4528,14 +2515,7 @@
       "b": "Goal for WHITE team",
       "c": "Disqualification of BLACK team’s manager with written report (red and blue card shown by the referees)",
       "d": "Written report"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "9.1, comment"
-    ]
+    }
   },
   {
     "id": "9.7",
@@ -4546,14 +2526,7 @@
       "c": "Final score 25-26",
       "d": "Disqualification of the official with written report (red and blue card shown by the referees)",
       "e": "Written report"
-    },
-    "correct": [
-      "c",
-      "e"
-    ],
-    "rule": [
-      "9.1, comment"
-    ]
+    }
   },
   {
     "id": "9.8",
@@ -4563,17 +2536,7 @@
       "b": "BLACK 9 receives an additional suspension",
       "c": "Both goals are valid",
       "d": "Both goals are invalid"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "4:6",
-      "9:1",
-      "9:2",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "9.9",
@@ -4584,14 +2547,7 @@
       "c": "Repetition of the throw-off after whistle signal",
       "d": "Personal punishment for WHITE 5",
       "e": "Time-out"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "9:1",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "9.10",
@@ -4600,16 +2556,7 @@
       "a": "Goal for BLACK team",
       "b": "Free-throw for BLACK team",
       "c": "Progressive punishment for WHITE 9"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "8:7e",
-      "9:1",
-      "16:1b"
-    ]
+    }
   },
   {
     "id": "10.1",
@@ -4619,13 +2566,7 @@
       "b": "Change ends if WHITE team agrees",
       "c": "Coin Toss again",
       "d": "Do not change ends"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "10:1"
-    ]
+    }
   },
   {
     "id": "10.2",
@@ -4635,13 +2576,7 @@
       "b": "Change ends and throw-off by BLACK team",
       "c": "Repeat coin toss",
       "d": "The team representatives must come to an agreement"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "10:1"
-    ]
+    }
   },
   {
     "id": "10.3",
@@ -4650,13 +2585,7 @@
       "a": "Up to 3 meters behind the centre line in the team’s own half",
       "b": "Up to 3 meters across the centre line on the opponent’s half of the court",
       "c": "At the centre of the court with one foot on the centre line and the other foot on or behind the line, with a tolerance sideways of about 1.5 meters"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "10:3"
-    ]
+    }
   },
   {
     "id": "10.4",
@@ -4665,15 +2594,7 @@
       "a": "Correction; then whistle signal for executing the throw-off",
       "b": "The position is correct; whistle signal for executing the throw-off",
       "c": "Time-out; correction; whistle signal for executing the throw-off"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "10:3",
-      "15:1",
-      "15:6"
-    ]
+    }
   },
   {
     "id": "10.5",
@@ -4683,15 +2604,7 @@
       "b": "Repeat the throw-off",
       "c": "Goal for WHITE team",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "9:1",
-      "10:4",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "10.6",
@@ -4702,18 +2615,7 @@
       "c": "Illegal positions of the defending team must be corrected",
       "d": "If the thrower dribbles the ball after the whistle signal to execute the throw-off, then a free-throw must be awarded to the opponents",
       "e": "The teammates of the thrower are allowed to cross the centre line, until the throw has been taken"
-    },
-    "correct": [
-      "b",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "10:3",
-      "15:2",
-      "15:3",
-      "15:4"
-    ]
+    }
   },
   {
     "id": "10.7",
@@ -4723,14 +2625,7 @@
       "b": "Free-throw for WHITE team",
       "c": "Correction of the positions of WHITE team and repeated throw-off after whistle signal",
       "d": "Correction of the position of BLACK 6 and repeated throw-off after whistle signal"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "10:3",
-      "15:7"
-    ]
+    }
   },
   {
     "id": "11.1",
@@ -4740,15 +2635,7 @@
       "b": "Free-throw for BLACK team",
       "c": "Repeat the throw-in without whistle signal",
       "d": "Repeat the throw-in after whistle signal"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "11:4",
-      "15:1",
-      "15:5"
-    ]
+    }
   },
   {
     "id": "11.2",
@@ -4758,14 +2645,7 @@
       "b": "Repeat the throw-in for BLACK team after whistle signal",
       "c": "Free-throw for WHITE team",
       "d": "Goalkeeper-throw for WHITE team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "11:4",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "11.3",
@@ -4775,15 +2655,7 @@
       "b": "Free-throw for BLACK team",
       "c": "Goal for WHITE team",
       "d": "Goalkeeper throw for BLACK team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "11:4",
-      "15:1",
-      "15:5"
-    ]
+    }
   },
   {
     "id": "11.4",
@@ -4794,13 +2666,7 @@
       "c": "Free-throw for BLACK team after whistle signal",
       "d": "Throw-in for BLACK team after whistle signal",
       "e": "Mandatory time-out"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "11:1"
-    ]
+    }
   },
   {
     "id": "11.5",
@@ -4809,16 +2675,7 @@
       "a": "As soon as the referee has given the signal for the execution of the throw",
       "b": "When the ball has left the hand of the player executing the throw",
       "c": "In case of a free-throw or throw-in, when the players are positioned at their own goal-area line"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "11:5",
-      "13:8",
-      "15:4"
-    ]
+    }
   },
   {
     "id": "11.6",
@@ -4827,13 +2684,7 @@
       "a": "The game continues without interruption",
       "b": "Free-throw for BLACK team",
       "c": "Throw-in for BLACK team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "11:1"
-    ]
+    }
   },
   {
     "id": "12.1",
@@ -4842,14 +2693,7 @@
       "a": "The goalkeeper-throw is to be retaken after whistle signal",
       "b": "Free-throw for BLACK team",
       "c": "Let the game continue without interruption"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "1:3",
-      "12:2"
-    ]
+    }
   },
   {
     "id": "12.2",
@@ -4858,16 +2702,7 @@
       "a": "The 7-meter throw is to be retaken after whistle signal",
       "b": "Since there is no goal, the game continues with a goalkeeper-throw",
       "c": "The position of the goalkeeper is correct"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "1:3",
-      "12:1",
-      "14:9"
-    ]
+    }
   },
   {
     "id": "12.3",
@@ -4877,13 +2712,7 @@
       "b": "Throw-in for BLACK team",
       "c": "Goalkeeper-throw for WHITE team",
       "d": "Free-throw for WHITE team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "12:1"
-    ]
+    }
   },
   {
     "id": "12.4",
@@ -4893,14 +2722,7 @@
       "b": "Free-throw for BLACK team",
       "c": "Time-out",
       "d": "Correction, goalkeeper-throw after whistle signal"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "12:2",
-      "15:5b"
-    ]
+    }
   },
   {
     "id": "12.5",
@@ -4910,13 +2732,7 @@
       "b": "When the ball has left the hand of the goalkeeper, passed the goal area line and entered the playing area",
       "c": "When the ball has left the hand of the goalkeeper",
       "d": "When a teammate of the goalkeeper has touched the ball"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "12:2"
-    ]
+    }
   },
   {
     "id": "12.6",
@@ -4926,13 +2742,7 @@
       "b": "Goal for BLACK team",
       "c": "Goalkeeper-throw for WHITE team",
       "d": "Progressive punishment against BLACK 10"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "12:2"
-    ]
+    }
   },
   {
     "id": "12.7",
@@ -4942,14 +2752,7 @@
       "b": "Number 9: free-throw direction",
       "c": "First number 9: free-throw direction, then number 8: goalkeeper-throw",
       "d": "First number 8: goalkeeper-throw, then number 9: free-throw direction"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "12:1",
-      "Hand signals"
-    ]
+    }
   },
   {
     "id": "12.8",
@@ -4959,13 +2762,7 @@
       "b": "Throw-in for BLACK team",
       "c": "Free-throw for BLACK team",
       "d": "7-meter throw for BLACK team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "12:2"
-    ]
+    }
   },
   {
     "id": "12.9",
@@ -4975,14 +2772,7 @@
       "b": "The opponents must keep the distance of 3 meters",
       "c": "The goalkeeper-throw is considered taken, when the ball has left the hand of the goalkeeper and has passed the goal-area line",
       "d": "The opponents are allowed to stand immediately outside the goal-area line"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "12:2"
-    ]
+    }
   },
   {
     "id": "12.10",
@@ -4991,13 +2781,7 @@
       "a": "Goalkeeper-throw for BLACK team after whistle signal",
       "b": "Free-throw for WHITE team",
       "c": "7-meter throw for WHITE team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "12:2"
-    ]
+    }
   },
   {
     "id": "12.11",
@@ -5009,15 +2793,7 @@
       "d": "The goalkeeper cannot score an own goal, when he is executing a goalkeeper-throw",
       "e": "The goalkeeper cannot score a goal against the opponents directly with a goalkeeper- throw",
       "f": "The goalkeeper is not allowed to touch the goal-area line, while he is executing a goalkeeper-throw"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "9:1",
-      "12:2",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "13.1",
@@ -5028,18 +2804,7 @@
       "c": "Warning for BLACK 6",
       "d": "The game continues without interruption",
       "e": "Time-out"
-    },
-    "correct": [
-      "a",
-      "b",
-      "e"
-    ],
-    "rule": [
-      "8:8b",
-      "13:5",
-      "15:5b",
-      "16:3f"
-    ]
+    }
   },
   {
     "id": "13.2",
@@ -5050,18 +2815,7 @@
       "c": "Goalkeeper-throw for WHITE team",
       "d": "Time-out",
       "e": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "b",
-      "c",
-      "d"
-    ],
-    "rule": [
-      "2:8a",
-      "8:3",
-      "13:2",
-      "16:3b"
-    ]
+    }
   },
   {
     "id": "13.3",
@@ -5072,16 +2826,7 @@
       "c": "Disqualification of BLACK 6 (red card shown by the referees)",
       "d": "Free-throw for WHITE team at the place of the infraction, that has led to the free-throw",
       "e": "Free-throw for WHITE team from the place, where the ball is"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "8:8b",
-      "13:5, 13:6 Comment",
-      "16:3f"
-    ]
+    }
   },
   {
     "id": "13.4",
@@ -5091,16 +2836,7 @@
       "b": "Warning for WHITE 4",
       "c": "7-meter throw for BLACK team",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "8:8b",
-      "13:5",
-      "16:3f"
-    ]
+    }
   },
   {
     "id": "13.5",
@@ -5110,16 +2846,7 @@
       "b": "Free-throw after whistle signal for WHITE team at the substitution area of WHITE team",
       "c": "Free-throw after whistle signal for WHITE team, executed from the place where the ball was, when the game was interrupted",
       "d": "Throw-in for BLACK team at the substitution area of WHITE team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "8:7a",
-      "13:1a",
-      "13:6",
-      "16:1b"
-    ]
+    }
   },
   {
     "id": "13.6",
@@ -5129,13 +2856,7 @@
       "b": "Free-throw for WHITE team",
       "c": "7-meter throw for BLACK team",
       "d": "Goal for BLACK team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "13:4a"
-    ]
+    }
   },
   {
     "id": "13.7",
@@ -5146,17 +2867,7 @@
       "c": "Free-throw for WHITE team after whistle signal",
       "d": "Time-out",
       "e": "BLACK 12 must leave the court and can only re-enter following the third attack of his team"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "4:11",
-      "13:4b",
-      "Clarification 2",
-      "Clarification 8"
-    ]
+    }
   },
   {
     "id": "13.8",
@@ -5166,15 +2877,7 @@
       "b": "Warning for WHITE 5 and free-throw for BLACK team executed from the spot, where the ball is now",
       "c": "2-minute suspension for WHITE 5 and free-throw for BLACK team executed from the spot, where the foul was committed",
       "d": "Warning for WHITE 5 and free-throw for BLACK team executed from the spot, where the foul was committed"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "8:8b",
-      "13:5, 13:6 comment",
-      "16:3f"
-    ]
+    }
   },
   {
     "id": "13.9",
@@ -5184,16 +2887,7 @@
       "b": "7-meter throw for WHITE team",
       "c": "2-minute suspension for WHITE 5",
       "d": "Warning for the responsible team official from WHITE team"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "4:5",
-      "13:3",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "13.10",
@@ -5203,16 +2897,7 @@
       "b": "After a faulty substitution the free-throw can be taken, where the ball is, instead of the place at substitution area, if this is advantageous for the team executing the throw",
       "c": "After passive play the free-throw is always taken from the place, where the ball was, when the free-throw was given",
       "d": "For a free-throw from the centre-line, the tolerance to the side is about the same as in case of a throw-off"
-    },
-    "correct": [
-      "b",
-      "c",
-      "d"
-    ],
-    "rule": [
-      "7:11",
-      "13:6, 13:6 comment"
-    ]
+    }
   },
   {
     "id": "13.11",
@@ -5222,14 +2907,7 @@
       "b": "Time-out; consultation with the timekeeper",
       "c": "Free-throw for WHITE team",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "13:4a"
-    ]
+    }
   },
   {
     "id": "13.12",
@@ -5238,16 +2916,7 @@
       "a": "Progressive punishment for official A from BLACK team",
       "b": "Free-throw for WHITE team at the substitution area of BLACK team",
       "c": "Free-throw for WHITE team at the free-throw line of BLACK team"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "8:7",
-      "13:6",
-      "Substitution Area Regulations 5, Substitution Area Regulations 6"
-    ]
+    }
   },
   {
     "id": "13.13",
@@ -5258,15 +2927,7 @@
       "c": "The goal-line referee decides a free-throw for BLACK team",
       "d": "The goal-line referee gives WHITE 11 a warning",
       "e": "Time-out"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "13:7",
-      "15:1",
-      "15:5b"
-    ]
+    }
   },
   {
     "id": "14.1",
@@ -5276,16 +2937,7 @@
       "b": "Time-out; 7-meter throw for BLACK team; disqualification of team official A from BLACK team; reduce BLACK team on the court with one player for 2 minutes; written report (red and blue card shown by the referees)",
       "c": "Time-out; 7-meter throw for BLACK team; disqualification of team official A from BLACK team; reduce BLACK team on the court with one player for 2 minutes; (red card shown by the referees)",
       "d": "Time-out; 7-meter throw for BLACK team: 2-minute suspension of team official A from BLACK team; reduce BLACK team on the court with one player for 2 minute"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "2:8a",
-      "8:10a",
-      "14:1c",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "14.2",
@@ -5295,14 +2947,7 @@
       "b": "Free-throw for BLACK team",
       "c": "7-meter throw for BLACK team",
       "d": "Progressive punishment against WHITE 3"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "14:1a",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "14.3",
@@ -5311,13 +2956,7 @@
       "a": "Free-throw for BLACK team",
       "b": "Goalkeeper-throw for BLACK team",
       "c": "Goal for WHITE team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "14:6"
-    ]
+    }
   },
   {
     "id": "14.4",
@@ -5327,16 +2966,7 @@
       "b": "Progressive punishment against BLACK 4",
       "c": "Free-throw for WHITE team",
       "d": "7-meter throw for WHITE team"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "8:3c",
-      "14:1a",
-      "16:1a"
-    ]
+    }
   },
   {
     "id": "14.5",
@@ -5346,15 +2976,7 @@
       "b": "Repeat the 7-meter throw",
       "c": "Free-throw for BLACK team",
       "d": "Repeat the throw and warning for WHITE 4"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "13:1a",
-      "14:7",
-      "15:7"
-    ]
+    }
   },
   {
     "id": "14.6",
@@ -5364,13 +2986,7 @@
       "b": "Goal and 2-minute suspension for WHITE 5",
       "c": "Goal for BLACK team",
       "d": "Repeated 7-meter throw and disqualification of WHITE 5"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "14:8"
-    ]
+    }
   },
   {
     "id": "14.7",
@@ -5380,14 +2996,7 @@
       "b": "Warning for official A from BLACK team",
       "c": "Warning for official A from BLACK team and BLACK 12",
       "d": "Warning for BLACK 12"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "14:10",
-      "16:1b"
-    ]
+    }
   },
   {
     "id": "14.8",
@@ -5397,15 +3006,7 @@
       "b": "Throw-in for WHITE team",
       "c": "Free-throw for WHITE team",
       "d": "Goalkeeper-throw for BLACK team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "6:2c",
-      "14:1a",
-      "Clarification 6"
-    ]
+    }
   },
   {
     "id": "14.9",
@@ -5415,15 +3016,7 @@
       "b": "Free-throw for BLACK team",
       "c": "Goalkeeper-throw for BLACK team",
       "d": "Progressive punishment against WHITE 5"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "13:1a",
-      "14:7",
-      "15:7"
-    ]
+    }
   },
   {
     "id": "14.10",
@@ -5432,17 +3025,7 @@
       "a": "Free-throw for WHITE team",
       "b": "7-meter throw for WHITE team",
       "c": "Progressive punishment for BLACK 3"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "8:7f",
-      "14:1a",
-      "16:1b",
-      "Clarification 6a"
-    ]
+    }
   },
   {
     "id": "14.11",
@@ -5453,16 +3036,7 @@
       "c": "7-meter throw for BLACK team, if no other player from WHITE team could legally stop BLACK 10 from shooting",
       "d": "Progressive punishment for WHITE 2",
       "e": "Mandatory disqualification of WHITE 2 (red card shown by the referees)"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "8:2c",
-      "14:1a",
-      "Clarification 6a"
-    ]
+    }
   },
   {
     "id": "14.12",
@@ -5473,14 +3047,7 @@
       "c": "Free-throw for WHITE team",
       "d": "Goalkeeper-throw for BLACK team after whistle signal",
       "e": "Statement in the score sheet"
-    },
-    "correct": [
-      "b",
-      "e"
-    ],
-    "rule": [
-      "14:1c"
-    ]
+    }
   },
   {
     "id": "14.13",
@@ -5490,16 +3057,7 @@
       "b": "7-meter throw for WHITE team",
       "c": "Statement in the score sheet",
       "d": "Free-throw for WHITE team at the place, where the ball was, when the whistle signal came"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "2:3",
-      "14:1b",
-      "Clarification 6a"
-    ]
+    }
   },
   {
     "id": "14.14",
@@ -5509,16 +3067,7 @@
       "b": "The referees must give time-out, if the defending team is changing goalkeepers",
       "c": "The goalkeeper shall be given a personal punishment, if he repeatedly crosses the goalkeeper’s restraining line",
       "d": "The players of the defending team must always be 3 meters away from the thrower"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "14:3",
-      "14:5",
-      "14:8",
-      "14:9"
-    ]
+    }
   },
   {
     "id": "14.15",
@@ -5528,17 +3077,7 @@
       "b": "Offensive foul against WHITE 5",
       "c": "2-minute suspension for BLACK 11",
       "d": "Warning for BLACK 11"
-    },
-    "correct": [
-      "a",
-      "c"
-    ],
-    "rule": [
-      "6:2c",
-      "8:7f",
-      "14:1a",
-      "16:3a"
-    ]
+    }
   },
   {
     "id": "14.16",
@@ -5549,16 +3088,7 @@
       "c": "After the lights are functioning again, the game is restarted with a free-throw for WHITE team",
       "d": "After the lights are functioning again, the game is restarted with a 7-meter throw for WHITE team",
       "e": "Statement in the score sheet"
-    },
-    "correct": [
-      "b",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "14:1c",
-      "Clarification 2a"
-    ]
+    }
   },
   {
     "id": "14.17",
@@ -5567,16 +3097,7 @@
       "a": "Repeat the 7-meter throw for WHITE team",
       "b": "Free-throw for BLACK team",
       "c": "Goalkeeper-throw for BLACK team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "6:4",
-      "12:1",
-      "13:2",
-      "14:7"
-    ]
+    }
   },
   {
     "id": "14.18",
@@ -5586,15 +3107,7 @@
       "b": "Repetition of the 7-meter throw",
       "c": "Free-throw for BLACK team",
       "d": "Time-out"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "13:2",
-      "14:4",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "14.19",
@@ -5604,16 +3117,7 @@
       "b": "Disqualification without written report of BLACK 6 (red card shown by the referees)",
       "c": "2-minute suspension for BLACK 6",
       "d": "7-meter throw for WHITE team"
-    },
-    "correct": [
-      "a",
-      "b"
-    ],
-    "rule": [
-      "8:5",
-      "13:1b",
-      "Clarification 6"
-    ]
+    }
   },
   {
     "id": "15.1",
@@ -5623,14 +3127,7 @@
       "b": "Goalkeeper-throw for WHITE with whistle signal",
       "c": "Goal for BLACK team",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "12:2",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "15.2",
@@ -5641,15 +3138,7 @@
       "c": "Whistle signal for goalkeeper-throw",
       "d": "2-minute suspension for WHITE 12",
       "e": "Show the forewarning signal for passive play"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "5:2",
-      "12:2",
-      "15:5b"
-    ]
+    }
   },
   {
     "id": "15.3",
@@ -5659,16 +3148,7 @@
       "b": "Free-throw for WHITE team",
       "c": "With restart signal",
       "d": "Without restart signal"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "13:1a",
-      "13:7",
-      "15:7"
-    ]
+    }
   },
   {
     "id": "15.4",
@@ -5678,18 +3158,7 @@
       "b": "Free-throw for WHITE team",
       "c": "Goalkeeper-throw after whistle signal",
       "d": "Progressive punishment against BLACK 6"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "12:1",
-      "12:2",
-      "15:5",
-      "15:9",
-      "16:1a"
-    ]
+    }
   },
   {
     "id": "15.5",
@@ -5699,13 +3168,7 @@
       "b": "Goal for WHITE team",
       "c": "Throw-in is retaken after whistle signal",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "15:2"
-    ]
+    }
   },
   {
     "id": "15.6",
@@ -5715,15 +3178,7 @@
       "b": "Repeat the goalkeeper-throw after whistle signal",
       "c": "Throw-in for WHITE team",
       "d": "Free-throw for WHITE team"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "12:1",
-      "12:2",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "15.7",
@@ -5733,14 +3188,7 @@
       "b": "Goal for BLACK team",
       "c": "Goalkeeper-throw for WHITE team",
       "d": "Repeat the throw-in for WHITE team after whistle signal"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "9:1",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "15.8",
@@ -5751,15 +3199,7 @@
       "c": "Free-throw for BLACK team",
       "d": "Repeat the throw-in after whistle signal",
       "e": "Free-throw for WHITE team"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "7:9",
-      "13:1a",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "15.9",
@@ -5769,13 +3209,7 @@
       "b": "Repeat free-throw for WHITE team after whistle signal",
       "c": "Free-throw for WHITE team, warning for BLACK 7",
       "d": "Free-throw for WHITE team, 2-minute suspension for BLACK 7"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "15:2"
-    ]
+    }
   },
   {
     "id": "15.10",
@@ -5785,16 +3219,7 @@
       "b": "Free-throw for WHITE team after whistle signal",
       "c": "2-minute suspension for WHITE 11",
       "d": "Correct the position of WHITE 11 and free-throw after whistle signal"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "15:5b",
-      "15:9",
-      "16:1a",
-      "16:3b"
-    ]
+    }
   },
   {
     "id": "15.11",
@@ -5804,15 +3229,7 @@
       "b": "Free-throw for WHITE team",
       "c": "Goal for BLACK team",
       "d": "Warning for BLACK 8"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "13:7",
-      "15:5b",
-      "15:7"
-    ]
+    }
   },
   {
     "id": "15.12",
@@ -5822,13 +3239,7 @@
       "b": "Throw-in for WHITE team",
       "c": "Goal for BLACK team",
       "d": "Warning for BLACK 12 for unsportsmanlike conduct"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "15:2"
-    ]
+    }
   },
   {
     "id": "15.13",
@@ -5837,18 +3248,7 @@
       "a": "Warning for WHITE 5",
       "b": "No punishment",
       "c": "Third 2-minute suspension for WHITE 5 and disqualification (red card shown by the referees)"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "8:7c",
-      "15:4",
-      "15:9",
-      "16:3d",
-      "16:5",
-      "16:6d"
-    ]
+    }
   },
   {
     "id": "15.14",
@@ -5858,14 +3258,7 @@
       "b": "Time-out",
       "c": "2-minute suspension for WHITE 10",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "13:7",
-      "15:7"
-    ]
+    }
   },
   {
     "id": "15.15",
@@ -5875,16 +3268,7 @@
       "b": "Free-throw for WHITE team after whistle signal",
       "c": "The game continues without interruption",
       "d": "Free-throw for BLACK team"
-    },
-    "correct": [
-      "a",
-      "b"
-    ],
-    "rule": [
-      "13:3",
-      "15:1",
-      "15:7"
-    ]
+    }
   },
   {
     "id": "15.16",
@@ -5894,15 +3278,7 @@
       "b": "Repeat the goalkeeper-throw after whistle signal",
       "c": "Free-throw for WHITE team",
       "d": "Free-throw for BLACK team after whistle signal"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "12:2",
-      "13:1a",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "15.17",
@@ -5912,14 +3288,7 @@
       "b": "Free-throw for WHITE team",
       "c": "Throw-in for WHITE team",
       "d": "Free-throw for WHITE team, BLACK 11 cautioned verbally"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "15:1",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "15.18",
@@ -5929,16 +3298,7 @@
       "b": "Free-throw for BLACK team",
       "c": "7-meter throw for BLACK team",
       "d": "Repeated goalkeeper-throw for WHITE team after whistle signal"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "6:4",
-      "12:1",
-      "12:2",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "15.19",
@@ -5949,14 +3309,7 @@
       "c": "Free-throw for BLACK team",
       "d": "Verbal caution for WHITE 13",
       "e": "Verbal caution for WHITE 7 and WHITE 13"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "15:2",
-      "15:7"
-    ]
+    }
   },
   {
     "id": "15.20",
@@ -5967,15 +3320,7 @@
       "c": "Wait for the result of the throw",
       "d": "Time-out",
       "e": "The game is over; no goal"
-    },
-    "correct": [
-      "e"
-    ],
-    "rule": [
-      "2:3",
-      "2:4",
-      "15:5a"
-    ]
+    }
   },
   {
     "id": "15.21",
@@ -5985,15 +3330,7 @@
       "b": "Correction",
       "c": "Free-throw for WHITE team after whistle signal",
       "d": "Free-throw for BLACK team; warning for WHITE 9 and WHITE 18"
-    },
-    "correct": [
-      "b",
-      "c"
-    ],
-    "rule": [
-      "13:7",
-      "15:1, 15:5, 15:6, 15:7, 2. paragraph"
-    ]
+    }
   },
   {
     "id": "15.22",
@@ -6003,14 +3340,7 @@
       "b": "Free-throw",
       "c": "Throw-in",
       "d": "Throw-off"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "12:2",
-      "15:2"
-    ]
+    }
   },
   {
     "id": "15.23",
@@ -6020,15 +3350,7 @@
       "b": "Throw-in for WHITE team after restart signal",
       "c": "Repetition of the throw-in for BLACK team after whistle signal",
       "d": "Free-throw for BLACK team after whistle signal"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "15:2",
-      "15:7",
-      "15:8"
-    ]
+    }
   },
   {
     "id": "15.24",
@@ -6037,14 +3359,7 @@
       "a": "The game continues without interruption",
       "b": "Free-throw for BLACK team",
       "c": "Repetition of the free-throw for WHITE team after whistle signal"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "15:5b",
-      "15:7"
-    ]
+    }
   },
   {
     "id": "15.25",
@@ -6053,14 +3368,7 @@
       "a": "The game continues without interruption",
       "b": "Repetition of the free-throw after whistle signal",
       "c": "Repetition of the free-throw and progressive punishment for BLACK 3"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "13:2",
-      "15:7, 2. paragraph"
-    ]
+    }
   },
   {
     "id": "16.1",
@@ -6069,13 +3377,7 @@
       "a": "WHITE team is reduced by 2 players on the court for 2 minutes",
       "b": "WHITE team is reduced by 1 player on the court for 4 minutes",
       "c": "WHITE team is reduced by 1 player on the court for 2 minutes"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "16:9"
-    ]
+    }
   },
   {
     "id": "16.2",
@@ -6085,15 +3387,7 @@
       "b": "Disqualification of WHITE 8, WHITE team is reduced by two players on the court for 2 minutes (red card shown by the referees)",
       "c": "Disqualification of WHITE 8, WHITE team is reduced by one player on the court for 4 minutes, written report (red and blue card shown by the referees)",
       "d": "Disqualification of WHITE 8, WHITE team is reduced by two players on the court for 2 minutes, written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "8:10a",
-      "16:6b",
-      "16:9c"
-    ]
+    }
   },
   {
     "id": "16.3",
@@ -6103,13 +3397,7 @@
       "b": 1,
       "c": 2,
       "d": 3
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "16:1 Comment"
-    ]
+    }
   },
   {
     "id": "16.4",
@@ -6119,13 +3407,7 @@
       "b": "When the suspended player crosses the side line",
       "c": "When the referee whistles for the game to be restarted",
       "d": "When the timekeeper starts the stopwatch"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "16:5"
-    ]
+    }
   },
   {
     "id": "16.5",
@@ -6135,13 +3417,7 @@
       "b": "The responsible team official and the timekeeper",
       "c": "Timekeeper/scorekeeper",
       "d": "The suspended player, the responsible team official and the scorekeeper"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "16:4"
-    ]
+    }
   },
   {
     "id": "16.6",
@@ -6150,19 +3426,7 @@
       "a": "2-minute suspension for BLACK 5",
       "b": "Disqualification for BLACK 5, written report (red and blue card shown by the referees; BLACK team is reduced with one player on the court for 4 minutes",
       "c": "Disqualification for BLACK 5, written report (red and blue card shown by the referees); BLACK team is reduced with two players on the court for 2 minutes"
-    },
-    "correct": [
-      "a",
-      "b"
-    ],
-    "rule": [
-      "4:5",
-      "8:10a",
-      "16:3a",
-      "16:6B",
-      "16:6d",
-      "16:9b"
-    ]
+    }
   },
   {
     "id": "16.7",
@@ -6172,16 +3436,7 @@
       "b": "WHITE team is reduced by one player on the court for 2 minutes",
       "c": "WHITE team is reduced by two players on the court for 2 minutes",
       "d": "WHITE team is reduced by one player on the court for 4 minutes"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "8:10a",
-      "16:6b",
-      "16:9c"
-    ]
+    }
   },
   {
     "id": "16.8",
@@ -6192,16 +3447,7 @@
       "c": "WHITE team is reduced with two players on the court for 2 minutes",
       "d": "WHITE team is reduced with one player on the court for 4 minutes",
       "e": "Disqualification of WHITE 7, written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "d",
-      "e"
-    ],
-    "rule": [
-      "8:10a",
-      "16:6b",
-      "16:9c"
-    ]
+    }
   },
   {
     "id": "16.9",
@@ -6211,19 +3457,7 @@
       "b": "Warning for official B from BLACK team",
       "c": "WHITE team is reduced by two players on the court for 2 minutes",
       "d": "WHITE team is reduced by one player on the court for 4 minutes"
-    },
-    "correct": [
-      "a",
-      "b",
-      "d"
-    ],
-    "rule": [
-      "4:2",
-      "8:9",
-      "16:1b",
-      "16:6b",
-      "16:9c"
-    ]
+    }
   },
   {
     "id": "16.10",
@@ -6233,13 +3467,7 @@
       "b": "an infringement outside the court",
       "c": "before the match begins",
       "d": "insulting the referees"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "16:11b"
-    ]
+    }
   },
   {
     "id": "16.11",
@@ -6248,16 +3476,7 @@
       "a": "Disqualification of WHITE 7, written report (red and blue card shown by the referees) WHITE team is reduced by one player on the court for 2 minutes at the beginning of the second half",
       "b": "Warning for WHITE 7",
       "c": "Caution for WHITE 7, because the match was interrupted"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "8:6",
-      "16:6a",
-      "16:10",
-      "17:10"
-    ]
+    }
   },
   {
     "id": "16.12",
@@ -6267,17 +3486,7 @@
       "b": "2-minute suspension for BLACK 7",
       "c": "BLACK team is reduced by one player on the court for 2 minutes at the beginning of the second half",
       "d": "Disqualification of BLACK 7, written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "8:10a",
-      "16:6b",
-      "16:10",
-      "17:10"
-    ]
+    }
   },
   {
     "id": "16.13",
@@ -6287,15 +3496,7 @@
       "b": "Disqualification without written report of WHITE 9 (red card shown by the referees), WHITE team will be reduced by one player on the court for 2 minutes from the beginning of the second half",
       "c": "Disqualification of WHITE 9, WHITE team starts the second half without reduction",
       "d": "Disqualification of WHITE 9, written report (red and blue card shown by the referees), WHITE team will be reduced by one player on the court for 2 minutes from the beginning of the second half"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "8:9",
-      "16:10",
-      "16:6b"
-    ]
+    }
   },
   {
     "id": "16.14",
@@ -6305,13 +3506,7 @@
       "b": "Disqualification of WHITE 10, written report (red and blue card shown by the referees)",
       "c": "Written report",
       "d": "Warning for WHITE 10, written report"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "16:11c"
-    ]
+    }
   },
   {
     "id": "16.15",
@@ -6321,16 +3516,7 @@
       "b": "Disqualification of official B from BLACK team, written report (red and blue card shown by the referees), BLACK team will be reduced by one player on the court for 2 minutes from the beginning of the second half",
       "c": "Disqualification of WHITE 9 (red card shown by the referees), WHITE team will not be reduced from the beginning of the second half",
       "d": "Disqualification of official B from BLACK team (red card shown by the referees), BLACK team will not be reduced from the beginning of the second half"
-    },
-    "correct": [
-      "a",
-      "b"
-    ],
-    "rule": [
-      "8:10a",
-      "16:6",
-      "16:10"
-    ]
+    }
   },
   {
     "id": "16.16",
@@ -6339,13 +3525,7 @@
       "a": "No further action",
       "b": "WHITE team is reduced with one player on the court for 4 minutes",
       "c": "WHITE team is reduced with two players on the court for 2 minutes"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "16:9b"
-    ]
+    }
   },
   {
     "id": "16.17",
@@ -6356,16 +3536,7 @@
       "c": "Disqualification of WHITE 11",
       "d": "WHITE team will be reduced by one player on the court for 2 minutes from the beginning of the second half",
       "e": "WHITE team will not be reduced by players on the court from the beginning of the second half"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "16:3d",
-      "16:5",
-      "16:10"
-    ]
+    }
   },
   {
     "id": "16.18",
@@ -6377,18 +3548,7 @@
       "d": "Disqualification official A from BLACK team (red card shown by the referees)",
       "e": "BLACK team will be reduced by one player on the court for 2 minutes, when the game is restarted",
       "f": "After receiving medical care on the court, WHITE 4 must leave the court and can only re- enter following the third attack of his team"
-    },
-    "correct": [
-      "c",
-      "e",
-      "f"
-    ],
-    "rule": [
-      "4:11",
-      "16:3e",
-      "16:3 comment",
-      "Clarification 8c"
-    ]
+    }
   },
   {
     "id": "16.19",
@@ -6399,14 +3559,7 @@
       "c": "No additional punishment possible",
       "d": "Disqualification of BLACK 9, written report (red and blue card shown by the referees), BLACK team will be reduced by two players on the court for 2 minutes",
       "e": "Disqualification of BLACK 9, written report (red and blue card shown by the referees), BLACK team will be reduced by one player on the court for 4 minutes"
-    },
-    "correct": [
-      "e"
-    ],
-    "rule": [
-      "8:6b",
-      "16:9d"
-    ]
+    }
   },
   {
     "id": "16.20",
@@ -6416,15 +3569,7 @@
       "b": "An additional 2-minute suspension for BLACK 8, BLACK team will be reduced by one player on the court for 4 minutes",
       "c": "Disqualification of BLACK 8 (red card shown by the referees), BLACK team will be reduced by two players on the court for 2 minutes",
       "d": "Disqualification of BLACK 8 (red card shown by the referees), BLACK team will be reduced by one player on the court for 4 minutes"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "8:7a",
-      "16:3d",
-      "16:9a"
-    ]
+    }
   },
   {
     "id": "16.21",
@@ -6436,17 +3581,7 @@
       "d": "A player has just received a 2-minute suspension for unsportsmanlike conduct; after crossing the side line, he comes back onto the court and protests, and he is given an additional 2-minute suspension",
       "e": "A player has just been disqualified for spitting on an opponent. When he is leaving the court, he pushes a referee",
       "f": "A player has just been disqualified for a serious foul; after leaving the court, and after the match has been restarted, he insults the referees while sitting in the spectator’s area"
-    },
-    "correct": [
-      "a",
-      "b",
-      "c",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "16:9"
-    ]
+    }
   },
   {
     "id": "16.22",
@@ -6457,17 +3592,7 @@
       "c": "WHITE team will be reduced by two players on the court from 07:00 to 08:00, by three players from 08:00 to 10:00 and by two players from 10:00 to 11:00",
       "d": "WHITE team will be reduced by 2 players on the court from 07:00 to 08:00, by four players from 0800:10:00 and by 2 players from 10:00 to 11:00",
       "e": "Disqualification of WHITE 5, written report (red and blue card shown by the referees)"
-    },
-    "correct": [
-      "b",
-      "e"
-    ],
-    "rule": [
-      "8:10a",
-      "16:3a",
-      "16:6d",
-      "16:9d"
-    ]
+    }
   },
   {
     "id": "17.1",
@@ -6478,15 +3603,7 @@
       "c": "The 2 referees make a joint decision after consultation",
       "d": "Time-out",
       "e": "No time-out but throw-in executed after whistle signal"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "2:8d",
-      "17:7"
-    ]
+    }
   },
   {
     "id": "17.2",
@@ -6498,14 +3615,7 @@
       "d": "Only one of the referees",
       "e": "Only the timekeeper",
       "f": "Either the timekeeper, the delegate or one of the referees"
-    },
-    "correct": [
-      "f"
-    ],
-    "rule": [
-      "2:3",
-      "17:9"
-    ]
+    }
   },
   {
     "id": "17.3",
@@ -6515,14 +3625,7 @@
       "b": "Disqualification of BLACK 2 (red card shown by the referees)",
       "c": "Free-throw",
       "d": "7-meter throw"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "17:6"
-    ]
+    }
   },
   {
     "id": "17.4",
@@ -6532,13 +3635,7 @@
       "b": "The two referees reach a joint decision",
       "c": "The timekeeper",
       "d": "The two referees and the timekeeper reach a joint decision"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "17:9"
-    ]
+    }
   },
   {
     "id": "17.5",
@@ -6550,19 +3647,7 @@
       "d": "Disqualifications for dangerous fouls or seriously unsportsmanlike conduct in the last 30 seconds of the match, if the action is intended to prevent the opponents from creating a scoring chance",
       "e": "Disqualification due to extremely unsportsmanlike conduct",
       "f": "Any progressive punishment during the last 30 seconds of the game, if the action is intended to prevent the opponents from creating a scoring chance"
-    },
-    "correct": [
-      "e"
-    ],
-    "rule": [
-      "8:5",
-      "8:10a",
-      "8:10b",
-      "8:10c",
-      "8:10d",
-      "16:6",
-      "17:10"
-    ]
+    }
   },
   {
     "id": "17.6",
@@ -6572,14 +3657,7 @@
       "b": "Every official",
       "c": "The responsible team official",
       "d": "The team captain"
-    },
-    "correct": [
-      "c"
-    ],
-    "rule": [
-      "4:2",
-      "17:11"
-    ]
+    }
   },
   {
     "id": "17.7",
@@ -6589,13 +3667,7 @@
       "b": "The first mentioned referee decides – 50 seconds",
       "c": "The court referee decides – 42 seconds",
       "d": "The two referees must reach a joint decision"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "17:9"
-    ]
+    }
   },
   {
     "id": "17.8",
@@ -6605,13 +3677,7 @@
       "b": "The first mentioned referee becomes the goal-line referee",
       "c": "The referees use a coin toss to decide, who starts where",
       "d": "The referees are free to make their own choice"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "17:1"
-    ]
+    }
   },
   {
     "id": "17.9",
@@ -6623,14 +3689,7 @@
       "d": "Time-out is obligatory",
       "e": "Time-out is necessary, only if the joint decision goes against the attacking team",
       "f": "Time-out is not obligatory, if the referees are using electronic equipment for their internal communication"
-    },
-    "correct": [
-      "c",
-      "d"
-    ],
-    "rule": [
-      "17:7"
-    ]
+    }
   },
   {
     "id": "18.1",
@@ -6641,16 +3700,7 @@
       "c": "The scorekeeper must whistle, if he observes that a substitute is entering the court too soon",
       "d": "If there is no public clock, the timekeeper keeps the teams informed about, how much time has been played, or how much time remains to be played",
       "e": "Counting the numbers of attack, when a player is serving 3 attacks after receiving medical care on the court, is a common task for timekeeper and scorekeeper"
-    },
-    "correct": [
-      "b",
-      "d",
-      "e"
-    ],
-    "rule": [
-      "18:1",
-      "18:2"
-    ]
+    }
   },
   {
     "id": "18.2",
@@ -6661,14 +3711,7 @@
       "c": "Free-throw for WHITE team",
       "d": "7-meter throw for WHITE team",
       "e": "Written report"
-    },
-    "correct": [
-      "c",
-      "e"
-    ],
-    "rule": [
-      "clarification 7"
-    ]
+    }
   },
   {
     "id": "18.3",
@@ -6679,15 +3722,7 @@
       "c": "Written report",
       "d": "Warning for the responsible team official from WHITE team",
       "e": "No personal punishment possible"
-    },
-    "correct": [
-      "c",
-      "e"
-    ],
-    "rule": [
-      "18:1",
-      "Clarification 7Ba"
-    ]
+    }
   },
   {
     "id": "18.4",
@@ -6697,18 +3732,7 @@
       "b": "Disqualification of official A from BLACK team, written report (red and blue card shown by the referees)",
       "c": "The game is restarted with a free-throw for WHITE team at the substitution area of BLACK team",
       "d": "The game is restarted with a free-throw for WHITE team at the free-throw line of BLACK team"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "8:10a",
-      "13:6",
-      "16:6b",
-      "Clarification 7.B.b",
-      "Substitution Area Regulations 5"
-    ]
+    }
   },
   {
     "id": "18.5",
@@ -6718,15 +3742,7 @@
       "b": "2-minute suspension for official A from WHITE team, written report",
       "c": "The game is restarted with a free-throw for BLACK team at the substitution area of WHITE team",
       "d": "The game is restarted with a free-throw for WHITE team at the free-throw line of BLACK team"
-    },
-    "correct": [
-      "a",
-      "d"
-    ],
-    "rule": [
-      "13:4a",
-      "Clarification 7.B.a"
-    ]
+    }
   },
   {
     "id": "18.6",
@@ -6736,15 +3752,7 @@
       "b": "The timekeeper waits until the next interruption of the game and informs the referees about official A’s misbehavior",
       "c": "Progressive punishment for official A from WHITE team",
       "d": "No punishment is possible"
-    },
-    "correct": [
-      "b",
-      "d"
-    ],
-    "rule": [
-      "Clarification 7B",
-      "Substitution Area Regulations 5"
-    ]
+    }
   },
   {
     "id": "18.7",
@@ -6752,13 +3760,7 @@
     "answers": {
       "a": "Immediately",
       "b": "At the time of the next interruption of the game"
-    },
-    "correct": [
-      "b"
-    ],
-    "rule": [
-      "Clarification 7.Ba"
-    ]
+    }
   },
   {
     "id": "18.8",
@@ -6766,13 +3768,7 @@
     "answers": {
       "a": "Yes",
       "b": "No Substitution Area Regulation"
-    },
-    "correct": [
-      "a"
-    ],
-    "rule": [
-      "Clarification 7.Bb"
-    ]
+    }
   },
   {
     "id": "SAR1",
@@ -6782,13 +3778,7 @@
       "b": "2 meters",
       "c": "3 meters",
       "d": "3,5 meters"
-    },
-    "correct": [
-      "d"
-    ],
-    "rule": [
-      "Substitution Area Regulations 1"
-    ]
+    }
   },
   {
     "id": "SAR2",
@@ -6799,15 +3789,6 @@
       "c": "Disqualification of official A from WHITE team (red card shown by the referees)",
       "d": "Disqualification of official A from WHITE team, written report (red and blue card shown by the referees)",
       "e": "WHITE team will be reduced by one player on the court for 2 minutes"
-    },
-    "correct": [
-      "b",
-      "e"
-    ],
-    "rule": [
-      "8:7a",
-      "16:3e",
-      "Substitution Area Regulations 5, Substitution Area Regulations 6"
-    ]
+    }
   }
 ]

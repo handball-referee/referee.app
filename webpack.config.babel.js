@@ -1,7 +1,7 @@
 import path from 'path';
 import CopyPlugin from 'copy-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import SWPrecacheWebpackPlugin from 'sw-precache-webpack-plugin';
+import { GenerateSW } from 'workbox-webpack-plugin';
 // import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import CnameWebpackPlugin from 'cname-webpack-plugin';
 import { DefinePlugin } from 'webpack';
@@ -28,7 +28,6 @@ const config = {
         exclude: /node_modules/,
         use: 'babel-loader',
       },
-
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
@@ -68,11 +67,16 @@ const config = {
       USER_POOL_ID: JSON.stringify(process.env.USER_POOL_ID),
       WEB_CLIENT_ID: JSON.stringify(process.env.WEB_CLIENT_ID),
     }),
-    new SWPrecacheWebpackPlugin({
+    new GenerateSW({
+      swDest: "sw.js",
       cacheId: 'handball',
-      filename: 'sw.js',
-      minify: true,
-      staticFileGlobsIgnorePatterns: [/\.map$/, /CNAME/, /\.woff2?$/, /logo[0-9]{3}\.png$/],
+      exclude: [/\.woff2?$/],
+      runtimeCaching: [
+        {
+          urlPattern: /data/,
+          handler: "NetworkFirst",
+        },
+      ],
     }),
     new CopyPlugin([
       {
@@ -80,6 +84,9 @@ const config = {
       },
       {
         from: 'data/diagrams/*',
+      },
+      {
+        from: 'data/questions/*',
       },
       {
         from: 'static/*',

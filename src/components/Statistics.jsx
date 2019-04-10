@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 import { Typography, Paper } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import StatisticsTable from './StatisticsTable';
-import { getOrder, getOrderBy, getQuestions } from '../reducers/question';
+import { getOrder, getOrderBy, getQuestions } from '../reducers';
 import { sort } from '../actions';
 import QuestionDialog from './QuestionDialog';
 
@@ -67,7 +67,7 @@ class Statistics extends Component {
 
     return (
       <Paper className={classes.root}>
-        <Typography variant="title" color="inherit">
+        <Typography variant="h6" color="inherit">
           Statistics
         </Typography>
         <StatisticsTable
@@ -87,8 +87,8 @@ class Statistics extends Component {
   }
 }
 
-const mapStateToProps = state => ({
-  questions: getQuestions(state),
+const mapStateToProps = (state, props) => ({
+  questions: getQuestions(state, props.match.params.lang),
   order: getOrder(state),
   orderBy: getOrderBy(state),
 });

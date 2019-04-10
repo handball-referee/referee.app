@@ -1,5 +1,4 @@
 import 'typeface-roboto'; // eslint-disable-line import/extensions
-import Amplify from 'aws-amplify';
 import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
@@ -9,7 +8,7 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import primary from '@material-ui/core/colors/lightGreen';
 import secondary from '@material-ui/core/colors/lime';
 import AppShell from './components/AppShell';
-import reducer from './reducers/question';
+import reducer from './reducers';
 import './app.css';
 
 if (process.env.NODE_ENV === 'production') {
@@ -17,15 +16,6 @@ if (process.env.NODE_ENV === 'production') {
     navigator.serviceWorker.register('/sw.js');
   }
 }
-
-Amplify.configure({
-  Auth: {
-    identityPoolId: IDENTITY_POOL_ID,
-    region: AWS_REGION,
-    userPoolId: USER_POOL_ID,
-    userPoolWebClientId: WEB_CLIENT_ID,
-  },
-});
 
 const rootElement = document.getElementById('app');
 const theme = createMuiTheme({
@@ -37,8 +27,11 @@ const theme = createMuiTheme({
       main: secondary[500],
     },
   },
+  typography: {
+    useNextVariants: true,
+  },
 });
-const store = createStore(reducer);
+const store = createStore(reducer());
 
 render(
   <MuiThemeProvider theme={theme}>

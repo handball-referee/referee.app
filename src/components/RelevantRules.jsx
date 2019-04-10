@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import ExpansionPanel, {
-  ExpansionPanelSummary,
-  ExpansionPanelDetails,
-} from '@material-ui/core/ExpansionPanel';
+import * as PropTypes from 'prop-types';
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Loadable from 'react-loadable';
@@ -243,7 +242,7 @@ const RuleSwitchComponent = ({ rule }) => {
     }
   }
 
-  if (rule === "Hand Signals") {
+  if (rule === 'Hand Signals') {
     return <HandSignalComponent />;
   }
 
@@ -266,7 +265,7 @@ const RelevantRules = ({ rules }) => {
             <RuleSwitchComponent rule={rule} />
           </ExpansionPanelDetails>
         </ExpansionPanel>
-        ))}
+      ))}
     </div>
   );
 };

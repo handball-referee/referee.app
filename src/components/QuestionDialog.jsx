@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { Checkbox, Dialog, DialogTitle, Typography } from '@material-ui/core';
+import * as PropTypes from 'prop-types';
+import {
+  Checkbox, Dialog, DialogTitle, Typography,
+} from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import Question from './Question';
 import RelevantRules from './RelevantRules';
@@ -52,13 +54,16 @@ class QuestionDialog extends Component {
 
     return (
       <Dialog aria-labelledby="question-dialog-title" {...other}>
-        <DialogTitle id="question-dialog-title">Question {question && question.id}</DialogTitle>
+        <DialogTitle id="question-dialog-title">
+Question
+          {question && question.id}
+        </DialogTitle>
         <Typography className={classes.root}>
           <Checkbox checked={showAnswers} onChange={this.handleChange} />
           Show answers
         </Typography>
         <Question question={question} showCorrect={showAnswers} viewOnly />
-        <Typography variant="subheading" className={classes.subheader}>
+        <Typography variant="subtitle1" className={classes.subheader}>
           Relevant Rules
         </Typography>
         {question && <RelevantRules rules={question.rule} />}

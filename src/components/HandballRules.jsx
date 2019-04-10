@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 import { Route } from 'react-router';
 import Paper from '@material-ui/core/Paper';
 import { withStyles } from '@material-ui/core/styles';
@@ -40,7 +40,7 @@ import GuidelinesPlayingCourts from '../data/rules/GuidelinesPlayingCourts.md';
 const ForwordComponent = () => (<Rule source={Foreword} />);
 const RulesOfTheGameComponent = () => (
   <div>
-    <Typography variant="title">Rules of the Game</Typography>
+    <Typography variant="h6">Rules of the Game</Typography>
     <Rule source={Rule1} />
     <Rule source={Rule2} />
     <Rule source={Rule3} />
@@ -64,7 +64,7 @@ const RulesOfTheGameComponent = () => (
 const HandSignalsComponent = () => (<Rule source={HandSignals} />);
 const ClarificationsComponent = () => (
   <div>
-    <Typography variant="title">Clarifications to the Rules of the Game</Typography>
+    <Typography variant="h6">Clarifications to the Rules of the Game</Typography>
     <Rule source={Clarifications1} />
     <Rule source={Clarifications2} />
     <Rule source={Clarifications3} />

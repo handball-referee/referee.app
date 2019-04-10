@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { Checkbox, Divider, List, ListItem, ListItemText, Typography } from '@material-ui/core';
+import * as PropTypes from 'prop-types';
+import {
+  Checkbox, Divider, List, ListItem, ListItemText, Typography,
+} from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles/index';
 import red from '@material-ui/core/colors/red';
 import green from '@material-ui/core/colors/green';
@@ -38,8 +40,8 @@ class Question extends Component {
     question: PropTypes.shape({
       question: PropTypes.string,
       answers: PropTypes.objectOf(PropTypes.string),
-      correct: PropTypes.arrayOf(PropTypes.string),
     }).isRequired,
+    correct: PropTypes.arrayOf(PropTypes.string).isRequired,
     viewOnly: PropTypes.bool,
   };
 
@@ -72,6 +74,7 @@ class Question extends Component {
       showCorrect,
       answers,
       viewOnly,
+      correct,
     } = this.props;
 
     return (
@@ -84,10 +87,10 @@ class Question extends Component {
           {Object.keys(question.answers).map((option) => {
             const text = question.answers[option];
             let selected = answers.indexOf(option) > -1;
-            const correct = question.correct.indexOf(option) > -1;
+            const corr = correct.indexOf(option) > -1;
             let className = '';
             if (showCorrect && !viewOnly) {
-              if ((correct && selected) || (!correct && !selected)) {
+              if ((corr && selected) || (!corr && !selected)) {
                 className = classes.correct;
               } else {
                 className = classes.wrong;
@@ -95,7 +98,7 @@ class Question extends Component {
             }
             if (viewOnly) {
               if (showCorrect) {
-                selected = correct;
+                selected = corr;
               } else {
                 selected = false;
               }

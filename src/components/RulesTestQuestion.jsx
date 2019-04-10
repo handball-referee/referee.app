@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
@@ -25,10 +25,12 @@ class RulesTestQuestion extends Component {
     nextQuestion: PropTypes.func.isRequired,
     checkAnswers: PropTypes.func.isRequired,
     question: PropTypes.shape({
-      question: PropTypes.string,
-      answers: PropTypes.objectOf(PropTypes.string),
-      correct: PropTypes.arrayOf(PropTypes.string),
+      id: PropTypes.string.isRequired,
+      question: PropTypes.string.isRequired,
+      answers: PropTypes.objectOf(PropTypes.string).isRequired,
     }).isRequired,
+    correct: PropTypes.arrayOf(PropTypes.string).isRequired,
+    rule: PropTypes.arrayOf(PropTypes.string).isRequired,
   };
 
   constructor(props) {
@@ -40,11 +42,13 @@ class RulesTestQuestion extends Component {
   }
 
   nextQuestion = () => {
+    const { nextQuestion } = this.props;
+
     this.setState({
       showCorrect: false,
       answers: [],
     });
-    this.props.nextQuestion();
+    nextQuestion();
   }
 
   handleAnswerSelection = (answers) => {
@@ -57,12 +61,14 @@ class RulesTestQuestion extends Component {
     this.setState({
       showCorrect: true,
     });
-    this.props.checkAnswers(this.state.answers);
+    this.props.checkAnswers(this.props.question.id, this.state.answers);
   }
 
   render() {
     const { showCorrect, answers } = this.state;
-    const { question, classes } = this.props;
+    const {
+      question, classes, correct, rule,
+    } = this.props;
 
     return (
       <div>
@@ -71,23 +77,24 @@ class RulesTestQuestion extends Component {
             <Question
               answers={answers}
               question={question}
+              correct={correct}
               showCorrect={showCorrect}
               onAnswerSelect={this.handleAnswerSelection}
             />
           )}
           { showCorrect && (
-            <Button className={classes.button} variant="raised" onClick={this.nextQuestion}>
+            <Button className={classes.button} variant="contained" onClick={this.nextQuestion}>
               Next
             </Button>
           )}
           { !showCorrect && (
-            <Button className={classes.button} variant="raised" onClick={this.handleCheckAnswers}>
+            <Button className={classes.button} variant="contained" onClick={this.handleCheckAnswers}>
               Check
             </Button>
           )}
         </Paper>
         { showCorrect && (
-          <RelevantRules rules={question.rule} />
+          <RelevantRules rules={rule} />
         )}
       </div>
     );

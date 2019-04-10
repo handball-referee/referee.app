@@ -1,31 +1,29 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import {
-  TableCell,
-  TableHead,
-  TableRow,
-  TableSortLabel,
-} from '@material-ui/core/Table';
+import * as PropTypes from 'prop-types';
+import TableRow from '@material-ui/core/TableRow';
+import TableCell from '@material-ui/core/TableCell';
+import TableHead from '@material-ui/core/TableHead';
+import TableSortLabel from '@material-ui/core/TableSortLabel';
 import Tooltip from '@material-ui/core/Tooltip';
 
 const columnData = [
   {
-    id: 'id', numeric: false, disablePadding: true, label: 'ID',
+    id: 'id', align: 'left', disablePadding: true, label: 'ID',
   },
   {
-    id: 'testAsked', numeric: true, disablePadding: false, label: 'Asked',
+    id: 'testAsked', align: 'right', disablePadding: false, label: 'Asked',
   },
   {
-    id: 'testCorrect', numeric: true, disablePadding: false, label: 'Correct',
+    id: 'testCorrect', align: 'right', disablePadding: false, label: 'Correct',
   },
   {
-    id: 'testPercentageCorrect', numeric: true, disablePadding: false, label: '% correct',
+    id: 'testPercentageCorrect', align: 'right', disablePadding: false, label: '% correct',
   },
   {
-    id: 'testWrong', numeric: true, disablePadding: false, label: 'Wrong',
+    id: 'testWrong', align: 'right', disablePadding: false, label: 'Wrong',
   },
   {
-    id: 'testPercentageWrong', numeric: true, disablePadding: false, label: '% wrong',
+    id: 'testPercentageWrong', align: 'right', disablePadding: false, label: '% wrong',
   },
 ];
 
@@ -67,7 +65,7 @@ class StatisticsTableHead extends Component {
                 </TableSortLabel>
               </Tooltip>
             </TableCell>
-            ), this)}
+          ), this)}
         </TableRow>
       </TableHead>
     );

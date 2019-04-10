@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import Badge from '@material-ui/core/Badge';
@@ -12,8 +12,24 @@ import CrossIcon from '@material-ui/icons/Close';
 import green from '@material-ui/core/colors/green';
 import red from '@material-ui/core/colors/red';
 import RulesTestQuestion from './RulesTestQuestion';
-import { getCorrect, getCurrentQuestion, getPercentage, getWrong } from '../reducers/question';
-import { checkAnswers, nextQuestion, reset } from '../actions';
+import {
+  getCorrect,
+  getCurrentAnswer,
+  getCurrentQuestion,
+  getPercentage,
+  getWrong,
+  isLoaded,
+  isLoading,
+} from '../reducers';
+import {
+  checkAnswers,
+  loadQuestionsError,
+  loadQuestionsStarted,
+  loadQuestionsSuccess,
+  nextQuestion,
+  reset,
+} from '../actions';
+import Loading from './Loading';
 
 const styles = theme => ({
   correct: {
@@ -32,38 +48,91 @@ const styles = theme => ({
   },
 });
 
-const RulesTest = ({
-  classes,
-  question,
-  handleCheckAnswers,
-  handleNextQuestion,
-  correct,
-  wrong,
-  percentage,
-  handleReset,
-}) => (
-  <div>
-    <AppBar color="secondary" position="sticky">
-      <Toolbar>
-        <Badge classes={{ root: classes.badge, badge: classes.correct }} badgeContent={correct}>
-          <CheckIcon />
-        </Badge>
-        <Badge classes={{ root: classes.badge, badge: classes.wrong }} badgeContent={wrong}>
-          <CrossIcon />
-        </Badge>
-        <Typography variant="subheading" color="inherit" className={classes.flex}>
-          {percentage}% correct
-        </Typography>
-        <Button color="inherit" onClick={handleReset}>Reset</Button>
-      </Toolbar>
-    </AppBar>
-    <RulesTestQuestion
-      question={question}
-      checkAnswers={handleCheckAnswers}
-      nextQuestion={handleNextQuestion}
-    />
-  </div>
-);
+class RulesTest extends Component {
+  componentDidMount() {
+    const {
+      loading,
+      loaded,
+      match: { params: { lang } },
+    } = this.props;
+
+    if (!loaded && !loading) {
+      this.handleLoadData(lang);
+    }
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps.match.params.lang !== this.props.match.params.lang) {
+      this.handleLoadData(this.props.match.params.lang);
+    }
+  }
+
+  render() {
+    const {
+      classes,
+      question,
+      answer,
+      handleCheckAnswers,
+      handleNextQuestion,
+      correct,
+      wrong,
+      percentage,
+      handleReset,
+      loading,
+    } = this.props;
+
+    if (loading || !question) {
+      return (<Loading />);
+    }
+
+    return (
+      <div>
+        <AppBar color="secondary" position="sticky">
+          <Toolbar>
+            <Badge classes={{ root: classes.badge, badge: classes.correct }} badgeContent={correct}>
+              <CheckIcon />
+            </Badge>
+            <Badge classes={{ root: classes.badge, badge: classes.wrong }} badgeContent={wrong}>
+              <CrossIcon />
+            </Badge>
+            <Typography variant="subtitle1" color="inherit" className={classes.flex}>
+              {percentage}
+% correct
+            </Typography>
+            <Button color="inherit" onClick={handleReset}>Reset</Button>
+          </Toolbar>
+        </AppBar>
+        <RulesTestQuestion
+          question={question}
+          correct={answer.correct}
+          rule={answer.rule}
+          checkAnswers={handleCheckAnswers}
+          nextQuestion={handleNextQuestion}
+        />
+      </div>
+    );
+  }
+
+  handleLoadData(lang) {
+    const {
+      handleLoadingStarted,
+      handleLoadingSuccess,
+      handleLoadingError,
+    } = this.props;
+
+    handleLoadingStarted(lang);
+    fetch(`/data/questions/${lang}.json`).then(response => response.json().then(json => ({ json, response }))).then(({ json, response }) => {
+      if (!response.ok) {
+        return Promise.reject(json);
+      }
+
+      return json;
+    }).then(
+      response => handleLoadingSuccess(response, lang),
+      () => handleLoadingError(lang),
+    );
+  }
+}
 
 RulesTest.propTypes = {
   classes: PropTypes.shape({
@@ -76,6 +145,15 @@ RulesTest.propTypes = {
     question: PropTypes.string,
     answers: PropTypes.objectOf(PropTypes.string),
     correct: PropTypes.arrayOf(PropTypes.string),
+  }),
+  answer: PropTypes.shape({
+    rule: PropTypes.arrayOf(PropTypes.string),
+    correct: PropTypes.arrayOf(PropTypes.string),
+  }),
+  match: PropTypes.shape({
+    params: PropTypes.shape({
+      lang: PropTypes.string.isRequired,
+    }).isRequired,
   }).isRequired,
   correct: PropTypes.number,
   wrong: PropTypes.number,
@@ -83,6 +161,11 @@ RulesTest.propTypes = {
   handleCheckAnswers: PropTypes.func.isRequired,
   handleNextQuestion: PropTypes.func.isRequired,
   handleReset: PropTypes.func.isRequired,
+  handleLoadingStarted: PropTypes.func.isRequired,
+  handleLoadingSuccess: PropTypes.func.isRequired,
+  handleLoadingError: PropTypes.func.isRequired,
+  loaded: PropTypes.bool.isRequired,
+  loading: PropTypes.bool.isRequired,
 };
 
 RulesTest.defaultProps = {
@@ -91,17 +174,23 @@ RulesTest.defaultProps = {
   percentage: 0,
 };
 
-const mapStateToProps = state => ({
-  question: getCurrentQuestion(state),
+const mapStateToProps = (state, props) => ({
+  question: getCurrentQuestion(state, props.match.params.lang),
+  answer: getCurrentAnswer(state),
+  loaded: isLoaded(state, props.match.params.lang),
+  loading: isLoading(state, props.match.params.lang),
   correct: getCorrect(state),
   wrong: getWrong(state),
   percentage: getPercentage(state),
 });
 
 const mapDispatchToProps = dispatch => ({
-  handleCheckAnswers: answers => dispatch(checkAnswers(answers)),
+  handleCheckAnswers: (question, answers) => dispatch(checkAnswers(question, answers)),
   handleNextQuestion: () => dispatch(nextQuestion()),
   handleReset: () => dispatch(reset()),
+  handleLoadingStarted: lang => dispatch(loadQuestionsStarted(lang)),
+  handleLoadingSuccess: (payload, lang) => dispatch(loadQuestionsSuccess(payload, lang)),
+  handleLoadingError: lang => dispatch(loadQuestionsError(lang)),
 });
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Markdown from 'react-markdown';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 import './Rule.css';
 
 const flatten = (text, child) => (typeof child === 'string'
@@ -18,7 +18,7 @@ const Heading = ({ children, level }) => { // eslint-disable-line react/prop-typ
 
 const Rule = ({ source }) => (
   <div className="rule">
-    <Markdown source={source} renderers={{ heading: Heading }} transformImageUri={uri => `../data/diagrams/${uri}`} />
+    <Markdown source={source} renderers={{ heading: Heading }} transformImageUri={uri => `/data/diagrams/${uri}`} />
   </div>
 );
 
