@@ -62,6 +62,7 @@ class Statistics extends Component {
   render() {
     const {
       classes, questions, onSort, orderBy, order,
+      match: { params: { lang } },
     } = this.props;
     const { open, question } = this.state;
 
@@ -80,6 +81,7 @@ class Statistics extends Component {
         <QuestionDialog
           open={open}
           onClose={this.onClose}
+          lang={lang}
           question={question}
         />
       </Paper>

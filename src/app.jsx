@@ -1,5 +1,6 @@
 import 'typeface-roboto'; // eslint-disable-line import/extensions
 import React from 'react';
+import { loadableReady } from "@loadable/component";
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
@@ -9,6 +10,7 @@ import primary from '@material-ui/core/colors/lightGreen';
 import secondary from '@material-ui/core/colors/lime';
 import AppShell from './components/AppShell';
 import reducer from './reducers';
+import './i18n';
 import './app.css';
 
 if (process.env.NODE_ENV === 'production') {
@@ -33,13 +35,20 @@ const theme = createMuiTheme({
 });
 const store = createStore(reducer());
 
-render(
+const app = (
   <MuiThemeProvider theme={theme}>
     <Provider store={store}>
       <BrowserRouter>
         <AppShell />
       </BrowserRouter>
     </Provider>
-  </MuiThemeProvider>,
-  rootElement,
+  </MuiThemeProvider>
 );
+
+if (process.env.NODE_ENV === "production") {
+  loadableReady(() => {
+    hydrate(app, rootElement);
+  });
+} else {
+  render(app, rootElement);
+}

@@ -14,6 +14,7 @@ import RulesIcon from '@material-ui/icons/FormatListBulleted';
 // import StatsIcon from '@material-ui/icons/TrendingUp';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
+import {withTranslation} from "react-i18next";
 
 const styles = theme => ({
   nested: {
@@ -41,61 +42,61 @@ class Menu extends Component {
 
   render() {
     const {
-      open, onClose, classes, match: { params: { lang } },
+      open, onClose, classes, t
     } = this.props;
     const { rulesOpen } = this.state;
 
     const SubHeader = (
-      <ListSubheader component="div">Menu</ListSubheader>
+      <ListSubheader component="div">{t("Menu")}</ListSubheader>
     );
 
     return (
       <Drawer open={open} onClose={onClose}>
         <List component="nav" subheader={SubHeader}>
-          <ListItem button component={Link} to={`/${lang}`} onClick={onClose}>
+          <ListItem button component={Link} to="/" onClick={onClose}>
             <ListItemIcon>
               <TestIcon />
             </ListItemIcon>
-            <ListItemText primary="Referee Test" />
+            <ListItemText primary={t("Referee Test")} />
           </ListItem>
           <ListItem button onClick={this.handleRulesClick}>
             <ListItemIcon>
               <RulesIcon />
             </ListItemIcon>
-            <ListItemText primary="Handball Rules" />
+            <ListItemText primary={t("Handball Rules")} />
             {rulesOpen ? <ExpandLess /> : <ExpandMore />}
           </ListItem>
           <Collapse in={rulesOpen} timeout="auto" unmountOnExit>
             <List component="div" disablePadding>
-              <ListItem button className={classes.nested} component={Link} to={`/${lang}/rules/foreword`} onClick={onClose}>
-                <ListItemText primary="Foreword" />
+              <ListItem button className={classes.nested} component={Link} to="/rules/foreword" onClick={onClose}>
+                <ListItemText primary={t("Foreword")} />
               </ListItem>
-              <ListItem button className={classes.nested} component={Link} to={`/${lang}/rules/rules-of-the-game`} onClick={onClose}>
-                <ListItemText primary="Rules of the Game" />
+              <ListItem button className={classes.nested} component={Link} to="/rules/rules-of-the-game" onClick={onClose}>
+                <ListItemText primary={t("Rules of the Game")} />
               </ListItem>
-              <ListItem button className={classes.nested} component={Link} to={`/${lang}/rules/hand-signals`} onClick={onClose}>
-                <ListItemText primary="Hand Signals" />
+              <ListItem button className={classes.nested} component={Link} to="/rules/hand-signals" onClick={onClose}>
+                <ListItemText primary={t("Hand Signals")} />
               </ListItem>
-              <ListItem button className={classes.nested} component={Link} to={`/${lang}/rules/clarifications`} onClick={onClose}>
-                <ListItemText primary="Clarifications to the Rules of the Game" />
+              <ListItem button className={classes.nested} component={Link} to="/rules/clarifications" onClick={onClose}>
+                <ListItemText primary={t("Clarifications to the Rules of the Game")} />
               </ListItem>
-              <ListItem button className={classes.nested} component={Link} to={`/${lang}/rules/substitution-area-regulations`} onClick={onClose}>
-                <ListItemText primary="Substitution Area Regulations" />
+              <ListItem button className={classes.nested} component={Link} to="/rules/substitution-area-regulations" onClick={onClose}>
+                <ListItemText primary={t("Substitution Area Regulations")} />
               </ListItem>
-              <ListItem button className={classes.nested} component={Link} to={`/${lang}/rules/guidelines-and-interpretations`} onClick={onClose}>
-                <ListItemText primary="Guidelines and Interpretations" />
+              <ListItem button className={classes.nested} component={Link} to="/rules/guidelines-and-interpretations" onClick={onClose}>
+                <ListItemText primary={t("Guidelines and Interpretations")} />
               </ListItem>
-              <ListItem button className={classes.nested} component={Link} to={`/${lang}/rules/guidelines-for-playing-courts-and-goals`} onClick={onClose}>
-                <ListItemText primary="Guidelines for Playing Courts and Goals" />
+              <ListItem button className={classes.nested} component={Link} to="/rules/guidelines-for-playing-courts-and-goals" onClick={onClose}>
+                <ListItemText primary={t("Guidelines for Playing Courts and Goals")} />
               </ListItem>
             </List>
           </Collapse>
         </List>
-        {/* <ListItem button component={Link} to={`/${lang}/stats`} onClick={onClose}>
+        {/* <ListItem button component={Link} to="/stats" onClick={onClose}>
           <ListItemIcon>
             <StatsIcon />
           </ListItemIcon>
-          <ListItemText primary="Statistics" />
+          <ListItemText primary={t("Statistics")} />
         </ListItem> */}
       </Drawer>
     );
@@ -108,11 +109,9 @@ Menu.propTypes = {
   classes: PropTypes.shape({
     nested: PropTypes.string,
   }).isRequired,
-  match: PropTypes.shape({
-    params: PropTypes.shape({
-      lang: PropTypes.string.isRequired,
-    }).isRequired,
+  i18n: PropTypes.shape({
+    language: PropTypes.string.isRequired,
   }).isRequired,
 };
 
-export default withStyles(styles)(Menu);
+export default withTranslation()(withStyles(styles)(Menu));

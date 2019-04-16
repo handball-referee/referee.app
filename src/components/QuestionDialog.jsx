@@ -49,7 +49,7 @@ class QuestionDialog extends Component {
   };
 
   render() {
-    const { question, classes, ...other } = this.props;
+    const { question, classes, lang, ...other } = this.props;
     const { showAnswers } = this.state;
 
     return (
@@ -66,7 +66,7 @@ Question
         <Typography variant="subtitle1" className={classes.subheader}>
           Relevant Rules
         </Typography>
-        {question && <RelevantRules rules={question.rule} />}
+        {question && <RelevantRules rules={question.rule} lang={lang} />}
       </Dialog>
     );
   }

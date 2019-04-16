@@ -5,217 +5,65 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import Loadable from 'react-loadable';
-import Loading from './Loading';
-import Rule from './Rule';
+import {
+  Rule1, Rule2, Rule3,
+  Rule4, Rule5, Rule6,
+  Rule7, Rule8, Rule9,
+  Rule10, Rule11, Rule12,
+  Rule13, Rule14, Rule15,
+  Rule16, Rule17, Rule18,
+  Clarification1,
+  Clarification2,
+  Clarification3,
+  Clarification4,
+  Clarification5,
+  Clarification6,
+  Clarification7,
+  Clarification8,
+  HandSignals,
+} from './rules/Rules';
 
-const render = loaded => (
-  <Rule source={loaded.default} />
-);
-
-const Rule1Component = Loadable({
-  loader: () => import('../data/rules/1.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule2Component = Loadable({
-  loader: () => import('../data/rules/2.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule3Component = Loadable({
-  loader: () => import('../data/rules/3.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule4Component = Loadable({
-  loader: () => import('../data/rules/4.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule5Component = Loadable({
-  loader: () => import('../data/rules/5.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule6Component = Loadable({
-  loader: () => import('../data/rules/6.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule7Component = Loadable({
-  loader: () => import('../data/rules/7.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule8Component = Loadable({
-  loader: () => import('../data/rules/8.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule9Component = Loadable({
-  loader: () => import('../data/rules/9.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule10Component = Loadable({
-  loader: () => import('../data/rules/10.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule11Component = Loadable({
-  loader: () => import('../data/rules/11.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule12Component = Loadable({
-  loader: () => import('../data/rules/12.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule13Component = Loadable({
-  loader: () => import('../data/rules/13.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule14Component = Loadable({
-  loader: () => import('../data/rules/14.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule15Component = Loadable({
-  loader: () => import('../data/rules/15.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule16Component = Loadable({
-  loader: () => import('../data/rules/16.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule17Component = Loadable({
-  loader: () => import('../data/rules/17.md'),
-  loading: Loading,
-  render,
-});
-
-const Rule18Component = Loadable({
-  loader: () => import('../data/rules/18.md'),
-  loading: Loading,
-  render,
-});
-
-const Clarification1Component = Loadable({
-  loader: () => import('../data/rules/Clarification1.md'),
-  loading: Loading,
-  render,
-});
-
-const Clarification2Component = Loadable({
-  loader: () => import('../data/rules/Clarification2.md'),
-  loading: Loading,
-  render,
-});
-
-const Clarification3Component = Loadable({
-  loader: () => import('../data/rules/Clarification3.md'),
-  loading: Loading,
-  render,
-});
-
-const Clarification4Component = Loadable({
-  loader: () => import('../data/rules/Clarification4.md'),
-  loading: Loading,
-  render,
-});
-
-const Clarification5Component = Loadable({
-  loader: () => import('../data/rules/Clarification5.md'),
-  loading: Loading,
-  render,
-});
-
-const Clarification6Component = Loadable({
-  loader: () => import('../data/rules/Clarification6.md'),
-  loading: Loading,
-  render,
-});
-
-const Clarification7Component = Loadable({
-  loader: () => import('../data/rules/Clarification7.md'),
-  loading: Loading,
-  render,
-});
-
-const Clarification8Component = Loadable({
-  loader: () => import('../data/rules/Clarification8.md'),
-  loading: Loading,
-  render,
-});
-
-const HandSignalComponent = Loadable({
-  loader: () => import('../data/rules/HandSignals.md'),
-  loading: Loading,
-  render,
-});
-
-const RuleSwitchComponent = ({ rule }) => {
+const RuleSwitchComponent = ({ lang, rule }) => {
   const res = rule.match(/^([0-9]{1,2}):[0-9]{1,2}/);
 
   if (res) {
     switch (res[1]) {
       case '1':
-        return <Rule1Component />;
+        return <Rule1 lang={lang} />;
       case '2':
-        return <Rule2Component />;
+        return <Rule2 lang={lang} />;
       case '3':
-        return <Rule3Component />;
+        return <Rule3 lang={lang} />;
       case '4':
-        return <Rule4Component />;
+        return <Rule4 lang={lang} />;
       case '5':
-        return <Rule5Component />;
+        return <Rule5 lang={lang} />;
       case '6':
-        return <Rule6Component />;
+        return <Rule6 lang={lang} />;
       case '7':
-        return <Rule7Component />;
+        return <Rule7 lang={lang} />;
       case '8':
-        return <Rule8Component />;
+        return <Rule8 lang={lang} />;
       case '9':
-        return <Rule9Component />;
+        return <Rule9 lang={lang} />;
       case '10':
-        return <Rule10Component />;
+        return <Rule10 lang={lang} />;
       case '11':
-        return <Rule11Component />;
+        return <Rule11 lang={lang} />;
       case '12':
-        return <Rule12Component />;
+        return <Rule12 lang={lang} />;
       case '13':
-        return <Rule13Component />;
+        return <Rule13 lang={lang} />;
       case '14':
-        return <Rule14Component />;
+        return <Rule14 lang={lang} />;
       case '15':
-        return <Rule15Component />;
+        return <Rule15 lang={lang} />;
       case '16':
-        return <Rule16Component />;
+        return <Rule16 lang={lang} />;
       case '17':
-        return <Rule17Component />;
+        return <Rule17 lang={lang} />;
       case '18':
-        return <Rule18Component />;
+        return <Rule18 lang={lang} />;
     }
   }
 
@@ -224,32 +72,32 @@ const RuleSwitchComponent = ({ rule }) => {
   if (cla) {
     switch (cla[1]) {
       case '1':
-        return <Clarification1Component />;
+        return <Clarification1 lang={lang} />;
       case '2':
-        return <Clarification2Component />;
+        return <Clarification2 lang={lang} />;
       case '3':
-        return <Clarification3Component />;
+        return <Clarification3 lang={lang} />;
       case '4':
-        return <Clarification4Component />;
+        return <Clarification4 lang={lang} />;
       case '5':
-        return <Clarification5Component />;
+        return <Clarification5 lang={lang} />;
       case '6':
-        return <Clarification6Component />;
+        return <Clarification6 lang={lang} />;
       case '7':
-        return <Clarification7Component />;
+        return <Clarification7 lang={lang} />;
       case '8':
-        return <Clarification8Component />;
+        return <Clarification8 lang={lang} />;
     }
   }
 
   if (rule === 'Hand Signals') {
-    return <HandSignalComponent />;
+    return <HandSignals lang={lang} />;
   }
 
   return (<Typography>Rule Text not found</Typography>);
 };
 
-const RelevantRules = ({ rules }) => {
+const RelevantRules = ({ lang, rules }) => {
   if (!rules || !Array.isArray(rules)) {
     return (<div />);
   }
@@ -262,7 +110,7 @@ const RelevantRules = ({ rules }) => {
             <Typography>{rule}</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
-            <RuleSwitchComponent rule={rule} />
+            <RuleSwitchComponent lang={lang} rule={rule} />
           </ExpansionPanelDetails>
         </ExpansionPanel>
       ))}

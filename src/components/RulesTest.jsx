@@ -30,6 +30,7 @@ import {
   reset,
 } from '../actions';
 import Loading from './Loading';
+import {withTranslation} from "react-i18next";
 
 const styles = theme => ({
   correct: {
@@ -53,17 +54,23 @@ class RulesTest extends Component {
     const {
       loading,
       loaded,
-      match: { params: { lang } },
+      i18n,
     } = this.props;
 
     if (!loaded && !loading) {
-      this.handleLoadData(lang);
+      this.handleLoadData(i18n.language);
     }
   }
 
-  componentDidUpdate(prevProps) {
-    if (prevProps.match.params.lang !== this.props.match.params.lang) {
-      this.handleLoadData(this.props.match.params.lang);
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    const {
+      loading,
+      loaded,
+      i18n,
+    } = this.props;
+
+    if (!loaded && !loading) {
+      this.handleLoadData(i18n.language);
     }
   }
 
@@ -79,6 +86,8 @@ class RulesTest extends Component {
       percentage,
       handleReset,
       loading,
+      i18n,
+      t,
     } = this.props;
 
     if (loading || !question) {
@@ -97,15 +106,16 @@ class RulesTest extends Component {
             </Badge>
             <Typography variant="subtitle1" color="inherit" className={classes.flex}>
               {percentage}
-% correct
+% {t('correct')}
             </Typography>
-            <Button color="inherit" onClick={handleReset}>Reset</Button>
+            <Button color="inherit" onClick={handleReset}>{t('Reset')}</Button>
           </Toolbar>
         </AppBar>
         <RulesTestQuestion
           question={question}
           correct={answer.correct}
           rule={answer.rule}
+          lang={i18n.language}
           checkAnswers={handleCheckAnswers}
           nextQuestion={handleNextQuestion}
         />
@@ -150,10 +160,8 @@ RulesTest.propTypes = {
     rule: PropTypes.arrayOf(PropTypes.string),
     correct: PropTypes.arrayOf(PropTypes.string),
   }),
-  match: PropTypes.shape({
-    params: PropTypes.shape({
-      lang: PropTypes.string.isRequired,
-    }).isRequired,
+  i18n: PropTypes.shape({
+    language: PropTypes.string.isRequired,
   }).isRequired,
   correct: PropTypes.number,
   wrong: PropTypes.number,
@@ -175,7 +183,7 @@ RulesTest.defaultProps = {
 };
 
 const mapStateToProps = (state, props) => ({
-  question: getCurrentQuestion(state, props.match.params.lang),
+  question: getCurrentQuestion(state, props.i18n.language),
   answer: getCurrentAnswer(state),
   loaded: isLoaded(state, props.match.params.lang),
   loading: isLoading(state, props.match.params.lang),
@@ -194,7 +202,7 @@ const mapDispatchToProps = dispatch => ({
 });
 
 
-export default connect(
+export default withTranslation()(connect(
   mapStateToProps,
   mapDispatchToProps,
-)(withStyles(styles)(RulesTest));
+)(withStyles(styles)(RulesTest)));

@@ -5,6 +5,7 @@ import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import RelevantRules from './RelevantRules';
 import Question from './Question';
+import {withTranslation} from "react-i18next";
 
 const styles = theme => ({
   button: {
@@ -67,7 +68,7 @@ class RulesTestQuestion extends Component {
   render() {
     const { showCorrect, answers } = this.state;
     const {
-      question, classes, correct, rule,
+      question, classes, correct, rule, lang, t,
     } = this.props;
 
     return (
@@ -84,21 +85,21 @@ class RulesTestQuestion extends Component {
           )}
           { showCorrect && (
             <Button className={classes.button} variant="contained" onClick={this.nextQuestion}>
-              Next
+              {t("Next")}
             </Button>
           )}
           { !showCorrect && (
             <Button className={classes.button} variant="contained" onClick={this.handleCheckAnswers}>
-              Check
+              {t("Check")}
             </Button>
           )}
         </Paper>
         { showCorrect && (
-          <RelevantRules rules={rule} />
+          <RelevantRules rules={rule} lang={lang} />
         )}
       </div>
     );
   }
 }
 
-export default withStyles(styles)(RulesTestQuestion);
+export default withTranslation()(withStyles(styles)(RulesTestQuestion));

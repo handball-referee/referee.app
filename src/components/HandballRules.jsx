@@ -4,80 +4,112 @@ import { Route } from 'react-router';
 import Paper from '@material-ui/core/Paper';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Rule from './Rule';
-import Foreword from '../data/rules/Foreword.md';
-import Rule1 from '../data/rules/1.md';
-import Rule2 from '../data/rules/2.md';
-import Rule3 from '../data/rules/3.md';
-import Rule4 from '../data/rules/4.md';
-import Rule5 from '../data/rules/5.md';
-import Rule6 from '../data/rules/6.md';
-import Rule7 from '../data/rules/7.md';
-import Rule8 from '../data/rules/8.md';
-import Rule9 from '../data/rules/9.md';
-import Rule10 from '../data/rules/10.md';
-import Rule11 from '../data/rules/11.md';
-import Rule12 from '../data/rules/12.md';
-import Rule13 from '../data/rules/13.md';
-import Rule14 from '../data/rules/14.md';
-import Rule15 from '../data/rules/15.md';
-import Rule16 from '../data/rules/16.md';
-import Rule17 from '../data/rules/17.md';
-import Rule18 from '../data/rules/18.md';
-import HandSignals from '../data/rules/HandSignals.md';
-import Clarifications1 from '../data/rules/Clarification1.md';
-import Clarifications2 from '../data/rules/Clarification2.md';
-import Clarifications3 from '../data/rules/Clarification3.md';
-import Clarifications4 from '../data/rules/Clarification4.md';
-import Clarifications5 from '../data/rules/Clarification5.md';
-import Clarifications6 from '../data/rules/Clarification6.md';
-import Clarifications7 from '../data/rules/Clarification7.md';
-import Clarifications8 from '../data/rules/Clarification8.md';
-import SAR from '../data/rules/SAR.md';
-import Guidelines from '../data/rules/Guidelines.md';
-import GuidelinesPlayingCourts from '../data/rules/GuidelinesPlayingCourts.md';
+import {useTranslation, withTranslation} from "react-i18next";
+import {
+  Clarification1,
+  Clarification2,
+  Clarification3,
+  Clarification4,
+  Clarification5,
+  Clarification6,
+  Clarification7,
+  Clarification8,
+  Foreword,
+  Guidelines,
+  GuidelinesPlayingCourt,
+  HandSignals,
+  Rule1,
+  Rule10,
+  Rule11,
+  Rule12,
+  Rule13,
+  Rule14,
+  Rule15,
+  Rule16,
+  Rule17,
+  Rule18,
+  Rule2,
+  Rule3,
+  Rule4,
+  Rule5,
+  Rule6,
+  Rule7,
+  Rule8,
+  Rule9,
+  SAR,
+} from "./rules/Rules";
 
-const ForwordComponent = () => (<Rule source={Foreword} />);
-const RulesOfTheGameComponent = () => (
-  <div>
-    <Typography variant="h6">Rules of the Game</Typography>
-    <Rule source={Rule1} />
-    <Rule source={Rule2} />
-    <Rule source={Rule3} />
-    <Rule source={Rule4} />
-    <Rule source={Rule5} />
-    <Rule source={Rule6} />
-    <Rule source={Rule7} />
-    <Rule source={Rule8} />
-    <Rule source={Rule9} />
-    <Rule source={Rule10} />
-    <Rule source={Rule11} />
-    <Rule source={Rule12} />
-    <Rule source={Rule13} />
-    <Rule source={Rule14} />
-    <Rule source={Rule15} />
-    <Rule source={Rule16} />
-    <Rule source={Rule17} />
-    <Rule source={Rule18} />
-  </div>
-);
-const HandSignalsComponent = () => (<Rule source={HandSignals} />);
-const ClarificationsComponent = () => (
-  <div>
-    <Typography variant="h6">Clarifications to the Rules of the Game</Typography>
-    <Rule source={Clarifications1} />
-    <Rule source={Clarifications2} />
-    <Rule source={Clarifications3} />
-    <Rule source={Clarifications4} />
-    <Rule source={Clarifications5} />
-    <Rule source={Clarifications6} />
-    <Rule source={Clarifications7} />
-    <Rule source={Clarifications8} />
-  </div>
-);
-const SubstitutionAreaRegulationsComponent = () => (<Rule source={SAR} />);
-const GuidelinesComponent = () => (<Rule source={Guidelines} />);
-const CourtAndGoalComponent = () => (<Rule source={GuidelinesPlayingCourts} />);
+const ForewordComponent = () => {
+  const { i18n } = useTranslation();
+
+  return (<Foreword lang={i18n.language} />);
+}
+
+const RulesOfTheGameComponent = () => {
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language;
+  return (
+    <div>
+      <Typography variant="h6">{t("Rules of the Game")}</Typography>
+      <Rule1 lang={lang} />
+      <Rule2 lang={lang} />
+      <Rule3 lang={lang} />
+      <Rule4 lang={lang} />
+      <Rule5 lang={lang} />
+      <Rule6 lang={lang} />
+      <Rule7 lang={lang} />
+      <Rule8 lang={lang} />
+      <Rule9 lang={lang} />
+      <Rule10 lang={lang} />
+      <Rule11 lang={lang} />
+      <Rule12 lang={lang} />
+      <Rule13 lang={lang} />
+      <Rule14 lang={lang} />
+      <Rule15 lang={lang} />
+      <Rule16 lang={lang} />
+      <Rule17 lang={lang} />
+      <Rule18 lang={lang} />
+    </div>
+  );
+}
+
+const HandSignalsComponent = () => {
+  const { i18n } = useTranslation();
+  return (<HandSignals lang={i18n.language} />);
+}
+
+const ClarificationsComponent = () => {
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language;
+  return (
+    <div>
+      <Typography variant="h6">{t("Clarifications to the Rules of the Game")}</Typography>
+      <Clarification1 lang={lang} />
+      <Clarification2 lang={lang} />
+      <Clarification3 lang={lang} />
+      <Clarification4 lang={lang} />
+      <Clarification5 lang={lang} />
+      <Clarification6 lang={lang} />
+      <Clarification7 lang={lang} />
+      <Clarification8 lang={lang} />
+    </div>
+  );
+}
+
+const SubstitutionAreaRegulationsComponent = () => {
+  const { i18n } = useTranslation();
+  return (<SAR lang={i18n.language} />);
+}
+
+const GuidelinesComponent = () => {
+  const { i18n } = useTranslation();
+  return (<Guidelines lang={i18n.language} />);
+}
+
+const CourtAndGoalComponent = () => {
+  const { i18n } = useTranslation();
+  return (<GuidelinesPlayingCourt lang={i18n.language} />);
+}
 
 const styles = theme => ({
   root: {
@@ -85,17 +117,17 @@ const styles = theme => ({
   },
 });
 
-const HandballRules = ({ classes, match }) => (
+const HandballRules = ({ classes, match, t }) => (
   <Paper className={classes.root}>
-    <Route path={`${match.url}/foreword`} component={ForwordComponent} />
+    <Route path={`${match.url}/foreword`} component={ForewordComponent} />
     <Route path={`${match.url}/rules-of-the-game`} component={RulesOfTheGameComponent} />
     <Route path={`${match.url}/hand-signals`} component={HandSignalsComponent} />
     <Route path={`${match.url}/clarifications`} component={ClarificationsComponent} />
     <Route path={`${match.url}/substitution-area-regulations`} component={SubstitutionAreaRegulationsComponent} />
     <Route path={`${match.url}/guidelines-and-interpretations`} component={GuidelinesComponent} />
     <Route path={`${match.url}/guidelines-for-playing-courts-and-goals`} component={CourtAndGoalComponent} />
-    <Typography color="textSecondary">Edition: 1 July 2016</Typography>
-    <Typography color="textSecondary">Source: http://www.ihf.info/files/Uploads/NewsAttachments/0_New-Rules%20of%20the%20Game_GB.pdf</Typography>
+    <Typography color="textSecondary">{t("EDITION")}</Typography>
+    <Typography color="textSecondary">{t("SOURCE")}</Typography>
   </Paper>
 );
 
@@ -108,4 +140,4 @@ HandballRules.propTypes = {
   }).isRequired,
 };
 
-export default withStyles(styles)(HandballRules);
+export default withTranslation()(withStyles(styles)(HandballRules));

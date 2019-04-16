@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Route, Redirect } from 'react-router';
-import Loadable from 'react-loadable';
+import { Route } from 'react-router';
 import * as PropTypes from 'prop-types';
+import loadable from "@loadable/component";
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -14,6 +14,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import { Link } from 'react-router-dom';
 import Menu from './Menu';
 import Loading from './Loading';
+import {withTranslation} from "react-i18next";
+import {changeLanguage} from "i18next";
 
 const styles = {
   flex: {
@@ -25,14 +27,12 @@ const styles = {
   },
 };
 
-const HandballRules = Loadable({
-  loader: () => import('./HandballRules'),
-  loading: Loading,
+const HandballRules = loadable(() => import('./HandballRules'), {
+  fallback: <Loading/>,
 });
 
-const RulesTest = Loadable({
-  loader: () => import('./RulesTest'),
-  loading: Loading,
+const RulesTest = loadable(() => import('./RulesTest'), {
+  fallback: <Loading/>,
 });
 
 // const Statistics = Loadable({
@@ -52,6 +52,7 @@ class AppShell extends Component {
     this.toggleMenu = this.toggleMenu.bind(this);
     this.handleMenu = this.handleMenu.bind(this);
     this.handleMenuClose = this.handleMenuClose.bind(this);
+    this.handleLanguageChange = this.handleLanguageChange.bind(this);
   }
 
   toggleMenu(open) {
@@ -68,26 +69,26 @@ class AppShell extends Component {
     this.setState({ anchorEl: null });
   }
 
+  handleLanguageChange = (lang) => () => {
+    changeLanguage(lang);
+    this.setState({ anchorEl: null });
+  }
+
   render() {
     const { menuOpen, anchorEl } = this.state;
-    const { classes } = this.props;
+    const { classes, t } = this.props;
     const open = !!anchorEl;
 
     return (
       <div>
-        <Route
-          path="/:lang"
-          render={props => (
-            <Menu open={menuOpen} onClose={() => this.toggleMenu(false)} {...props} />
-          )}
-        />
+        <Menu open={menuOpen} onClose={() => this.toggleMenu(false)} />
         <AppBar position="static" color="primary">
           <Toolbar>
             <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" onClick={() => this.toggleMenu(true)}>
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" color="inherit" className={classes.flex}>
-              Handball Referee
+              {t('Handball Referee')}
             </Typography>
             <div>
               <IconButton onClick={this.handleMenu} color="inherit">
@@ -107,16 +108,15 @@ class AppShell extends Component {
                 open={open}
                 onClose={this.handleMenuClose}
               >
-                <MenuItem component={Link} to="/en" onClick={this.handleMenuClose}>English</MenuItem>
-                <MenuItem component={Link} to="/es" onClick={this.handleMenuClose}>Español</MenuItem>
+                <MenuItem onClick={this.handleLanguageChange("en")}>English</MenuItem>
+                <MenuItem onClick={this.handleLanguageChange("es")}>Español</MenuItem>
               </UIMenu>
             </div>
           </Toolbar>
         </AppBar>
-        <Route exact path="/" render={() => (<Redirect to="/en" />)} />
-        <Route path="/:lang/rules" component={HandballRules} />
+        <Route path="/rules" component={HandballRules} />
         {/* <Route path="/:lang/stats" component={Statistics} /> */}
-        <Route path="/:lang" component={RulesTest} exact />
+        <Route path="/" component={RulesTest} exact />
       </div>
     );
   }
@@ -129,4 +129,4 @@ AppShell.propTypes = {
   }).isRequired,
 };
 
-export default withStyles(styles)(AppShell);
+export default withTranslation()(withStyles(styles)(AppShell));

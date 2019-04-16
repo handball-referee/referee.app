@@ -2,6 +2,7 @@ import path from 'path';
 import CopyPlugin from 'copy-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import { GenerateSW } from 'workbox-webpack-plugin';
+import LoadablePlugin from '@loadable/webpack-plugin';
 // import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import CnameWebpackPlugin from 'cname-webpack-plugin';
 import { DefinePlugin } from 'webpack';
@@ -78,6 +79,7 @@ const config = {
         },
       ],
     }),
+    new LoadablePlugin(),
     new CopyPlugin([
       {
         from: 'manifest.json',
