@@ -1,7 +1,7 @@
 import 'typeface-roboto'; // eslint-disable-line import/extensions
 import React from 'react';
 import { loadableReady } from "@loadable/component";
-import { render } from 'react-dom';
+import { hydrate, render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import { createStore } from 'redux';
