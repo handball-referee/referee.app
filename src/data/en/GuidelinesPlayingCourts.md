@@ -73,7 +73,7 @@
 - l) Handball goals are standardised by the European Committee for Standardization, CEN
   (Comité Européen de Normalisation) as EN 749 in connection with EN 202.10-1.  
 
-##### Diagram 5
+### Diagram 5
 The goal area and surroundings
 
 ![The goal area and surroundings](../diagrams/diagram5.png)

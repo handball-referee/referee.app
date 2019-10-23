@@ -115,6 +115,7 @@ class AppShell extends Component<Props, State> {
                 onClose={this.handleMenuClose}
               >
                 <MenuItem onClick={this.handleLanguageChange("en")}>English</MenuItem>
+                <MenuItem onClick={this.handleLanguageChange("de")}>Deutsch</MenuItem>
                 <MenuItem onClick={this.handleLanguageChange("es")}>Español</MenuItem>
               </UIMenu>
             </div>

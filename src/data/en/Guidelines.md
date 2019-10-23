@@ -261,8 +261,7 @@ A throw-in is executed in the direction of the playing court as direct throw pas
 line.
 
 ## Execution of a throw (Rule 15)
-Rule 15:7, 3
-rd paragraph and Rule 15:8 include examples of possible faults when executing a
+Rule 15:7, 3rd paragraph and Rule 15:8 include examples of possible faults when executing a
 throw. Dribbling and putting the ball down on the floor (before taking it up again) is an
 infraction, as well as having the ball in contact with the floor when executing a throw
 (exception: goalkeeper throw).
