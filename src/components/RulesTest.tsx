@@ -130,6 +130,21 @@ class RulesTest extends Component<Props> {
       return (<Loading />);
     }
 
+    let questionOutput;
+    if (!question) {
+      questionOutput = t("Question not translated");
+    } else {
+      questionOutput = (
+        <RulesTestQuestion
+          question={question}
+          correct={answer.correct}
+          rule={answer.rule}
+          checkAnswers={handleCheckAnswers}
+          nextQuestion={handleNextQuestion}
+        />
+      );
+    }
+
     return (
       <div>
         <AppBar color="secondary" position="sticky">
@@ -149,13 +164,7 @@ class RulesTest extends Component<Props> {
             <Button color="inherit" onClick={handleReset}>{t("Reset")}</Button>
           </Toolbar>
         </AppBar>
-        <RulesTestQuestion
-          question={question}
-          correct={answer.correct}
-          rule={answer.rule}
-          checkAnswers={handleCheckAnswers}
-          nextQuestion={handleNextQuestion}
-        />
+        {questionOutput}
       </div>
     );
   }
