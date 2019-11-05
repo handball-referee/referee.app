@@ -71,7 +71,7 @@ class StatisticsTable extends Component<Props, State> {
             orderBy={orderBy}
           />
           <TableBody>
-            {list.slice(page * rowsPerPage, (page * rowsPerPage) + rowsPerPage).map(n => (
+            {list.slice(page * rowsPerPage, (page * rowsPerPage) + rowsPerPage).map((n) => (
               <TableRow
                 hover
                 role="checkbox"

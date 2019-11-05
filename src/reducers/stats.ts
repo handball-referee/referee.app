@@ -38,7 +38,7 @@ const reducer = (state = initialState, action: StatsActions) => {
 
       if (
         question.correct.length === userAnswers.length
-        && question.correct.every(a => userAnswers.indexOf(a) > -1)
+        && question.correct.every((a) => userAnswers.indexOf(a) > -1)
       ) {
         const correct = state.correct + 1;
         const total = correct + state.wrong;

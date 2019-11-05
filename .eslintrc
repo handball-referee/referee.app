@@ -15,7 +15,12 @@
     "es6": true
   },
   "rules": {
-    "@typescript-eslint/array-type": ["error", "array-simple"],
+    "@typescript-eslint/array-type": [
+      "error",
+      {
+        "default": "array-simple"
+      }
+    ],
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/no-empty-interface": [
@@ -25,13 +30,20 @@
       }
     ],
     "@typescript-eslint/explicit-function-return-type": 0,
+    "import/prefer-default-export": 0,
     "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
     "react/prop-types": 0,
+    "react/static-property-placement": ["error", "static public field"],
     "quotes": ["error", "double"]
   },
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"]
+      }
     }
   }
 }

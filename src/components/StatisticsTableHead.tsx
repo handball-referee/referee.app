@@ -55,7 +55,7 @@ class StatisticsTableHead extends Component<Props> {
     return (
       <TableHead>
         <TableRow>
-          {columnData.map(column => (
+          {columnData.map((column) => (
             <TableCell
               key={column.id}
               align={column.align}

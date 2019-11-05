@@ -111,7 +111,7 @@ const RelevantRules: FunctionComponent<Props> = ({ rules }) => {
 
   return (
     <div>
-      {rules.map(rule => (
+      {rules.map((rule) => (
         <ExpansionPanel key={rule}>
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>{rule}</Typography>

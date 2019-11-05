@@ -99,14 +99,14 @@ class RulesTest extends Component<Props> {
     } = this.props;
 
     handleLoadingStarted(lang);
-    fetch(`/data/questions/${lang}.json`).then(response => response.json().then(json => ({ json, response }))).then(({ json, response }) => {
+    fetch(`/data/questions/${lang}.json`).then((response) => response.json().then((json) => ({ json, response }))).then(({ json, response }) => {
       if (!response.ok) {
         return Promise.reject(json);
       }
 
       return json;
     }).then(
-      response => handleLoadingSuccess(response, lang),
+      (response) => handleLoadingSuccess(response, lang),
       () => handleLoadingError(lang),
     );
   }
@@ -158,7 +158,7 @@ class RulesTest extends Component<Props> {
             <Typography variant="subtitle1" color="inherit" className={classes.flex}>
               {percentage}
 
-              {"% "}
+              %
               {t("correct")}
             </Typography>
             <Button color="inherit" onClick={handleReset}>{t("Reset")}</Button>

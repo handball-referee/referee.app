@@ -14,6 +14,12 @@ import reducer from "./reducers";
 import theme from "./theme";
 import i18n from "./i18n";
 
+declare global {
+  interface Window {
+    __PRELOADED_STATE__: object;
+  }
+}
+
 if (process.env.NODE_ENV === "production") {
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/sw/sw.js");
@@ -25,9 +31,7 @@ i18next
   .use(initReactI18next)
   .init(i18n);
 
-// @ts-ignore
 const preloadedState = window.__PRELOADED_STATE__; // eslint-disable-line
-// @ts-ignore
 delete window.__PRELOADED_STATE__; // eslint-disable-line
 
 const rootElement = document.getElementById("app");

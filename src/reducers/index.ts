@@ -17,7 +17,7 @@ export interface IApplicationState {
 }
 
 export const listStats = (state: IApplicationState) => {
-  const q: IStatsAnswer[] = Object.keys(state.stats.answers).map(id => state.stats.answers[id]);
+  const q: IStatsAnswer[] = Object.keys(state.stats.answers).map((id) => state.stats.answers[id]);
   const { order, orderBy } = state.ui;
 
   return order === "desc"

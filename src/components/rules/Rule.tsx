@@ -28,7 +28,7 @@ interface Props {
 
 const Rule: FunctionComponent<Props> = ({ source }) => (
   <div className="rule">
-    <Markdown source={source} renderers={{ heading: Heading }} transformImageUri={uri => `/data/diagrams/${uri}`} />
+    <Markdown source={source} renderers={{ heading: Heading }} transformImageUri={(uri) => `/data/diagrams/${uri}`} />
   </div>
 );
 
