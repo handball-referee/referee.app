@@ -1,14 +1,13 @@
 import React from "react";
 import { loadableReady } from "@loadable/component";
 import { hydrate, render } from "react-dom";
-import { JssProvider } from "react-jss";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 import i18next from "i18next";
 import { createStore } from "redux";
-import { createGenerateClassName, MuiThemeProvider } from "@material-ui/core/styles";
+import { ThemeProvider } from "@material-ui/core/styles";
 import AppShell from "./components/AppShell";
 import reducer from "./reducers";
 import theme from "./theme";
@@ -36,7 +35,6 @@ delete window.__PRELOADED_STATE__; // eslint-disable-line
 
 const rootElement = document.getElementById("app");
 const store = createStore(reducer(), preloadedState);
-const generateClassName = createGenerateClassName();
 
 class Main extends React.Component {
   public componentDidMount() {
@@ -52,15 +50,13 @@ class Main extends React.Component {
 }
 
 const app = (
-  <JssProvider generateClassName={generateClassName}>
-    <MuiThemeProvider theme={theme}>
-      <Provider store={store}>
-        <BrowserRouter>
-          <Main />
-        </BrowserRouter>
-      </Provider>
-    </MuiThemeProvider>
-  </JssProvider>
+  <ThemeProvider theme={theme}>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Main />
+      </BrowserRouter>
+    </Provider>
+  </ThemeProvider>
 );
 
 if (process.env.NODE_ENV === "production") {

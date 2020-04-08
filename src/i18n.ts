@@ -1,6 +1,6 @@
-import de from "./translations/de";
-import en from "./translations/en";
-import es from "./translations/es";
+import de from "./translations/de.json";
+import en from "./translations/en.json";
+import es from "./translations/es.json";
 
 const i18n = {
   fallbackLng: "en",

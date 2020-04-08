@@ -11,10 +11,10 @@ import { IQuestion } from "../model";
 
 const styles = (theme: Theme) => createStyles({
   button: {
-    margin: theme.spacing.unit * 3,
+    margin: theme.spacing(3),
   },
   question: {
-    marginBottom: theme.spacing.unit * 3,
+    marginBottom: theme.spacing(3),
   },
 });
 

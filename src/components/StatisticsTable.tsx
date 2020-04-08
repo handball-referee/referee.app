@@ -82,13 +82,11 @@ class StatisticsTable extends Component<Props, State> {
                 <TableCell align="right">{n.testAsked}</TableCell>
                 <TableCell align="right">{n.testCorrect}</TableCell>
                 <TableCell align="right">
-                  {n.testPercentageCorrect}
-%
+                  {`${n.testPercentageCorrect} %`}
                 </TableCell>
                 <TableCell align="right">{n.testWrong}</TableCell>
                 <TableCell align="right">
-                  {n.testPercentageWrong}
-%
+                  {`${n.testPercentageWrong} %`}
                 </TableCell>
               </TableRow>
             ))}

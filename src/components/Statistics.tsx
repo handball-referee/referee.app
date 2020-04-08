@@ -15,7 +15,7 @@ import { UIActions } from "../actions/ui";
 
 const styles = (theme: Theme) => createStyles({
   root: {
-    padding: theme.spacing.unit * 3,
+    padding: theme.spacing(3),
   },
 });
 

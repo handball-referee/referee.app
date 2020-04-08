@@ -4,7 +4,7 @@ import { createStyles, withStyles } from "@material-ui/core/styles";
 
 const styles = (theme: Theme) => createStyles({
   loading: {
-    marginTop: theme.spacing.unit * 3,
+    marginTop: theme.spacing(3),
     marginLeft: "auto",
     marginRight: "auto",
     display: "block",

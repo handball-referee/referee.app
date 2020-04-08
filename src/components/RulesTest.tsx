@@ -40,7 +40,7 @@ const styles = (theme: Theme) => ({
     flex: 1,
   },
   badge: {
-    marginRight: theme.spacing.unit * 3,
+    marginRight: theme.spacing(3),
   },
 });
 
@@ -156,10 +156,7 @@ class RulesTest extends Component<Props> {
               <CrossIcon />
             </Badge>
             <Typography variant="subtitle1" color="inherit" className={classes.flex}>
-              {percentage}
-
-              %
-              {t("correct")}
+              {`${percentage}% ${t("correct")}`}
             </Typography>
             <Button color="inherit" onClick={handleReset}>{t("Reset")}</Button>
           </Toolbar>

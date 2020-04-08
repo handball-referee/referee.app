@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { ChunkExtractor, ChunkExtractorManager } from "@loadable/server";
 import express from "express";
 import * as path from "path";
@@ -6,9 +7,7 @@ import { StaticRouter } from "react-router";
 import { renderToString } from "react-dom/server";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
-import { createGenerateClassName, MuiThemeProvider } from "@material-ui/core";
-import { SheetsRegistry } from "jss";
-import JssProvider from "react-jss/lib/JssProvider";
+import { ThemeProvider, ServerStyleSheets } from "@material-ui/core/styles";
 import { I18nextProvider } from "react-i18next";
 import middleware from "i18next-express-middleware";
 import i18next from "i18next";
@@ -42,23 +41,19 @@ app.use((req, res) => {
   const statsFile = path.resolve("dist/loadable-stats.json");
   const extractor = new ChunkExtractor({ statsFile, entrypoints: ["client"] });
   const store = createStore(reducer());
-  const sheetsRegistry = new SheetsRegistry();
-  const sheetsManager = new Map();
-  const generateClassName = createGenerateClassName();
+  const sheets = new ServerStyleSheets();
 
   const component = (
     <ChunkExtractorManager extractor={extractor}>
-      <JssProvider registry={sheetsRegistry} generateClassName={generateClassName}>
-        <MuiThemeProvider theme={theme} sheetsManager={sheetsManager}>
-          <I18nextProvider i18n={req.i18n}>
-            <Provider store={store}>
-              <StaticRouter location={req.url} context={context}>
-                <AppShell />
-              </StaticRouter>
-            </Provider>
-          </I18nextProvider>
-        </MuiThemeProvider>
-      </JssProvider>
+      <ThemeProvider theme={theme}>
+        <I18nextProvider i18n={req.i18n}>
+          <Provider store={store}>
+            <StaticRouter location={req.url} context={context}>
+              <AppShell />
+            </StaticRouter>
+          </Provider>
+        </I18nextProvider>
+      </ThemeProvider>
     </ChunkExtractorManager>
   );
 
@@ -73,7 +68,7 @@ app.use((req, res) => {
 
     const scripts = extractor.getScriptTags();
     const styles = extractor.getStyleTags();
-    const css = sheetsRegistry.toString();
+    const css = sheets.toString();
 
     const html = Html({
       body,

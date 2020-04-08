@@ -1,6 +1,6 @@
 /* eslint-disable */
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component, MouseEvent } from "react";
+import {Link} from "react-router-dom";
 import {
   WithStyles, createStyles, withStyles, Theme,
 } from "@material-ui/core";
@@ -20,7 +20,7 @@ import { WithTranslation, withTranslation } from "react-i18next";
 
 const styles = (theme: Theme) => createStyles({
   nested: {
-    paddingLeft: theme.spacing.unit * 4,
+    paddingLeft: theme.spacing(4),
   },
 });
 
@@ -31,6 +31,39 @@ interface Props extends WithTranslation, WithStyles<typeof styles> {
 
 interface State {
   rulesOpen: boolean;
+}
+
+interface Test {
+
+}
+
+interface ListItemLinkProps {
+  className?: string;
+  icon?: React.ReactElement;
+  primary: React.ReactNode;
+  to: string;
+  onClick: (event: MouseEvent) => void;
+}
+
+function ListItemLink({
+  icon,
+  primary,
+  to,
+  onClick,
+  className
+}: ListItemLinkProps) {
+  const renderLink = React.useMemo(
+    // @ts-ignore
+    () => React.forwardRef<any, ListItemProps>((itemProps, ref) => <Link to={to} ref={ref} {...itemProps} />),
+    [to],
+  );
+
+  return (
+    <ListItem className={className} button component={renderLink} onClick={onClick}>
+      {icon ? <ListItemIcon>{icon}</ListItemIcon> : null}
+      <ListItemText primary={primary} />
+    </ListItem>
+  );
 }
 
 class Menu extends Component<Props, State> {
@@ -61,25 +94,10 @@ class Menu extends Component<Props, State> {
       <ListSubheader component="div">{t("Menu")}</ListSubheader>
     );
 
-    const TestLink = React.forwardRef<HTMLAnchorElement, Partial<ListItemProps>>((props, ref) => <Link to="/" {...props} innerRef={ref} />);
-    const StatsLink = React.forwardRef<HTMLAnchorElement, Partial<ListItemProps>>((props, ref) => <Link to="/stats" {...props} innerRef={ref} />);
-    const ForewordLink = React.forwardRef<HTMLAnchorElement, Partial<ListItemProps>>((props, ref) => <Link to="/rules/foreword" {...props} innerRef={ref} />);
-    const RulesLink = React.forwardRef<HTMLAnchorElement, Partial<ListItemProps>>((props, ref) => <Link to="/rules/rules-of-the-game" {...props} innerRef={ref} />);
-    const HandSignalsLink = React.forwardRef<HTMLAnchorElement, Partial<ListItemProps>>((props, ref) => <Link to="/rules/hand-signals" {...props} innerRef={ref} />);
-    const ClarificationsLink = React.forwardRef<HTMLAnchorElement, Partial<ListItemProps>>((props, ref) => <Link to="/rules/clarifications" {...props} innerRef={ref} />);
-    const SARLink = React.forwardRef<HTMLAnchorElement, Partial<ListItemProps>>((props, ref) => <Link to="/rules/substitution-area-regulations" {...props} innerRef={ref} />);
-    const GuidelinesLink = React.forwardRef<HTMLAnchorElement, Partial<ListItemProps>>((props, ref) => <Link to="/rules/guidelines-and-interpretations" {...props} innerRef={ref} />);
-    const PlayingCourtLink = React.forwardRef<HTMLAnchorElement, Partial<ListItemProps>>((props, ref) => <Link to="/rules/guidelines-for-playing-courts-and-goals" {...props} innerRef={ref} />);
-
     return (
       <Drawer open={open} onClose={onClose}>
         <List component="nav" subheader={SubHeader}>
-          <ListItem button component={TestLink} onClick={onClose}>
-            <ListItemIcon>
-              <TestIcon />
-            </ListItemIcon>
-            <ListItemText primary={t("Referee Test")} />
-          </ListItem>
+          <ListItemLink primary={t("Referee Test")} icon={<TestIcon />} to="/" onClick={onClose} />
           <ListItem button onClick={this.handleRulesClick}>
             <ListItemIcon>
               <RulesIcon />
@@ -88,39 +106,18 @@ class Menu extends Component<Props, State> {
             {rulesOpen ? <ExpandLess /> : <ExpandMore />}
           </ListItem>
           <Collapse in={rulesOpen} timeout="auto" unmountOnExit>
-            {/*
-            // @ts-ignore */}
             <List component="div" disablePadding>
-              <ListItem button className={classes.nested} component={ForewordLink} onClick={onClose}>
-                <ListItemText primary={t("Foreword")} />
-              </ListItem>
-              <ListItem button className={classes.nested} component={RulesLink} onClick={onClose}>
-                <ListItemText primary={t("Rules of the Game")} />
-              </ListItem>
-              <ListItem button className={classes.nested} component={HandSignalsLink} onClick={onClose}>
-                <ListItemText primary={t("Hand Signals")} />
-              </ListItem>
-              <ListItem button className={classes.nested} component={ClarificationsLink} onClick={onClose}>
-                <ListItemText primary={t("Clarifications to the Rules of the Game")} />
-              </ListItem>
-              <ListItem button className={classes.nested} component={SARLink} onClick={onClose}>
-                <ListItemText primary={t("Substitution Area Regulations")} />
-              </ListItem>
-              <ListItem button className={classes.nested} component={GuidelinesLink} onClick={onClose}>
-                <ListItemText primary={t("Guidelines and Interpretations")} />
-              </ListItem>
-              <ListItem button className={classes.nested} component={PlayingCourtLink} onClick={onClose}>
-                <ListItemText primary={t("Guidelines for Playing Courts and Goals")} />
-              </ListItem>
+              <ListItemLink className={classes.nested} primary={t("Foreword")} to="/rules/foreword" onClick={onClose}/>
+              <ListItemLink className={classes.nested} primary={t("Rules of the Game")} to="/rules/rules-of-the-game" onClick={onClose}/>
+              <ListItemLink className={classes.nested} primary={t("Hand Signals")} to="/rules/hand-signals" onClick={onClose}/>
+              <ListItemLink className={classes.nested} primary={t("Clarifications to the Rules of the Game")} to="/rules/clarifications" onClick={onClose}/>
+              <ListItemLink className={classes.nested} primary={t("Substitution Area Regulations")} to="/rules/substitution-area-regulations" onClick={onClose}/>
+              <ListItemLink className={classes.nested} primary={t("Guidelines and Interpretations")} to="/rules/guidelines-and-interpretations" onClick={onClose}/>
+              <ListItemLink className={classes.nested} primary={t("Guidelines for Playing Courts and Goals")} to="/rules/guidelines-for-playing-courts-and-goals" onClick={onClose}/>
             </List>
           </Collapse>
         </List>
-        <ListItem button component={StatsLink} onClick={onClose}>
-          <ListItemIcon>
-            <StatsIcon />
-          </ListItemIcon>
-          <ListItemText primary={t("Statistics")} />
-        </ListItem>
+        <ListItemLink className={classes.nested} primary={t("Statistics")} icon={<StatsIcon />} to="/stats" onClick={onClose}/>
       </Drawer>
     );
   }

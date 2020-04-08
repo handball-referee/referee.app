@@ -29,7 +29,7 @@ const styles = (theme: Theme) => createStyles({
     },
   },
   questionText: {
-    padding: theme.spacing.unit * 3,
+    padding: theme.spacing(3),
   },
 });
 
@@ -44,7 +44,6 @@ interface Props extends WithStyles<typeof styles> {
 
 class Question extends Component<Props> {
   public static defaultProps = {
-    onAnswerSelect: () => {},
     answers: [],
     showCorrect: false,
     viewOnly: false,
