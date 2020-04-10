@@ -1,5 +1,6 @@
 /* eslint-disable */
 const path = require("path");
+const {EnvironmentPlugin} = require("webpack");
 const CopyPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { GenerateSW } = require("workbox-webpack-plugin");
@@ -54,6 +55,7 @@ const config = {
     },
   },
   plugins: [
+    new EnvironmentPlugin(['SENTRY_DSN', 'SENTRY_ENV']),
     new HtmlWebpackPlugin({
       template: "index.html",
     }),

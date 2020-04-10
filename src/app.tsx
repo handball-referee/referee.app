@@ -8,6 +8,7 @@ import { initReactI18next } from "react-i18next";
 import i18next from "i18next";
 import { createStore } from "redux";
 import { ThemeProvider } from "@material-ui/core/styles";
+import * as Sentry from "@sentry/browser";
 import AppShell from "./components/AppShell";
 import reducer from "./reducers";
 import theme from "./theme";
@@ -23,6 +24,11 @@ if (process.env.NODE_ENV === "production") {
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/sw/sw.js");
   }
+
+  Sentry.init({
+    dsn: process.env.SENTRY_DSN,
+    environment: process.env.SENTRY_ENV,
+  });
 }
 
 i18next
