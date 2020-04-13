@@ -72,6 +72,7 @@
   #menu {
     width: 100%;
     flex-direction: row;
+    flex: 0 0 3.5rem;
   }
 
   #menu nav {
