@@ -1,4 +1,4 @@
-# 6.  Definición de clara ocasión de gol (14:1)
+## 6.  Definición de clara ocasión de gol (14:1)
 
 En lo que se refiere a la regla 14:1, existe una clara ocasión de gol
 cuando:

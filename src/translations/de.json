@@ -1,21 +1,56 @@
 {
   "translation": {
-    "EDITION": "Ausgabe: 1. Juli 2016",
-    "SOURCE": "Quelle: https://www.ihf.info/sites/default/files/2019-07/New-Rules%20of%20the%20Game_D.pdf",
-    "Check": "Überprüfen",
-    "Clarifications to the Rules of the Game": "Erläuterungen zu den Spielregeln",
+    "app": {
+      "title": "Handballschiedsrichter",
+      "language": "Sprache",
+      "toggle-menu": "Menü offnen oder schließen",
+      "quicknav": "Schnellnavigation"
+    },
     "correct": "richtig",
-    "Foreword": "Vorwort",
-    "Guidelines and Interpretations": "Guidelines und Interpretationen",
-    "Guidelines for Playing Courts and Goals": "Richtlinien für Spielfläche und Tore",
-    "Hand Signals": "Handzeichen",
-    "Handball Referee": "Handballschiedsrichter",
-    "Handball Rules": "Handballregeln",
-    "Referee Test": "Regelfragentest",
-    "Rules of the Game": "Spielregeln",
-    "Substitution Area Regulations": "Auswechselraum-Reglement",
-    "Statistics": "Statistik",
-    "Next": "Nächste Frage",
-    "Reset": "Zurücksetzen"
+    "Reset": "Zurücksetzen",
+    "menu": {
+      "test": "Regelfragentest",
+      "rules": "Spielregeln",
+      "stats": "Statistik",
+      "about": "Informationen"
+    },
+    "rules": {
+      "foreword": "Vorwort",
+      "rules": "Spielregeln",
+      "rule": {
+        "rule1": "Die Spielfläche",
+        "rule2": "Spielzeit, Schlusssignal, Time-out",
+        "rule3": "Der Ball",
+        "rule4": "Mannschaften, Spielerwechsel, Ausrüstung, Spielerverletzung",
+        "rule5": "Der Torwart",
+        "rule6": "Der Torraum",
+        "rule7": "Spielen des Balles, passives Spiel",
+        "rule8": "Regelwidrigkeiten und unsportliches Verhalten",
+        "rule9": "Der Torgewinn",
+        "rule10": "Der Anwurf",
+        "rule11": "Der Einwurf",
+        "rule12": "Der Abwurf",
+        "rule13": "Der Freiwurf",
+        "rule14": "Der 7-m-Wurf",
+        "rule15": "Allgemeine Anweisungen zur Ausführung der Würfe",
+        "rule16": "Die Strafen",
+        "rule17": "Die Schiedsrichter",
+        "rule18": "Zeitnehmer und Sekretär"
+      },
+      "hand-signals": "Handzeichen",
+      "clarifications": "Erläuterungen zu den Spielregeln",
+      "sar": "Auswechselraum-Reglement",
+      "guidelines": "Guidelines und Interpretationen",
+      "playing-court": "Richtlinien für Spielfläche und Tore",
+      "edition": "Ausgabe: 1. Juli 2016",
+      "source": "Quelle: https://www.ihf.info/sites/default/files/2019-07/New-Rules%20of%20the%20Game_D.pdf"
+    },
+    "rulestest": {
+      "question": "Frage",
+      "check": "Überprüfen",
+      "next": "Nächste Frage",
+      "overall": "Insgesamt",
+      "relevant-rules": "Relevante Regeln"
+    }
   }
 }

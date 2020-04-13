@@ -1,4 +1,4 @@
-# 2. Time-out (2:8)
+## 2. Time-out (2:8)
 
 Abgesehen von den in Regel 2:8 beschriebenen Situationen, bei denen ein Time-out verbindlich ist, wird von den 
 Schiedsrichtern erwartet, dass sie ihr Urteilsvermögen bezüglich der Notwendigkeit eines Time-out auch in anderen 

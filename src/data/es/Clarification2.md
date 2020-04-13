@@ -1,4 +1,4 @@
-# 2. Tiempo muerto (time-out) (2:8)
+## 2. Tiempo muerto (time-out) (2:8)
 Además de las situaciones indicadas en la regla 2:8, en las que un
 tiempo muerto (time-out) es obligatorio, se espera que los árbitros
 utilicen su buen criterio en relación con la necesidad de los tiempos

@@ -1,4 +1,4 @@
-# 3. Tiempo muerto de equipo (2:10)
+## 3. Tiempo muerto de equipo (2:10)
 
 Cada equipo tiene derecho a recibir un tiempo muerto de equipo
 durante un minuto en cada uno de los tiempos de juego regular

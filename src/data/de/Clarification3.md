@@ -1,4 +1,4 @@
-# 3. Team-Time-out (2:10)
+## 3. Team-Time-out (2:10)
 Jede Mannschaft hat Anspruch auf ein Team-Time-out von je einer Minute pro Halbzeit der regulären Spielzeit (aber nicht 
 während Verlängerungen).
 

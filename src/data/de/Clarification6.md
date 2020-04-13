@@ -1,4 +1,4 @@
-# 6. Definition einer „klaren Torgelegenheit“ (14:1)
+## 6. Definition einer „klaren Torgelegenheit“ (14:1)
 
 Nach Regel 14:1 handelt es sich um eine „klare Torgelegenheit“, wenn:
 

@@ -1,0 +1,11 @@
+#rules {
+  display: flex;
+  height: 100%;
+  overflow: auto;
+}
+
+@media (max-width: 48rem) {
+  #rules {
+    flex-direction: column;
+  }
+}

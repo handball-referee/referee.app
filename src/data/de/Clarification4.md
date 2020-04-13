@@ -1,6 +1,6 @@
-# 4. Passives Spiel (7:11-12)
+## 4. Passives Spiel (7:11-12)
 
-## A. Allgemeine Hinweise
+### A. Allgemeine Hinweise
 
 Die Handhabung der Regelbestimmungen zum passiven Spiel verfolgt das Ziel, unattraktive Spielweisen bzw. gezielte 
 Spielverzögerungen zu unterbinden. Voraussetzung ist, dass die Schiedsrichter über die gesamte Spielzeit hinweg passive 
@@ -17,11 +17,11 @@ Die in den folgenden Präzisierungen genannten Kriterien treten im Spiel selten 
 Schiedsrichtern in der Regel in der Gesamtheit beurteilt werden. Hier ist besonders die Wirkung regelgerechter, aktiver 
 Abwehrarbeit zu berücksichtigen.
 
-## B. Anzeigen des Vorwarnzeichens
+### B. Anzeigen des Vorwarnzeichens
 
 Das Anzeigen des Vorwarnzeichens sollte besonders in folgenden Spielsituationen erfolgen:
 
-### B1.Vorwarnzeichen bei langsamem Spielerwechsel bzw. langsamer Spielfeldüberbrückung
+#### B1.Vorwarnzeichen bei langsamem Spielerwechsel bzw. langsamer Spielfeldüberbrückung
 
 Beobachtungskriterien sind besonders:
 
@@ -33,7 +33,7 @@ Beobachtungskriterien sind besonders:
 - Prellen des Balls am Ort;
 - Der Ball wird ohne Bedrängnis über die Mittellinie zurück in die eigene Hälfte gespielt.
 
-### B2.Vorwarnzeichen bei verspätetem Spielerwechsel in der Aufbauphase
+#### B2.Vorwarnzeichen bei verspätetem Spielerwechsel in der Aufbauphase
 
 Beobachtungskriterien sind besonders:
  
@@ -46,7 +46,7 @@ Beobachtungskriterien sind besonders:
 *Eine Mannschaft, die aus der eigenen Hälfte heraus einen Gegenstoß spielt, diesen jedoch in der gegnerischen Hälfte 
 nicht bis zu einer Wurfgelegenheit ausspielen kann, darf anschließend noch zügige Spielerwechsel vornehmen.*
 
-### B3. Vorwarnzeichen bei zu langen Aufbauphasen
+#### B3. Vorwarnzeichen bei zu langen Aufbauphasen
 
 Grundsätzlich muss jeder Mannschaft vor Beginn einer gezielten Angriffshandlung eine Aufbauphase mit einem 
 vorbereitenden Passspiel zugestanden werden.
@@ -69,7 +69,7 @@ Beobachtungskriterien für eine zu lange Aufbauphase sind:
 - Ein besonderes Beobachtungskriterium für zu lange Aufbauphasen ist es, dass der angreifenden Mannschaft keine 
   deutliche Temposteigerung zwischen Aufbau- und Abschlussphase gelingt.
 
-## C. Handhabung des Vorwarnzeichens
+### C. Handhabung des Vorwarnzeichens
 
 Erkennt ein Schiedsrichter (Feld- oder Torschiedsrichter) eine Entwicklung zu passivem Spiel, hebt er den Arm 
 (Handzeichen 17), um anzuzeigen, dass ein gezieltes Herausspielen einer Torwurfgelegenheit nicht erkennbar ist. Der 
@@ -96,7 +96,7 @@ aufgehoben wird.
 
 In diesen beiden Situationen wird der ballbesitzenden Mannschaft eine neue Aufbauphase gestattet.
 
-## D. Nach Anzeigen des Vorwarnzeichens
+### D. Nach Anzeigen des Vorwarnzeichens
 
 Nach Anzeigen des Vorwarnzeichens sollten die Schiedsrichter der ballbesitzenden Mannschaft zunächst Zeit geben, ihre 
 Spielweise zu ändern. Dabei sollten sie das Leistungsniveau in unterschiedlichen Alters- und Spielklassen 
@@ -117,28 +117,28 @@ Nicht als Pass gezählt wird:
 
 ***Entscheidungskriterien** nach Anzeigen des Vorwarnzeichens:*
 
-### D1. Angreifende Mannschaft:
+#### D1. Angreifende Mannschaft:
 - keine deutliche Temposteigerung;
 - keine gezielte Aktion Richtung Tor;
 - 1-gegen-1-Aktionen, mit denen kein räumlicher Vorteil erzielt wird;
 - Verzögerung beim Spielen des Balls (z.B. aufgrund des Blockierens von Passwegen durch die abwehrende Mannschaft).
 
-### D2. Abwehrende Mannschaft:
+#### D2. Abwehrende Mannschaft:
 - Die abwehrende Mannschaft versucht, durch regelgerechte, aktive Spielweisen einen Tempowechsel bzw. eine gezielte 
   Angriffsaktion zu unterbinden.
 - Versucht eine Abwehr durch Regelwidrigkeiten im Sinne der Regel 8:3 die Passfolge der angreifenden Mannschaft zu 
   unterbrechen, müssen diese Regelwidrigkeiten konsequent progressiv bestraft werden.
 
 
-### D3. Hinweise zur maximalen Anzahl von Pässen
+#### D3. Hinweise zur maximalen Anzahl von Pässen
 
-#### D3a. Vor dem erfolgten 6. Pass:
+##### D3a. Vor dem erfolgten 6. Pass:
 -  Wird dem angreifenden Team während der Anzeige des Vorwarnzeichens ein Freiwurf oder Einwurf zugesprochen, hat dies 
   keine Auswirkung auf die gesamte Anzahl Pässe
 - Gleiches gilt, wenn ein Pass oder ein Torwurf durch einen Feldspieler der abwehrenden Mannschaft geblockt wird und der 
   Ball zur angreifenden Mannschaft gelangt (auch bei einem Abwurf).
 
-#### D3b. Nach dem erfolgten 6. Pass:
+##### D3b. Nach dem erfolgten 6. Pass:
 - Wird nach dem 6. Pass auf Freiwurf, Einwurf (oder Abwurf) für die angreifende Mannschaft entschieden, hat die 
   Mannschaft die Möglichkeit, die Ausführung des Wurfes mit einem weiteren Pass zu verbinden, um den Angriff 
   abzuschließen.
@@ -146,7 +146,7 @@ Nicht als Pass gezählt wird:
   dadurch zu einem angreifenden Spieler oder ins Tor- oder Seitenaus gelangt. Die angreifende Mannschaft hat dann die 
   Möglichkeit, den Angriff mit einem weiteren Pass abzuschließen.
 
-## E. Anhang
+### E. Anhang
 
 **Merkmale von Tempoverschleppung**
  

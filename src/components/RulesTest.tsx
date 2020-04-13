@@ -1,197 +1,130 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import Button from "@material-ui/core/Button";
-import { Theme, WithStyles, withStyles } from "@material-ui/core";
-import Badge from "@material-ui/core/Badge";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import CheckIcon from "@material-ui/icons/Check";
-import CrossIcon from "@material-ui/icons/Close";
-import green from "@material-ui/core/colors/green";
-import red from "@material-ui/core/colors/red";
-import { WithTranslation, withTranslation } from "react-i18next";
-import { Dispatch } from "redux";
-import RulesTestQuestion from "./RulesTestQuestion";
-import {
-  getCorrect,
-  getCurrentAnswer,
-  getCurrentQuestion,
-  getPercentage,
-  getWrong, IApplicationState,
-  isLoaded,
-  isLoading,
-} from "../reducers";
-import Loading from "./Loading";
-import { IAnswer, IQuestion } from "../model";
-import { StatsActions } from "../actions/stats";
-import { DataActions } from "../actions/data";
+/* eslint-disable no-mixed-operators */
+import React, { FunctionComponent, useState, MouseEvent } from "react";
+import classnames from "classnames";
+import "./RulesTest.css";
+import { useTranslation } from "react-i18next";
+import { faChartPie } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useRulesTestData } from "./TestDataContext";
+import CheckBox from "./CheckBox";
 
-const styles = (theme: Theme) => ({
-  correct: {
-    backgroundColor: green[600],
-    color: "white",
-  },
-  wrong: {
-    backgroundColor: red[600],
-    color: "white",
-  },
-  flex: {
-    flex: 1,
-  },
-  badge: {
-    marginRight: theme.spacing(3),
-  },
-});
+const RulesTest: FunctionComponent = () => {
+  const [checked, setChecked] = useState<string[]>([]);
+  const [reveal, setReveal] = useState(false);
+  const [correct, setCorrect] = useState<string[]>([]);
+  const [rules, setRules] = useState<string[]>([]);
+  const {
+    question, nextQuestion, checkAnswers, asked: numAsked, correct: numCorrect,
+  } = useRulesTestData();
+  const { t, i18n: { language } } = useTranslation();
 
-interface Props extends WithTranslation, WithStyles<typeof styles> {
-  loading: boolean;
-  loaded: boolean;
-  question: IQuestion|null;
-  answer: IAnswer;
-  correct: number;
-  wrong: number;
-  percentage: number;
-  handleLoadingStarted: (lang: string) => void;
-  handleLoadingSuccess: (questions: IQuestion[], lang: string) => void;
-  handleLoadingError: (lang: string) => void;
-  handleCheckAnswers: (id: string, answers: string[]) => void;
-  handleNextQuestion: () => void;
-  handleReset: () => void;
-}
+  const handleButtonClick = async (event: MouseEvent) => {
+    event.preventDefault();
 
-class RulesTest extends Component<Props> {
-  public static defaultProps = {
-    correct: 0,
-    wrong: 0,
-    percentage: 0,
+    if (!nextQuestion || !checkAnswers) {
+      return;
+    }
+
+    if (!reveal) {
+      const response = await checkAnswers(checked);
+      setReveal(true);
+      setCorrect(response.correct);
+      setRules(response.rules);
+    } else {
+      nextQuestion();
+
+      setChecked([]);
+      setCorrect([]);
+      setRules([]);
+      setReveal(false);
+    }
   };
 
-  public componentDidMount() {
-    const {
-      loading,
-      loaded,
-      i18n,
-    } = this.props;
-
-    if (!loaded && !loading) {
-      this.handleLoadData(i18n.language);
-    }
-  }
-
-  public componentDidUpdate() {
-    const {
-      loading,
-      loaded,
-      i18n,
-    } = this.props;
-
-    if (!loaded && !loading) {
-      this.handleLoadData(i18n.language);
-    }
-  }
-
-  private handleLoadData(lang: string) {
-    const {
-      handleLoadingStarted,
-      handleLoadingSuccess,
-      handleLoadingError,
-    } = this.props;
-
-    handleLoadingStarted(lang);
-    fetch(`/data/questions/${lang}.json`).then((response) => response.json().then((json) => ({ json, response }))).then(({ json, response }) => {
-      if (!response.ok) {
-        return Promise.reject(json);
-      }
-
-      return json;
-    }).then(
-      (response) => handleLoadingSuccess(response, lang),
-      () => handleLoadingError(lang),
-    );
-  }
-
-  public render() {
-    const {
-      classes,
-      question,
-      answer,
-      handleCheckAnswers,
-      handleNextQuestion,
-      correct,
-      wrong,
-      percentage,
-      handleReset,
-      loading,
-      t,
-    } = this.props;
-
-    if (loading || !question) {
-      return (<Loading />);
+  const updateChecked = (key: string) => {
+    if (reveal) {
+      return;
     }
 
-    let questionOutput;
-    if (!question) {
-      questionOutput = t("Question not translated");
+    const currentChecked = [...checked];
+    const index = currentChecked.indexOf(key);
+    if (index > -1) {
+      currentChecked.splice(index, 1);
     } else {
-      questionOutput = (
-        <RulesTestQuestion
-          question={question}
-          correct={answer.correct}
-          rule={answer.rule}
-          checkAnswers={handleCheckAnswers}
-          nextQuestion={handleNextQuestion}
-        />
-      );
+      currentChecked.push(key);
     }
+    currentChecked.sort();
+    setChecked(currentChecked);
+  };
+
+  if (!question) {
+    return <div>No more question</div>;
+  }
+
+  const answers = question.answers[language] || [];
+  const options = Object.keys(answers).map((key) => {
+    const isCorrect = correct.includes(key);
+    const isChecked = checked.includes(key);
+    const className = classnames("option", {
+      correct: reveal && isCorrect === isChecked,
+      wrong: reveal && isCorrect !== isChecked,
+    });
 
     return (
-      <div>
-        <AppBar color="secondary" position="sticky">
-          <Toolbar>
-            <Badge classes={{ root: classes.badge, badge: classes.correct }} badgeContent={correct}>
-              <CheckIcon />
-            </Badge>
-            <Badge classes={{ root: classes.badge, badge: classes.wrong }} badgeContent={wrong}>
-              <CrossIcon />
-            </Badge>
-            <Typography variant="subtitle1" color="inherit" className={classes.flex}>
-              {`${percentage}% ${t("correct")}`}
-            </Typography>
-            <Button color="inherit" onClick={handleReset}>{t("Reset")}</Button>
-          </Toolbar>
-        </AppBar>
-        {questionOutput}
+      <div key={key} className={className}>
+        <div className="check">
+          <CheckBox checked={isChecked} onChange={() => updateChecked(key)} />
+        </div>
+        <div className="text">
+          {question?.answers[language][key]}
+        </div>
+      </div>
+    );
+  });
+
+  const buttonText = reveal ? t("rulestest.next") : t("rulestest.check");
+  const percentOverall = numAsked ? Math.round(100 / numAsked * numCorrect) : 0;
+  const percentQuestion = question.numAsked
+    ? Math.round(100 / question.numAsked * question.numCorrect) : 0;
+
+  let relevantRules;
+  if (reveal) {
+    relevantRules = (
+      <div id="relevant-rules" className="box-with-header">
+        <h2>
+          {t("rulestest.relevant-rules")}
+        </h2>
+        {rules.map((rule) => (
+          <div key={rule}>{rule}</div>
+        ))}
       </div>
     );
   }
-}
 
-const mapStateToProps = (state: IApplicationState, props: Props) => ({
-  question: getCurrentQuestion(state, props.i18n.language),
-  answer: getCurrentAnswer(state),
-  loaded: isLoaded(state, props.i18n.language),
-  loading: isLoading(state, props.i18n.language),
-  correct: getCorrect(state),
-  wrong: getWrong(state),
-  percentage: getPercentage(state),
-});
+  return (
+    <>
+      <div id="test-header">
+        <FontAwesomeIcon icon={faChartPie} />
+        <span>{`${t("rulestest.overall")} ${numCorrect}/${numAsked} (${percentOverall}%)`}</span>
+        <span> - </span>
+        <span>{`${t("rulestest.question")} ${question.numCorrect}/${question.numAsked} (${percentQuestion}%)`}</span>
+      </div>
+      <form id="test-content">
+        <div id="test-question" className="box-with-header">
+          <h2>
+            {`${t("rulestest.question")} ${question.id}`}
+          </h2>
+          <div>
+            {question.question[language]}
+          </div>
+        </div>
+        <div id="test-options">
+          {options}
+        </div>
+        {relevantRules}
+        <button type="submit" onClick={handleButtonClick}>{buttonText}</button>
+      </form>
+    </>
+  );
+};
 
-const mapDispatchToProps = (dispatch: Dispatch) => ({
-  handleCheckAnswers: (question: string, answers: string[]) => dispatch(
-    StatsActions.checkAnswers(answers, question),
-  ),
-  handleNextQuestion: () => dispatch(DataActions.nextQuestion()),
-  handleReset: () => dispatch(StatsActions.reset()),
-  handleLoadingStarted: (lang: string) => dispatch(DataActions.loadQuestionsStarted(lang)),
-  handleLoadingSuccess: (payload: IQuestion[], lang: string) => dispatch(
-    DataActions.loadQuestionsSuccess(payload, lang),
-  ),
-  handleLoadingError: (lang: string) => dispatch(DataActions.loadQuestionsError(lang)),
-});
-
-
-export default withStyles(styles)(withTranslation()(connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(RulesTest)));
+export default RulesTest;

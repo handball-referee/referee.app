@@ -27,7 +27,7 @@ Die Grenzlinie für die Coachingzone ist zur besseren Information gedacht. Sie i
 Spielfläche, parallel zur Mittellinie) im Abstand von 350 cm gezogen. Sie beginnt 30 cm außerhalb der Seitenlinie 
 (empfohlene Maße).
 
-![Markings](diagrams/markings.png)
+![Markings](../diagrams/markings.png)
 
 ## Team-Time-out (Regel 2:10, Erläuterung 3) 
 Die letzten fünf Spielminuten beginnen, wenn die Spieluhr 55:00 bzw. 05:00 zeigt.

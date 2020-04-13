@@ -1,21 +1,56 @@
 {
   "translation": {
-    "EDITION": "Edición 1 de julio de 2016",
-    "SOURCE": "Origen: http://www.rfebm.com/sites/default/files/documentos/reglas_pista_web_marcagua_1.pdf",
-    "Check": "Examinar",
-    "Clarifications to the Rules of the Game": "Aclaraciones a las reglas de juego",
+    "app": {
+      "title": "Árbitro Balonmano",
+      "language": "Idioma",
+      "toggle-menu": "Alternar Menú",
+      "quicknav": "Navegacion rapida"
+    },
     "correct": "correcto",
-    "Foreword": "Prólogo",
-    "Guidelines and Interpretations": "Directrices e interpretaciones",
-    "Guidelines for Playing Courts and Goals": "Directrices para los terrenos de juego y las porterías",
-    "Hand Signals": "Gestoforma",
-    "Handball Referee": "Árbitro Balonmano",
-    "Handball Rules": "Reglas Balonmano",
-    "Referee Test": "Prueba de Reglas",
-    "Rules of the Game": "Reglas de Juego",
-    "Substitution Area Regulations": "Reglamento relativo a la zona de cambios",
-    "Statistics": "Estadística",
-    "Next": "Siguiente Pregunta",
-    "Reset": "Reiniciar"
+    "Reset": "Reiniciar",
+    "menu": {
+      "test": "Prueba de Reglas",
+      "rules": "Reglas de Juego",
+      "stats": "Estadística",
+      "about": "información"
+    },
+    "rules": {
+      "foreword": "Prólogo",
+      "rules": "Reglas de juego",
+      "rule": {
+        "rule1": "El terreno de juego",
+        "rule2": "Tiempo de juego, señal final y tiempo muerto",
+        "rule3": "El balón",
+        "rule4": "El equipo, sustituciones, equipación, jugador lesionado",
+        "rule5": "El portero",
+        "rule6": "El área de portería",
+        "rule7": "Cómo puede jugarse el balón, juego pasivo",
+        "rule8": "Faltas y conducta antideportiva",
+        "rule9": "El gol",
+        "rule10": "El saque de centro",
+        "rule11": "El saque de banda",
+        "rule12": "El saque de portería",
+        "rule13": "El golpe franco",
+        "rule14": "El lanzamiento de 7 metros",
+        "rule15": "Instrucciones generales para la ejecución de los lanzamientos",
+        "rule16": "Las sanciones disciplinarias",
+        "rule17": "Los árbitros",
+        "rule18": "El anotador y el cronometrador"
+      },
+      "hand-signals": "Gestoforma",
+      "clarifications": "Aclaraciones a las reglas de juego",
+      "sar": "Reglamento relativo a la zona de cambios",
+      "guidelines": "Directrices e interpretaciones",
+      "playing-court": "Directrices para el terreno de juego y las porterías",
+      "edition": "Edición 1 de julio de 2016",
+      "source": "Origen: http://www.rfebm.com/sites/default/files/documentos/reglas_pista_web_marcagua_1.pdf"
+    },
+    "rulestest": {
+      "question": "Pregunta",
+      "check": "Examinar",
+      "next": "Siguiente Pregunta",
+      "overall": "En General",
+      "relevant-rules": "Reglas Relevantes"
+    }
   }
 }

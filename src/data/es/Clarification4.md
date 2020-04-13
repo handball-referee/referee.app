@@ -1,6 +1,6 @@
-#  4. Juego pasivo (7:11-12)
+##  4. Juego pasivo (7:11-12)
 
-## A. Directrices generales
+### A. Directrices generales
 La aplicación de las reglas en relación con el juego pasivo tiene
 el objetivo de impedir formas de juego poco atractivas y retrasos
 intencionados en el partido. Esto requiere que durante todo el partido
@@ -25,11 +25,11 @@ raramente ocurren solos, sino que generalmente deben ser juzgados
 en su totalidad por los árbitros. En particular se debe tener en cuenta
 el trabajo defensivo sin acciones antirreglamentarias
 
-## B. La utilización de la gestoforma de advertencia de juego pasivo
+### B. La utilización de la gestoforma de advertencia de juego pasivo
 
 La gestoforma de advertencia de Juego Pasivo debe hacerse especialmente en las situaciones siguientes:
 
-### B1. Gestoforma de advertencia de juego pasivo cuando los cambios de jugadores se hacen lentamente o cuando el balón se mueve con lentitud de una parte a otra del campo.
+#### B1. Gestoforma de advertencia de juego pasivo cuando los cambios de jugadores se hacen lentamente o cuando el balón se mueve con lentitud de una parte a otra del campo.
 
 Indicaciones típicas son:
 
@@ -49,7 +49,7 @@ tácticas de dilación.
 equipo en posesión del mismo, sin que los contrarios ejerzan
 ninguna presión.
 
-### B2. Gestoforma de advertencia de juego pasivo en conexión con un cambio tardío durante la fase de construcción.
+#### B2. Gestoforma de advertencia de juego pasivo en conexión con un cambio tardío durante la fase de construcción.
 
 Indicaciones típicas son:
 
@@ -68,7 +68,7 @@ inmediata de marcar gol después de llegar a la otra mitad del terreno
 del equipo contrario, debe ser autorizado a realizar un rápido cambio
 de jugadores en esta fase.*
 
-### B3. Durante una fase de construcción de ataque excesivamente larga
+#### B3. Durante una fase de construcción de ataque excesivamente larga
 
 En principio, siempre se debe permitir a un equipo una fase de construcción con un juego de pases preparatorios antes de exigirles que
 empiecen una acción directa de ataque.
@@ -103,7 +103,7 @@ excesivamente largas es aquel en que el equipo atacante
 no consigue un claro incremento del ritmo de juego desde la
 fase de construcción hasta la fase de finalización.
 
-## C. Cómo usar la gestoforma de advertencia de juego pasivo
+### C. Cómo usar la gestoforma de advertencia de juego pasivo
 
 Si un árbitro (bien sea el árbitro de portería o el árbitro central)
 interpreta que está próximo a producirse juego pasivo, levanta el
@@ -139,7 +139,7 @@ una conducta antideportiva.
 En estas dos situaciones, al equipo en posesión del balón se le debe
 permitir una nueva fase de construcción.
 
-## D. Después de haber realizado la gestoforma de advertencia de juego pasivo
+### D. Después de haber realizado la gestoforma de advertencia de juego pasivo
 
 Después de realizar la gestoforma de advertencia de Juego Pasivo
 los árbitros deberían permitir al equipo en posesión del balón algo
@@ -168,7 +168,7 @@ oponente.
 Criterios de toma de decisión después de efectuar la gestoforma de
 advertencia de juego pasivo
 
-### D1. El equipo atacante
+#### D1. El equipo atacante
 - ningún incremento claro del ritmo de juego
 - ninguna acción directa hacia la portería
 - acciones uno contra uno en las que no se consigue ninguna
@@ -176,7 +176,7 @@ ventaja espacial
 - retrasos al jugar el balón (por ejemplo, porque el equipo
 defensor bloquea las trayectorias de pase)
 
-### D2. El equipo defensor
+#### D2. El equipo defensor
 
 - el equipo defensor intenta impedir un incremento del ritmo
 de juego o una acción directa de ataque, mediante métodos
@@ -186,9 +186,9 @@ de pases del equipo atacante mediante infracciones de
 acuerdo con la regla 8:3, este comportamiento deberá ser
 consistentemente sancionado de manera progresiva.
 
-### D3. Notas respecto al número máximo de pases
+#### D3. Notas respecto al número máximo de pases
 
-#### D3a. Antes de la ejecución del 6º pase:
+##### D3a. Antes de la ejecución del 6º pase:
 - Si los árbitros señalan un golpe franco o saque de banda a
 favor del equipo atacante cuando se ha mostrado la señal de
 advertencia, no se interrumpe la cuenta de los pases.
@@ -197,7 +197,7 @@ blocado por un jugador de campo del equipo defensor y el
 balón vuelve al equipo atacante (incluso si es un saque de
 portería), no interrumpe la cuenta de los pases.
 
-#### D3b. Tras la ejecución del 6º pase:
+##### D3b. Tras la ejecución del 6º pase:
 - Si los árbitros señalan un golpe franco, un saque de banda
 (o saque de portería) en favor del equipo atacante tras el
 6º pase, el equipo tiene la posibilidad de combinar un
@@ -209,7 +209,7 @@ juego o la línea del fondo de portería. En este caso, el equipo
 atacante tiene la posibilidad de finalizar el ataque realizando
 un pase adicional.
 
-## E. Apéndice
+### E. Apéndice
 
 **Indicaciones de una reducción del ritmo de juego**
 

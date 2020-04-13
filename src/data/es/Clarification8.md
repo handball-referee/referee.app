@@ -1,4 +1,4 @@
-# 8. Jugador lesionado (4:11)
+## 8. Jugador lesionado (4:11)
 
 Si un jugador parece lesionado en el terreno de juego, deberán
 tomarse las medidas siguientes:

@@ -1,4 +1,4 @@
-## Auswechselraum-Reglement
+# Auswechselraum-Reglement
 
 1. Die Auswechselräume befinden sich links und rechts der Verlängerung der Mittellinie, außerhalb der Seitenlinie, bis 
   zum Ende der jeweiligen Auswechselbank (Zulässig und gemeint ist immer auch eine entsprechende Stuhlreihe) und wenn 

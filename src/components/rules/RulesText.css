@@ -1,0 +1,30 @@
+#rules-text {
+  overflow: auto;
+  padding: 1rem;
+  background-color: #ffffff;
+  flex-grow: 1;
+}
+
+#rules-text h1 {
+  font-size: 1.5rem;
+}
+
+#rules-text h2 {
+  font-size: 1.25rem;
+}
+
+#rules-text h3 {
+  font-size: 1.125rem;
+}
+
+#rules-text h4 {
+  font-size: 1rem;
+}
+
+#rules-text h5 {
+  font-size: 0.875rem;
+}
+
+#rules-text a {
+  color: #000000;
+}

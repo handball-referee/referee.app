@@ -29,7 +29,7 @@ This line is 50 cm long and is drawn at a distance of 350 cm (outside the court,
 centre line). It begins at a distance of 30 cm at the outside of the side line (recommended
 dimensions).
 
-![Markings](diagrams/markings.png)
+![Markings](../diagrams/markings.png)
 
 ## Team Time-Out (Rule 2:10, Clarification No. 3)
 The start of the last five minutes of the playing time begins when the clock indicates 55:00 or

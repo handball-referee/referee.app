@@ -1,0 +1,95 @@
+#language-picker {
+  display: flex;
+  position: relative;
+  margin: 0.75rem;
+  color: #ffffff;
+  width: 10rem;
+  height: 2rem;
+  background-color: #063e67;
+  border-radius: 0.5rem;
+  border: 1px solid #00263c;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#language-picker.open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#language-picker:hover {
+  background-color: #00263c;
+}
+
+#picker-content {
+  flex-grow: 1;
+}
+
+#picker-indicator {
+  display: flex;
+  font-size: 1.5rem;
+  width: 1rem;
+  margin: 0 0.5rem;
+  color: #00b0fa;
+}
+
+#picker-indicator svg {
+  display: block;
+  height: 1.875rem;
+}
+
+#picker-popup {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  border: 1px solid #00263c;
+  background-color: #00263c;
+  margin-top: -2px;
+  margin-right: -1px;
+  padding: 0;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  min-width: 100%;
+  list-style: none;
+}
+
+#picker-popup img, #picker-content img {
+  height: 1.325rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+#picker-popup li[aria-selected=true] {
+  background-color: #063e67;
+}
+
+#picker-popup li:hover {
+  border-radius: 0.25rem;
+  background-color: #0081cf;
+}
+
+#picker-popup li, #picker-content {
+  padding: 0.25rem;
+  line-height: 1.375rem;
+  display: flex;
+  align-content: center;
+}
+
+#language-picker.open #picker-popup {
+  display: block;
+}
+
+@media (max-width: 48rem) {
+  #language-picker {
+    width: 4.25rem;
+  }
+
+  #picker-content img {
+    margin-right: 0;
+  }
+
+  #picker-content span {
+    display: none;
+  }
+}

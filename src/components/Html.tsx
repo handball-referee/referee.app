@@ -3,11 +3,10 @@ interface Props {
   styles: string;
   scripts: string;
   state: string;
-  css: string;
 }
 
 const Html: (props: Props) => string = ({
-  body, styles, scripts, state, css,
+  body, styles, scripts, state,
 }) => `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +16,6 @@ const Html: (props: Props) => string = ({
   <meta name="theme-color" content="#000000">
   <link rel="manifest" href="/static/manifest.json">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <style id="jss-server-side">${css}</style>
   ${styles}
   <title>Handball Referee Test</title>
 </head>

@@ -1,0 +1,101 @@
+.spinner-wrapper {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spinner {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+
+.cls-1 {
+  fill: #fff;
+}
+
+.cls-2 {
+  fill: #088a46;
+}
+
+.cls-7 {
+  fill: #c01e2e;
+}
+
+.cls-8 {
+  fill: #fdb132;
+}
+
+.cls-10 {
+  fill: #f15257;
+}
+
+.cls-12 {
+  fill: #0181c9;
+}
+
+.cls-13 {
+  fill: #ec1941;
+}
+
+.cls-9 {
+  fill: #aad357;
+}
+
+.cls-3 {
+  fill: #f78234;
+}
+
+.cls-6 {
+  fill: #f6a125;
+}
+
+.cls-4 {
+  fill: #48b95e;
+}
+
+.cls-11 {
+  fill: #00aef3;
+}
+
+.cls-5 {
+  fill: #2a579c;
+}
+
+.anim {
+  animation: loading-animation 0.8s infinite ease-in-out;
+}
+
+.anim1 {
+  animation-delay: 0s;
+}
+
+.anim2 {
+  animation-delay: 0.1s;
+}
+
+.anim3 {
+  animation-delay: 0.2s;
+}
+
+.anim4 {
+  animation-delay: 0.4s;
+}
+
+.anim5 {
+  animation-delay: 0.5s;
+}
+
+.anim6 {
+  animation-delay: 0.6s;
+}
+
+@keyframes loading-animation {
+  0%, 40%, 100% {
+    opacity: 100%;
+  }
+  20% {
+    opacity: 0;
+  }
+}

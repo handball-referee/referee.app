@@ -1,4 +1,4 @@
-# 1. Ejecución del golpe franco después de la señal final (2:4-6)
+## 1. Ejecución del golpe franco después de la señal final (2:4-6)
 
 En muchos casos, el equipo que tiene la oportunidad de ejecutar un
 golpe franco después de que el tiempo de juego haya finalizado, no

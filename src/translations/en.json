@@ -1,10 +1,57 @@
 {
   "translation": {
-    "EDITION": "Edition: 1 July 2016",
-    "SOURCE": "Source: http://www.ihf.info/files/Uploads/NewsAttachments/0_New-Rules%20of%20the%20Game_GB.pdf",
-    "Handball Referee": "Handball Referee",
+    "app": {
+      "title": "Handball Referee",
+      "language": "Languge",
+      "toggle-menu": "Toggle Menu",
+      "quicknav": "Quick Navigation"
+    },
     "correct": "correct",
-    "Reset": "Reset"
+    "Reset": "Reset",
+    "menu": {
+      "test": "Referee Test",
+      "rules": "Rules of the Game",
+      "stats": "Statistics",
+      "about": "About"
+    },
+    "rules": {
+      "foreword": "Foreword",
+      "rules": "Rules of the Game",
+      "rule": {
+        "rule1": "Playing Court",
+        "rule2": "Playing Time, Final Signal and Time-Out",
+        "rule3": "The Ball",
+        "rule4": "The Team, Substitutions, Equipment, Player Injuries",
+        "rule5": "The Goalkeeper",
+        "rule6": "The Goal Area",
+        "rule7": "Playing the Ball, Passive Play",
+        "rule8": "Fouls and Unsportsmanlike Conduct",
+        "rule9": "Scoring",
+        "rule10": "The Throw-Off",
+        "rule11": "The Throw-In",
+        "rule12": "The Goalkeeper Throw",
+        "rule13": "The Free Throw",
+        "rule14": "The 7-Metre Throw",
+        "rule15": "General Instructions on the Execution of the Throws",
+        "rule16": "The Punishments",
+        "rule17": "The Referees",
+        "rule18": "The Timekeeper and the Scorekeeper"
+      },
+      "hand-signals": "Hand Signals",
+      "clarifications": "Clarifications to the Rules of the Game",
+      "sar": "Substitution Area Regulations",
+      "guidelines": "Guidelines and Interpretations",
+      "playing-court": "Guidelines for Playing Courts and Goals",
+      "edition": "Edition: 1 July 2016",
+      "source": "Source: http://www.ihf.info/files/Uploads/NewsAttachments/0_New-Rules%20of%20the%20Game_GB.pdf"
+    },
+    "rulestest": {
+      "question": "Question",
+      "check": "Check",
+      "next": "Next",
+      "overall": "Overall",
+      "relevant-rules": "Relevant Rules"
+    }
   }
 }
 

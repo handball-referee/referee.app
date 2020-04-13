@@ -6,9 +6,20 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { GenerateSW } = require("workbox-webpack-plugin");
 const LoadablePlugin = require("@loadable/webpack-plugin");
 // const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const marked = require("marked");
 
 const appPath = path.resolve(__dirname, "src");
 const buildPath = path.resolve(__dirname, "dist");
+const markdownRenderer = new marked.Renderer();
+
+markdownRenderer.heading = function (text, level, raw, slugger) {
+  const escapedText = text
+    .toLowerCase()
+    .replace(/,|\s*\(.*\)/g, '')
+    .replace(/\s/g, '-');
+
+  return `<h${level} id="${escapedText}">${text}</h${level}>`;
+};
 
 const config = {
   context: appPath,
@@ -34,14 +45,31 @@ const config = {
       },
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        use: [
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: {
+              importLoaders: 1
+            }
+          },
+          "postcss-loader"
+        ],
       },
       {
         test: /\.md$/,
-        use: "raw-loader",
+        use: [
+          "html-loader",
+          {
+            loader: "markdown-loader",
+            options: {
+              renderer: markdownRenderer
+            }
+          }
+        ]
       },
       {
-        test: /\.png$/,
+        test: /\.png|\.svg$/,
         loader: "file-loader",
       },
     ],
@@ -61,9 +89,6 @@ const config = {
     }),
     new CopyPlugin([
       {
-        from: "data/diagrams/*",
-      },
-      {
         from: "data/questions/*",
       },
       {
@@ -74,17 +99,9 @@ const config = {
       },
     ]),
     new GenerateSW({
-      swDest: "sw/sw.js",
       clientsClaim: true,
       skipWaiting: true,
-      precacheManifestFilename: 'js/precache-manifest.[manifestHash].js',
       cacheId: "handball",
-      runtimeCaching: [
-        {
-          urlPattern: /.*/,
-          handler: "NetworkFirst",
-        },
-      ],
     }),
     new LoadablePlugin(),
     /* new BundleAnalyzerPlugin({

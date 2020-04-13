@@ -1,4 +1,4 @@
-# 1. Freiwurf-Ausführung nach dem Schlusssignal (2:4-6)
+## 1. Freiwurf-Ausführung nach dem Schlusssignal (2:4-6)
 Häufig ist eine Mannschaft, die nach Ablauf der regulären Spielzeit noch Gelegenheit zur Ausführung eines Freiwurfs hat, 
 nicht mehr daran interessiert, ein Tor zu erzielen; entweder ist das Spiel bereits entschieden oder die Entfernung zum 
 Tor zu groß. Obwohl die Regeln eine Ausführung des Freiwurfs vorschreiben, sollten die Schiedsrichter diesen als 

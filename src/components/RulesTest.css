@@ -1,0 +1,71 @@
+#test-header {
+  height: 1.5rem;
+}
+
+#test-header svg {
+  margin-right: 1rem;
+  color: #063e67;
+}
+
+#test-content {
+  overflow: auto;
+  padding: 1rem;
+}
+
+#test-content button {
+  background-color: #063e67;
+  border: 1px solid #00263c;
+  color: #ffffff;
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+#test-content button:hover {
+  background-color: #00263c;
+}
+
+.box-with-header > h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #2a579c;
+  display: inline-block;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.box-with-header > div, #test-options > div, #test-header {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 1rem;
+}
+
+#test-options {
+  margin-top: 1rem;
+}
+
+#test-options .option {
+  display: flex;
+}
+
+#test-options .option.correct {
+  background-color: #aad357;
+}
+
+#test-options .option.wrong {
+  background-color: #f15257;
+}
+
+#test-options .option .check {
+  flex: 0 0 2rem;
+}
+
+#test-options .option .text {
+  flex-grow: 1;
+}
+
+#relevant-rules {
+  margin-top: 1rem;
+}

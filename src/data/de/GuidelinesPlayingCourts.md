@@ -1,4 +1,4 @@
-## Richtlinien für Spielfläche und Tore
+# Richtlinien für Spielfläche und Tore
 
 - a) Die Spielfläche (Abb. 1) besteht aus einem Rechteck von 40 x 20 m. Sie sollte durch Messen der Länge der beiden 
   Diagonalen kontrolliert werden. Ihre Länge von Außenkante zu gegenüberliegender Außenkante sollte 44,72 m betragen. 
@@ -58,7 +58,7 @@
 - l) Die Normen für Handballtore sind vom Europäischen Komitee für Normung, CEN (Comité Européen de Normalisation), im 
   Rahmen der Norm EN 749 in Verbindung mit der Norm EN 202.10-1 festgelegt worden.
 
-### Abbildung 5
+#### Abbildung 5
 Der Torraum mit Umgebungen
 
 ![Der Torraum mit Umgebungen](../diagrams/diagram5.png)

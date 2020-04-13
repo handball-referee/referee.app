@@ -20,9 +20,9 @@ Die Zeichen 8, 10 und 17 sind dann zu geben, wenn sie von den Schiedsrichtern al
 1. [Betreten des Torraums](#1---betreten-des-torraums)
 2. [Prell- oder Tippfehler](#2---prell--oder-tippfehler)
 3. [Schritt- oder Zeitfehler](#3---schritt--oder-zeitfehler)
-4. [Umklammern, Festhalten oder Stoßen](#4---umklammern-festhalten-oder-stoen)
+4. [Umklammern, Festhalten oder Stoßen](#4---umklammern-festhalten-oder-stoßen)
 5. [Schlagen](#5---schlagen)
-6. [Stürmerfoul](#6---strmerfoul)
+6. [Stürmerfoul](#6---stürmerfoul)
 7. [Einwurf – Richtung](#7---einwurf--richtung)
 8. [Abwurf](#8---abwurf)
 9. [Freiwurf – Richtung](#9---freiwurf--richtung)
@@ -33,7 +33,7 @@ Die Zeichen 8, 10 und 17 sind dann zu geben, wenn sie von den Schiedsrichtern al
 14. [Hinausstellung](#14---hinausstellung-2-minuten)
 15. [Time-out](#15---time-out)
 16. [Erlaubnis für zwei teilnahmeberechtigte Personen zum Betreten der Spielfläche bei Time-out](#16---erlaubnis-fr-zwei-teilnahmeberechtigte-personen-zum-betreten-der-spielflche-bei-time-out)
-17. [Vorwarnzeichen für passives Spiel](#17---vorwarnzeichen-fr-passives-spiel)
+17. [Vorwarnzeichen für passives Spiel](#17---vorwarnzeichen-für-passives-spiel)
  
 ## 1 - Betreten des Torraums
 

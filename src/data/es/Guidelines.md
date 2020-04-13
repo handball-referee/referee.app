@@ -37,7 +37,7 @@ se pintará a una distancia de 350 centimetros (fuera de la terreno de
 juego, paralela a la línea central). Comienza a una distancia de 30
 centimetros fuera de la línea de banda (dimensiones recomendadas).
 
-![Líneas](diagrams/markings.png)
+![Líneas](../diagrams/markings.png)
 
 ## Tiempo muerto de equipo (2:10, aclaración Núm. 3)
 El comienzo de los últimos 5 minutos de juego comienza cuando el

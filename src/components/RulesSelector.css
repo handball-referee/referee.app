@@ -1,0 +1,98 @@
+#rules-selector-wrapper {
+  background-color: #e1e1e1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  flex: 0 0 15rem;
+  overflow: auto;
+}
+
+#selector-popup {
+  list-style: none;
+  margin: 0rem;
+  padding: 0;
+}
+
+#selector-popup a {
+  display: block;
+  color: #000000;
+  padding: 0.25rem 0.5rem;
+  line-height: 1.375rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+#selector-popup li:hover {
+  background-color: #cccccc;
+}
+#selector-popup li.indent {
+  padding-left: 1.5rem;
+}
+
+#selector-indicator {
+  display: none;
+  font-size: 1.5rem;
+  width: 1rem;
+  margin: 0 0.5rem;
+}
+
+#selector-indicator svg {
+  display: block;
+  height: 1.875rem;
+}
+
+#selector-content {
+  display: none;
+  flex-grow: 1;
+  padding: 0.25rem;
+  line-height: 1.375rem;
+}
+
+@media (max-width: 48rem) {
+  #rules-selector-wrapper {
+    flex: 0 0 3.5rem;
+    overflow: visible;
+  }
+
+  #rules-selector {
+    position: relative;
+    display: flex;
+    border-radius: 0.5rem;
+    border: 1px solid #00263c;
+    height: 2rem;
+    margin: 0.75rem;
+    box-sizing: border-box;
+  }
+
+  #rules-selector.open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  #rules-selector.open #selector-popup {
+    display: block;
+  }
+
+  #selector-popup {
+    display: none;
+    position: absolute;
+    background-color: #e1e1e1;
+    top: 2rem;
+    right: 0;
+    border: 1px solid #00263c;
+    margin-top: -2px;
+    margin-right: -1px;
+    width: 100%;
+    max-height: 15rem;
+    z-index: 5;
+    overflow: scroll;
+  }
+
+  #selector-indicator {
+    display: flex;
+  }
+
+  #selector-content {
+    display: block;
+  }
+}

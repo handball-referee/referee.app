@@ -1,4 +1,4 @@
-# 8. Verletzter Spieler (4:11)
+## 8. Verletzter Spieler (4:11)
 Scheint ein Spieler auf der Spielfläche verletzt, ist wie folgt vorzugehen:
 
 - a) Sind die Schiedsrichter absolut sicher, dass der verletzte Spieler auf der Spielfläche versorgt werden muss, zeigen 

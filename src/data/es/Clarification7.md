@@ -1,4 +1,4 @@
-# 7. Intervención/Interrupción por parte del cronometrador o del delegado (18:1)
+## 7. Intervención/Interrupción por parte del cronometrador o del delegado (18:1)
 
 Si el cronometrador o el delegado intervienen, cuando el juego
 ya se encuentra interrumpido, entonces éste se reanuda con el
@@ -7,7 +7,7 @@ Si el cronometrador o el delegado intervienen, y como consecuencia
 interrumpen el partido cuando el balón está en juego, se aplican las
 siguientes normas:
 
-## A. Cambio antirreglamentario o entrada ilegal de un jugador (reglas 4:2-3, 5-6)
+### A. Cambio antirreglamentario o entrada ilegal de un jugador (reglas 4:2-3, 5-6)
 
 El cronometrador (o el delegado) deben interrumpir el juego
 inmediatamente sin tener en cuenta el concepto de “ley
@@ -23,9 +23,9 @@ El jugador culpable es sancionado de acuerdo a la regla
 jugador es sancionado según la regla 16:6b en conjunción
 con la regla 8:10b.
 
-## B. Interrupción por otras causas, por ejemplo, conducta antideportiva en la zona de cambios
+### B. Interrupción por otras causas, por ejemplo, conducta antideportiva en la zona de cambios
 
-### 1. Intervención por parte del cronometrador
+#### 1. Intervención por parte del cronometrador
 El cronometrador debería esperar hasta la siguiente
 interrupción del juego y entonces informar a los árbitros.
 
@@ -51,7 +51,7 @@ En tales casos solo pueden advertir de manera informal. Si
 la infracción referida corresponde a las reglas 8.6 y 8:10,
 deben enviar un informe escrito.
 
-### 2. Intervención por parte de un delegado
+#### 2. Intervención por parte de un delegado
 
 Los delegados de la IHF, de una Federación Continental
 o de una Federación Nacional, que han sido designados

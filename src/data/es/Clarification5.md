@@ -1,4 +1,4 @@
-# 5. Saque de centro (10:3)
+## 5. Saque de centro (10:3)
 
 Como un principio que guía la interpretación de la regla 10:3, los
 árbitros deberían estar siempre dispuestos a facilitar a los equipos

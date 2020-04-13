@@ -1,3 +1,5 @@
+import { DBSchema } from "idb";
+
 export interface IQuestion {
   id: string;
   question: string;
@@ -13,7 +15,30 @@ export interface IAnswer {
 export interface IStatsAnswer extends IAnswer {
   testAsked: number;
   testCorrect: number;
-  testPercentageCorrect: number;
+  testHelped: number;
   testWrong: number;
-  testPercentageWrong: number;
+}
+
+export interface ITestData {
+  box: number;
+  lastAsked: Date|null;
+  previousResults: boolean[];
+  asked: number;
+  correct: number;
+  wrong: number;
+}
+
+export interface ITestResponse {
+  correct: string[];
+  rules: string[];
+}
+
+export interface RefereeDB extends DBSchema {
+  questions: {
+    key: string;
+    value: ITestData;
+    indexes: {
+      pick: [number, Date];
+    };
+  };
 }

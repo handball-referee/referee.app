@@ -1,4 +1,4 @@
-# 5. Anwurf (10:3)
+## 5. Anwurf (10:3)
 
 Als Leitsatz für die Auslegung von Regel 10:3 sollten die Schiedsrichter das Ziel berücksichtigen, die Mannschaften zur 
 schnellen Ausführung des Anwurfs zu ermutigen. Dies bedeutet, dass sie nicht übertrieben genau sein und nicht nach 

@@ -1,0 +1,35 @@
+.checkbox {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  background-color: #ffffff;
+  border: 0.1rem solid #063e67;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.checkbox[aria-checked=true] {
+  background-color: #063e67;
+}
+
+.checkbox:hover {
+  background-color: #3182c7;
+}
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+.checkbox input:checked ~ .checkmark {
+ display: block;
+}
+
+.checkbox .checkmark {
+  display: none;
+  position: absolute;
+  color: #ffffff;
+}
