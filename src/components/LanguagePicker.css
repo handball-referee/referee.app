@@ -52,6 +52,7 @@
   border-bottom-right-radius: 0.25rem;
   min-width: 100%;
   list-style: none;
+  z-index: 5;
 }
 
 #picker-popup img, #picker-content img {
