@@ -4,8 +4,9 @@ import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowAltCircleRight, faBookOpen, faChartArea, faInfoCircle, faTasks,
+  faArrowAltCircleRight, faBookOpen, faInfoCircle, faTasks,
 } from "@fortawesome/free-solid-svg-icons";
+import Logo from "../static/logo57.png";
 import "./Menu.css";
 
 const Menu: FunctionComponent = () => {
@@ -26,7 +27,7 @@ const Menu: FunctionComponent = () => {
   return (
     <div id="menu" className={className}>
       <div id="logo">
-        <img src="/static/logo128.png" alt={t("app.title")} />
+        <img src={Logo} alt={t("app.title")} />
       </div>
       <nav>
         <NavLink to="/" exact>
