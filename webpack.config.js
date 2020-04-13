@@ -5,6 +5,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { GenerateSW } = require("workbox-webpack-plugin");
 const LoadablePlugin = require("@loadable/webpack-plugin");
+const CnameWebpackPlugin = require('cname-webpack-plugin');
 // const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const marked = require("marked");
 
@@ -84,6 +85,9 @@ const config = {
   },
   plugins: [
     new EnvironmentPlugin(['SENTRY_DSN', 'SENTRY_ENV']),
+    new CnameWebpackPlugin({
+      domain: 'referee.app',
+    }),
     new HtmlWebpackPlugin({
       template: "index.html",
     }),
