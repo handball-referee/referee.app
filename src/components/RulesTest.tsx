@@ -72,9 +72,13 @@ const RulesTest: FunctionComponent = () => {
     return (
       <div key={key} className={className}>
         <div className="check">
-          <CheckBox checked={isChecked} onChange={() => updateChecked(key)} />
+          <CheckBox
+            checked={isChecked}
+            onChange={() => updateChecked(key)}
+            labelledBy={`test-option-${key}`}
+          />
         </div>
-        <div className="text">
+        <div id={`test-option-${key}`} className="text">
           {question?.answers[language][key]}
         </div>
       </div>
