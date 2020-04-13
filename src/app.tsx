@@ -1,7 +1,6 @@
 import "@babel/polyfill";
 import React from "react";
-import { loadableReady } from "@loadable/component";
-import { hydrate, render } from "react-dom";
+import { render } from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
@@ -34,10 +33,4 @@ const app = (
   </BrowserRouter>
 );
 
-if (process.env.NODE_ENV === "production") {
-  loadableReady(() => {
-    hydrate(app, rootElement);
-  });
-} else {
-  render(app, rootElement);
-}
+render(app, rootElement);
