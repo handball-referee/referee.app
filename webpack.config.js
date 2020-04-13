@@ -106,6 +106,7 @@ const config = {
       clientsClaim: true,
       skipWaiting: true,
       cacheId: "handball",
+      exclude: ["CNAME"],
     }),
     new LoadablePlugin(),
     /* new BundleAnalyzerPlugin({
