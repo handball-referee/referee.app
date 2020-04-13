@@ -72,6 +72,9 @@ const config = {
       {
         test: /\.png|\.svg$/,
         loader: "file-loader",
+        options: {
+          outputPath: 'static',
+        },
       },
     ],
   },
