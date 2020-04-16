@@ -21,6 +21,10 @@ const RulesTest = loadable(() => import("./RulesTest"), {
   fallback: <Loading />,
 });
 
+const Stats = loadable(() => import("./Stats"), {
+  fallback: <Loading />,
+});
+
 const AppShell: FunctionComponent = () => {
   const { t } = useTranslation();
 
@@ -48,6 +52,7 @@ const AppShell: FunctionComponent = () => {
         <TestDataProvider>
           <Route path="/" component={RulesTest} exact />
           <Route path="/rules" component={HandballRules} />
+          <Route path="/stats" component={Stats} />
           <Route path="/about" component={About} />
         </TestDataProvider>
       </div>

@@ -4105,7 +4105,7 @@
     }
   },
   {
-    "id": "SAR1",
+    "id": "SAR.1",
     "question": "What should be the distance between the centre line and the start of the substitution benches?",
     "answers": {
       "a": "1 metre",
@@ -4115,7 +4115,7 @@
     }
   },
   {
-    "id": "SAR2",
+    "id": "SAR.2",
     "question": "Official A from WHITE team has already received a warning while sitting on the bench. He now leaves the substitution area and sits in the spectators’ area. From this position, he continues to protest over the referees’ decisions. Correct decision?",
     "answers": {
       "a": "No action possible",

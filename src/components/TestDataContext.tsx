@@ -9,6 +9,7 @@ export interface TestDataContextValue {
   question?: Question;
   asked: number;
   correct: number;
+  data: {[id: string]: Question };
 }
 
 let TestDataContext: React.Context<TestDataContextValue>;
@@ -18,6 +19,7 @@ export function getTestDataContext() {
     TestDataContext = React.createContext<TestDataContextValue>({
       asked: 0,
       correct: 0,
+      data: {},
     });
   }
   return TestDataContext;

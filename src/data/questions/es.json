@@ -3902,7 +3902,7 @@
     }
   },
   {
-    "id": "SAR1",
+    "id": "SAR.1",
     "question": "¿Qué distancia debería ser entre la línea central y la zona de sustituciones?",
     "answers": {
       "a": "1 metro",
@@ -3912,7 +3912,7 @@
     }
   },
   {
-    "id": "SAR2",
+    "id": "SAR.2",
     "question": "El oficial A del equipo BLANCO ya recibió una amonestación mientras estaba sentado en el banquillo. Él ahora deja el área de sustitución y se sienta en la tribuna. Desde esta posición, él continúa para protestar por las decisiones del árbitro. ¿Decisión correcta?",
     "answers": {
       "a": "Ninguna acción posible",

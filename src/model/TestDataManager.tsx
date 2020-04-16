@@ -9,7 +9,7 @@ import Question from "./Question";
 export default class TestDataManager {
   private db: IDBPDatabase<RefereeDB>|null = null;
 
-  private data: {[id: string]: Question } = {};
+  private _data: {[id: string]: Question } = {};
 
   private loadedLanguages: string[] = [];
 
@@ -28,7 +28,7 @@ export default class TestDataManager {
   public async initialize(language: string) {
     if (this.initialized) {
       await this.switchLanguage(language);
-      return this.data[this.currentId];
+      return this._data[this.currentId];
     }
 
     const mappedAnswers = answerData.reduce<{[id: string]: IAnswer}>((prev, curr) => ({
@@ -116,7 +116,7 @@ export default class TestDataManager {
 
     for (let i = 0; i < ids.length; i += 1) {
       const id = ids[i];
-      this.data[id] = new Question(
+      this._data[id] = new Question(
         language,
         mappedQuestions[id],
         mappedAnswers[id],
@@ -141,6 +141,10 @@ export default class TestDataManager {
     return this._asked;
   }
 
+  get data(): { [p: string]: Question } {
+    return this._data;
+  }
+
   public async checkAnswer(answers: string[]) {
     if (!this.currentId) {
       return {
@@ -151,7 +155,7 @@ export default class TestDataManager {
 
     // persist test data
 
-    const question = this.data[this.currentId];
+    const question = this._data[this.currentId];
 
     const result = question.checkAnswer(answers);
 
@@ -176,7 +180,7 @@ export default class TestDataManager {
 
   public next() {
     this.currentId = this.todo[Math.floor(Math.random() * this.todo.length)];
-    return this.data[this.currentId];
+    return this._data[this.currentId];
   }
 
   private async switchLanguage(language: string) {
@@ -187,7 +191,7 @@ export default class TestDataManager {
     const questions = await TestDataManager.loadQuestions(language);
     for (let i = 0; i < questions.length; i += 1) {
       const question = questions[i];
-      this.data[question.id].updateData(language, question);
+      this._data[question.id].updateData(language, question);
     }
 
     this.loadedLanguages = [...this.loadedLanguages, language];

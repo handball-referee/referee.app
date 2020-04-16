@@ -4102,7 +4102,7 @@
     }
   },
   {
-    "id": "SAR1",
+    "id": "SAR.1",
     "question": "Wie groß sollte der Abstand zwischen Auswechselbänken und Mittellinie sein?",
     "answers": {
       "a": "1 Meter",
@@ -4112,7 +4112,7 @@
     }
   },
   {
-    "id": "SAR2",
+    "id": "SAR.2",
     "question": "Der Offizielle A von Team WEISS hat bereits auf der Auswechselbank eine Verwarnung erhalten. Er verlässt den Auswechselraum, setzt sich auf die Tribüne und protestiert von dort aus weiter gegen Schiedsrichterentscheidungen. Wie ist zu entscheiden?",
     "answers": {
       "a": "Keine Entscheidung möglich",

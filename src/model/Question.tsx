@@ -7,7 +7,7 @@ import {
 export default class Question {
   private _id: string;
 
-  private rule: string;
+  private _rule: string;
 
   private number: number|null;
 
@@ -35,7 +35,7 @@ export default class Question {
     const [rule, number] = question.id.split(".");
 
     this._id = question.id;
-    this.rule = rule;
+    this._rule = rule;
     this.number = number ? parseInt(number, 10) : null;
     this._question = {
       [lang]: question.question,
@@ -58,6 +58,10 @@ export default class Question {
 
   get id(): string {
     return this._id;
+  }
+
+  get rule(): string {
+    return this._rule;
   }
 
   get question(): { [p: string]: string } {

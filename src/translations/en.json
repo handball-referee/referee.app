@@ -51,6 +51,11 @@
       "next": "Next",
       "overall": "Overall",
       "relevant-rules": "Relevant Rules"
+    },
+    "stats": {
+      "overall": "Overall",
+      "asked": "answered",
+      "correct": "correct"
     }
   }
 }

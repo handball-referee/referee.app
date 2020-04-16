@@ -51,6 +51,11 @@
       "next": "Nächste Frage",
       "overall": "Insgesamt",
       "relevant-rules": "Relevante Regeln"
+    },
+    "stats": {
+      "overall": "Gesamt",
+      "asked": "beantwortet",
+      "correct": "richtig"
     }
   }
 }

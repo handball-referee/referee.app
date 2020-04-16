@@ -56,6 +56,7 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
       {(context = {
         asked: 0,
         correct: 0,
+        data: {},
       }) => {
         context = {
           ...context,
@@ -64,6 +65,7 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
           question,
           asked,
           correct,
+          data: manager.current.data,
         };
 
         let content;
