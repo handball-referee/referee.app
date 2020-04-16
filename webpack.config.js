@@ -40,8 +40,8 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
-        exclude: /node_modules/,
+        test: /\.[jt]sx?$/,
+        exclude: /node_modules(?!\/idb)/,
         use: "babel-loader",
       },
       {
@@ -120,6 +120,7 @@ const config = {
   devServer: {
     historyApiFallback: true,
   },
+  devtool: "source-map"
 };
 
 module.exports = config;

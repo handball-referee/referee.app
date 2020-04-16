@@ -31,7 +31,8 @@
     "react-markdown": "^4.2.2",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
-    "ts-invariant": "^0.4.4"
+    "ts-invariant": "^0.4.4",
+    "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -82,22 +83,5 @@
     "webpack-dev-server": "^3.9.0",
     "webpack-node-externals": "^1.7.2",
     "workbox-webpack-plugin": "^5.1.2"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-typescript",
-      [
-        "@babel/preset-env",
-        {
-          "modules": false
-        }
-      ],
-      "@babel/preset-react"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-class-properties",
-      "@babel/plugin-syntax-dynamic-import",
-      "@loadable/babel-plugin"
-    ]
   }
 }

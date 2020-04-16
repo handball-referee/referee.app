@@ -17,7 +17,7 @@ export default class TestDataManager {
 
   private initialized = false;
 
-  private currentId: string = "";
+  private currentId = "";
 
   private _asked = 0;
 
@@ -47,62 +47,72 @@ export default class TestDataManager {
 
     const mappedTestData: {[id: string]: ITestData} = {};
 
-    const db = await openDB<RefereeDB>("referee", 1, {
-      async upgrade(currentDB, oldVersion) {
-        if (oldVersion < 1) {
-          currentDB.createObjectStore("questions");
-        }
-      },
-    });
+    let db;
+
+    // idb library does not support IE
+    const ua = window.navigator.userAgent;
+    const isIE = /MSIE|Trident/.test(ua);
+    if (!isIE) {
+      db = await openDB<RefereeDB>("referee", 1, {
+        async upgrade(currentDB, oldVersion) {
+          if (oldVersion < 1) {
+            currentDB.createObjectStore("questions");
+          }
+        },
+      });
+    }
 
     const ids = Object.keys(mappedAnswers);
     this.todo = [...ids];
 
-    const tx = db.transaction("questions", "readwrite");
-    const currentDate = new Date();
+    if (db) {
+      const tx = db.transaction("questions", "readwrite");
 
-    let cursor = await tx.store.openCursor();
+      const currentDate = new Date();
 
-    while (cursor) {
-      mappedTestData[cursor.key] = cursor.value;
+      let cursor = await tx.store.openCursor();
 
-      const testData = cursor.value;
+      while (cursor) {
+        mappedTestData[cursor.key] = cursor.value;
 
-      this._asked += testData.asked;
-      this._correct += testData.correct;
-      this._wrong += testData.wrong;
+        const testData = cursor.value;
 
-      if (testData.lastAsked) {
-        let remove = false;
-        const diffTime = Math.abs(+testData.lastAsked - +currentDate);
-        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+        this._asked += testData.asked;
+        this._correct += testData.correct;
+        this._wrong += testData.wrong;
 
-        // remove if needed
-        if (
-          (testData.box === 2 && diffDays < 1)
-          || (testData.box === 3 && diffDays < 3)
-          || (testData.box === 4 && diffDays < 7)
-          || (testData.box === 5 && diffDays < 30)
-        ) {
-          remove = true;
-        }
+        if (testData.lastAsked) {
+          let remove = false;
+          const diffTime = Math.abs(+testData.lastAsked - +currentDate);
+          const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
 
-        if (remove) {
-          // eslint-disable-next-line no-loop-func
-          const index = this.todo.findIndex((val) => val === cursor?.key);
-          if (index > -1) {
-            this.todo.splice(index, 1);
+          // remove if needed
+          if (
+            (testData.box === 2 && diffDays < 1)
+            || (testData.box === 3 && diffDays < 3)
+            || (testData.box === 4 && diffDays < 7)
+            || (testData.box === 5 && diffDays < 30)
+          ) {
+            remove = true;
+          }
+
+          if (remove) {
+            // eslint-disable-next-line no-loop-func
+            const index = this.todo.findIndex((val) => val === cursor?.key);
+            if (index > -1) {
+              this.todo.splice(index, 1);
+            }
           }
         }
+
+        // eslint-disable-next-line no-await-in-loop
+        cursor = await cursor.continue();
       }
 
-      // eslint-disable-next-line no-await-in-loop
-      cursor = await cursor.continue();
+      await tx.done;
+
+      this.db = db;
     }
-
-    await tx.done;
-
-    this.db = db;
 
     for (let i = 0; i < ids.length; i += 1) {
       const id = ids[i];
