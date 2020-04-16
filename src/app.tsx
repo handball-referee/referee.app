@@ -1,4 +1,7 @@
-import "@babel/polyfill";
+import "regenerator-runtime/runtime";
+import "core-js/features/promise";
+import "core-js/features/object/assign";
+import "core-js/features/array/includes";
 import "whatwg-fetch";
 import React from "react";
 import { render } from "react-dom";
