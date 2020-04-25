@@ -87,7 +87,7 @@ const config = {
     },
   },
   plugins: [
-    new EnvironmentPlugin(['SENTRY_DSN', 'SENTRY_ENV']),
+    new EnvironmentPlugin(['SENTRY_DSN', 'SENTRY_ENV', 'GA_TRACKING_ID']),
     new CnameWebpackPlugin({
       domain: 'referee.app',
     }),
@@ -110,6 +110,7 @@ const config = {
       skipWaiting: true,
       cacheId: "handball",
       exclude: ["CNAME"],
+      offlineGoogleAnalytics: true,
     }),
     new LoadablePlugin(),
     /* new BundleAnalyzerPlugin({

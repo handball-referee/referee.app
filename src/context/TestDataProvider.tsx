@@ -4,7 +4,7 @@ import React, {
 } from "react";
 import { useTranslation } from "react-i18next";
 import { getTestDataContext } from "./TestDataContext";
-import Loading from "./Loading";
+import Loading from "../components/Loading";
 import TestDataManager from "../model/TestDataManager";
 import Question from "../model/Question";
 

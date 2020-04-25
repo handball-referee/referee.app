@@ -3,7 +3,7 @@ import React, { FunctionComponent, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { faCheck, faPercent, faQuestion } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useRulesTestData } from "./TestDataContext";
+import { useRulesTestData } from "../context/TestDataContext";
 import Question from "../model/Question";
 import "./Stats.css";
 import RuleStats from "./RuleStats";

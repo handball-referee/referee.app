@@ -7,6 +7,7 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import classNames from "classnames";
 import { useTranslation } from "react-i18next";
 import { ItemProps } from "./Item";
+import useAnalytics from "../hooks/useAnalytics";
 
 interface Props {
   children: Array<ReactElement<ItemProps>>;
@@ -15,9 +16,14 @@ interface Props {
 const LanguagePicker: FunctionComponent<Props> = ({ children }) => {
   const [open, setOpen] = useState(false);
   const { t, i18n } = useTranslation();
+  const { trackEvent } = useAnalytics();
 
   const handleLanguageChange = async (lang: string) => {
     await i18n.changeLanguage(lang);
+    trackEvent("language_change", {
+      event_category: "engagement",
+      event_label: lang,
+    });
   };
 
   const handleTogglePopup = (event: MouseEvent) => {

@@ -56,6 +56,10 @@
       "overall": "Gesamt",
       "asked": "beantwortet",
       "correct": "richtig"
+    },
+    "privacy": {
+      "accept": "Akzeptieren",
+      "decline": "Ablehnen"
     }
   }
 }

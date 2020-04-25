@@ -5,8 +5,9 @@ import "./RulesTest.css";
 import { useTranslation } from "react-i18next";
 import { faChartPie } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useRulesTestData } from "./TestDataContext";
+import { useRulesTestData } from "../context/TestDataContext";
 import CheckBox from "./CheckBox";
+import useAnalytics from "../hooks/useAnalytics";
 
 const RulesTest: FunctionComponent = () => {
   const [checked, setChecked] = useState<string[]>([]);
@@ -17,6 +18,7 @@ const RulesTest: FunctionComponent = () => {
     question, nextQuestion, checkAnswers, asked: numAsked, correct: numCorrect,
   } = useRulesTestData();
   const { t, i18n: { language } } = useTranslation();
+  const { trackEvent } = useAnalytics();
 
   const handleButtonClick = async (event: MouseEvent) => {
     event.preventDefault();
@@ -30,6 +32,11 @@ const RulesTest: FunctionComponent = () => {
       setReveal(true);
       setCorrect(response.correct);
       setRules(response.rules);
+      trackEvent("answer", {
+        event_category: "test",
+        event_label: question?.id,
+        value: response.answeredCorrect ? 1 : 0,
+      });
     } else {
       nextQuestion();
 
@@ -37,6 +44,10 @@ const RulesTest: FunctionComponent = () => {
       setCorrect([]);
       setRules([]);
       setReveal(false);
+
+      trackEvent("next_question", {
+        event_category: "engagement",
+      });
     }
   };
 

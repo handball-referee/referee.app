@@ -31,6 +31,7 @@ export interface ITestData {
 export interface ITestResponse {
   correct: string[];
   rules: string[];
+  answeredCorrect: boolean;
 }
 
 export interface RefereeDB extends DBSchema {

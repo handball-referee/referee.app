@@ -21,6 +21,7 @@
         "default": "array-simple"
       }
     ],
+    "@typescript-eslint/camelcase": 0,
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/no-empty-interface": [
@@ -44,6 +45,7 @@
     "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
     "react/prop-types": 0,
     "react/static-property-placement": ["error", "static public field"],
+    "camelcase": 0,
     "quotes": ["error", "double"]
   },
   "settings": {

@@ -1,0 +1,51 @@
+#tracking {
+  background-color: #00b0fa;
+  border-bottom: 1px solid #00263c;
+  display: flex;
+}
+
+#tracking-text {
+  padding: 0.5rem;
+  font-size: 0.75rem;
+}
+
+#tracking-text a {
+  color: #ffffff;
+}
+
+#tracking-buttons {
+  display: flex;
+  padding: 0.5rem;
+}
+
+#tracking-buttons button {
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  height: 2rem;
+  line-height: 2rem;
+  box-sizing: border-box;
+  width: 7rem;
+}
+
+#accept-button {
+  background-color: #aad357;
+  border: 1px solid #088a46;
+  color: #000000;
+  margin-right: 0.5rem;
+}
+
+#decline-button {
+  background-color: #063e67;
+  border: 1px solid #00263c;
+  color: #ffffff;
+}
+
+@media (max-width: 48rem) {
+  #tracking {
+    flex-direction: column;
+  }
+
+  #tracking-buttons button {
+    width: 50%;
+  }
+}
