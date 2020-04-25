@@ -43,7 +43,7 @@ const RuleStats: FunctionComponent<Props> = ({
     }
 
     return (
-      <div className="stat-question">
+      <div key={question.id} className="stat-question">
         <div className="stat-question-id">
           {question.id}
         </div>
