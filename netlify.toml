@@ -2,3 +2,27 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[headers]]
+  for = "/js/*"
+
+  [headers.values]
+    cache-control = '''
+    max-age=31556952,
+    public'''
+
+[[headers]]
+  for = "/data/*"
+
+  [headers.values]
+    cache-control = '''
+    max-age=86400,
+    public'''
+
+[[headers]]
+  for = "/static/*"
+
+  [headers.values]
+    cache-control = '''
+    max-age=86400,
+    public'''
