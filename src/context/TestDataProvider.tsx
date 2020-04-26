@@ -17,6 +17,8 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
   const [question, setQuestion] = useState<Question|undefined>();
   const [asked, setAsked] = useState(0);
   const [correct, setCorrect] = useState(0);
+  const [checked, setChecked] = useState<string[]>([]);
+  const [reveal, setReveal] = useState(false);
   const manager = useRef<TestDataManager>(new TestDataManager());
   const { i18n: { language } } = useTranslation();
 
@@ -39,6 +41,8 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
 
   const nextQuestion = () => {
     setQuestion(manager.current.next());
+    setReveal(false);
+    setChecked([]);
   };
 
   const checkAnswers = async (options: string[]) => {
@@ -46,6 +50,8 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
 
     setAsked(manager.current.asked);
     setCorrect(manager.current.correct);
+    setChecked(options);
+    setReveal(true);
 
     return result;
   };
@@ -57,6 +63,8 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
         asked: 0,
         correct: 0,
         data: {},
+        checked: [],
+        reveal: false
       }) => {
         context = {
           ...context,
@@ -65,6 +73,8 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
           question,
           asked,
           correct,
+          checked,
+          reveal,
           data: manager.current.data,
         };
 

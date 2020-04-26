@@ -76,6 +76,14 @@ export default class Question {
     return this._box;
   }
 
+  get correct(): string[] {
+    return this._correct;
+  }
+
+  get rules(): string[] {
+    return this._rules;
+  }
+
   get numWrong(): number {
     return this._numWrong;
   }

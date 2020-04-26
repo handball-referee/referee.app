@@ -10,13 +10,17 @@ import CheckBox from "./CheckBox";
 import useAnalytics from "../hooks/useAnalytics";
 
 const RulesTest: FunctionComponent = () => {
-  const [checked, setChecked] = useState<string[]>([]);
-  const [reveal, setReveal] = useState(false);
-  const [correct, setCorrect] = useState<string[]>([]);
-  const [rules, setRules] = useState<string[]>([]);
   const {
-    question, nextQuestion, checkAnswers, asked: numAsked, correct: numCorrect,
+    question,
+    nextQuestion,
+    checkAnswers,
+    asked: numAsked,
+    correct: numCorrect,
+    checked: initialChecked,
+    reveal,
   } = useRulesTestData();
+  const [checked, setChecked] = useState<string[]>(initialChecked);
+
   const { t, i18n: { language } } = useTranslation();
   const { trackEvent } = useAnalytics();
 
@@ -29,9 +33,6 @@ const RulesTest: FunctionComponent = () => {
 
     if (!reveal) {
       const response = await checkAnswers(checked);
-      setReveal(true);
-      setCorrect(response.correct);
-      setRules(response.rules);
       trackEvent("answer", {
         event_category: "test",
         event_label: question?.id,
@@ -39,11 +40,7 @@ const RulesTest: FunctionComponent = () => {
       });
     } else {
       nextQuestion();
-
       setChecked([]);
-      setCorrect([]);
-      setRules([]);
-      setReveal(false);
 
       trackEvent("next_question", {
         event_category: "engagement",
@@ -73,7 +70,7 @@ const RulesTest: FunctionComponent = () => {
 
   const answers = question.answers[language] || [];
   const options = Object.keys(answers).map((key) => {
-    const isCorrect = correct.includes(key);
+    const isCorrect = question.correct.includes(key);
     const isChecked = checked.includes(key);
     const className = classnames("option", {
       correct: reveal && isCorrect === isChecked,
@@ -108,7 +105,7 @@ const RulesTest: FunctionComponent = () => {
         <h2>
           {t("rulestest.relevant-rules")}
         </h2>
-        {rules.map((rule) => (
+        {question.rules.map((rule) => (
           <div key={rule}>{rule}</div>
         ))}
       </div>

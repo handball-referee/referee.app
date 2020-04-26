@@ -9,7 +9,9 @@ export interface TestDataContextValue {
   question?: Question;
   asked: number;
   correct: number;
+  checked: string[];
   data: {[id: string]: Question };
+  reveal: boolean;
 }
 
 let TestDataContext: React.Context<TestDataContextValue>;
@@ -20,6 +22,8 @@ export function getTestDataContext() {
       asked: 0,
       correct: 0,
       data: {},
+      checked: [],
+      reveal: false
     });
   }
   return TestDataContext;
