@@ -43,6 +43,7 @@
 @media (max-width: 48rem) {
   #tracking {
     flex-direction: column;
+    flex: 0 0 8rem;
   }
 
   #tracking-buttons button {
