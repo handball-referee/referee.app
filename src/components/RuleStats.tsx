@@ -25,7 +25,9 @@ const RuleStats: FunctionComponent<Props> = ({
 
   const percent = asked ? Math.round(100 / asked * correct) : 0;
   let color = "bad";
-  if (percent >= 80) {
+  if (!asked) {
+    color = "empty";
+  } else if (percent >= 80) {
     color = "good";
   } else if (percent >= 50) {
     color = "ok";
@@ -36,7 +38,9 @@ const RuleStats: FunctionComponent<Props> = ({
       ? Math.round(100 / question.numAsked * question.numCorrect)
       : 0;
     let questionColor = "bad";
-    if (questionPercent >= 80) {
+    if (question.numAsked === 0) {
+      questionColor = "empty";
+    } else if (questionPercent >= 80) {
       questionColor = "good";
     } else if (questionPercent >= 50) {
       questionColor = "ok";

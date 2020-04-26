@@ -18,6 +18,11 @@
   background-color: #2a579c;
 }
 
+.rule-stat-stats.empty, .stat-question-stats.empty {
+  background-color: #cccccc;
+  color: #888888;
+}
+
 .rule-stat-stats.bad, .stat-question-stats.bad {
   background-color: #f15257;
 }
