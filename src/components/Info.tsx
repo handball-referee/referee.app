@@ -2,7 +2,7 @@ import React from "react";
 import "./Info.css";
 import CheckBox from "./CheckBox";
 import usePrivacySettings from "../hooks/usePrivacySettings";
-import {Decision} from "../context/PrivacyContext";
+import { Decision } from "../context/PrivacyContext";
 
 const Info = () => {
   const {

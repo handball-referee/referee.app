@@ -32,8 +32,6 @@ import sar from "../../../data/de/SAR.md";
 import guidelines from "../../../data/de/Guidelines.md";
 import playingCourt from "../../../data/de/GuidelinesPlayingCourts.md";
 
-
-
 const German = () => {
   const { t } = useTranslation();
 

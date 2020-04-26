@@ -1,6 +1,6 @@
-import React, {FunctionComponent, useEffect, useState} from "react";
+import React, { FunctionComponent, useEffect, useState } from "react";
 import * as Sentry from "@sentry/browser";
-import {Decision, getPrivacyContext} from "./PrivacyContext";
+import { Decision, getPrivacyContext } from "./PrivacyContext";
 
 declare global {
   interface Window { dataLayer: any[] }
