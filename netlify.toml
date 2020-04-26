@@ -26,3 +26,7 @@
     cache-control = '''
     max-age=86400,
     public'''
+
+[context.branch-deploy]
+  [context.branch-deploy.environment]
+    SENTRY_ENV = "preview"
