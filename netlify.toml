@@ -27,6 +27,14 @@
     max-age=86400,
     public'''
 
+[context.production]
+  command = "yarn build && yarn release"
+  [context.production.environment]
+    GIT_AUTHOR_NAME = "Christoph Kraemer"
+    GIT_AUTHOR_EMAIL = "mail@christophkraemer.de"
+    GIT_COMMITTER_NAME = "Christoph Kraemer"
+    GIT_COMMITTER_EMAIL = "mail@christophkraemer.de"
+
 [context.branch-deploy]
   [context.branch-deploy.environment]
     SENTRY_ENV = "preview"
