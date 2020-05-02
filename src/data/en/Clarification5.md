@@ -1,4 +1,4 @@
-# 5. Throw-Off (10:3)
+## 5. Throw-Off (10:3)
 
 As a guiding principle for the interpretation of Rule 10:3, the referees should keep in mind the
 objective of encouraging teams to make use of a quick throw-off. This means that the referees

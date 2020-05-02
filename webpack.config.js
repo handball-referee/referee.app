@@ -15,7 +15,7 @@ const markdownRenderer = new marked.Renderer();
 markdownRenderer.heading = function (text, level, raw, slugger) {
   const escapedText = text
     .toLowerCase()
-    .replace(/,|\s*\(.*\)/g, '')
+    .replace(/,|\s*\(.*\)|[“„]/g, '')
     .replace(/\s/g, '-');
 
   return `<h${level} id="${escapedText}">${text}</h${level}>`;

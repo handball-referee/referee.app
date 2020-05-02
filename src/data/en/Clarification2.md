@@ -1,4 +1,4 @@
-# 2. Time-Out (2:8)
+## 2. Time-Out (2:8)
 
 Apart from the situations indicated in Rule 2:8, where a time-out is obligatory, the referees are
 expected to use their judgment regarding the need for time-outs also in other situations. Some

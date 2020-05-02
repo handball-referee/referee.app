@@ -1,4 +1,4 @@
-## Guidelines for Playing Courts and Goals
+# Guidelines for Playing Courts and Goals
 
 - a) The playing court (diagram 1) consists of a rectangle which measures 40 x 20m. It
   should be checked by measuring the length of the two diagonals. From the outer side

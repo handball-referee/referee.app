@@ -1,4 +1,4 @@
-### 8. Injured Player (4:11)
+# 8. Injured Player (4:11)
 If a player seems to be injured on the court, the following measures have to be taken:
 
 - a) If the referees are absolutely sure that the injured player needs medical treatment on

@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import useScrollToAnchor from "../../../hooks/useScrollToAnchor";
 import foreword from "../../../data/en/Foreword.md";
 import rule1 from "../../../data/en/1.md";
 import rule2 from "../../../data/en/2.md";
@@ -34,6 +35,7 @@ import playingCourt from "../../../data/en/GuidelinesPlayingCourts.md";
 
 const English = () => {
   const { t } = useTranslation();
+  useScrollToAnchor();
 
   const text = `
     ${foreword}
