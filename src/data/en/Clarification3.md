@@ -1,4 +1,4 @@
-# 3. Team Time-Out (2:10)
+## 3. Team Time-Out (2:10)
 Each team has the right to receive one 1-minute team time-out in each half of the regular
 playing time (but not in overtime).
 

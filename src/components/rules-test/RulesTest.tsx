@@ -5,9 +5,11 @@ import "./RulesTest.css";
 import { useTranslation } from "react-i18next";
 import { faChartPie } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useRulesTestData } from "../context/TestDataContext";
-import CheckBox from "./CheckBox";
-import useAnalytics from "../hooks/useAnalytics";
+import { useRulesTestData } from "../../context/TestDataContext";
+import CheckBox from "../CheckBox";
+import useAnalytics from "../../hooks/useAnalytics";
+import { Link } from "react-router-dom";
+import RelevantRules from "./RelevantRules";
 
 const RulesTest: FunctionComponent = () => {
   const {
@@ -101,14 +103,7 @@ const RulesTest: FunctionComponent = () => {
   let relevantRules;
   if (reveal) {
     relevantRules = (
-      <div id="relevant-rules" className="box-with-header">
-        <h2>
-          {t("rulestest.relevant-rules")}
-        </h2>
-        {question.rules.map((rule) => (
-          <div key={rule}>{rule}</div>
-        ))}
-      </div>
+      <RelevantRules question={question} />
     );
   }
 

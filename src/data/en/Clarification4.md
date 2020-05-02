@@ -1,6 +1,6 @@
-# 4. Passive Play (7:11-12)
+## 4. Passive Play (7:11-12)
 
-## A. General Guidelines
+### A. General Guidelines
 
 The application of the rules regarding passive play has the objective of preventing unattractive
 methods of play and intentional delays in game. This requires that the referees throughout the
@@ -18,11 +18,11 @@ The criteria mentioned in the following specifications rarely apply alone, but m
 be judged in their entirety by the referees. In particular, the impact of active defensive work in
 conformity with the rules must be taken into account.
 
-## B. The Utilisation of the Forewarning Signal 
+### B. The Utilisation of the Forewarning Signal 
 
 The forewarning signal should be shown particularly in the following situations:
 
-### B1. Forewarning signal when substitutions are made slowly or when the ball is moved slowly down the court
+#### B1. Forewarning signal when substitutions are made slowly or when the ball is moved slowly down the court
 
 Typical indications are:
 
@@ -37,7 +37,7 @@ Typical indications are:
 - the ball is played back into the team’s own half of the court, even though the
   opponents are not putting on any pressure.
   
-### B2. Forewarning signal in connection with a late substitution during the build-up phase 
+#### B2. Forewarning signal in connection with a late substitution during the build-up phase 
 
 Typical indications are:
 
@@ -51,7 +51,7 @@ Typical indications are:
 failed to get to an immediate scoring opportunity after reaching the opponents’ half of the
 court, must be allowed to undertake a quick substitution of players at that stage.*
 
-### B3. During an excessively long build-up phase
+#### B3. During an excessively long build-up phase
 
 In principle, a team must always be allowed a build-up phase with a preparatory passing play
 before they can be expected to start a targeted attacking situation.
@@ -77,7 +77,7 @@ they increase the pace of the attack in comparison with the build-up phase.*
 - a special criterion for excessively long build-up phases is when the attacking team
   achieves no clear increase in pace from the build-up phase to the finishing phase.
 
-## How the Forewarning Signal should be used 
+### How the Forewarning Signal should be used 
 
 If a referee (either the court referee or the goal-line referee) recognises the emergence of
 passive play, he lifts the arm (hand signal no.17), to indicate the judgment that the team is not
@@ -126,29 +126,29 @@ The following actions are not considered as passes:
 
 ***Decision-making** criteria after showing the forewarning signal:*
 
-### D1. The attacking team:
+#### D1. The attacking team:
 - no clear increase in pace;
 - no targeted action towards the goal;
 - 1-on-1 actions where no spatial advantage is achieved;
 - delays when playing the ball (e.g., because the passing routes are blocked by the defending team).
 
-### D2. The defending team:
+#### D2. The defending team:
 - the defending team tries to prevent an increase in pace or a targeted attacking action,
   through correct and active defensive methods;
 - if the defending team tries to interrupt a pass sequence of the attacking team by
   committing infractions in accordance with Rule 8:3, this behaviour has to be
   consistently punished progressively.
   
-### D3. Notes concerning the maximum number of passes
+#### D3. Notes concerning the maximum number of passes
 
-#### D3a. Before the execution of the 6th pass:
+##### D3a. Before the execution of the 6th pass:
 - If the referees decide a free throw or a throw-in to the attacking team when the
   forewarning signal has been shown, it does not interrupt the count of passes.
 - Similarly if a pass or a shot on goal is blocked by a court player of the defending team
   and the ball goes to the attacking team (even as a goalkeeper throw), it does not
   interrupt the count of passes.
   
-#### D3b. After the execution of the 6th pass:
+##### D3b. After the execution of the 6th pass:
 - If a free throw, a throw-in (or a goalkeeper throw) is awarded to the attacking team
   after the 6th pass, the team has the possibility of combining a throw with one
   additional pass to finish the attack.
@@ -157,7 +157,7 @@ The following actions are not considered as passes:
   goal line. In this case, the attacking team has the possibility of finishing the attack by
   making one additional pass.
   
-## E. Appendix
+### E. Appendix
 
 **Indications of a reduction of pace**
 

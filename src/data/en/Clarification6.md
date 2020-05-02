@@ -1,4 +1,4 @@
-# 6. Definition of “Clear Chance of Scoring” (14:1)
+## 6. Definition of “Clear Chance of Scoring” (14:1)
 
 For the purposes of Rule 14:1, a clear chance of scoring exists when:
 

@@ -31,9 +31,11 @@ import clarification8 from "../../../data/es/Clarification8.md";
 import sar from "../../../data/es/SAR.md";
 import guidelines from "../../../data/es/Guidelines.md";
 import playingCourt from "../../../data/es/GuidelinesPlayingCourts.md";
+import useScrollToAnchor from "../../../hooks/useScrollToAnchor";
 
 const Spanish = () => {
   const { t } = useTranslation();
+  useScrollToAnchor();
 
   const text = `
     ${foreword}

@@ -19,11 +19,11 @@ const HandballRules = loadable(() => import("./HandballRules"), {
   fallback: <Loading />,
 });
 
-const RulesTest = loadable(() => import("./RulesTest"), {
+const RulesTest = loadable(() => import("./rules-test/RulesTest"), {
   fallback: <Loading />,
 });
 
-const Stats = loadable(() => import("./Stats"), {
+const Stats = loadable(() => import("./stats/Stats"), {
   fallback: <Loading />,
 });
 

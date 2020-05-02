@@ -1,28 +1,48 @@
+@import "shared.css";
+
 #language-picker {
   display: flex;
   position: relative;
   margin: 0.75rem;
-  color: #ffffff;
+  color: var(--white);
   width: 10rem;
   height: 2rem;
-  background-color: #063e67;
+  background-color: var(--darkblue2);
   border-radius: 0.5rem;
-  border: 1px solid #00263c;
+  border: 1px solid var(--darkblue1);
   box-sizing: border-box;
   cursor: pointer;
-}
 
-#language-picker.open {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
+  &.open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 
-#language-picker:hover {
-  background-color: #00263c;
+    & #picker-popup {
+      display: block;
+    }
+  }
+
+  &:hover {
+    background-color: var(--darkblue1);
+  }
+
+  @media (max-width: 48rem) {
+    width: 4.25rem;
+  }
 }
 
 #picker-content {
   flex-grow: 1;
+
+  @media (max-width: 48rem) {
+    & img {
+      margin-right: 0;
+    }
+
+    & span {
+      display: none;
+    }
+  }
 }
 
 #picker-indicator {
@@ -30,12 +50,12 @@
   font-size: 1.5rem;
   width: 1rem;
   margin: 0 0.5rem;
-  color: #00b0fa;
-}
+  color: var(--blue3);
 
-#picker-indicator svg {
-  display: block;
-  height: 1.875rem;
+  & svg {
+    display: block;
+    height: 1.875rem;
+  }
 }
 
 #picker-popup {
@@ -43,8 +63,8 @@
   position: absolute;
   top: 2rem;
   right: 0;
-  border: 1px solid #00263c;
-  background-color: #00263c;
+  border: 1px solid var(--darkblue1);
+  background-color: var(--darkblue1);
   margin-top: -2px;
   margin-right: -1px;
   padding: 0;
@@ -53,6 +73,17 @@
   min-width: 100%;
   list-style: none;
   z-index: 5;
+
+  & li {
+    &[aria-selected=true] {
+      background-color: var(--darkblue1);
+    }
+
+    &:hover {
+      border-radius: 0.25rem;
+      background-color: var(--blue2);
+    }
+  }
 }
 
 #picker-popup img, #picker-content img {
@@ -61,36 +92,9 @@
   margin-right: 0.25rem;
 }
 
-#picker-popup li[aria-selected=true] {
-  background-color: #063e67;
-}
-
-#picker-popup li:hover {
-  border-radius: 0.25rem;
-  background-color: #0081cf;
-}
-
 #picker-popup li, #picker-content {
   padding: 0.25rem;
   line-height: 1.375rem;
   display: flex;
   align-content: center;
-}
-
-#language-picker.open #picker-popup {
-  display: block;
-}
-
-@media (max-width: 48rem) {
-  #language-picker {
-    width: 4.25rem;
-  }
-
-  #picker-content img {
-    margin-right: 0;
-  }
-
-  #picker-content span {
-    display: none;
-  }
 }

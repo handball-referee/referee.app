@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/cevou/referee.app/compare/v1.1.0...v1.2.0) (2020-05-02)
+
+
+### Features
+
+* add current box to stats ([aa09b77](https://github.com/cevou/referee.app/commit/aa09b774eb6a540c2500df26a37b54f279f053e3))
+* navigate from question to rules ([31aaa1c](https://github.com/cevou/referee.app/commit/31aaa1ce4b92519d8c2f8e783d377cbc167cb620)), closes [#6](https://github.com/cevou/referee.app/issues/6)
+* view question in stats ([b84d259](https://github.com/cevou/referee.app/commit/b84d2597dd13547d1fa17998a515de707e1b0d66)), closes [#4](https://github.com/cevou/referee.app/issues/4)
+
 ## [1.1.0](https://github.com/cevou/referee.app/compare/v1.0.0...v1.1.0) (2020-04-27)
 
 

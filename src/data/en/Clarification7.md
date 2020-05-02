@@ -1,11 +1,11 @@
-# 7. Intervention by the Timekeeper or a Delegate (18:1)
+## 7. Intervention by the Timekeeper or a Delegate (18:1)
 
 If the timekeeper or a delegate intervenes, when the game is already interrupted, then the
 game is restarted with the throw that corresponds to the reason for the interruption.
 If the timekeeper or a delegate intervenes, and thereby interrupts the game when the ball is in
 play, then the following regulations apply:
 
-## A. Faulty substitution or illegal entry by a player (Rules 4:2-3, 5-6)
+### A. Faulty substitution or illegal entry by a player (Rules 4:2-3, 5-6)
 
 The timekeeper (or delegate) must interrupt the game immediately, without regard for the
 ‘advantage’ concept under Rules 13:2 and 14:2. If due to such an interruption, due to violation
@@ -17,9 +17,9 @@ The guilty player is punished in accordance with Rule 16:3a. However, in the cas
 entry under Rule 4:6, during a clear chance of scoring, then the player is punished in
 accordance with Rule 16:6b in conjunction with Rule 8:10b.
 
-## B. Interruption for other reasons, e.g., unsportsmanlike conduct in the substitution area
+### B. Interruption for other reasons, e.g., unsportsmanlike conduct in the substitution area
 
-### 1. Intervention by the timekeeper
+#### 1. Intervention by the timekeeper
 The timekeeper should wait until the next interruption in the game and then inform the
 referee.
 
@@ -38,7 +38,7 @@ official. The same applies to the referees, if they have not themselves observed
 In such a case, they can only give an informal caution. If the reported violation falls under
 Rules 8:6 or 8:10, they must submit a written report.
 
-### 2. Intervention by a delegate
+#### 2. Intervention by a delegate
 Delegates from the IHF, a continental confederation or a national federation, who are on duty
 in a game, have the right to inform the referees about a possible decision in violation of the
 rules (except in the case of a referee decision on the basis of an observation of facts) or about

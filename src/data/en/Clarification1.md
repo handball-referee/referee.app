@@ -1,4 +1,4 @@
-# 1. Free-Throw Execution after the Final Signal (2:4-6)
+## 1. Free-Throw Execution after the Final Signal (2:4-6)
 In many cases, the team that has the opportunity to execute a free throw after the playing time
 has expired is not really interested in trying to score a goal, either because the outcome of the
 game is already clear or because the position for the free throw is too far away from the goal

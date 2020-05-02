@@ -1,8 +1,9 @@
 /* eslint-disable no-mixed-operators */
 import React, { FunctionComponent } from "react";
-import "./RuleStats.css";
+import "./Rule.css";
 import { useTranslation } from "react-i18next";
-import Question from "../model/Question";
+import QuestionComponent from "./Question";
+import Question from "../../model/Question";
 
 interface Props {
   id: string;
@@ -11,7 +12,7 @@ interface Props {
   questions: Question[];
 }
 
-const RuleStats: FunctionComponent<Props> = ({
+const Rule: FunctionComponent<Props> = ({
   id, asked, correct, questions,
 }) => {
   const { t } = useTranslation();
@@ -33,28 +34,9 @@ const RuleStats: FunctionComponent<Props> = ({
     color = "ok";
   }
 
-  const details = questions.map((question) => {
-    const questionPercent = question.numAsked
-      ? Math.round(100 / question.numAsked * question.numCorrect)
-      : 0;
-    let questionColor = "bad";
-    if (question.numAsked === 0) {
-      questionColor = "empty";
-    } else if (questionPercent >= 80) {
-      questionColor = "good";
-    } else if (questionPercent >= 50) {
-      questionColor = "ok";
-    }
-
-    return (
-      <div key={question.id} className="stat-question">
-        <div className="stat-question-id">
-          {question.id}
-        </div>
-        <div className={`stat-question-stats ${questionColor}`}>{`${question.numCorrect} / ${question.numAsked} (${questionPercent}%)`}</div>
-      </div>
-    );
-  });
+  const details = questions.map((question) => (
+    <QuestionComponent key={question.id} question={question} />
+  ));
 
   return (
     <div className="rule-stat-box">
@@ -69,4 +51,4 @@ const RuleStats: FunctionComponent<Props> = ({
   );
 };
 
-export default RuleStats;
+export default Rule;

@@ -48,6 +48,16 @@
     "camelcase": 0,
     "quotes": ["error", "double"]
   },
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**"
+      ],
+      "env": {
+        "jest": true
+      }
+    }
+  ],
   "settings": {
     "react": {
       "version": "detect"

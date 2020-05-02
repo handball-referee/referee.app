@@ -1,0 +1,46 @@
+@import "../shared.css";
+
+.rule-stat-box {
+  margin-top: 1rem;
+}
+
+.rule-stat-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rule-stat-title, .rule-stat-stats {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: var(--header-color);
+}
+
+.rule-stat-title {
+  margin: 0;
+  background-color: var(--header-bg-color);
+}
+
+.rule-stat-stats {
+  &.empty {
+    background-color: var(--grey2);
+    color: var(--grey3);
+  }
+
+  &.bad {
+    background-color: var(--red3);
+  }
+
+  &.ok {
+    background-color: var(--orange3);
+  }
+
+  &.good {
+    background-color: var(--green1);
+  }
+}
+
+@media (max-width: 48rem) {
+  .rule-stat-header {
+    display: block;
+  }
+}

@@ -125,8 +125,7 @@
       "c"
     ],
     "rule": [
-      "2:2",
-      "comments"
+      "2:2 comments"
     ]
   },
   {
@@ -583,8 +582,7 @@
     ],
     "rule": [
       "2:10",
-      "Clarification 3",
-      "in connection with 2:4"
+      "Clarification 3 in connection with 2:4"
     ]
   },
   {
@@ -923,7 +921,7 @@
       "4:5",
       "14:1a",
       "16:3a",
-      "clarification 7"
+      "Clarification 7"
     ]
   },
   {
@@ -1715,7 +1713,7 @@
       "6:2",
       "8:7f",
       "14:1a",
-      "Clarification"
+      "Clarification 6"
     ]
   },
   {
@@ -2909,7 +2907,7 @@
     "rule": [
       "2:3",
       "2:4",
-      "Guideline 8:10c"
+      "Guidelines 8:10c"
     ]
   },
   {
@@ -4455,7 +4453,7 @@
     ],
     "rule": [
       "18:1",
-      "Clarification 7Ba"
+      "Clarification 7.B.a"
     ]
   },
   {
@@ -4490,7 +4488,7 @@
       "d"
     ],
     "rule": [
-      "Clarification 7B",
+      "Clarification 7.B",
       "Substitution Area Regulations 5"
     ]
   },
@@ -4500,7 +4498,7 @@
       "b"
     ],
     "rule": [
-      "Clarification 7.Ba"
+      "Clarification 7.B.a"
     ]
   },
   {
@@ -4509,7 +4507,7 @@
       "a"
     ],
     "rule": [
-      "Clarification 7.Bb"
+      "Clarification 7.B.b"
     ]
   },
   {

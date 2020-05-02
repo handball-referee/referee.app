@@ -1,5 +1,30 @@
 # Guidelines und Interpretationen
 
+## Kippschutz für Tore (Regel 1:2) 
+
+Die Tore müssen fest mit dem Boden oder den dahinter liegenden Wänden verbunden oder
+mit einem Kippschutz versehen sein. Diese neue Regelung wird mit dem Ziel der
+Unfallvermeidung verabschiedet.
+
+## Neue Guideline (Regel 2:5)
+
+Wenn der Torhüter in Verbindung mit einem nach dem Schlusssignal auszuführenden Freiwurf
+verletzt ist, darf die verteidigende Mannschaft den Torhüter ersetzen. Diese Ausnahme gilt
+nicht für Abwehrspieler.
+
+## Neue Guideline (Regel 2:6 und 8:10c)
+
+Im Falle von Verstößen oder unsportlichem Verhalten von Verteidigern während der
+Ausführung eines Freiwurfs oder eines 7-Meter-Wurfs nach dem Schlusssignal sind diese nach
+den Regeln 16:3, 16:6 oder 16:9 persönlich zu bestrafen. Der Wurf muss wiederholt werden
+(Regel 15:9, Absatz 3). Regel 8:10c ist in diesen Fällen nicht anwendbar.
+
+## Neue Guideline (Regel 3:3)
+
+IHF, Kontinentalverbände und Nationalverbände haben das Recht, die Verwendung von
+Reservebällen zuzulassen, die nicht am Tisch des Zeitnehmers platziert sind. Über die
+Verwendung eines Reserveballs wird von den Schiedsrichtern gemäß Regel 3:4 entschieden.
+
 ## Austausch von Spielern und Offiziellen (Regeln 4:1 – 4:2) 
 
 Hat eine Mannschaft nicht das volle Kontingent an Spielern (Regel 4:1) oder Offiziellen (Regel 4:2) ausgeschöpft, ist 
@@ -57,6 +82,19 @@ Lässt sich der fehlbare Spieler nicht mehr feststellen, ist wie folgt vorzugehe
   Spielfläche befindet.* 
 - *Handelt es sich für den benannten Spieler um seine dritte Hinausstellung, ist er nach Regel 16:6d zu 
   disqualifizieren.*
+  
+## Neue Guideline (Regeln 4:7 - 4:9)
+
+IHF, Kontinentalverbände und nationale Verbände haben das Recht, technische Ausrüstung
+im Auswechselbereich zuzulassen. Die Ausrüstung muss auf faire Weise verwendet werden,
+es darf sich nicht um Ausrüstung zur Kommunikation mit einem gesperrten Offiziellen oder
+Spieler handeln.
+
+## Betreten der Spielfläche mit falscher Spielkleidungsfarbe oder Spielernummer (Regeln 4:7 und 4:8) 
+
+Ein Vergehen im Sinne der Regeln 4:7 und 4:8 führt nicht zu Ballbesitzwechsel, sondern
+lediglich zu Spielunterbrechung, Korrektur des Fehlers und Spielfortsetzung mit Wurf durch
+diejenige Mannschaft, die sich bei Spielunterbrechung in Ballbesitz befand.
 
 ## Nicht erlaubte Gegenstände, Helme, Gesichtsschutz und Protektoren (Regel 4:9)
 Alle Arten und Größen von Helmen und Gesichtsmasken sind untersagt. Das Verbot bezieht sich nicht nur auf komplette 
@@ -86,11 +124,13 @@ Klebemittel in deren Gesicht oder Augen gelangen könnte. Dementsprechend ist di
 
 Nationale Verbände haben das Recht, für einzelne Kategorien abweichende Regelungen zu erlassen.
 
-## Versorgung von Verletzten (Regel 4:11) 
-Haben sich, beispielsweise durch einen Zusammenprall, mehrere Spieler der 
-gleichen Mannschaft verletzt, können die SR oder der Delegierte weiteren teilnahmeberechtigten Personen erlauben, 
-die Spielfläche zwecks Versorgung von Verletzten zu betreten. Ebenso überwachen die SR und der Delegierte das Betreten 
-der Spielfläche durch Personen des Sanitätsdienstes.
+## Versorgung von Verletzten (Regel 4:11, aktualisiert) 
+Haben sich (z. B. infolge eines Zusammenpralls) mehrere Spieler einer Mannschaft verletzt,
+können die Schiedsrichter oder der Delegierte weiteren teilnahmeberechtigten Personen
+erlauben, die Spielfläche zur Versorgung dieser Spieler zu betreten. Das Betreten der
+Spielfläche darf hierbei maximal zwei Personen pro verletztem Spieler gestattet werden.
+Ebenso überwachen die Schiedsrichter und der Delegierte das Betreten der Spielfläche durch
+Personen des Sanitätsdienstes.
 
 ## Verletzter Torwart (Regel 6:8) 
 Der Torwart wird von einem Wurf aus dem Spiel heraus getroffen und ist handlungsunfähig. Grundsätzlich hat in solchen 
@@ -126,7 +166,13 @@ Anprellen und wieder Fangen des Balles in der Luft nicht mehr als „Ballannahme
 Bodenkontakt nach Anprellen zählt deshalb ausnahmslos als Schritt.
 
 ## Zählen der Anzahl der Pässe nach Vorwarnzeichen (7:11) 
+
 Siehe Schulungshilfe Anhang 3
+
+## Neue Guideline (Regel 7:11, Erläuterung 4, Anhang 3)
+
+Es zählt als Pass, wenn der Ball nach einem geblockten Torwurf zum Werfer oder einem seiner
+Mitspieler zurückprallt. 
 
 ## Eingreifen durch zusätzliche Spieler oder durch Offizielle (Regeln 8:5, 8:6, 8:9, 8:10b) 
 Greift ein zusätzlicher Spieler oder Offizieller ins Spiel ein, sind für die Bestrafung und Spielfortsetzung folgende 
@@ -147,6 +193,19 @@ Folgende Fälle sind aufgrund dieser Kriterien denkbar:
 - d) Wie c), aber ohne klare Torgelegenheit 
 
   Korrekte Regelanwendung: Freiwurf, progressive Bestrafung.
+  
+## Disqualifikation des Torwarts (Regel 8:5 Kommentar)
+
+Ein Torwart ist zu disqualifizieren, wenn er seinen Torraum verlässt bzw. sich in einer
+ähnlichen Position außerhalb seines Torraums befindet und dabei einen frontalen
+Zusammenprall mit einem Gegenspieler verursacht. Dies gilt nicht:
+
+- a) wenn der Torwart in dieselbe Richtung wie der Gegenspieler läuft, z. B. nach
+  Wiederbetreten der Spielfläche vom Auswechselraum.
+- b) wenn der Angreifer dem Ball nachläuft und der Ball sich zwischen dem Angreifer und
+  dem Torhüter befindet.
+
+In Situationen dieser Art entscheiden die Schiedsrichter aufgrund ihrer Tatsachenfeststellung.
 
 ## Weitere Maßnahmen nach Disqualifikation mit Bericht (Regeln 8:6, 8:10a, b) 
 Die Kriterien für die Höchststufe sind in den Regeln 8:6 (für regelwidriges Verhalten) und 8:10 (für unsportliches 
@@ -197,20 +256,27 @@ Die letzten 30 Sekunden gibt es sowohl in der regulären Spielzeit (Ende 2.Halbz
 Halbzeiten der beiden Verlängerungen. Die letzten 30 Sekunden beginnen, wenn die Spieluhr 59 Minuten 30 Sekunden 
 (bzw. 69:30, 79:30) oder 0 Minuten 30 Sekunden anzeigt.
 
-## Abstandsvergehen (Regel 8:10c) 
-Das „Nichteinhalten des Abstandes“ führt nur dann zur Disqualifikation + 7m, wenn der Wurf in den letzten 30 Sekunden 
-(!) nicht ausgeführt werden kann.
+## Abstandsvergehen (Regel 8:10c, aktualisiert) 
+Das Nichteinhalten des Abstandes führt zu Disqualifikation und 7-Meter-Wurf, wenn ein Wurf
+in den letzten 30 Sekunden nicht ausgeführt werden kann.
 
-Wird der Wurf ausgeführt und durch einen zu nahe stehenden Spieler geblockt, dann ist auch in den letzten 30 Sekunden 
-die normale Progression vorgesehen, da der Ball die Hand des Werfers verlassen hat (siehe Regel 15:2 Abs.1).
+Die Regel findet Anwendung, wenn das Vergehen innerhalb der letzten 30 Sekunden oder
+zusammen mit dem Schlusssignal erfolgte (siehe Regel 2:4, Abs. 1). Die Schiedsrichter treffen
+hierzu eine Entscheidung aufgrund ihrer Tatsachenfeststellung (Regel 17:11).
 
-Die Regel findet Anwendung, wenn das Vergehen innerhalb der letzten 30 Sekunden oder zusammen mit dem Schlusssignal 
-erfolgte (siehe Regel 2:4, Abs. 1). Die Schiedsrichter treffen hierzu eine Entscheidung aufgrund ihrer 
-Tatsachenfeststellung (Regel 17:11).
+Wird das Spiel wegen einer Wurfverhinderung in den letzten 30 Sekunden unterbrochen, die
+nicht direkt mit der Wurfvorbereitung oder der Wurfausführung zusammenhängt
+(beispielsweise Wechselfehler, unsportliches Verhalten im Auswechselraum), ist Regel 8:10c
+anzuwenden.
 
-Wird das Spiel wegen einer Wurfverhinderung in den letzten 30 Sekunden unterbrochen, die nicht direkt mit der 
-Wurfvorbereitung oder der Wurfausführung zusammenhängt (beispielsweise Wechselfehler, unsportliches Verhalten im 
-Auswechselraum), ist Regel 8:10c anzuwenden.
+Wird beispielsweise ein Wurf ausgeführt, aber von einem Spieler geblockt, der zu nahe steht
+und den Wurf aktiv verhindert bzw. den Werfer bei der Wurfausführung stört, dann ist Regel
+8:10c anzuwenden.
+
+Wenn ein Spieler weniger als drei Meter vom Werfer entfernt steht, die Wurfausführung aber
+nicht aktiv stört, dann erfolgt keine Bestrafung. Nutzt der zu nahe stehende Spieler seine
+Position, um den Wurf zu blocken bzw. einen Pass des Werfers abzufangen, ist Regel 8:10c
+ebenfalls anzuwenden. 
 
 ## Disqualifikation in den letzten 30 Sekunden (Regel 8:10d) 
 Bei Disqualifikation eines Abwehrspielers gemäß Regel 8:5 und 8:6 in den letzten 30 Sekunden führen nur diejenigen 
@@ -232,6 +298,14 @@ ein Vergehen nach Regel 8:6 handelt.
 ## Ausführung des Einwurfs (Regel 11:4) 
 Der Einwurf ist Richtung Spielfläche als direkter Wurf über die Seitenlinie auszuführen.
 
+## 7-Meter-Entscheidungen bei leerem Tor (Regel 14:1 und Erläuterung 6c) 
+
+Die Definition einer klaren Torgelegenheit in den in Erläuterung 6c angegebenen Situationen,
+in denen eine klare und ungehinderte Gelegenheit zum Wurf des Balls in das leere Tor besteht,
+setzt voraus, dass sich der werfende Spieler in Ballbesitz befindet und eindeutig direkt auf das
+leere Tor zu werfen versucht. Bei der Ausführung sämtlicher Würfe müssen sich der Werfer
+und seine Mitspieler in den richtigen Positionen befinden. 
+
 ## Ausführung von Würfen (Regel 15) 
 Regel 15:7, Abs.3 und Regel 15:8 zählen Beispiele möglicher Fehler bei der Ausführung von Würfen auf. Ebenso wie das 
 Prellen oder das Niederlegen (und Wiederaufnehmen) des Balls nicht erlaubt ist, ist es regelwidrig, bei der Ausführung 
@@ -250,7 +324,15 @@ Es ist jedoch nicht möglich, gegen diese Spieler oder Offiziellen im Spiel zus�
 Handlungen können in keinem Fall zur Verringerung der Anzahl der Spieler auf dem Spielfeld führen. Dies gilt auch, wenn 
 beispielsweise ein disqualifizierter Spieler das Spielfeld betritt.
 
+## Neue Guideline (Regel 16:9d)
+
+Wenn sich ein Spieler nach einer Disqualifikation eines äußerst unsportlichen Verhaltens nach
+Regel 8:10a schuldig gemacht hat, wird der Spieler mit einer zusätzlichen Disqualifikation mit
+einem schriftlichen Bericht bestraft und die Mannschaft für 4 Minuten um einen Spieler
+reduziert.
+
 ## Gefährdung von Spielern durch Zuschauer (Regel 17:12) 
+
 Regel 17:12 ist auch anzuwenden bei Gefährdung von Spielern durch Zuschauer, beispielsweise durch Laser-Pointer oder 
 andere Gegenstände. Dabei ist wie folgt vorzugehen:
 
@@ -266,3 +348,9 @@ War das Spiel zum Zeitpunkt der Feststellung bereits unterbrochen, ist gemäß R
 Erfolgt die Spielunterbrechung zum Zeitpunkt einer klaren Torgelegenheit, ist gemäß Regel 14:1c zu verfahren. In allen 
 übrigen Fällen ist auf Freiwurf für die zuvor ballbesitzende Mannschaft an dem Ort zu entscheiden, an dem sich der Ball 
 zum Zeitpunkt der Spielunterbrechung befand.
+
+## Verwendung des Videobeweises
+
+Ist nach Verwendung des Videobeweises eine Torentscheidung erforderlich, kann ein Tor –
+statt bis zu dem in Regel 9:2 festgelegten Zeitpunkt der Anwurfausführung – solange annulliert
+werden, bis der nächste Ballwechsel erfolgt.

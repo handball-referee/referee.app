@@ -1,52 +1,50 @@
 #tracking {
-  background-color: #00b0fa;
-  border-bottom: 1px solid #00263c;
+  background-color: var(--blue3);
+  border-bottom: 1px solid var(--darkblue1);
   display: flex;
+
+  @media (max-width: 48rem) {
+    flex-direction: column;
+    flex: 0 0 8rem;
+  }
 }
 
 #tracking-text {
   padding: 0.5rem;
   font-size: 0.75rem;
-}
 
-#tracking-text a {
-  color: #ffffff;
+  & a {
+    color: var(--white);
+  }
 }
 
 #tracking-buttons {
   display: flex;
   padding: 0.5rem;
-}
 
-#tracking-buttons button {
-  font-size: 1rem;
-  border-radius: 0.5rem;
-  height: 2rem;
-  line-height: 2rem;
-  box-sizing: border-box;
-  width: 7rem;
+  & button {
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    height: 2rem;
+    line-height: 2rem;
+    box-sizing: border-box;
+    width: 7rem;
+
+    @media (max-width: 48rem) {
+      width: 50%;
+    }
+  }
 }
 
 #accept-button {
-  background-color: #aad357;
-  border: 1px solid #088a46;
-  color: #000000;
+  background-color: var(--green3);
+  border: 1px solid var(--green1);
+  color: var(--black);
   margin-right: 0.5rem;
 }
 
 #decline-button {
-  background-color: #063e67;
-  border: 1px solid #00263c;
-  color: #ffffff;
-}
-
-@media (max-width: 48rem) {
-  #tracking {
-    flex-direction: column;
-    flex: 0 0 8rem;
-  }
-
-  #tracking-buttons button {
-    width: 50%;
-  }
+  background-color: var(--darkblue2);
+  border: 1px solid var(--darkblue1);
+  color: var(--white);
 }
