@@ -7,9 +7,15 @@ interface Props {
   checked: boolean;
   onChange?: () => void;
   labelledBy?: string;
+  readOnly?: boolean;
 }
 
-const CheckBox: FunctionComponent<Props> = ({ checked, onChange, labelledBy }) => {
+const CheckBox: FunctionComponent<Props> = ({
+  checked,
+  onChange,
+  labelledBy,
+  readOnly,
+}) => {
   const handleKeyDown = (event: KeyboardEvent) => {
     if (event.keyCode === 32 && onChange) {
       onChange();
@@ -25,7 +31,13 @@ const CheckBox: FunctionComponent<Props> = ({ checked, onChange, labelledBy }) =
       onClick={onChange}
       onKeyDown={handleKeyDown}
     >
-      <input type="checkbox" checked={checked} onChange={onChange} aria-labelledby={labelledBy} />
+      <input
+        type="checkbox"
+        checked={checked}
+        onChange={onChange}
+        readOnly={readOnly}
+        aria-labelledby={labelledBy}
+      />
       <FontAwesomeIcon className="checkmark" icon={faCheck} />
     </div>
   );

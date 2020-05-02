@@ -23,7 +23,7 @@ const RulesTest = loadable(() => import("./RulesTest"), {
   fallback: <Loading />,
 });
 
-const Stats = loadable(() => import("./Stats"), {
+const Stats = loadable(() => import("./stats/Stats"), {
   fallback: <Loading />,
 });
 

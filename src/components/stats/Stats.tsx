@@ -3,10 +3,10 @@ import React, { FunctionComponent, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { faCheck, faPercent, faQuestion } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useRulesTestData } from "../context/TestDataContext";
-import Question from "../model/Question";
+import { useRulesTestData } from "../../context/TestDataContext";
+import Question from "../../model/Question";
 import "./Stats.css";
-import RuleStats from "./RuleStats";
+import Rule from "./Rule";
 
 type OrderedData = {
   [rule: string]: {
@@ -43,7 +43,7 @@ const Stats: FunctionComponent = () => {
   const rules = Object.keys(orderedData).map((id: string) => {
     const ruleData = orderedData[id];
     return (
-      <RuleStats
+      <Rule
         key={id}
         id={id}
         asked={ruleData.asked}

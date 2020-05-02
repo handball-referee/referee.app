@@ -1,10 +1,10 @@
-@import "shared.css";
+@import "../shared.css";
 
 .rule-stat-box {
   margin-top: 1rem;
 }
 
-.rule-stat-header, .stat-question {
+.rule-stat-header {
   display: flex;
   justify-content: space-between;
 }
@@ -20,7 +20,7 @@
   background-color: var(--header-bg-color);
 }
 
-.rule-stat-stats, .stat-question-stats {
+.rule-stat-stats {
   &.empty {
     background-color: var(--grey2);
     color: var(--grey3);
@@ -37,21 +37,6 @@
   &.good {
     background-color: var(--green1);
   }
-}
-
-.stat-question {
-  background-color: var(--white);
-  box-shadow: var(--shadow);
-}
-
-.stat-question-id, .stat-question-stats {
-  padding: 0.5rem;
-}
-
-.stat-question-stats {
-  width: 6rem;
-  text-align: center;
-  color: #ffffff;
 }
 
 @media (max-width: 48rem) {
