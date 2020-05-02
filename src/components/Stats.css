@@ -4,34 +4,34 @@
 }
 
 #stats-overall {
-  background-color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: var(--white);
+  box-shadow: var(--shadow);
   padding: 1rem;
   font-size: 1.25rem;
-}
 
-#stats-overall h2 {
-  font-size: 1.25rem;
-  margin: 0;
-}
+  & h2 {
+    font-size: 1.25rem;
+    margin: 0;
+  }
 
-#stats-overall svg {
-  display: inline-block;
-  margin-right: 1rem;
-  width: 1.25rem
+  & svg {
+    display: inline-block;
+    margin-right: 1rem;
+    width: 1.25rem
+  }
 }
 
 #stats-asked {
   margin-top: 1rem;
-  color: #2a579c;
+  color: var(--blue1);
 }
 
 #stats-correct {
   margin-top: 0.5rem;
-  color: #088a46;
+  color: var(--green1);
 }
 
 #stats-percent {
   margin-top: 0.5rem;
-  color: #f78234;
+  color: var(--orange1);
 }

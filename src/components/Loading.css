@@ -1,3 +1,5 @@
+@import "shared.css";
+
 .spinner-wrapper {
   padding: 3rem;
   display: flex;
@@ -12,83 +14,83 @@
 }
 
 .cls-1 {
-  fill: #fff;
+  fill: var(--white);
 }
 
 .cls-2 {
-  fill: #088a46;
+  fill: var(--green1);
 }
 
 .cls-7 {
-  fill: #c01e2e;
+  fill: var(--red1);
 }
 
 .cls-8 {
-  fill: #fdb132;
+  fill: var(--orange3);
 }
 
 .cls-10 {
-  fill: #f15257;
+  fill: var(--red3);
 }
 
 .cls-12 {
-  fill: #0181c9;
+  fill: var(--blue2);
 }
 
 .cls-13 {
-  fill: #ec1941;
+  fill: var(--red2);
 }
 
 .cls-9 {
-  fill: #aad357;
+  fill: var(--green3);
 }
 
 .cls-3 {
-  fill: #f78234;
+  fill: var(--orange1);
 }
 
 .cls-6 {
-  fill: #f6a125;
+  fill: var(--orange2);
 }
 
 .cls-4 {
-  fill: #48b95e;
+  fill: var(--green2);
 }
 
 .cls-11 {
-  fill: #00aef3;
+  fill: var(--blue3);
 }
 
 .cls-5 {
-  fill: #2a579c;
+  fill: var(--blue1);
 }
 
 .anim {
   animation: loading-animation 0.8s infinite ease-in-out;
-}
 
-.anim1 {
-  animation-delay: 0s;
-}
+  &.anim1 {
+    animation-delay: 0s;
+  }
 
-.anim2 {
-  animation-delay: 0.1s;
-}
+  &.anim2 {
+    animation-delay: 0.1s;
+  }
 
-.anim3 {
-  animation-delay: 0.2s;
-}
+  &.anim3 {
+    animation-delay: 0.2s;
+  }
 
-.anim4 {
-  animation-delay: 0.4s;
-}
+  &.anim4 {
+    animation-delay: 0.4s;
+  }
 
-.anim5 {
-  animation-delay: 0.5s;
-}
+  &.anim5 {
+    animation-delay: 0.5s;
+  }
 
-.anim6 {
-  animation-delay: 0.6s;
+  &.anim6 {
+    animation-delay: 0.6s;
+  }
 }
 
 @keyframes loading-animation {

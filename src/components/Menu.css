@@ -1,60 +1,91 @@
 #menu {
   display: flex;
   flex-direction: column;
-  background-color: #00263c;
+  background-color: var(--darkblue1);
   width: 3.5rem;
   min-width: 3.5rem;
   transition: min-width 400ms;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
+  box-shadow: var(--shadow);
 
-#menu.open {
-  min-width: 12rem;
+  @media (max-width: 48rem) {
+    width: 100%;
+    flex-direction: row;
+    flex: 0 0 3.5rem;
+  }
+
+  &.open {
+    min-width: 12rem;
+  }
+
+  & nav {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    flex: 0 0 3.5rem;
+
+    @media (max-width: 48rem) {
+      flex-direction: row;
+    }
+
+    & a {
+      &.active {
+        background-color: var(--blue3);
+      }
+
+      &:hover {
+        background-color: var(--blue2);
+      }
+    }
+  }
+
+  & .icon {
+    width: 3.5rem;
+    text-align: center;
+    display: inline-block;
+
+    @media (max-width: 48rem) {
+      width: 2.5rem;
+    }
+  }
+
+  & .text {
+    display: inline-block;
+
+    @media (max-width: 48rem) {
+      position: absolute;
+      visibility: hidden;
+    }
+  }
 }
 
 #logo {
   display: flex;
   padding: 0.5rem;
   justify-content: flex-end;
-  background-color: #2a579c;
-}
+  background-color: var(--blue1);
 
-#logo img {
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-#menu nav {
-  display: flex;
-  flex-direction: column;
-  font-size: 0.75rem;
-  flex: 0 0 3.5rem;
+  & img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
 
 #menu nav a, #menu-footer button {
-  color: #ffffff;
+  color: var(--white);
   padding: 0.625rem 0;
   white-space:nowrap;
   overflow: hidden;
   flex: 0 0 1rem;
-}
 
-#menu nav a.active {
-  background-color: #00aef3;
-}
+  @media (max-width: 48rem) {
+    padding: 0 0.625rem;
+    flex-basis: 2.5rem;
+    text-align: center;
 
-#menu nav a:hover {
-  background-color: #3182c7;
-}
-
-#menu .icon {
-  width: 3.5rem;
-  text-align: center;
-  display: inline-block;
-}
-
-#menu .text {
-  display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 #menu-spacer {
@@ -64,42 +95,13 @@
 #menu-footer button {
   border: 0;
   background-color: transparent;
-}
 
-#menu-footer button svg {
-  transition: 400ms;
+  & svg {
+    transition: 400ms;
+  }
 }
 
 @media (max-width: 48rem) {
-  #menu {
-    width: 100%;
-    flex-direction: row;
-    flex: 0 0 3.5rem;
-  }
-
-  #menu nav {
-    flex-direction: row;
-  }
-
-  #menu nav a, #menu-footer button {
-    padding: 0 0.625rem;
-    flex-basis: 2.5rem;
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  #menu .icon {
-    width: 2.5rem;
-  }
-
-  #menu .text {
-    position: absolute;
-    visibility: hidden;
-  }
-
   #menu-spacer, #menu-footer {
     display: none;
   }
