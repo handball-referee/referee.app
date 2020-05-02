@@ -1,7 +1,7 @@
 /* eslint-disable no-mixed-operators */
 import React, { FunctionComponent, KeyboardEvent, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown, faChevronRight, faFolderOpen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Question from "../../model/Question";
 import "./Question.css";
@@ -93,6 +93,10 @@ const QuestionComponent: FunctionComponent<Props> = ({ question }) => {
       <FontAwesomeIcon icon={icon} size="lg" />
       <div className="number">
         {question.id}
+      </div>
+      <div className="box">
+        <FontAwesomeIcon icon={faFolderOpen} size="lg" />
+        <span>{question.box}</span>
       </div>
       <div className={`result ${color}`}>{`${question.numCorrect} / ${question.numAsked} (${percent}%)`}</div>
       {content}

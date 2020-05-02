@@ -6,12 +6,12 @@
 
   display: grid;
 
-  grid-template-columns: 2rem auto 6rem;
+  grid-template-columns: 2rem auto 4rem 7rem;
   grid-template-rows: auto;
 
   grid-template-areas:
-    "icon number result"
-    "content content content";
+    "icon number box result"
+    "content content content content";
 
   & > div, & > svg {
     padding: 0.5rem;
@@ -25,6 +25,15 @@
 
   & .number {
     grid-area: number;
+  }
+
+  & .box {
+    justify-self: center;
+
+    & > svg {
+      font-size: 0.875rem;
+      margin-right: 0.5rem;
+    }
   }
 
   & .result {
