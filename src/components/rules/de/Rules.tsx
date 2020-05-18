@@ -33,6 +33,7 @@ import guidelines from "../../../data/de/Guidelines.md";
 import newGuidelines from "../../../data/de/NewGuidelines.md";
 import playingCourt from "../../../data/de/GuidelinesPlayingCourts.md";
 import useScrollToAnchor from "../../../hooks/useScrollToAnchor";
+import equipment from "../../../data/de/EquipmentAccessories.md";
 
 const German = () => {
   const { t } = useTranslation();
@@ -73,6 +74,7 @@ const German = () => {
     ${guidelines}
     ${newGuidelines}
     ${playingCourt}
+    ${equipment}
   `;
 
   return (

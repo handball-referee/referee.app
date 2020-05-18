@@ -33,6 +33,7 @@ import guidelines from "../../../data/es/Guidelines.md";
 import newGuidelines from "../../../data/es/NewGuidelines.md";
 import playingCourt from "../../../data/es/GuidelinesPlayingCourts.md";
 import useScrollToAnchor from "../../../hooks/useScrollToAnchor";
+import equipment from "../../../data/es/EquipmentAccessories.md";
 
 const Spanish = () => {
   const { t } = useTranslation();
@@ -73,6 +74,7 @@ const Spanish = () => {
     ${guidelines}
     ${newGuidelines}
     ${playingCourt}
+    ${equipment}
   `;
 
   return (

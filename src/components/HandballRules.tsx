@@ -52,6 +52,7 @@ const HandballRules = () => (
       <RulesItem textKey="rules.guidelines" />
       <RulesItem textKey="rules.new-guidelines" />
       <RulesItem textKey="rules.playing-court" />
+      <RulesItem textKey="rules.equipment-accessories" />
     </RulesSelector>
     <RulesText />
   </div>
