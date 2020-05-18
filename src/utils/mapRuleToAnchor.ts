@@ -131,5 +131,17 @@ export default function mapRuleToAnchor(rule: string, language: string) {
     }
   }
 
+  const matchEquipment = rule.match(/^Regulations on Protective Equipment and Accessories/);
+  if (matchEquipment) {
+    switch (language) {
+      case "de":
+        return "#ausrüstungsreglement";
+      case "es":
+        return "#reglamento-sobre-equipos-de-protección-y-accesorios";
+      default:
+        return "#regulations-on-protective-equipment-and-accessories";
+    }
+  }
+
   return "";
 }

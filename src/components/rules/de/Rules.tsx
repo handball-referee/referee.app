@@ -32,6 +32,7 @@ import sar from "../../../data/de/SAR.md";
 import guidelines from "../../../data/de/Guidelines.md";
 import playingCourt from "../../../data/de/GuidelinesPlayingCourts.md";
 import useScrollToAnchor from "../../../hooks/useScrollToAnchor";
+import equipment from "../../../data/de/EquipmentAccessories.md";
 
 const German = () => {
   const { t } = useTranslation();
@@ -71,6 +72,7 @@ const German = () => {
     ${sar}
     ${guidelines}
     ${playingCourt}
+    ${equipment}
   `;
 
   return (

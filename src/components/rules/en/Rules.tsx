@@ -32,6 +32,7 @@ import clarification8 from "../../../data/en/Clarification8.md";
 import sar from "../../../data/en/SAR.md";
 import guidelines from "../../../data/en/Guidelines.md";
 import playingCourt from "../../../data/en/GuidelinesPlayingCourts.md";
+import equipment from "../../../data/en/EquipmentAccessories.md";
 
 const English = () => {
   const { t } = useTranslation();
@@ -71,6 +72,7 @@ const English = () => {
     ${sar}
     ${guidelines}
     ${playingCourt}
+    ${equipment}
   `;
 
   return (
