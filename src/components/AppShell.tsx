@@ -12,6 +12,7 @@ import About from "./Info";
 import us from "../img/us.svg";
 import de from "../img/de.svg";
 import es from "../img/es.svg";
+import fr from "../img/fr.svg";
 import Tracking from "./Tracking";
 import useAnalytics from "../hooks/useAnalytics";
 
@@ -54,6 +55,10 @@ const AppShell: FunctionComponent = () => {
             <Item code="de">
               <img src={de} alt="Deutsch" />
               <span>Deutsch</span>
+            </Item>
+            <Item code="fr">
+              <img src={fr} alt="Français" />
+              <span>Français</span>
             </Item>
             <Item code="es">
               <img src={es} alt="Español" />

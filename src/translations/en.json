@@ -2,7 +2,7 @@
   "translation": {
     "app": {
       "title": "Handball Referee",
-      "language": "Languge",
+      "language": "Language",
       "toggle-menu": "Toggle Menu",
       "quicknav": "Quick Navigation"
     },
@@ -41,6 +41,7 @@
       "clarifications": "Clarifications to the Rules of the Game",
       "sar": "Substitution Area Regulations",
       "guidelines": "Guidelines and Interpretations",
+      "new-guidelines": "New Guidelines",
       "playing-court": "Guidelines for Playing Courts and Goals",
       "edition": "Edition: 1 July 2016",
       "source": "Source: https://www.ihf.info/sites/default/files/2019-07/New-Rules%20of%20the%20Game_GB.pdf"

@@ -1,0 +1,66 @@
+{
+  "translation": {
+    "app": {
+      "title": "Arbitre de Handball",
+      "language": "Langue",
+      "toggle-menu": "Menu à Bascule",
+      "quicknav": "Navigation Rapide"
+    },
+    "correct": "correct",
+    "Reset": "Remettre",
+    "menu": {
+      "test": "Test d'arbitre",
+      "rules": "Règles de jeu",
+      "stats": "Statistiques",
+      "about": "Information"
+    },
+    "rules": {
+      "foreword": "Préface",
+      "rules": "Règles de jeu",
+      "rule": {
+        "rule1": "L’aire de jeu",
+        "rule2": "Temps de jeu, signal de fin et arrêt du temps de jeu",
+        "rule3": "Le ballon",
+        "rule4": "L’équipe, les changements, l’équipement, blessures",
+        "rule5": "Le gardien de but",
+        "rule6": "La surface de but",
+        "rule7": "Le maniement du ballon, le jeu passif",
+        "rule8": "Irrégularités et comportements antisportifs",
+        "rule9": "Validité du but",
+        "rule10": "L’engagement",
+        "rule11": "La remise en jeu",
+        "rule12": "Le renvoi",
+        "rule13": "Le jet franc",
+        "rule14": "Le jet de 7 mètres",
+        "rule15": "Instructions générales pour l’exécution des jets",
+        "rule16": "Les sanctions",
+        "rule17": "Les arbitres",
+        "rule18": "Le secrétaire et le chronométreur"
+      },
+      "hand-signals": "Gestes",
+      "clarifications": "Interprétations des Règles de jeu",
+      "sar": "Règlement des zones de changement",
+      "guidelines": "Directives et Interprétations",
+      "new-guidelines": "Nouvelle Directives",
+      "playing-court": "Directives pour la construction des aires de jeu et des buts",
+      "edition": "Edition : 1er juillet 2016",
+      "source": "Source: https://www.ihf.info/sites/default/files/2019-07/New-Rules%20of%20the%20Game_F.pdf"
+    },
+    "rulestest": {
+      "question": "Question",
+      "check": "Vérifier",
+      "next": "Prochain",
+      "overall": "au total",
+      "relevant-rules": "Règles Pertinentes"
+    },
+    "stats": {
+      "overall": "Au Total",
+      "asked": "répondue",
+      "correct": "correcte"
+    },
+    "privacy": {
+      "accept": "J'accepte",
+      "decline": "Je décline"
+    }
+  }
+}

@@ -12,13 +12,6 @@ export interface IAnswer {
   rule: string[];
 }
 
-export interface IStatsAnswer extends IAnswer {
-  testAsked: number;
-  testCorrect: number;
-  testHelped: number;
-  testWrong: number;
-}
-
 export interface ITestData {
   box: number;
   lastAsked: Date|null;
