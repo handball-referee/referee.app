@@ -1,30 +1,5 @@
 # Guidelines and Interpretations  
 
-## Goals anti-overturn (Rule 1:2)
-
-The goals must be firmly attached to the floor or the walls behind them, or provided
-with an anti-overturn system. This new provision is approved with the objective to avoid
-accidents.
-
-## New Guideline (Rule 2:5)
-
-If the goalkeeper is injured in connection with a free throw after the final signal, the
-defending team is permitted to substitute the goalkeeper. This exception is not
-applicable to defensive field players.
-
-## Free throw after final signal (Rules 2:6 and 8:10c)
-
-In case of infractions or unsportsmanlike conduct by defenders during the execution of
-a free throw or 7-metre throw after the final signal, these defenders must be punished
-personally under Rules 16:3, 16:6 or 16:9. The throw has to be repeated (Rule 15:9,
-paragraph 3). Rule 8:10c is not applicable in such cases.
-
-## New Guideline (Rule 3:3)
-
-The IHF, Continental Confederations and National Federations have the right to allow
-the use of reserve balls that are not placed at the timekeeper’s table. The use of a
-reserve ball is decided by the referees according to Rule 3:4
-
 ## Replacement of players and officials (Rules 4:1 – 4:2)
 
 In the event that a team has not exhausted the maximum number of players (Rule 4:1) or
@@ -86,19 +61,6 @@ If it is not possible to identify the guilty player, the following steps shall b
 - *Only players who are on the court at the time of the game interruption may be named the ‘guilty player’.*
 - *In case the ‘guilty player’ receives the third suspension, he shall be disqualified according to Rule 16:6d*
 
-## New Guideline (Rule 4:7 - 4:9)
-
-The IHF, Continental Confederations and National Federations have the right to allow
-technical equipment in the substitution area. The equipment has to be used in a fair
-manner, and it does not include equipment for communication with a suspended official
-or player.
-
-## Player entering with wrong colour or number (Rules 4:7 and 4:8)
-
-An infringement regarding Rules 4:7 and 4:8 will not lead to a change of ball
-possession. It will only lead to the interruption of the game to order the player to correct
-the mistake and restart with a throw for the team which were in possession of the ball.
-
 ## Forbidden objects, helmets, face and knee protections (Rule 4:9)
 All types and sizes of face masks and helmets are forbidden. Not only full masks but also
 masks to cover parts of the face are forbidden.
@@ -131,12 +93,11 @@ practice is not allowed.
 
 National federations have the right to adopt additional restrictions for their area.
 
-## Assisting injured players (Rule 4:11, updated)
-In cases where several players of the same team have been injured (for example, due to
-a collision), the referees or the delegate may give permission for additional eligible
-persons to enter the court to assist those players, with a maximum of two persons per
-injured player. In addition, the referees and the delegate monitor paramedics who may
-enter the court.
+## Assisting injured players (Rule 4:11)
+In cases where several players of the same team have been injured e.g. due to a collision, the
+referees or the delegate may give permission for additional eligible persons to enter the court
+in order to assist those injured players. Moreover the referees and the delegate monitor
+paramedics who may enter the court.
 
 ## Injured goalkeeper (Rule 6:8)
 The goalkeeper is hit by a ball in play and is incapable of acting. Generally in these cases the
@@ -185,11 +146,6 @@ exception considered as a step.
 ## Counting the number of passes after the forewarning signal (7:11)
 See training support in appendix 3.
 
-## New Guideline (Rule 7:11, Clarification 4, Appendix 3)
-
-It is counted as a pass, if a shot on goal is blocked and the ball returns to the thrower or
-a teammate.
-
 ## Intervention by additional players or officials (Rules 8:5, 8:6, 8:9, 8:10b)
 In cases where additional players or officials intervene, the decision on punishment and
 continuation of play are subject to the following criteria:
@@ -211,18 +167,6 @@ a) During a clear chance of scoring an additional player who has not been involv
 - d) As under c), but no clear chance ofscoring.
   
   Correct application of Rules: free throw, progressive punishment.
-
-## Disqualification of the goalkeeper (Rule 8:5 Comment, updated)
-
-This applies when the goalkeeper comes from within the goal area or is in a similar
-position outside the goal area and causes a frontal collision with an opponent. It does
-not apply when:
-
-- a) the goalkeeper runs in the same direction as an opponent, for example, after reentering the court from the substitution area.
-- b) the attacker runs after the ball, and the ball is between the attacker and the
-  goalkeeper.
-
-In such situations, the referees take a decision based on their observations of facts.
 
 ## Further measures after a disqualification to be reported in writing (Rules 8:6, 8:10a, b)
 The criteria for this highest level of punishment are defined in Rules 8:6 (for illegal
@@ -276,27 +220,22 @@ at the end of the second half during both overtime periods. The start of the las
 the game begins when the clock indicates 59 minutes 30 seconds (or 69:30, 79:30) or 0
 minutes 30 seconds.
 
-## Not respecting the distance (Rule 8:10c, updated)
-‘Not respecting the distance’ leads to a disqualification and 7-metre throw, if a throw
-during the last 30 seconds of the game cannot be executed.
+## Not respecting the distance (Rule 8:10c)
+“Not respecting the distance” only leads to a disqualification + 7m throw, if a throw during
+the last 30 seconds of the game (!) cannot be executed.
 
-The Rule is applicable if the infraction is committed during the last 30 seconds of the
-game or at the same time as the final signal (see Rule 2:4, 1st paragraph). In this case,
-the referees will decide on the basis of their observations of facts (Rule 17:11).
+If the throw is executed and blocked by a player standing too close, normal progressive
+punishment shall be applied during the last 30 seconds of the game too, as the ball has left the
+hand of the thrower (see Rule 15:2 1st paragraph).
 
-If the game is interrupted during the last 30 seconds due to an interference that is not
-directly related to the preparation or the execution of a throw (for example faulty
-substitution, unsportsmanlike conduct in the substitution area), Rule 8:10c is to be
-applied.
+The Rule is applicable if the infraction is committed during the last 30 seconds of the game
+or at the same time as the final signal (see Rule 2:4, 1
+st paragraph). In this case, the referees
+will make a decision on the basis of their observations of facts (Rule 17:11).
 
-If the throw, for example, is executed but blocked by a player standing too close and
-actively destroying the result of the throw or disturbing the thrower during the
-execution, Rule 8:10c must also be applied.
-
-If a player is standing less than three metres from the thrower but does not actively
-interfere with the execution, there will be no punishment. If the player standing too
-close uses this position to block the shot or intercept the pass from the thrower, Rule
-8:10c also applies.
+If the game is interrupted during the last 30 seconds due to an interference that is not directly
+related to the preparation or the execution of a throw (for example faulty substitution,
+unsportsmanlike conduct in the substitution area), Rule 8:10c is to be applied.
 
 ## Disqualification during the last 30 seconds (Rule 8:10d)
 In case of a disqualification of a defending player according to Rules 8:5 and 8:6 during the
@@ -321,15 +260,6 @@ leads to a 7m throw during the last 30 seconds of the game if the conditions acc
 A throw-in is executed in the direction of the playing court as direct throw passing the side
 line.
 
-## 7-metre decision with empty goal (Rule 14:1 and Clarification 6c) 
-
-The definition of a clear chance of scoring in situations described in Clarification 6c when
-there is a clear and unimpeded opportunity to throw the ball into the empty goal
-requires that the player has possession of the ball and clearly attempts to shoot directly
-at the empty goal. This definition of a clear chance of scoring applies regardless of the
-type of violation and whether the ball is in or out of play, and any throw is to be executed
-from a correct position of the thrower and teammates.
-
 ## Execution of a throw (Rule 15)
 Rule 15:7, 3rd paragraph and Rule 15:8 include examples of possible faults when executing a
 throw. Dribbling and putting the ball down on the floor (before taking it up again) is an
@@ -351,12 +281,6 @@ official concerned, and therefore, their behaviour must not lead to a reduction 
 of players on the court. This is also valid in the event that a disqualified player enters the
 court.
 
-## New Guideline (Rule 16:9)
-
-If a player, after receiving a disqualification, is guilty of extremely unsportsmanlike
-conduct due to rule 8:10a, the player is punished with an additional disqualification with
-a written report, and the team is reduced by one player for 4 minutes.
-
 ## Spectators behaving in a way to endanger players (Rule 17:12)
 Rule 17:12 is also to be applied if spectators are behaving in a way to endanger players, for
 example by using a laser pointer or throwing different type of objects. In this case, the
@@ -375,10 +299,3 @@ analogy) is applicable.
 If the game is suspended at the time of a clear chance of scoring, Rule 14:1c is applicable.
 In all the other cases, a free throw has to be awarded to the team having been in possession of
 the ball from the spot where the ball was when play was interrupted. 
-
-## Use of video proof 
-
-When a goal/no-goal decision is required after the use of the video proof technology,
-there will be an extended deadline for disallowing a goal, which under Rule 9:2 is only
-until the subsequent throw-off has been taken, extending this limitation until the next
-change of ball possession.

@@ -30,6 +30,7 @@ import clarification7 from "../../../data/es/Clarification7.md";
 import clarification8 from "../../../data/es/Clarification8.md";
 import sar from "../../../data/es/SAR.md";
 import guidelines from "../../../data/es/Guidelines.md";
+import newGuidelines from "../../../data/es/NewGuidelines.md";
 import playingCourt from "../../../data/es/GuidelinesPlayingCourts.md";
 import useScrollToAnchor from "../../../hooks/useScrollToAnchor";
 
@@ -70,6 +71,7 @@ const Spanish = () => {
     ${clarification8}
     ${sar}
     ${guidelines}
+    ${newGuidelines}
     ${playingCourt}
   `;
 

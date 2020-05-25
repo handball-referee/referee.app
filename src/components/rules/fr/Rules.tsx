@@ -31,6 +31,7 @@ import clarification7 from "../../../data/fr/Clarification7.md";
 import clarification8 from "../../../data/fr/Clarification8.md";
 import sar from "../../../data/fr/SAR.md";
 import guidelines from "../../../data/fr/Guidelines.md";
+import newGuidelines from "../../../data/fr/NewGuidelines.md";
 import playingCourt from "../../../data/fr/GuidelinesPlayingCourts.md";
 
 const French = () => {
@@ -70,6 +71,7 @@ const French = () => {
     ${clarification8}
     ${sar}
     ${guidelines}
+    ${newGuidelines}
     ${playingCourt}
   `;
 
