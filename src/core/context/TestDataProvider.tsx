@@ -11,7 +11,7 @@ import { IAnswer } from "../model";
 
 interface TestDataProviderProps {
   children: ReactNode;
-  answerData: Array<IAnswer>;
+  answerData: IAnswer[];
 }
 
 const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children, answerData }) => {

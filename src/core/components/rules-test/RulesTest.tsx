@@ -5,13 +5,16 @@ import "./RulesTest.css";
 import { useTranslation } from "react-i18next";
 import { faChartPie } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useRulesTestData } from "../..//context/TestDataContext";
+import { useRulesTestData } from "../../context/TestDataContext";
 import CheckBox from "../CheckBox";
-import useAnalytics from "../..//hooks/useAnalytics";
-import { Link } from "react-router-dom";
+import useAnalytics from "../../hooks/useAnalytics";
 import RelevantRules from "./RelevantRules";
 
-const RulesTest: FunctionComponent = () => {
+interface RulesTestProps {
+  mapRuleToAnchor: (rule: string, language: string) => string;
+}
+
+const RulesTest: FunctionComponent<RulesTestProps> = ({ mapRuleToAnchor }) => {
   const {
     question,
     nextQuestion,
@@ -103,7 +106,7 @@ const RulesTest: FunctionComponent = () => {
   let relevantRules;
   if (reveal) {
     relevantRules = (
-      <RelevantRules question={question} />
+      <RelevantRules question={question} mapRuleToAnchor={mapRuleToAnchor} />
     );
   }
 

@@ -2,14 +2,14 @@ import React, { FunctionComponent } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Question from "../../model/Question";
-import mapRuleToAnchor from "../../utils/mapRuleToAnchor";
 import "./RelevantRules.css";
 
 interface Props {
   question: Question;
+  mapRuleToAnchor: (rule: string, language: string) => string;
 }
 
-const RelevantRules: FunctionComponent<Props> = ({ question }) => {
+const RelevantRules: FunctionComponent<Props> = ({ question, mapRuleToAnchor }) => {
   const { t, i18n: { language } } = useTranslation();
   return (
     <div id="relevant-rules" className="box-with-header">
