@@ -14,8 +14,8 @@
   padding: 1rem;
 
   & button {
-    background-color: var(--darkblue2);
-    border: 1px solid var(--darkblue1);
+    background-color: var(--btn-bg-color);
+    border: 1px solid var(--border-dark-color);
     color: var(--white);
     margin-top: 1rem;
     font-size: 1rem;
@@ -23,7 +23,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: var(--darkblue1);
+      background-color: var(--menu-bg-color);
     }
   }
 }

@@ -19,7 +19,7 @@
 
   & > svg {
     justify-self: center;
-    color: var(--blue3);
+    color: var(--theme-light-color);
     grid-area: icon;
   }
 

@@ -7,9 +7,9 @@
   color: var(--white);
   width: 10rem;
   height: 2rem;
-  background-color: var(--darkblue2);
+  background-color: var(--btn-bg-color);
   border-radius: 0.5rem;
-  border: 1px solid var(--darkblue1);
+  border: 1px solid var(--border-dark-color);
   box-sizing: border-box;
   cursor: pointer;
 
@@ -23,7 +23,7 @@
   }
 
   &:hover {
-    background-color: var(--darkblue1);
+    background-color: var(--border-dark-color);
   }
 
   @media (max-width: 48rem) {
@@ -50,7 +50,7 @@
   font-size: 1.5rem;
   width: 1rem;
   margin: 0 0.5rem;
-  color: var(--blue3);
+  color: var(--theme-light-color);
 
   & svg {
     display: block;
@@ -63,8 +63,8 @@
   position: absolute;
   top: 2rem;
   right: 0;
-  border: 1px solid var(--darkblue1);
-  background-color: var(--darkblue1);
+  border: 1px solid var(--border-dark-color);
+  background-color: var(--menu-bg-color);
   margin-top: -2px;
   margin-right: -1px;
   padding: 0;
@@ -76,7 +76,7 @@
 
   & li {
     &[aria-selected=true] {
-      background-color: var(--darkblue1);
+      background-color: var(--menu-bg-color);
     }
 
     &:hover {

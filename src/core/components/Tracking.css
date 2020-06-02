@@ -1,6 +1,6 @@
 #tracking {
-  background-color: var(--blue3);
-  border-bottom: 1px solid var(--darkblue1);
+  background-color: var(--tracking-bg-color);
+  border-bottom: 1px solid var(--border-dark-color);
   display: flex;
 
   @media (max-width: 48rem) {
@@ -37,14 +37,14 @@
 }
 
 #accept-button {
-  background-color: var(--green3);
-  border: 1px solid var(--green1);
+  background-color: var(--tracking-btn-color);
+  border: 1px solid var(--tracking-btn-border-color);
   color: var(--black);
   margin-right: 0.5rem;
 }
 
 #decline-button {
-  background-color: var(--darkblue2);
-  border: 1px solid var(--darkblue1);
+  background-color: var(--btn-bg-color);
+  border: 1px solid var(--border-dark-color);
   color: var(--white);
 }

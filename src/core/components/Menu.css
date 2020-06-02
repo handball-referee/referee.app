@@ -1,7 +1,7 @@
 #menu {
   display: flex;
   flex-direction: column;
-  background-color: var(--darkblue1);
+  background-color: var(--menu-bg-color);
   width: 3.5rem;
   min-width: 3.5rem;
   transition: min-width 400ms;
@@ -29,11 +29,11 @@
 
     & a {
       &.active {
-        background-color: var(--blue3);
+        background-color: var(--theme-light-color);
       }
 
       &:hover {
-        background-color: var(--blue2);
+        background-color: var(--theme-color);
       }
     }
   }
@@ -62,7 +62,7 @@
   display: flex;
   padding: 0.5rem;
   justify-content: flex-end;
-  background-color: var(--blue1);
+  background-color: var(--theme-dark-color);
 
   & img {
     width: 2.5rem;

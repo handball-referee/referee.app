@@ -21,7 +21,7 @@
     background-color: var(--grey1);
     top: 2rem;
     right: 0;
-    border: 1px solid var(--darkblue1);
+    border: 1px solid var(--border-dark-color);
     margin-top: -2px;
     margin-right: -1px;
     width: 100%;
@@ -84,7 +84,7 @@
     position: relative;
     display: flex;
     border-radius: 0.5rem;
-    border: 1px solid var(--darkblue1);
+    border: 1px solid var(--border-dark-color);
     height: 2rem;
     margin: 0.75rem;
     box-sizing: border-box;
