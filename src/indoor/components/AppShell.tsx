@@ -16,6 +16,7 @@ import fr from "../../img/fr.svg";
 import Tracking from "../../core/components/Tracking";
 import useAnalytics from "../../core/hooks/useAnalytics";
 import Logo from "../static/logo57.png";
+import answerData from "../data/answers.json";
 
 const HandballRules = loadable(() => import("./HandballRules"), {
   fallback: <Loading />,
@@ -67,7 +68,7 @@ const AppShell: FunctionComponent = () => {
             </Item>
           </LanguagePicker>
         </header>
-        <TestDataProvider>
+        <TestDataProvider answerData={answerData}>
           <Route path="/" component={RulesTest} exact />
           <Route path="/rules" component={HandballRules} />
           <Route path="/stats" component={Stats} />

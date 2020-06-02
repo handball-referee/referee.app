@@ -1,6 +1,5 @@
 /* eslint-disable no-underscore-dangle */
 import { IDBPDatabase, openDB } from "idb";
-import answerData from "../../indoor/data/answers.json";
 import {
   IAnswer, IQuestion, ITestData, RefereeDB,
 } from "./index";
@@ -25,13 +24,19 @@ export default class TestDataManager {
 
   private _wrong = 0;
 
+  private _answerData: Array<IAnswer> = [];
+
+  constructor(answerData: Array<IAnswer>) {
+    this._answerData = answerData;
+  }
+
   public async initialize(language: string) {
     if (this.initialized) {
       await this.switchLanguage(language);
       return this._data[this.currentId];
     }
 
-    const mappedAnswers = answerData.reduce<{ [id: string]: IAnswer }>((prev, curr) => ({
+    const mappedAnswers = this._answerData.reduce<{ [id: string]: IAnswer }>((prev, curr) => ({
       ...prev,
       [curr.id]: curr,
     }), {});

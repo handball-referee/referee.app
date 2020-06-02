@@ -14,7 +14,7 @@ export interface IAnswer {
 
 export interface ITestData {
   box: number;
-  lastAsked: Date|null;
+  lastAsked: Date | null;
   previousResults: boolean[];
   asked: number;
   correct: number;
@@ -24,7 +24,7 @@ export interface ITestData {
 export interface ITestResponse {
   correct: string[];
   rules: string[];
-  answeredCorrect: boolean;
+  answeredCorrect?: boolean;
 }
 
 export interface RefereeDB extends DBSchema {

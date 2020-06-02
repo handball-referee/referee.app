@@ -7,19 +7,21 @@ import { getTestDataContext } from "./TestDataContext";
 import Loading from "../components/Loading";
 import TestDataManager from "../model/TestDataManager";
 import Question from "../model/Question";
+import { IAnswer } from "../model";
 
 interface TestDataProviderProps {
   children: ReactNode;
+  answerData: Array<IAnswer>;
 }
 
-const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }) => {
+const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children, answerData }) => {
   const [loading, setLoading] = useState(false);
   const [question, setQuestion] = useState<Question | undefined>();
   const [asked, setAsked] = useState(0);
   const [correct, setCorrect] = useState(0);
   const [checked, setChecked] = useState<string[]>([]);
   const [reveal, setReveal] = useState(false);
-  const manager = useRef<TestDataManager>(new TestDataManager());
+  const manager = useRef<TestDataManager>(new TestDataManager(answerData));
   const { i18n: { language } } = useTranslation();
 
   // Load questions
