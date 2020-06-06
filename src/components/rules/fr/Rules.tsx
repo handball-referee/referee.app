@@ -33,6 +33,7 @@ import sar from "../../../data/fr/SAR.md";
 import guidelines from "../../../data/fr/Guidelines.md";
 import newGuidelines from "../../../data/fr/NewGuidelines.md";
 import playingCourt from "../../../data/fr/GuidelinesPlayingCourts.md";
+import equipment from "../../../data/fr/EquipmentAccessories.md";
 
 const French = () => {
   const { t } = useTranslation();
@@ -73,6 +74,7 @@ const French = () => {
     ${guidelines}
     ${newGuidelines}
     ${playingCourt}
+    ${equipment}
   `;
 
   return (

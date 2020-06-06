@@ -14,6 +14,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
             return "#2.-time-out";
           case "es":
             return "#2.-tiempo-muerto";
+          case "fr":
+            return "#2.-arrêt-de-temps-de-jeu";
           default:
             return "#2.-time-out";
         }
@@ -23,6 +25,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
             return "#3.-team-time-out";
           case "es":
             return "#3.-tiempo-muerto-de-equipo";
+          case "fr":
+            return "#3.-temps-mort-d’équipe";
           default:
             return "#3.-team-time-out";
         }
@@ -32,6 +36,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
             return "#4.-passives-spiel";
           case "es":
             return "#4.-juego-pasivo";
+          case "fr":
+            return "#4.-jeu-passif";
           default:
             return "#4.-passive-play";
         }
@@ -41,6 +47,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
             return "#6.-definition-einer-klaren-torgelegenheit";
           case "es":
             return "#6.--definición-de-clara-ocasión-de-gol";
+          case "fr":
+            return "#6.-définition-d’une-«-occasion-manifeste-de-but-»";
           default:
             return "#6.-definition-of-clear-chance-of-scoring";
         }
@@ -50,6 +58,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
             return "#7.-eingreifen-durch-den-zeitnehmer";
           case "es":
             return "#7.-intervención/interrupción-por-parte-del-cronometrador-o-del-delegado";
+          case "fr":
+            return "#7.-intervention-du-chronométreur-ou-d’un-délégué";
           default:
             return "#7.-intervention-by-the-timekeeper-or-a-delegate";
         }
@@ -59,6 +69,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
             return "#8.-verletzter-spieler";
           case "es":
             return "#8.-jugador-lesionado";
+          case "fr":
+            return "#8.-joueur-blessé";
           default:
             return "#8.-injured-player";
         }
@@ -68,6 +80,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
             return "#erläuterungen-zu-den-spielregeln";
           case "es":
             return "#aclaraciones-a-las-reglas-de-juego";
+          case "fr":
+            return "#interprétations-des-règles-de-jeu";
           default:
             return "#clarifications-to-the-rules-of-the-game";
         }
@@ -83,6 +97,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
             return "#abstandsvergehen";
           case "es":
             return "#no-respetar-la-distancia";
+          case "fr":
+            return "#non-respect-de-la-distance";
           default:
             return "#not-respecting-the-distance";
         }
@@ -92,6 +108,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
             return "#disqualifikation-in-den-letzten-30-sekunden";
           case "es":
             return "#descalificación-durante-los-últimos-30-segundos-de-juego";
+          case "fr":
+            return "#disqualification-pendant-les-30-dernières-secondes-de-jeu";
           default:
             return "#disqualification-during-the-last-30-seconds";
         }
@@ -101,6 +119,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
             return "#guidelines-und-interpretationen";
           case "es":
             return "#directrices-e-interpretaciones";
+          case "fr":
+            return "#directives-et-interprétations";
           default:
             return "#guidelines-and-interpretations";
         }
@@ -114,6 +134,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
         return "#auswechselraum-reglement";
       case "es":
         return "#reglamento-relativo-a-la-zona-de-cambios";
+      case "fr":
+        return "#règlement-des-zones-de-changement";
       default:
         return "#substitution-area-regulations";
     }
@@ -126,6 +148,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
         return "#handzeichen";
       case "es":
         return "#gestoforma";
+      case "fr":
+        return "#gestes";
       default:
         return "#hand-signals";
     }
@@ -138,6 +162,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
         return "#ausrüstungsreglement";
       case "es":
         return "#reglamento-sobre-equipos-de-protección-y-accesorios";
+      case "fr":
+        return "#règlement-pour-les-équipements-de-protection-et-accessoires";
       default:
         return "#regulations-on-protective-equipment-and-accessories";
     }
