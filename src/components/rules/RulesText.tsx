@@ -1,7 +1,7 @@
 import React from "react";
 import loadable from "@loadable/component";
+import { Loading } from "@handball-referee/widgets";
 import { useTranslation } from "react-i18next";
-import Loading from "../Loading";
 import "./RulesText.css";
 
 interface Props {

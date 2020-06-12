@@ -1,15 +1,14 @@
 /* eslint-disable no-mixed-operators */
 import React, { FunctionComponent, useState, MouseEvent } from "react";
 import classnames from "classnames";
-import "./RulesTest.css";
 import { useTranslation } from "react-i18next";
 import { faChartPie } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { CheckBox } from "@handball-referee/widgets";
 import { useRulesTestData } from "../../context/TestDataContext";
-import CheckBox from "../CheckBox";
 import useAnalytics from "../../hooks/useAnalytics";
-import { Link } from "react-router-dom";
 import RelevantRules from "./RelevantRules";
+import "./RulesTest.css";
 
 const RulesTest: FunctionComponent = () => {
   const {

@@ -1,6 +1,6 @@
 import React from "react";
+import { CheckBox } from "@handball-referee/widgets";
 import "./Info.css";
-import CheckBox from "./CheckBox";
 import usePrivacySettings from "../hooks/usePrivacySettings";
 import { Decision } from "../context/PrivacyContext";
 
@@ -40,6 +40,7 @@ const Info = () => {
         <h2>Privacy Settings</h2>
         <div className="privacy-header">
           <CheckBox
+            label="Toggle Tracking"
             checked={allowTracking === Decision.ACCEPTED}
             onChange={handleTrackingChanged}
           />
@@ -52,6 +53,7 @@ const Info = () => {
         </div>
         <div className="privacy-header">
           <CheckBox
+            label="Toggle Tracking"
             checked={allowReporting === Decision.ACCEPTED}
             onChange={handleReportingChanged}
           />

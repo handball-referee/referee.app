@@ -1,5 +1,3 @@
-@import "../shared.css";
-
 #test-header {
   height: 1.5rem;
 }
@@ -31,10 +29,10 @@
 .box-with-header {
   & > h2 {
     margin: 0;
-    color: var(--header-color);
+    color: var(--white);
     font-size: 1rem;
     padding: 0.5rem;
-    background-color: var(--header-bg-color);
+    background-color: var(--blue1);
     display: inline-block;
     box-shadow: var(--shadow);
   }

@@ -3,9 +3,9 @@ import React, { FunctionComponent, KeyboardEvent, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { faChevronDown, faChevronRight, faFolderOpen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { CheckBox } from "@handball-referee/widgets";
 import Question from "../../model/Question";
 import "./Question.css";
-import CheckBox from "../CheckBox";
 
 interface Props {
   question: Question;

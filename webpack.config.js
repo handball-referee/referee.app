@@ -35,6 +35,12 @@ const config = {
   target: 'web',
   resolve: {
     extensions: [".js", ".ts", ".json", ".tsx"],
+    // alias needed for local linking of widgets
+    alias: {
+      'react': path.resolve('./node_modules/react'),
+      'react-dom': path.resolve('./node_modules/react-dom'),
+      'react-router-dom': path.resolve('./node_modules/react-router-dom'),
+    }
   },
   module: {
     rules: [

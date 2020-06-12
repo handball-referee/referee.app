@@ -3,8 +3,8 @@ import React, {
   FunctionComponent, ReactNode, useEffect, useRef, useState,
 } from "react";
 import { useTranslation } from "react-i18next";
+import { Loading } from "@handball-referee/widgets";
 import { getTestDataContext } from "./TestDataContext";
-import Loading from "../components/Loading";
 import TestDataManager from "../model/TestDataManager";
 import Question from "../model/Question";
 
