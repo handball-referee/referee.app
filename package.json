@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "description": "App to study for handball referee tests",
   "license": "MIT",
+  "homepage": "https://usabeachtour.online/referee-quiz/",
   "scripts": {
     "build": "rimraf dist && webpack -p --config webpack.config.js",
     "server": "webpack-dev-server -d",

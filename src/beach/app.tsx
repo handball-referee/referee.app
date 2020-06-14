@@ -15,7 +15,7 @@ import PrivacyProvider from "../core/context/PrivacyProvider";
 
 if (process.env.NODE_ENV === "production") {
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/service-worker.js");
+    navigator.serviceWorker.register("./service-worker.js");
   }
 }
 
@@ -27,7 +27,7 @@ i18next
 const rootElement = document.getElementById("app");
 
 const app = (
-  <BrowserRouter>
+  <BrowserRouter basename="/referee-quiz/">
     <PrivacyProvider
       trackingId={process.env.GA_TRACKING_ID}
       sentryDsn={process.env.SENTRY_DSN}

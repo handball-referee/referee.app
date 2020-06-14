@@ -31,7 +31,7 @@ const config = {
     path: buildPath,
     filename: "js/[name].[chunkhash].js",
     chunkFilename: "js/[name].[chunkhash].js",
-    publicPath: "/",
+    publicPath: "/referee-quiz/",
   },
   target: 'web',
   resolve: {

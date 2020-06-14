@@ -32,9 +32,18 @@ const Info = () => {
     <div id="info-wrapper">
       <div id="info" className="info-box">
         <div>Website built by</div>
-        <div id="info-name">Christoph Kraemer</div>
-        <div id="info-title">USA Team Handball</div>
-        <div id="info-mail">Contact: hello@referee.app</div>
+        <div className="info-creators">
+          <div className="info-creator">
+            <div id="info-name">Christoph Kraemer</div>
+            <div id="info-title">USA Team Handball</div>
+            <div id="info-mail">Contact: hello@referee.app</div>
+          </div>
+          <div className="info-creator">
+            <div id="info-name">Michelle Mensing</div>
+            <div id="info-title">USA Beach Handball</div>
+            <div id="info-mail">Contact: contact@usabeachtour.online</div>
+          </div>
+        </div>
       </div>
       <div id="privacy-settings" className="info-box">
         <h2>Privacy Settings</h2>

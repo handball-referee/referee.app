@@ -23,6 +23,17 @@
   text-align: center;
 }
 
+.info-creators {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-creator {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 #info-name {
   font-weight: bold;
   margin-top: 0.5rem;
