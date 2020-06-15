@@ -40,12 +40,6 @@
   }
 }
 
-.box-with-header > div, #test-options > div, #test-header {
-  background-color: var(--white);
-  box-shadow: var(--shadow);
-  padding: 1rem;
-}
-
 #test-options {
   margin-top: 1rem;
 
@@ -54,6 +48,20 @@
 
     &.correct {
       background-color: var(--green3);
+
+      & .checkbox {
+        border: 0.1rem solid var(--green1);
+        background-color: var(--green1);
+      }
+    }
+
+    &.correct-unchecked {
+      background-color: var(--green3);
+
+      & .checkbox {
+        border: 0.1rem solid var(--red3);
+        background-color: var(--red1);
+      }
     }
 
     &.wrong {
@@ -69,3 +77,11 @@
     }
   }
 }
+
+
+.box-with-header > div, #test-options > div, #test-header {
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+}
+

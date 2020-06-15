@@ -78,8 +78,9 @@ const RulesTest: FunctionComponent<RulesTestProps> = ({ mapRuleToAnchor }) => {
     const isCorrect = question.correct.includes(key);
     const isChecked = checked.includes(key);
     const className = classnames("option", {
-      correct: reveal && isCorrect === isChecked,
-      wrong: reveal && isCorrect !== isChecked,
+      correct: reveal && isCorrect && isChecked,
+      "correct-unchecked": reveal && isCorrect === true && isChecked === false,
+      wrong: reveal && !isCorrect && isChecked,
     });
 
     return (
