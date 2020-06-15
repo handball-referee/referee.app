@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Question from "../../model/Question";
 import "./Question.css";
 import CheckBox from "../CheckBox";
+import { Link } from "react-router-dom";
+import mapRuleToAnchor from "../../../beach/utils/mapRuleToAnchor";
 
 interface Props {
   question: Question;
@@ -13,7 +15,7 @@ interface Props {
 
 const QuestionComponent: FunctionComponent<Props> = ({ question }) => {
   const [open, setOpen] = useState(false);
-  const { i18n: { language } } = useTranslation();
+  const { t, i18n: { language } } = useTranslation();
 
   const toggleOpen = () => {
     setOpen(!open);
@@ -73,6 +75,13 @@ const QuestionComponent: FunctionComponent<Props> = ({ question }) => {
         </div>
         <div className="options">
           {options}
+        </div>
+        <div className="related-rules">
+          <span>{t("rulestest.relevant-rules")}</span>
+          {`: `}
+          {question.rules.map((rule) => (
+            <Link to={`/rules${mapRuleToAnchor(rule, language)}`}>{rule}</Link>
+          ))}
         </div>
       </div>
     );
