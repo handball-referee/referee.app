@@ -12,6 +12,10 @@ import useAnalytics from "../../core/hooks/useAnalytics";
 import Logo from "../static/logo57.png";
 import answerData from "../data/answers.json";
 import mapRuleToAnchor from "../utils/mapRuleToAnchor";
+import LanguagePicker from "../../core/components/LanguagePicker";
+import Item from "../../core/components/Item";
+import us from "../../img/us.svg";
+import es from "../../img/es.svg";
 
 const HandballRules = loadable(() => import("./HandballRules"), {
   fallback: <Loading />,
@@ -50,6 +54,16 @@ const AppShell: FunctionComponent = () => {
         <Tracking />
         <header>
           <h1>{t("app.title")}</h1>
+          <LanguagePicker>
+            <Item code="en">
+              <img src={us} alt="English" />
+              <span>English</span>
+            </Item>
+            <Item code="es">
+              <img src={es} alt="Español" />
+              <span>Español</span>
+            </Item>
+          </LanguagePicker>
         </header>
         <TestDataProvider answerData={answerData}>
           <Route path="/" exact render={BeachRulesTest} />

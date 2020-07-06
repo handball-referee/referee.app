@@ -1,0 +1,12 @@
+## 8. Interrupción por el cronometrador (regla [18:1](#18:1))
+
+Si un cronometrador interrumpe el juego debido a un cambio antirreglamentario o una entrada ilegal de acuerdo a las reglas [4:4](#4:4), [4:6](#4:6), [4:13](#4:13) y [4:14](#4:14), el encuentro se reanudará con un golpe franco a favor de los contrarios, normalmente en el lugar de la infracción. Sin embargo, si el balón estuviera en una posición más favorable para los contrarios en el momento de la interrupción, entonces el golpe franco debería ejecutarse desde aquel lugar (ver regla [13:8](#13:8), 3º y 4º párrafos).
+
+En el caso de tales infracciones, el cronometrador interrumpirá el juego inmediatamente, sin tener en cuenta las reglas generales de la “ley de ventaja” que se expresan en las reglas [13:2](#13:2)
+y [14:2](#14:2). Si se frustra una clara ocasión de gol a causa de tal interrupción y ésta está motivada por una infracción por parte del equipo defensor, entonces se deberá conceder un lanzamiento de 6 metros de acuerdo con la regla [14:1a](#14:1).
+
+Si se trata de otro tipo de infracciones que necesiten ser comunicadas a los árbitros, el cronometrador debería normalmente esperar hasta la siguiente interrupción del juego.
+
+Si el cronometrador, no obstante, interrumpe el juego, tal intervención no puede conllevar la desposesión del balón. El juego será reanudado con un golpe franco para el equipo que tenía la posesión del balón en el momento de la interrupción. Sin embargo, si la interrupción fue causada por una infracción por parte del equipo defensor, y los árbitros juzgan que la interrupción prematura frustró una clara oportunidad de gol para los contrarios, entonces deberá concederse un lanzamiento de 6 metros en analogía a lo dispuesto en la regla [14:1b](#14:1). Como principio general, las infracciones observadas y comunicadas por el cronometrador/anotador (excepto aquéllas a las que se refieren las reglas [4:4](#4:4), [4:6](#4:6), [4:13](#4:13) y [4:14](#4:14)) no conllevan sanciones disciplinarias personales.
+
+Las condiciones para conceder un lanzamiento de 6 metros conforme a la regla [14:1a](#14:1), indicadas en el segundo párrafo anterior, también se aplican en caso de que un árbitro o delegado técnico (de la IHF o de una Federación Continental o Nacional) interrumpa el juego por una infracción que conlleve una advertencia verbal o una sanción disciplinaria contra un jugador o un oficial del equipo defensor, en el momento en que el equipo en posesión del balón tiene una clara ocasión de gol.

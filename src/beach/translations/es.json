@@ -1,0 +1,67 @@
+{
+  "translation": {
+    "app": {
+      "title": "Árbitro Balonmano de Playa",
+      "language": "Idioma",
+      "toggle-menu": "Alternar Menú",
+      "quicknav": "Navegacion rapida"
+    },
+    "correct": "correcto",
+    "Reset": "Reiniciar",
+    "menu": {
+      "test": "Prueba de Reglas",
+      "rules": "Reglas de Juego",
+      "stats": "Estadística",
+      "about": "información"
+    },
+    "rules": {
+      "foreword": "Prólogo",
+      "rules": "Reglas de juego",
+      "rule": {
+        "rule1": "El terreno de juego",
+        "rule2": "El inicio del partido, tiempo de juego, señal final, tiempo muerto de equipo",
+        "rule3": "El balón",
+        "rule4": "El equipo, equipación y sustituciones",
+        "rule5": "El portero",
+        "rule6": "El área de portería",
+        "rule7": "Cómo puede jugarse el balón. Juego pasivo",
+        "rule8": "Faltas y conducta antideportiva",
+        "rule9": "El gol y la decisión del resultado del partido",
+        "rule10": "El saque de árbitro",
+        "rule11": "El saque de banda",
+        "rule12": "El saque de portería",
+        "rule13": "El golpe franco",
+        "rule14": "El lanzamiento de 6 metros",
+        "rule15": "Instrucciones generales para la ejecución de los lanzamientos",
+        "rule16": "Las sanciones",
+        "rule17": "Los árbitros",
+        "rule18": "El anotador y el cronometrador"
+      },
+      "hand-signals": "Gestoformas",
+      "clarifications": "Aclaraciones a las reglas de juego",
+      "sar": "Reglamento relativo a la zona de cambios",
+      "athlete-uniform-regulations": "Reglamento relativo al uniforme deportivo",
+      "sand-quality-and-lighting-regulations": "Reglamento relativo a la arena y la iluminación",
+      "glossary": "Glosario de términos",
+      "equipment-accessories": "Reglamento sobre equipos de protección y accesorios",
+      "edition": "Edición 8 de julio de 2014",
+      "source": "Origen: https://www.rfebm.com"
+    },
+    "rulestest": {
+      "question": "Pregunta",
+      "check": "Examinar",
+      "next": "Siguiente Pregunta",
+      "overall": "En General",
+      "relevant-rules": "Reglas Relevantes"
+    },
+    "stats": {
+      "overall": "Total",
+      "asked": "respondió",
+      "correct": "correcta"
+    },
+    "privacy": {
+      "accept": "Aceptar",
+      "decline": "Declinar"
+    }
+  }
+}

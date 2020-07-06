@@ -34,6 +34,7 @@ import sar from "../../../data/en/SAR.md";
 import uniforms from "../../../data/en/AthleteUniformRegulations.md";
 import sandRegulations from "../../../data/en/SandRegulations.md";
 import glossary from "../../../data/en/Glossary.md";
+import equipment from "../../../data/en/EquipmentAccessories.md";
 
 const English = () => {
   const { t } = useTranslation();
@@ -75,6 +76,7 @@ const English = () => {
     ${uniforms}
     ${sandRegulations}
     ${glossary}
+    ${equipment}
   `;
 
   return (

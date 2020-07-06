@@ -52,6 +52,7 @@ const HandballRules = () => (
       <RulesItem textKey="rules.athlete-uniform-regulations" />
       <RulesItem textKey="rules.sand-quality-and-lighting-regulations" />
       <RulesItem textKey="rules.glossary" />
+      <RulesItem textKey="rules.equipment-accessories" />
     </RulesSelector>
     <RulesText ruleBasePath="beach/components/rules" />
   </div>
