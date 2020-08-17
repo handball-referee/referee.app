@@ -45,7 +45,7 @@ const AppShell: FunctionComponent = () => {
 
   return (
     <div id="page-wrapper">
-      <Menu logo={Logo} />
+      <Menu logo={Logo} link="https://usabeachtour.online/" />
       <div id="page-body">
         <Tracking />
         <header>

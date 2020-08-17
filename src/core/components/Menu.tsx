@@ -10,9 +10,15 @@ import "./Menu.css";
 
 interface MenuProps {
   logo: string;
+  link?: string;
 }
 
-const Menu: FunctionComponent<MenuProps> = ({ logo }) => {
+interface ConditionalWrapperProps {
+  condition: boolean;
+  wrapper: (children: any) => any;
+}
+
+const Menu: FunctionComponent<MenuProps> = ({ logo, link }) => {
   const [open, setOpen] = useState(false);
   const { t } = useTranslation();
 
@@ -27,11 +33,16 @@ const Menu: FunctionComponent<MenuProps> = ({ logo }) => {
   });
   const rotation = open ? 180 : undefined;
 
+  const ConditionalWrapper: FunctionComponent<ConditionalWrapperProps> = ({ condition, wrapper, children }) =>
+    condition ? wrapper(children) : children;
+
   return (
     <div id="menu" className={className}>
-      <div id="logo">
-        <img src={logo} alt={t("app.title")} />
-      </div>
+      <ConditionalWrapper condition={!!link} wrapper={children => <a href={link}>{children}</a>}>
+        <div id="logo">
+          <img src={logo} alt={t("app.title")} />
+        </div>
+      </ConditionalWrapper>
       <nav>
         <NavLink to="/" exact>
           <div className="icon"><FontAwesomeIcon icon={faTasks} size="lg" /></div>
