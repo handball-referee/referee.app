@@ -4,7 +4,7 @@
   display: flex;
   position: relative;
   margin: 0.75rem;
-  color: var(--white);
+  color: var(--menu-color);
   width: 10rem;
   height: 2rem;
   background-color: var(--btn-bg-color);
@@ -23,7 +23,8 @@
   }
 
   &:hover {
-    background-color: var(--border-dark-color);
+    background-color: var(--border-dark-bg-color);
+    color: var(--menu-color-active);
   }
 
   @media (max-width: 48rem) {
@@ -33,6 +34,7 @@
 
 #picker-content {
   flex-grow: 1;
+  color: var(--menu-color-active);
 
   @media (max-width: 48rem) {
     & img {
@@ -50,7 +52,7 @@
   font-size: 1.5rem;
   width: 1rem;
   margin: 0 0.5rem;
-  color: var(--theme-light-color);
+  color: var(--menu-color-active);
 
   & svg {
     display: block;
@@ -73,6 +75,7 @@
   min-width: 100%;
   list-style: none;
   z-index: 5;
+  color: var(--menu-color);
 
   & li {
     &[aria-selected=true] {
@@ -81,7 +84,8 @@
 
     &:hover {
       border-radius: 0.25rem;
-      background-color: var(--blue2);
+      background-color: var(--theme-color);
+      color: var(--menu-color-active);
     }
   }
 }
