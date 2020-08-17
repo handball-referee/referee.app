@@ -6,6 +6,7 @@
   min-width: 3.5rem;
   transition: min-width 400ms;
   box-shadow: var(--shadow);
+  z-index: 3;
 
   @media (max-width: 48rem) {
     width: 100%;
@@ -30,10 +31,12 @@
     & a {
       &.active {
         background-color: var(--theme-light-color);
+        color: var(--menu-color-active);
       }
 
       &:hover {
         background-color: var(--theme-color);
+        color: var(--menu-color-active);
       }
     }
   }
@@ -62,7 +65,9 @@
   display: flex;
   padding: 0.5rem;
   justify-content: flex-end;
-  background-color: var(--theme-dark-color);
+  background-color: var(--shell-bg-color);
+  z-index: 5;
+  box-shadow: var(--shadow);
 
   & img {
     width: 2.5rem;
@@ -71,7 +76,7 @@
 }
 
 #menu nav a, #menu-footer button {
-  color: var(--white);
+  color: var(--menu-color);
   padding: 0.625rem 0;
   white-space:nowrap;
   overflow: hidden;

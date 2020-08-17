@@ -19,18 +19,25 @@
   --grey3: #888888;
   --black: #000000;
 
+  --shell-bg-color: var(--blue1);
+  --shell-color: var(--white);
   --header-bg-color: var(--blue1);
   --header-color: var(--white);
   --menu-bg-color: var(--darkblue1);
+  --menu-color: var(--white);
+  --menu-color-active: var(--white);
 
   --border-dark-color: var(--darkblue1);
   --btn-bg-color: var(--darkblue2);
+  --border-dark-bg-color: var(--darkblue1);
+  --btn-dark-bg-color: var(--darkblue1);
 
   --theme-dark-color: var(--blue1);
   --theme-color: var(--blue2);
   --theme-light-color: var(--blue3);
 
   --tracking-bg-color: var(--blue3);
+  --tracking-border: var(--darkblue1);
   --tracking-btn-color: var(--green3);
   --tracking-btn-border-color: var(--green1);
 

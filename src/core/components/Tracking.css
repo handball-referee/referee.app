@@ -1,6 +1,6 @@
 #tracking {
   background-color: var(--tracking-bg-color);
-  border-bottom: 1px solid var(--border-dark-color);
+  border-bottom: 1px solid var(--tracking-border);
   display: flex;
 
   @media (max-width: 48rem) {

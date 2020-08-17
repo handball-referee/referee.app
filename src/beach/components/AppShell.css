@@ -24,14 +24,15 @@
 }
 
 header {
-  background-color: var(--header-bg-color);
+  background-color: var(--shell-bg-color);
   display: flex;
   flex: 0 0 3.5rem;
   box-shadow: var(--shadow);
+  z-index: 5;
 
   & h1 {
     margin: 1rem;
-    color: var(--header-color);
+    color: var(--shell-color);
     font-size: 1.25rem;
     line-height: 1.5rem;
     flex-grow: 1;

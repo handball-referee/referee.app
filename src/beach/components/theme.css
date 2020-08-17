@@ -4,19 +4,33 @@
   --orange4: #a25500;
   --orange5: #d16c00;
   --orange6: #ff8300;
+  --darkgrey: #3c4858;
+  --pink: #e91e63;
+  --light-pink: #e91e63a6;
 
-  --header-bg-color: var(--orange4);
-  --menu-bg-color: var(--darkbrown1);
+  --usabt-blue: #00aef3;
+  --usabt-blue-dark: #007cba;
 
-  --border-dark-color: var(--darkbrown1);
-  --btn-bg-color: var(--darkbrown2);
+
+  --shell-bg-color: var(--white);
+  --shell-color: var(--darkgrey);
+  --header-bg-color: var(--pink);
+  --menu-bg-color: var(--white);
+  --menu-color: var(--darkgrey);
+  --menu-color-active: var(--white);
+
+  --border-dark-color: var(--pink);
+  --btn-bg-color: var(--pink);
+  --border-dark-bg-color: var(--light-pink);
+  --btn-dark-bg-color: var(--light-pink);
 
   --theme-dark-color: var(--orange4);
-  --theme-color: var(--orange5);
-  --theme-light-color: var(--orange6);
+  --theme-color: var(--light-pink);
+  --theme-light-color: var(--pink);
 
-  --tracking-bg-color: var(--orange5);
-  --tracking-btn-color: var(--orange6);
+  --tracking-bg-color: var(--usabt-blue);
+  --tracking-border: var(--usabt-blue-dark);
+  --tracking-btn-color: var(--white);
   --tracking-btn-border-color: var(--darkbrown1);
 
   --shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
