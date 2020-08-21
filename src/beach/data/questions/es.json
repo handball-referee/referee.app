@@ -101,7 +101,7 @@
   },
   {
     "id": "2.5",
-    "question": "Golpe franco para el equipo A al final de la primera mitad. El puntaje es 18-6 para el equipo B. A5, que está parado a 40 cm de la posición correcta de los tiros libres, entrega el balón a los árbitros para demostrar que no están interesados ​​en intentar anotar.",
+    "question": "Golpe franco para el equipo A al final de la primera mitad. El puntaje es 18-6 para el equipo B. A5, que está parado a 40 cm de la posición correcta de el golpe franco, entrega el balón a los árbitros para demostrar que no están interesados ​​en intentar anotar.",
     "answers": {
       "a": "Los árbitros deben corregir el lugar y silbar el golpe franco.",
       "b": "Los árbitros consideran el Golpe franco tomado.",
@@ -151,7 +151,7 @@
   },
   {
     "id": "2.10",
-    "question": "Mientras el equipo A estaba en posesión de la pelota y la pelota estaba en juego, el cronometrador silba por una infracción. Antes de que los árbitros se den cuenta de la situación, silbar para un lanzamiento de 6 m para el equipo A y descalificación a B2. Después de 2/3 segundos se dieron cuenta de la situación.",
+    "question": "Mientras el equipo A estaba en posesión de la pelota y la pelota estaba en juego, el cronometrador silba por una infracción. Antes de que los árbitros se den cuenta de la situación, silban para un lanzamiento de 6 m para el equipo A y descalificación a B2. Después de 2/3 segundos se dieron cuenta de la situación.",
     "answers": {
       "a": "Tiempo muerto. Los árbitros van al cronometrador y toman medidas por la infracción. El lanzamiento de 6m y la descalificación a B2 no son válidos.",
       "b": "Tiempo muerto. Los árbitros van al cronometrador y toman medidas por la infracción. El lanzamiento de 6 m no es válido y la descalificación a B2 es válida.",
@@ -173,8 +173,8 @@
     "id": "2.12",
     "question": "Justo antes de la señal final para el final del juego, los árbitros pitan un Golpe franco para el equipo A. Después de la señal final mientras se prepara para la ejecución del tiro, el oficial B del equipo A protesta y es culpable de un asalto contra el cronometrador.",
     "answers": {
-      "a": "Descalificación al funcionario B. Reporte. Ejecución del golpe franco para el equipo A.",
-      "b": "Descalificación al funcionario B. Reporte. Fin del juego.",
+      "a": "Descalificación al oficial B. Reporte. Ejecución del golpe franco para el equipo A.",
+      "b": "Descalificación al oficial B. Reporte. Fin del juego.",
       "c": "Sin castigo, solo reporte para el oficial B. Golpe franco para el equipo B.",
       "d": "Suspensión al oficial B. Ejecución del golpe franco para el equipo A."
     }
@@ -232,7 +232,7 @@
     "id": "4.4",
     "question": "Conducta grave antideportiva del oficial del equipo A del equipo A. El árbitro silba y detiene el juego.",
     "answers": {
-      "a": "Tiempo muerto. La suspensión del funcionario A. El equipo A debe reducirse en la cancha. Golpe franco para el equipo B.",
+      "a": "Tiempo muerto. La suspensión del oficial A. El equipo A debe reducirse en la cancha. Golpe franco para el equipo B.",
       "b": "Tiempo muerto. Suspensión del oficial A. Golpe franco para el equipo B.",
       "c": "Descalificación del oficial A. El oficial debe abandonar la corte. No hay más informes.",
       "d": "Tiempo muerto. La descalificación del oficial A. El equipo A debe ser reducido en la cancha. El oficial debe abandonar la corte. Golpe franco para el equipo B. Informe a las autoridades del torneo."
@@ -275,7 +275,7 @@
       "a": "Normal. Nada ilegal.",
       "b": "Suspensión a A4. El equipo A reduce en uno el número de jugadores. El juego se reinicia con golpe franco para el equipo B.",
       "c": "Advertencia verbal.",
-      "d": "Suspensión a A4. El equipo A reduce en uno el número de jugadores. El juego se reinicia con tiros libres para el equipo A."
+      "d": "Suspensión a A4. El equipo A reduce en uno el número de jugadores. El juego se reinicia con golpe franco para el equipo A."
     }
   },
   {
@@ -324,7 +324,7 @@
     "answers": {
       "a": "Normal. Nada ilegal.",
       "b": "Suspensión al oficial A. El juego se reinicia con el lanzamiento de 6 m para el equipo B.",
-      "c": "Suspensión al oficial A. El juego se reinicia con tiros libres para el equipo A.",
+      "c": "Suspensión al oficial A. El juego se reinicia con golpe franco para el equipo A.",
       "d": "Suspensión a los oficiales A, B2 y B5. El juego se reinicia con el lanzamiento de 6 m para el equipo B."
     }
   },
@@ -333,7 +333,7 @@
     "question": "Saque de banda para el equipo A. Después del tiempo muerto, el árbitro da permiso a los oficiales del equipo B para ingresar a la cancha porque B2 está lesionado. El oficial A y el oficial D ingresan a la cancha y mientras el oficial A está ayudando al jugador lesionado, el oficial D se acerca a los jugadores oponentes y a los árbitros y protesta por una falta grave.",
     "answers": {
       "a": "La suspensión al oficial D. El equipo B reduce el número de jugadores en uno. Reiniciar con el saque para el equipo A.",
-      "b": "La suspensión al oficial D. El equipo B reduce el número de jugadores en uno. Reiniciar con tiros libres para el equipo A.",
+      "b": "La suspensión al oficial D. El equipo B reduce el número de jugadores en uno. Reiniciar con golpe franco para el equipo A.",
       "c": "Suspensión al oficial D. El equipo B reinicia el juego con 4 jugadores. El juego se reinicia con saque para el equipo A.",
       "d": "Normal. Nada ilegal."
     }
@@ -360,10 +360,10 @@
   },
   {
     "id": "4.17",
-    "question": "Los funcionarios A y B del equipo A están nominados para permanecer en el área de sustitución. Durante el primer semestre, el oficial C, designado como “oficial responsable del equipo”, quiere reemplazar al oficial B y permanece en el área de sustitución para tener un mejor contacto con la mesa y los árbitros.",
+    "question": "Los officiales A y B del equipo A están nominados para permanecer en el área de sustitución. Durante el primer tiempo, el oficial C, designado como “oficial responsable del equipo”, quiere reemplazar al oficial B y permanece en el área de sustitución para tener un mejor contacto con la mesa y los árbitros.",
     "answers": {
       "a": "No hay problema, ya que todos están en la hoja de puntaje.",
-      "b": "El funcionario C debe esperar hasta el final de la primera mitad.",
+      "b": "El oficial C debe esperar hasta el final de la primera mitad.",
       "c": "No está permitido reemplazar a los oficiales después del comienzo del juego.",
       "d": "Solo se permite si el “oficial responsable del equipo” del equipo B acepta."
     }
@@ -374,7 +374,7 @@
     "answers": {
       "a": "Solo los respectivos “oficial responsable del equipo”.",
       "b": "Solo los respectivos entrenadores.",
-      "c": "Solo los respectivos funcionarios A.",
+      "c": "Solo los respectivos oficiales A.",
       "d": "Ninguno."
     }
   },
@@ -452,9 +452,9 @@
     "id": "5.8",
     "question": "G/K A1 salva el balón después de un disparo y el balón se mueve hacia el área de juego. Corre y juega el balón con el pie, dentro del área de meta, y el balón cruza la línea lateral del área de juego",
     "answers": {
-      "a": "Lanzamiento para el equipo B",
-      "b": "Lanzamiento libre para el equipo B.",
-      "c": "Lanzamiento libre para el equipo B. Suspensión a A1.",
+      "a": "Saque de banda para el equipo B",
+      "b": "Golpe franco para el equipo B.",
+      "c": "Golpe franco para el equipo B. Suspensión a A1.",
       "d": "Lanzamiento G/K para el equipo A después del silbato."
     }
   },
@@ -462,29 +462,29 @@
     "id": "6.1",
     "question": "2 está listo para ejecutar un lanzamiento de 6m. Está en la posición correcta.  Después del silbato del árbitro, uno de sus pies se desliza en la arena y cruza la línea del área de meta justo antes de que el balón haya salido de su mano. Lanza el balón y marca un gol",
     "answers": {
-      "a": "Meta",
+      "a": "Gol",
       "b": "Repita el lanzamiento de 6m.",
       "c": "Lanzamiento de portero para el equipo B.",
-      "d": "Tiro libre para el equipo B."
+      "d": "Golpe franco para el equipo B."
     }
   },
   {
     "id": "6.2",
     "question": "A5 está en posesión del balón fuera de su área de meta. Intenta dar un pase largo al A3 pero el balón se le escapa de la mano y vuelve, golpea el poste de la portería de su equipo y vuelve al área de juego al A7",
     "answers": {
-      "a": "Lanzamiento libre para el equipo B",
+      "a": "Golpe franco para el equipo B",
       "b": "Lanzamiento de portero para el equipo A",
-      "c": " Sigue jugando"
+      "c": "Continuó jugar"
     }
   },
   {
     "id": "6.3",
     "question": "B2 dispara a la portería y A4 actuando en defensa toca el balón y luego G/K A1 atrapa el balón en su área de meta. A1 lanza el balón directamente a la meta del equipo B y anota",
     "answers": {
-      "a": "No hay objetivo. Lanzamiento libre para el equipo B a un metro de la línea del área de meta del equipo A.",
-      "b": "No hay gol. Lanzamiento de G/Keeper para el equipo A después del silbato.",
+      "a": "No hay objetivo. Golpe franco para el equipo B a un metro de la línea del área de meta del equipo A.",
+      "b": "No hay gol. Tiro de portero para el equipo A después del silbato.",
       "c": "2 puntos de gol para el equipo A.",
-      "d": "No hay gol. Tiempo muerto. Suspensión a A4. Lanzamiento libre para el equipo B a un metro de la línea del área de meta."
+      "d": "No hay gol. Tiempo muerto. Suspensión a A4. Golpe franco para el equipo B a un metro de la línea del área de meta."
     }
   },
   {
@@ -492,17 +492,17 @@
     "question": "A3 pasa el balón a A4 que toma el balón y lo pone en el suelo durante 5 segundos. Luego la recoge y marca un gol",
     "answers": {
       "a": "Gol",
-      "b": "Tiro libre para el equipo B.",
+      "b": "Golpe franco para el equipo B.",
       "c": "Tiro de portero para el equipo B.",
-      "d": "Tiro libre para el equipo A."
+      "d": "Golpe franco para el equipo A."
     }
   },
   {
     "id": "7.2",
-    "question": "La pelota está en la arena y A2 está de pie junto a ella. B3 se zambulle por ella desde una distancia de 2-3m, la juega y anota",
+    "question": "La pelota está en la arena y A2 está de pie junto a ella. B3 se lanza por ella desde una distancia de 2-3m, la juega y anota",
     "answers": {
-      "a": "Suspensión a B3 (por poner en peligro al oponente) y lanzamiento libre para el equipo A.",
-      "b": "Tiro libre para el equipo A.",
+      "a": "Suspensión a B3 (por poner en peligro al oponente) y Golpe franco para el equipo A.",
+      "b": "Golpe franco para el equipo A.",
       "c": "Gol",
       "d": "No gol. Lanzamiento de portero para el equipo A."
     }
@@ -512,7 +512,7 @@
     "question": "A3 está en posesión de la pelota en el área de juego. Lanza el balón en el aire en dirección al área de gol del oponente, corre 5-6 metros, salta, atrapa el balón y anota en el vuelo",
     "answers": {
       "a": "Objetivo de 2 puntos para el equipo A",
-      "b": "Lanzamiento libre para el equipo B.",
+      "b": "Golpe franco para el equipo B.",
       "c": "Gol de 1 punto para el equipo A.",
       "d": "Lanzamiento G/K para el equipo B."
     }
@@ -521,9 +521,9 @@
     "id": "7.4",
     "question": "G/K A5 está en posesión del balón e intenta atacar. Disparó a la portería y el balón golpeó la espalda del árbitro que estaba corriendo delante de él. Mientras el balón está en el aire, corre 3m, atrapa el balón y anota en el vuelo",
     "answers": {
-      "a": "Lanzamiento libre para el equipo B",
+      "a": "Golpe franco para el equipo B",
       "b": "Gol de dos puntos para el equipo A",
-      "c": "Lanzamiento libre para el equipo B, suspensión a A5",
+      "c": "Golpe franco para el equipo B, suspensión a A5",
       "d": "Lanzamiento G/K para el equipo B, suspensión a A5."
     }
   },
@@ -532,7 +532,7 @@
     "question": "El equipo A está en posesión del balón sin hacer ningún intento de atacar. Los árbitros han mostrado la señal de advertencia de juego pasivo y cuando están listos para silbar, el equipo A pide un tiempo muerto al equipo correctamente y el cronometrador silba",
     "answers": {
       "a": "Después del reinicio del juego la señal de advertencia sigue siendo válida y debe ser mostrada de nuevo.",
-      "b": "Después de la reanudación del juego los árbitros deben pitar inmediatamente el tiro libre para el equipo B.",
+      "b": "Después de la reanudación del juego los árbitros deben pitar inmediatamente el Golpe franco para el equipo B.",
       "c": "Al equipo A se le permite iniciar su ataque desde el principio.",
       "d": "El equipo A debe completar el ataque en 15 segundos."
     }
@@ -541,10 +541,10 @@
     "id": "7.6",
     "question": "El equipo A está en posesión del balón y los árbitros muestran la señal de advertencia para el juego pasivo. A3 dispara a la portería, G/K B1 se detiene y el balón cruza la línea lateral",
     "answers": {
-      "a": "Lanzamiento para el equipo A. La señal de aviso sigue siendo válida y debe ser mostrada de nuevo. El equipo A tiene al menos 5 segundos para construir una nueva fase",
-      "b": "Lanzamiento para el equipo A. La señal de advertencia sigue siendo válida y debe ser mostrada de nuevo. El equipo A tiene al menos 10 pases para construir una nueva fase",
-      "c": "Lanzamiento para el equipo A. La señal de advertencia debe ser detenida. Al equipo A se le permite acumular una nueva fase desde el principio",
-      "d": "Lanzamiento para el equipo A. La señal de aviso sigue siendo válida y debe mostrarse de nuevo. El equipo A tiene al menos 10 segundos para construir una nueva fase."
+      "a": "Saque de banda para el equipo A. La señal de aviso sigue siendo válida y debe ser mostrada de nuevo. El equipo A tiene al menos 5 segundos para construir una nueva fase",
+      "b": "Saque de banda para el equipo A. La señal de advertencia sigue siendo válida y debe ser mostrada de nuevo. El equipo A tiene al menos 10 pases para construir una nueva fase",
+      "c": "Saque de banda para el equipo A. La señal de advertencia debe ser detenida. Al equipo A se le permite acumular una nueva fase desde el principio",
+      "d": "Saque de banda para el equipo A. La señal de aviso sigue siendo válida y debe mostrarse de nuevo. El equipo A tiene al menos 10 segundos para construir una nueva fase."
     }
   },
   {
@@ -559,7 +559,7 @@
   },
   {
     "id": "7.8",
-    "question": "El equipo B está en posesión del balón y los árbitros muestran la señal de advertencia para el juego pasivo. Los árbitros están listos para pitar para el juego pasivo y en este momento A5 ataca a B2 que estaba en posesión del balón y lo empuja hacia abajo. El árbitro silba un tiro libre para el equipo B y suspende a A5",
+    "question": "El equipo B está en posesión del balón y los árbitros muestran la señal de advertencia para el juego pasivo. Los árbitros están listos para pitar para el juego pasivo y en este momento A5 ataca a B2 que estaba en posesión del balón y lo empuja hacia abajo. El árbitro silba un Golpe franco para el equipo B y suspende a A5",
     "answers": {
       "a": "La señal de aviso sigue siendo válida y debe ser mostrada de nuevo. El equipo B tiene al menos 5 segundos para construir una nueva fase",
       "b": "La señal de aviso sigue siendo válida y debe ser mostrada de nuevo. El equipo B tiene al menos 10 pases para acumular una nueva fase",
@@ -569,7 +569,7 @@
   },
   {
     "id": "7.9",
-    "question": "El equipo A está en posesión del balón y los árbitros muestran la señal de advertencia para el juego pasivo. Después de unos segundos el oficial A del equipo B es culpable de conducta antideportiva. El árbitro silba, detiene el juego y suspende el lanzamiento libre del equipo A.",
+    "question": "El equipo A está en posesión del balón y los árbitros muestran la señal de advertencia para el juego pasivo. Después de unos segundos el oficial A del equipo B es culpable de conducta antideportiva. El árbitro silba, detiene el juego y suspende el Golpe franco del equipo A.",
     "answers": {
       "a": "La señal de aviso sigue siendo válida y debe ser mostrada de nuevo. El equipo A tiene al menos 5 segundos para construir una nueva fase",
       "b": "La señal de aviso sigue siendo válida y debe ser mostrada de nuevo. El equipo A tiene al menos 10 pases para acumular una nueva fase",
@@ -581,10 +581,10 @@
     "id": "7.10",
     "question": "El equipo A está en posesión del balón y los árbitros muestran la señal de advertencia para el juego pasivo. A3 dispara a la portería, los jugadores defensores bloquean y el balón cruza la línea lateral",
     "answers": {
-      "a": "Lanzamiento para el equipo A. La señal de aviso sigue siendo válida y debería mostrarse de nuevo como un recordatorio",
-      "b": "Lanzamiento para el equipo A. La señal de advertencia debe mostrarse de nuevo. El equipo A tiene por lo menos 10 pases para acumular una nueva fase",
-      "c": "Lanzamiento para el equipo A. La señal de advertencia debe ser detenida. El equipo A tiene permiso para acumular una nueva fase desde el principio",
-      "d": "Lanzamiento para el equipo A. La señal de aviso sigue siendo válida y debe mostrarse de nuevo. El equipo A tiene al menos 10 segundos para construir una nueva fase."
+      "a": "Saque de banda para el equipo A. La señal de aviso sigue siendo válida y debería mostrarse de nuevo como un recordatorio",
+      "b": "Saque de banda para el equipo A. La señal de advertencia debe mostrarse de nuevo. El equipo A tiene por lo menos 10 pases para acumular una nueva fase",
+      "c": "Saque de banda para el equipo A. La señal de advertencia debe ser detenida. El equipo A tiene permiso para acumular una nueva fase desde el principio",
+      "d": "Saque de banda para el equipo A. La señal de aviso sigue siendo válida y debe mostrarse de nuevo. El equipo A tiene al menos 10 segundos para construir una nueva fase."
     }
   },
   {
@@ -592,19 +592,19 @@
     "question": "El equipo A está en posesión del balón y los árbitros mostraron la señal de advertencia para el juego pasivo. A2 que tiene el balón en el lado izquierdo, justo fuera de la línea del área de meta intenta pasar el balón a A4 que está en el centro de la cancha y en este momento el árbitro pita para el juego pasivo. El balón pasa a A4 que lo deja en el suelo. B3 corre, toma el balón, dispara a la portería y anota.",
     "answers": {
       "a": "Gol para el equipo B",
-      "b": "No hay gol. Repetición del tiro libre para el equipo B después del silbato desde el punto donde A4 deja el balón.",
-      "c": "No hay gol. Repetición del tiro libre para el equipo B, después del silbato, desde el punto donde el balón estaba cuando se interrumpió el juego.",
-      "d": "No hay gol. Tiro libre para el equipo A desde el punto donde B3 ejecuta el tiro libre."
+      "b": "No hay gol. Repetición del Golpe franco para el equipo B después del silbato desde el punto donde A4 deja el balón.",
+      "c": "No hay gol. Repetición del Golpe franco para el equipo B, después del silbato, desde el punto donde el balón estaba cuando se interrumpió el juego.",
+      "d": "No hay gol. Golpe franco para el equipo A desde el punto donde B3 ejecuta el Golpe franco."
     }
   },
   {
     "id": "8.1",
-    "question": "A5 está listo para ejecutar un tiro libre. Pasa el balón a A3 que está de pie junto a la línea lateral, pero el balón golpea la cara de B2 que estaba de pie a 2m de distancia y no se movía",
+    "question": "A5 está listo para ejecutar un Golpe franco. Pasa el balón a A3 que está de pie junto a la línea lateral, pero el balón golpea la cara de B2 que estaba de pie a 2m de distancia y no se movía",
     "answers": {
-      "a": "Suspensión a A5. Lanzamiento libre para el equipo B",
-      "b": "Descalificación a A5. Lanzamiento libre para el equipo B. Reporte",
+      "a": "Suspensión a A5. Golpe franco para el equipo B",
+      "b": "Descalificación a A5. Golpe franco para el equipo B. Reporte",
       "c": "Sigue jugando...",
-      "d": "Descalificación a A5. Lanzamiento libre para el equipo B."
+      "d": "Descalificación a A5. Golpe franco para el equipo B."
     }
   },
   {
@@ -619,11 +619,11 @@
   },
   {
     "id": "8.3",
-    "question": "A6 está listo para ejecutar un tiro libre. Después del silbato dispara directamente a la portería y el balón golpea la cabeza de B3 que estaba de pie correctamente y no se movía",
+    "question": "A6 está listo para ejecutar un Golpe franco. Después del silbato dispara directamente a la portería y el balón golpea la cabeza de B3 que estaba de pie correctamente y no se movía",
     "answers": {
-      "a": "Descalificación para A6. Lanzamiento libre para el equipo B. Informe",
-      "b": "Suspensión a A6. Lanzamiento libre para el equipo B. Reporte",
-      "c": "Descalificación para A6. Lanzamiento libre para el equipo B."
+      "a": "Descalificación para A6. Golpe franco para el equipo B. Informe",
+      "b": "Suspensión a A6. Golpe franco para el equipo B. Reporte",
+      "c": "Descalificación para A6. Golpe franco para el equipo B."
     }
   },
   {
@@ -631,9 +631,9 @@
     "question": "B5 tiene la pelota en sus manos. G/K A6 está a su lado y saca el balón claramente de las manos de B5; dispara a la portería y anota",
     "answers": {
       "a": "Objetivo de 2 puntos para el equipo A",
-      "b": "Lanzamiento libre para el equipo B. Suspensión a A6",
-      "c": "Lanzamiento libre para el equipo B. Descalificación para A6",
-      "d": "Lanzamiento libre para el equipo B."
+      "b": "Golpe franco para el equipo B. Suspensión a A6",
+      "c": "Golpe franco para el equipo B. Descalificación para A6",
+      "d": "Golpe franco para el equipo B."
     }
   },
   {
@@ -648,10 +648,10 @@
   },
   {
     "id": "8.6",
-    "question": "Lanzamiento para el equipo B y cuando B5 sale 2m fuera de la cancha para recoger el balón, A6 que estaba en el área de sustituciones de su equipo escupe sobre B5.",
+    "question": "Saque de banda para el equipo B y cuando B5 sale 2m fuera de la cancha para recoger el balón, A6 que estaba en el área de sustituciones de su equipo escupe sobre B5.",
     "answers": {
       "a": "Tiempo muerto. Descalificación para A6. El equipo A reduce el número de jugadores en uno. Reporte. Reinicio con saque de banda para el equipo B.",
-      "b": "Tiempo muerto. Descalificación para A6. El equipo A reduce el número de jugadores en uno. Reporte. Reanudación con lanzamiento libre para el equipo B.",
+      "b": "Tiempo muerto. Descalificación para A6. El equipo A reduce el número de jugadores en uno. Reporte. Reanudación con Golpe franco para el equipo B.",
       "c": "Tiempo muerto. Suspensión a A6. Reanudación con lanzamiento para el equipo B."
     }
   },
@@ -659,30 +659,30 @@
     "id": "8.7",
     "question": "B9 dispara a la portería y el balón sale. En ese momento el oficial B del equipo B corre en el área de juego y protesta contra el árbitro de la cancha, le lanza la tarjeta verde a la cabeza y le da una patada en las piernas",
     "answers": {
-      "a": "Tiempo muerto. Descalificación para el oficial B. El equipo B reduce el número de jugadores en uno. Reinicio con G/Keeper-lanzamiento para el equipo A.",
-      "b": "Tiempo muerto. Descalificación para el oficial B. El equipo B reduce el número de jugadores en uno. Reanudar con G/Keeper-lanzamiento para el equipo A. Reporte",
-      "c": "Tiempo muerto. Descalificación para el oficial B. Reanudación con tiro libre para el equipo A. Reporte",
-      "d": "Tiempo muerto. Descalificación para el oficial B. El equipo B reduce el número de jugadores en uno. Reanudación con tiro libre para el equipo A. Reporte."
+      "a": "Tiempo muerto. Descalificación para el oficial B. El equipo B reduce el número de jugadores en uno. Reinicio con tiro de portero para el equipo A.",
+      "b": "Tiempo muerto. Descalificación para el oficial B. El equipo B reduce el número de jugadores en uno. Reinicio con tiro de portero para el equipo A. Reporte",
+      "c": "Tiempo muerto. Descalificación para el oficial B. Reanudación con Golpe franco para el equipo A. Reporte",
+      "d": "Tiempo muerto. Descalificación para el oficial B. El equipo B reduce el número de jugadores en uno. Reanudación con Golpe franco para el equipo A. Reporte."
     }
   },
   {
     "id": "8.8",
     "question": "A2 dispara a la portería y el balón sale. Antes de que G/K B1 ejecute el lanzamiento A2 corre hacia la tribuna y ataca a un espectador que se burlaba de él.",
     "answers": {
-      "a": "Tiempo muerto. Descalificación a A2. El equipo A reduce el número de jugadores en uno. Reinicio con G/Keeper-lanzamiento para el equipo B.",
-      "b": "Tiempo muerto. Descalificación a A2. El equipo A reduce el número de jugadores en uno. Reinicio con G/Keeper-lanzamiento para el equipo B. Reporte",
+      "a": "Tiempo muerto. Descalificación a A2. El equipo A reduce el número de jugadores en uno. Reinicio con tiro de portero para el equipo B.",
+      "b": "Tiempo muerto. Descalificación a A2. El equipo A reduce el número de jugadores en uno. Reinicio con tiro de portero para el equipo B. Reporte",
       "c": "Sólo informe. La acción estaba hasta la tribuna con un espectador.",
-      "d": "Tiempo muerto. Descalificación a A2. El equipo A reduce el número de jugadores en uno. Reanudación con tiro libre para el equipo B desde el lugar donde dejó la cancha. Reporte."
+      "d": "Tiempo muerto. Descalificación a A2. El equipo A reduce el número de jugadores en uno. Reanudación con Golpe franco para el equipo B desde el lugar donde dejó la cancha. Reporte."
     }
   },
   {
     "id": "8.9",
     "question": "B3 intenta anotar con un tiro de vuelta, falla y la pelota sale. Antes de que A1 ejecute el lanzamiento B5 corre contra su compañero B3 porque no le pasó el balón, lo empuja hacia abajo y le da una patada en las piernas",
     "answers": {
-      "a": "Tiempo muerto. Descalificación para B5. El equipo B reduce el número de jugadores en uno. Reinicio con G/Keeper-lanzamiento para el equipo A",
-      "b": "Tiempo muerto. Descalificación a B5. El equipo B reduce el número de jugadores en uno. Reinicio con G/Keeper-lanzamiento para el equipo A. Reporte",
+      "a": "Tiempo muerto. Descalificación para B5. El equipo B reduce el número de jugadores en uno. Reinicio con tiro de portero para el equipo A",
+      "b": "Tiempo muerto. Descalificación a B5. El equipo B reduce el número de jugadores en uno. Reinicio con tiro de portero para el equipo A. Reporte",
       "c": "Sólo informe. La acción fue contra un compañero de equipo",
-      "d": "Tiempo muerto. Descalificación para B5. El equipo B reduce el número de jugadores en uno. Reanudación con lanzamiento libre para el equipo A desde el lugar de la acción. Reporte."
+      "d": "Tiempo muerto. Descalificación para B5. El equipo B reduce el número de jugadores en uno. Reanudación con Golpe franco para el equipo A desde el lugar de la acción. Reporte."
     }
   },
   {
@@ -690,7 +690,7 @@
     "question": "¿Cuál de las siguientes situaciones puede ser considerada como una conducta antideportiva?",
     "answers": {
       "a": "Gritarle al jugador que está haciendo un show de 6 metros.",
-      "b": "Patear el balón lejos para retrasar un tiro libre para los oponentes",
+      "b": "Patear el balón lejos para retrasar un Golpe franco para los oponentes",
       "c": "Agarrar a un oponente agarrando el uniforme.",
       "d": "Si un jugador de la cancha bloquea repetidamente los tiros con el pie o la pierna inferior",
       "e": "Comportamiento insultante dirigido a otra persona",
@@ -711,12 +711,12 @@
   },
   {
     "id": "8.12",
-    "question": "Tiro libre para el equipo A. A3 está listo y el árbitro silba para la ejecución. En este momento y antes de que el balón salga de la mano de A3, A5 golpea a B2 en la cara",
+    "question": "Golpe franco para el equipo A. A3 está listo y el árbitro silba para la ejecución. En este momento y antes de que el balón salga de la mano de A3, A5 golpea a B2 en la cara",
     "answers": {
-      "a": "Tiempo muerto. Descalificación a A5. El equipo A reducirá el número de jugadores en uno. Reanudación con lanzamiento libre para el equipo A.",
-      "b": "Tiempo muerto. Descalificación a A5. El equipo A reducirá el número de jugadores en uno. Reanudación con tiro libre para el equipo B.",
-      "c": "Tiempo muerto. Descalificación a A5. El equipo A reducirá el número de jugadores en uno. Reanudación con tiro libre para el equipo A. Reporte",
-      "d": "Tiempo muerto. Descalificación a A5. El equipo A reducirá el número de jugadores en uno. Reanudación con tiro libre para el equipo B. Reporte."
+      "a": "Tiempo muerto. Descalificación a A5. El equipo A reducirá el número de jugadores en uno. Reanudación con Golpe franco para el equipo A.",
+      "b": "Tiempo muerto. Descalificación a A5. El equipo A reducirá el número de jugadores en uno. Reanudación con Golpe franco para el equipo B.",
+      "c": "Tiempo muerto. Descalificación a A5. El equipo A reducirá el número de jugadores en uno. Reanudación con Golpe franco para el equipo A. Reporte",
+      "d": "Tiempo muerto. Descalificación a A5. El equipo A reducirá el número de jugadores en uno. Reanudación con Golpe franco para el equipo B. Reporte."
     }
   },
   {
@@ -744,9 +744,9 @@
     "question": "G/K A4 está fuera del área de la portería del equipo B y dispara el balón a la portería vacía. Justo antes de que el balón cruce la línea de meta, un espectador golpea el balón hacia la línea de banda",
     "answers": {
       "a": "6 metros de lanzamiento para el equipo A",
-      "b": "Lanzamiento libre para el equipo A, donde A4 tira el balón",
+      "b": "Golpe franco para el equipo A, donde A4 tira el balón",
       "c": "2 puntos de gol para el equipo A.",
-      "d": "Lanzamiento para el equipo B."
+      "d": "Saque de banda para el equipo B."
     }
   },
   {
@@ -763,8 +763,8 @@
     "id": "9.5",
     "question": "A7 marca un gol, el árbitro A lo permite y G/K B1 ejecuta el lanzamiento de G/K-. El balón pasa a B3 y luego el árbitro B silba. Le explica al árbitro A que el gol no es válido porque A7 marca después de los pasos.",
     "answers": {
-      "a": "El objetivo rechazado. Lanzamiento libre para el equipo B debido a los pasos",
-      "b": "El gol es válido. Lanzamiento libre para el equipo B donde se interrumpió el juego",
+      "a": "El objetivo rechazado. Golpe franco para el equipo B debido a los pasos",
+      "b": "El gol es válido. Golpe franco para el equipo B donde se interrumpió el juego",
       "c": "El gol es válido. Repetición del lanzamiento G/K después del silbato",
       "d": "El gol está anulado. Lanzamiento de G/K para el equipo B."
     }
@@ -774,9 +774,9 @@
     "question": "A3 lanza el balón a la portería vacía y justo antes de que el balón cruce la línea de meta el cronometrador silba e interrumpe el juego por una sustitución defectuosa de B6",
     "answers": {
       "a": "Tiempo muerto. Suspensión a B6. 6m-lanzamiento para el equipo A",
-      "b": "Tiempo muerto. Suspensión a B6. Lanzamiento libre para el equipo A desde el punto en que A3 disparó a la portería",
+      "b": "Tiempo muerto. Suspensión a B6. Golpe franco para el equipo A desde el punto en que A3 disparó a la portería",
       "c": "Tiempo muerto. 1p gol para el equipo A. Suspensión a B6. Lanzamiento G/K para el equipo B.",
-      "d": "Tiempo muerto. Suspensión a B6. Lanzamiento libre para el equipo B desde el punto de la sustitución defectuosa."
+      "d": "Tiempo muerto. Suspensión a B6. Golpe franco para el equipo B desde el punto de la sustitución defectuosa."
     }
   },
   {
@@ -785,7 +785,7 @@
     "answers": {
       "a": "Repetición del G/K-lanzamiento después del silbato",
       "b": "Gol para el equipo A. G/K-lanzamiento para el equipo B.",
-      "c": "Lanzamiento libre para el equipo A a un metro de la línea del área de meta."
+      "c": "Golpe franco para el equipo A a un metro de la línea del área de meta."
     }
   },
   {
@@ -812,7 +812,7 @@
     "question": "Lanzamiento de árbitro para iniciar el juego. El árbitro lanza el balón después de una señal de silbato. A3 salta y juega el balón inmediatamente después de que el balón deja la mano del árbitro y marca un gol",
     "answers": {
       "a": "2 puntos de gol para el equipo A",
-      "b": "Lanzamiento libre para el equipo B.",
+      "b": "Golpe franco para el equipo B.",
       "c": "Repetición del tiro del árbitro",
       "d": "No hay gol. Lanzamiento de portero para el equipo B."
     }
@@ -823,7 +823,7 @@
     "answers": {
       "a": "2p gol para el equipo A",
       "b": "1p gol para el equipo A.",
-      "c": "Tiro libre para el equipo B.",
+      "c": "Golpe franco para el equipo B.",
       "d": "Repetición del tiro del árbitro."
     }
   },
@@ -834,7 +834,7 @@
       "a": "Gol para el equipo B. Se otorga un punto",
       "b": "Gol para el equipo B. Se otorgan dos puntos",
       "c": "Repite el lanzamiento del portero.",
-      "d": "Tiro libre para el equipo B."
+      "d": "Golpe franco para el equipo B."
     }
   },
   {
@@ -842,8 +842,8 @@
     "question": "El portero A1 controla el balón en su propia área de gol. Luego lanza el balón al área de juego, corre tras él, lo recoge y marca un gol",
     "answers": {
       "a": "Gol. Se otorgan dos puntos al equipo A",
-      "b": "Tiro libre para el equipo B.",
-      "c": "Tiro libre para el equipo B. Suspensión de la A1",
+      "b": "Golpe franco para el equipo B.",
+      "c": "Golpe franco para el equipo B. Suspensión de la A1",
       "d": "Repita el tiro del portero para el equipo A."
     }
   },
@@ -854,14 +854,14 @@
       "a": "1 punto",
       "b": "2 puntos",
       "c": "Repetición del lanzamiento G/K.",
-      "d": "Lanzamiento libre para el equipo B."
+      "d": "Golpe franco para el equipo B."
     }
   },
   {
     "id": "12.4",
     "question": "G/K B1 atrapa el balón en su área de meta después de un disparo de A7. En este momento B5 escupe a A2 justo fuera de la línea del área de meta",
     "answers": {
-      "a": "Tiempo muerto. Descalificación para B5. Lanzamiento libre para el equipo A. Reporte",
+      "a": "Tiempo muerto. Descalificación para B5. Golpe franco para el equipo A. Reporte",
       "b": "Tiempo muerto. Descalificación para B5. Reporte. Reinicio con lanzamiento G/K para el equipo B.",
       "c": "Tiempo muerto. Descalificación para B5.  Lanzamiento de 6m para el equipo A.",
       "d": "Tiempo muerto. Descalificación para B5. Reporte. 6m-lanzamiento para el equipo A."
@@ -871,43 +871,43 @@
     "id": "12.5",
     "question": "A3 dispara a la portería y G/K B1 salva y controla el balón. Antes de la ejecución del lanzamiento de G/Keeper, B2 que está en el área de juego es culpable de un asalto contra A7",
     "answers": {
-      "a": "Tiempo muerto. Descalificación a B2. El equipo B reducirá el número de jugadores en uno. Reinicio con G/Keeper-lanzamiento para el equipo B. Reporte",
-      "b": "Tiempo muerto. Descalificación a B2. Reanudación con tiro libre para el equipo A.",
-      "c": "Tiempo muerto. Descalificación para B2. El equipo B reducirá el número de jugadores en uno. Reanudación con tiro libre para el equipo A. Reporte."
+      "a": "Tiempo muerto. Descalificación a B2. El equipo B reducirá el número de jugadores en uno. Reinicio con tiro de portero para el equipo B. Reporte",
+      "b": "Tiempo muerto. Descalificación a B2. Reanudación con Golpe franco para el equipo A.",
+      "c": "Tiempo muerto. Descalificación para B2. El equipo B reducirá el número de jugadores en uno. Reanudación con Golpe franco para el equipo A. Reporte."
     }
   },
   {
     "id": "12.6",
     "question": "B2 dispara a la portería y G/K A1 se detiene y el balón cruza la línea de meta exterior. En este momento el oficial A del equipo A está protestando contra los árbitros y es culpable de un asalto",
     "answers": {
-      "a": "Tiempo muerto. Descalificación para el oficial A. El equipo A reduce el número de jugadores en uno. Reanudación con tiro libre para el equipo B. Reporte",
-      "b": "Tiempo muerto. Descalificación para el oficial A. El equipo A reduce el número de jugadores en uno. Reinicio con lanzamiento de G/Keeper para el equipo A. Reporte",
+      "a": "Tiempo muerto. Descalificación para el oficial A. El equipo A reduce el número de jugadores en uno. Reanudación con Golpe franco para el equipo B. Reporte",
+      "b": "Tiempo muerto. Descalificación para el oficial A. El equipo A reduce el número de jugadores en uno. Reinicio con tiro de portero para el equipo A. Reporte",
       "c": "Tiempo muerto. Descalificación para el oficial A. El equipo A reduce el número de jugadores en uno. Reanudación con lanzamiento para el equipo B. Reporte."
     }
   },
   {
     "id": "12.7",
-    "question": "G/Keeper-lanzamiento para el equipo A. G/K A7 que está 50cm dentro de su línea del área de gol lanza el balón que cruza la línea del área de meta y B2 que está 30cm fuera de la línea del área de meta bloquea el balón y anota.",
+    "question": "Tiro de portero para el equipo A. G/K A7 que está 50cm dentro de su línea del área de gol lanza el balón que cruza la línea del área de meta y B2 que está 30cm fuera de la línea del área de meta bloquea el balón y anota.",
     "answers": {
-      "a": "No hay objetivo. Suspensión a B2. Repetición del lanzamiento de G/Keeper después del silbato",
-      "b": "No hay gol. Corrección de la posición de B2. Repetición del G/Keeper-lanzamiento después del silbato",
-      "c": "No hay gol. Suspensión a B2. Lanzamiento libre para el equipo A.",
+      "a": "No hay objetivo. Suspensión a B2. Repetición del tiro de portero después del silbato",
+      "b": "No hay gol. Corrección de la posición de B2. Repetición del tiro de portero después del silbato",
+      "c": "No hay gol. Suspensión a B2. Golpe franco para el equipo A.",
       "d": "Gol para el equipo B. Reanudación con G/lanzamiento de guardameta para el equipo A."
     }
   },
   {
     "id": "13.1",
-    "question": "Tiro libre para el equipo B. B2 que está de pie justo fuera de la línea del área de meta del equipo A recibe el balón de B4 que ejecuta el tiro libre.  Marca un gol",
+    "question": "Golpe franco para el equipo B. B2 que está de pie justo fuera de la línea del área de meta del equipo A recibe el balón de B4 que ejecuta el Golpe franco.  Marca un gol",
     "answers": {
       "a": "gol",
-      "b": "Tiro libre para el equipo A.",
+      "b": "Golpe franco para el equipo A.",
       "c": "Repita el tiro para el equipo B. Corrección de la posición de B2.",
-      "d": "Tiro libre para el equipo A. Suspensión de B2."
+      "d": "Golpe franco para el equipo A. Suspensión de B2."
     }
   },
   {
     "id": "13.2",
-    "question": "El oficial A del equipo A protesta y recibe una advertencia oral. La advertencia oral fue después de que el árbitro pidiera un tiro libre para A. ¿Llamada correcta?",
+    "question": "El oficial A del equipo A protesta y recibe una advertencia oral. La advertencia oral fue después de que el árbitro pidiera un Golpe franco para A. ¿Llamada correcta?",
     "answers": {
       "a": "El juego comienza con la situación anterior y el equipo A tiene sus jugadores en la cancha reducidos en uno.",
       "b": "El juego comienza con la situación anterior y el equipo A juega con toda su fuerza en la cancha.",
@@ -917,7 +917,7 @@
   },
   {
     "id": "13.3",
-    "question": "El equipo B está en posesión del balón y mientras B3 tiene el balón en el área de juego los árbitros pitan un tiro libre para el equipo A. Después del silbato B3 lanza el balón a A2 que está fuera de su área de meta. B3 ya tenía una suspensión",
+    "question": "El equipo B está en posesión del balón y mientras B3 tiene el balón en el área de juego los árbitros pitan un Golpe franco para el equipo A. Después del silbato B3 lanza el balón a A2 que está fuera de su área de meta. B3 ya tenía una suspensión",
     "answers": {
       "a": "Normal. No hay castigo para B3 porque el balón fue para el jugador del equipo A",
       "b": "Tiempo muerto. Suspensión a B3 que resulta en una descalificación",
@@ -930,26 +930,26 @@
     "question": "Después de un lanzamiento de 6m desde A4, G/K B1 salva y el balón regresa y se detiene en el medio del área de juego. En este momento los árbitros pitan el tiempo muerto porque B1 parece estar lesionado. ¿Cómo se reanudará el juego?",
     "answers": {
       "a": "Árbitro-tirar donde la pelota se detuvo",
-      "b": "Lanzamiento libre para el equipo A",
-      "c": "Lanzamiento libre para el equipo B",
+      "b": "Golpe franco para el equipo A",
+      "c": "Golpe franco para el equipo B",
       "d": "Lanzamiento G/K para el equipo B."
     }
   },
   {
     "id": "13.5",
-    "question": "A3 tiene el balón en su mano en la posición correcta y está listo para ejecutar un tiro libre. Antes de que el árbitro pite el tiro, deja el balón en la arena y lo recoge de nuevo después de 3 segundos.",
+    "question": "A3 tiene el balón en su mano en la posición correcta y está listo para ejecutar un Golpe franco. Antes de que el árbitro pite el tiro, deja el balón en la arena y lo recoge de nuevo después de 3 segundos.",
     "answers": {
-      "a": "Lanzamiento libre para el equipo B",
+      "a": "Golpe franco para el equipo B",
       "b": "Normal. Nada ilegal",
-      "c": "Suspensión a A3. Lanzamiento libre para el equipo B.",
-      "d": "Sólo advertencia verbal a A3. Reanudar con el tiro libre para el equipo A."
+      "c": "Suspensión a A3. Golpe franco para el equipo B.",
+      "d": "Sólo advertencia verbal a A3. Reanudar con el Golpe franco para el equipo A."
     }
   },
   {
     "id": "13.6",
     "question": "El equipo A está en ataque y A2 controla el balón en el lado izquierdo del área de juego. Salta y lanza el balón en el aire al otro lado dentro del área de la meta contraria. A5 corre, salta y anota en vuelo pero su pie sólo toca la línea del área de meta",
     "answers": {
-      "a": "No hay objetivo. Lanzamiento libre para el equipo B",
+      "a": "No hay objetivo. Golpe franco para el equipo B",
       "b": "No hay gol. Lanzamiento de G/Keeper para el equipo B.",
       "c": "2p gol para el equipo A. G/Lanzamiento de guardabosques para el equipo B.",
       "d": "Un gol de 1 punto para el equipo A. G/Lanzamiento de guardabosques para el equipo B."
@@ -959,10 +959,10 @@
     "id": "13.7",
     "question": "Cuando se realicen los siguientes lanzamientos, los oponentes deben permanecer al menos a un metro del lanzador",
     "answers": {
-      "a": "Lanzamiento libre",
-      "b": "Lanzamiento",
+      "a": "Golpe franco",
+      "b": "Saque de banda",
       "c": "6m-lanzamiento",
-      "d": "G/Keeper-lanzamiento."
+      "d": "Tiro de portero."
     }
   },
   {
@@ -970,7 +970,7 @@
     "question": "A4 está listo para ejecutar un lanzamiento de 6m. Después del silbato del árbitro el balón sale de sus manos y cuando está en el aire entre A4 y G/K B1, A3 que estaba de pie correctamente, salta y anota en vuelo",
     "answers": {
       "a": "2 puntos de gol para el equipo A",
-      "b": "Lanzamiento libre para el equipo B.",
+      "b": "Golpe franco para el equipo B.",
       "c": "Repetición del lanzamiento de 6m.",
       "d": "Lanzamiento de portero para el equipo B."
     }
@@ -979,7 +979,7 @@
     "id": "14.2",
     "question": "A7 está de pie justo fuera de la línea del área de meta listo para hacer un lanzamiento de 6m. El portero B1 toma su posición a 4.5m de la línea de gol.",
     "answers": {
-      "a": "Jugar en...",
+      "a": "Continuo juega",
       "b": "Corrección de la posición de B1",
       "c": "Ejecución del tiro justo después de un silbido de uno de los árbitros. En caso de que B1 salve, A7 repetirá el tiro."
     }
@@ -990,16 +990,16 @@
     "answers": {
       "a": "6m-lanzamiento para el equipo B. Tiempo muerto. Suspensión a A7",
       "b": "6m-lanzamiento para el equipo B. Tiempo muerto. Descalificación para A7. Reporte",
-      "c": "Lanzamiento libre para el equipo B. Tiempo muerto. Suspensión a A7.",
-      "d": "Lanzamiento libre para el equipo B. Tiempo muerto. Descalificación para A7. Reporte."
+      "c": "Golpe franco para el equipo B. Tiempo muerto. Suspensión a A7.",
+      "d": "Golpe franco para el equipo B. Tiempo muerto. Descalificación para A7. Reporte."
     }
   },
   {
     "id": "14.4",
     "question": "A2 está justo fuera de la línea del área de juego de los oponentes solo, listo para disparar a gol, y en este momento, una señal de silbato injustificada viene y A2 detiene la acción",
     "answers": {
-      "a": "Lanzamiento libre para el equipo B",
-      "b": "Lanzamiento libre para el equipo A",
+      "a": "Golpe franco para el equipo B",
+      "b": "Golpe franco para el equipo A",
       "c": "6m-lanzamiento para el equipo A.",
       "d": "G/K-lanzamiento para el equipo B."
     }
@@ -1010,7 +1010,7 @@
     "answers": {
       "a": "Gol para el equipo A. Cuando el problema se resuelva el juego se reinicia con un lanzamiento G/K para el equipo B.",
       "b": "No hay gol. Cuando se resuelva el problema, el juego se reanudará con un lanzamiento de 6 metros para el equipo A.",
-      "c": "No hay gol. Cuando se resuelva el problema, el juego se reanudará con un tiro libre para el equipo A",
+      "c": "No hay gol. Cuando se resuelva el problema, el juego se reanudará con un Golpe franco para el equipo A",
       "d": "No hay gol. Cuando se resuelva el problema, el juego se reanudará con un lanzamiento de árbitro a 1 m de la línea del área de meta del equipo B."
     }
   },
@@ -1019,9 +1019,9 @@
     "question": "B2 va solo en un rápido descanso y cuando está listo para disparar a gol un espectador corre hacia la cancha y lo empuja hacia abajo. B2 pierde el balón que va a G/K A1",
     "answers": {
       "a": "6 metros de lanzamiento para el equipo B",
-      "b": "Lanzamiento libre para el equipo B.",
+      "b": "Golpe franco para el equipo B.",
       "c": "Lanzamiento del árbitro al punto de la acción",
-      "d": "G/Keeper-lanzamiento para el equipo A."
+      "d": "Tiro de portero para el equipo A."
     }
   },
   {
@@ -1038,9 +1038,9 @@
     "id": "14.8",
     "question": "A2 ejecuta un lanzamiento de 6m. El balón golpea la portería y vuelve a él. Atrapa la pelota y anota con un tiro de vuelta",
     "answers": {
-      "a": "Lanzamiento libre para el equipo B",
-      "b": "2p gol para el equipo A. G/Lanzamiento para el equipo B.",
-      "c": "Lanzamiento libre para el equipo B. Suspensión a A2.",
+      "a": "Golpe franco para el equipo B",
+      "b": "2p gol para el equipo A. G/K lanzamiento para el equipo B.",
+      "c": "Golpe franco para el equipo B. Suspensión a A2.",
       "d": "No hay gol. G/Lanzamiento del guardameta para el equipo B."
     }
   },
@@ -1050,15 +1050,15 @@
     "answers": {
       "a": "Un gol de 1 punto para el equipo B",
       "b": "Repetición del lanzamiento de 6m.",
-      "c": "Lanzamiento libre para el equipo A.",
-      "d": "No hay gol. G/Keeper-lanzamiento para el equipo A."
+      "c": "Golpe franco para el equipo A.",
+      "d": "No hay gol. Tiro de portero para el equipo A."
     }
   },
   {
     "id": "14.10",
     "question": "B3 ejecuta un lanzamiento de 6m. Intenta lanzar el balón, el balón se le escapa de la mano y va en el aire entre él y G/K A1. B3 salta y golpea el balón en la portería",
     "answers": {
-      "a": "No hay objetivo. Lanzamiento libre para el equipo A",
+      "a": "No hay objetivo. Golpe franco para el equipo A",
       "b": "No hay gol. G/lanzamiento de guardián para el equipo A.",
       "c": "2p gol para el equipo B.",
       "d": "1p gol para el equipo B."
@@ -1070,7 +1070,7 @@
     "answers": {
       "a": "2p gol para el equipo B",
       "b": "Repetición del lanzamiento de 6m.",
-      "c": "No hay gol. Lanzamiento libre para el equipo A.",
+      "c": "No hay gol. Golpe franco para el equipo A.",
       "d": "No hay gol. Lanzamiento de G/Keeper para el equipo A."
     }
   },
@@ -1080,7 +1080,7 @@
     "answers": {
       "a": "Repita el lanzamiento",
       "b": "Gol. Se otorgan dos puntos",
-      "c": "Tiro libre para el equipo A.",
+      "c": "Golpe franco para el equipo A.",
       "d": "Gol. Se otorgan tres puntos. (Porque el portero marcó un gol “en vuelo”)."
     }
   },
@@ -1091,25 +1091,25 @@
       "a": "Gol. 2 puntos de gol para el equipo B.",
       "b": "Repetición del lanzamiento del portero porque el G/K debe tener una parte de un pie en constante contacto con el suelo.",
       "c": "Lanzamiento de portero para el equipo A.",
-      "d": "Pasos. Lanzamiento libre para el equipo A fuera de la línea del área de meta."
+      "d": "Pasos. Golpe franco para el equipo A fuera de la línea del área de meta."
     }
   },
   {
     "id": "15.3",
-    "question": "Lanzamiento libre para el equipo A. B4 está a 70 cm. de distancia del A5 que está listo para ejecutar el lanzamiento libre. El árbitro hace sonar su silbato para el lanzamiento y luego B4 interviene",
+    "question": "Golpe franco para el equipo A. B4 está a 70 cm. de distancia del A5 que está listo para ejecutar el Golpe franco. El árbitro hace sonar su silbato para el lanzamiento y luego B4 interviene",
     "answers": {
-      "a": "Suspensión a B4. Repita el tiro libre después del silbato",
-      "b": "Sigue jugando...",
+      "a": "Suspensión a B4. Repita el Golpe franco después del silbato",
+      "b": "Continuó jugar",
       "c": "Ventaja para el equipo A y suspensión de B4 en la primera interrupción."
     }
   },
   {
     "id": "15.4",
-    "question": "A4 está listo para ejecutar un tiro libre. Dispara a la portería; el balón golpea la portería y vuelve al área de juego. A4 atrapa el balón y anota en el vuelo",
+    "question": "A4 está listo para ejecutar un Golpe franco. Dispara a la portería; el balón golpea la portería y vuelve al área de juego. A4 atrapa el balón y anota en el vuelo",
     "answers": {
-      "a": "Lanzamiento libre para el equipo B",
+      "a": "Golpe franco para el equipo B",
       "b": "2p gol para el equipo A.",
-      "c": "Repetición de los tiros libres",
+      "c": "Repetición de los golpe franco",
       "d": "1p gol para el equipo A."
     }
   },
@@ -1118,7 +1118,7 @@
     "question": "B6 está listo para ejecutar un saque de banda. Quiere pasar el balón a B2 pero el balón se le escapa de la mano y cae en la arena a 3m de distancia. B6 toma el balón en 2 segundos; dispara a la portería y anota.",
     "answers": {
       "a": "Gol. Lanzamiento G/K para el equipo A",
-      "b": "Lanzamiento libre para el equipo A.",
+      "b": "Golpe franco para el equipo A.",
       "c": "Repetición del lanzamiento",
       "d": "No hay gol. Lanzamiento G/K para el equipo A."
     }
@@ -1129,7 +1129,7 @@
     "answers": {
       "a": "2p gol para el equipo A",
       "b": "No hay gol. Repetición del saque de banda",
-      "c": "Lanzamiento libre para el equipo B.",
+      "c": "Golpe franco para el equipo B.",
       "d": "No hay gol. Lanzamiento G/K para el equipo B."
     }
   },
@@ -1140,7 +1140,7 @@
       "a": "2p gol para el equipo A",
       "b": "1p gol para el equipo A.",
       "c": "Repetición del lanzamiento G/K.",
-      "d": "Lanzamiento libre para el equipo A."
+      "d": "Golpe franco para el equipo A."
     }
   },
   {
@@ -1150,24 +1150,24 @@
       "a": "Un gol de 1 punto para el equipo A",
       "b": "No hay gol. G/k-throw para el equipo B.",
       "c": "Repetición del tiro del árbitro",
-      "d": "No hay gol. Lanzamiento libre para el equipo A a un metro de la línea del área de meta del equipo B."
+      "d": "No hay gol. Golpe franco para el equipo A a un metro de la línea del área de meta del equipo B."
     }
   },
   {
     "id": "15.9",
-    "question": "Tiro libre para el equipo A. A2 dispara directamente a la portería, el balón golpea la portería y vuelve a él. A2 está ahora a 2m dentro del área de juego y anota con un tiro de efecto.",
+    "question": "Golpe franco para el equipo A. A2 dispara directamente a la portería, el balón golpea la portería y vuelve a él. A2 está ahora a 2m dentro del área de juego y anota con un lanziamento de 360 grados.",
     "answers": {
-      "a": "2p gol para el equipo A. G/Keeper-lanzamiento para el equipo B",
-      "b": "Lanzamiento libre para el equipo B desde el punto en que A2 toca el balón",
+      "a": "2p gol para el equipo A. Tiro de portero para el equipo B",
+      "b": "Golpe franco para el equipo B desde el punto en que A2 toca el balón",
       "c": "No hay gol. G/Lanzamiento de guardabosques para el equipo B.",
-      "d": "1p gol para el equipo A. G/Keeper-lanzamiento para el equipo B."
+      "d": "1p gol para el equipo A. Tiro de portero para el equipo B."
     }
   },
   {
     "id": "15.10",
-    "question": "Lanzamiento libre para el equipo B justo fuera de su área de meta. G/Keeper B1 intenta ejecutar el lanzamiento y el balón se le escapa de la mano y va hacia su meta",
+    "question": "Golpe franco para el equipo B justo fuera de su área de meta. G/Keeper B1 intenta ejecutar el lanzamiento y el balón se le escapa de la mano y va hacia su meta",
     "answers": {
-      "a": "No hay objetivo. Repetición del tiro libre después del silbato",
+      "a": "No hay objetivo. Repetición del Golpe franco después del silbato",
       "b": "Gol de dos puntos para el equipo A.",
       "c": "No hay gol. G/lanzamiento de guardián para el equipo B.",
       "d": "Gol de 1 punto para el equipo A."
@@ -1248,7 +1248,7 @@
     "id": "16.8",
     "question": "Los dos equipos y los árbitros están en la cancha listos para el lanzamiento del árbitro para iniciar el juego. Antes del lanzamiento B7 escupe A2 en la cara.",
     "answers": {
-      "a": "Suspensión a B7. Lanzamiento libre para el equipo A. El equipo B comenzará el juego con un jugador menos.",
+      "a": "Suspensión a B7. Golpe franco para el equipo A. El equipo B comenzará el juego con un jugador menos.",
       "b": "Descalificación a B7. Reporte. El equipo B puede sustituir a B7 en el informe del partido y comienza el juego con 4 jugadores en la cancha.  El juego comenzará con un lanzamiento de árbitro",
       "c": "Descalificación para B7. Reporte. El equipo B comenzará el juego con un jugador menos y no se le permite reemplazar a B7 en el reporte del partido. El juego comenzará con un tiro del árbitro."
     }
@@ -1287,8 +1287,8 @@
     "id": "16.12",
     "question": "Durante un rápido descanso G/K A1 corre fuera de su área de meta para detener a B5 que tiene el balón e intenta disparar a la meta. G/K A1 golpea el brazo del lanzador y pierde el balón",
     "answers": {
-      "a": "Lanzamiento libre para el equipo B. Suspensión a A1",
-      "b": "Lanzamiento libre para el equipo B. Descalificación a A1",
+      "a": "Golpe franco para el equipo B. Suspensión a A1",
+      "b": "Golpe franco para el equipo B. Descalificación a A1",
       "c": "6m-lanzamiento para el equipo B. Suspensión a A1.",
       "d": "6m-lanzamiento para el equipo B. Descalificación a A1."
     }
@@ -1297,9 +1297,9 @@
     "id": "16.13",
     "question": "A4 está saltando para anotar el vuelo justo fuera de la línea del área de meta y el G/K B12 intenta salvar el balón saltando hacia el oponente (no verticalmente) sólo para asustarlo",
     "answers": {
-      "a": "Lanzamiento libre para el equipo A. Suspensión a B12",
+      "a": "Golpe franco para el equipo A. Suspensión a B12",
       "b": "6m-lanzamiento para el equipo A. Descalificación para B12.",
-      "c": "Lanzamiento libre para el equipo A. Descalificación para B12.",
+      "c": "Golpe franco para el equipo A. Descalificación para B12.",
       "d": "6m-lanzamiento para el equipo A. Suspensión a B12."
     }
   },
@@ -1308,9 +1308,9 @@
     "question": "B3 está justo fuera del área de la meta del oponente y salta para disparar a la meta. G/K A1 salta para salvar el balón y provoca un contacto físico en el aire con B3 a 2m dentro de su área de meta. B3 no marca.",
     "answers": {
       "a": "6m-lanzamiento para el equipo B. Suspensión a A1",
-      "b": "Lanzamiento libre para el equipo B. Suspensión a A1",
+      "b": "Golpe franco para el equipo B. Suspensión a A1",
       "c": "6m-lanzamiento para el equipo B. Descalificación a A1.",
-      "d": "Lanzamiento libre para el equipo B. Descalificación a A1."
+      "d": "Golpe franco para el equipo B. Descalificación a A1."
     }
   },
   {
@@ -1357,7 +1357,7 @@
     "id": "16.19",
     "question": "¿Cuál de los siguientes castigos debe ser explicado por los árbitros en el informe del partido?",
     "answers": {
-      "a": "Suspensión de un funcionario",
+      "a": "Suspensión de un oficial",
       "b": "Descalificación de un jugador",
       "c": "Descalificación de un oficial",
       "d": "Descalificación de un jugador por segunda suspensión."
@@ -1367,18 +1367,18 @@
     "id": "16.20",
     "question": "A2 marca un gol en el primer minuto del juego, y cuando el balón está en la portería, G/K B1 ataca a A2 que está en la arena y le da varias patadas a la cabeza y al cuerpo",
     "answers": {
-      "a": "Tiempo muerto. Descalificación para B1. El equipo B reduce el número de jugadores en uno. Reporte. Reinicio con G/Keeper-lanzamiento para el equipo B.",
-      "b": "Tiempo muerto. Descalificación para B1. El equipo B reduce el número de jugadores en uno. Reanudación con tiro libre para el equipo A. Reporte",
-      "c": "Tiempo muerto. Descalificación para B1. El equipo B reduce el número de jugadores en uno. Reanudación con lanzamiento de G/Keeper para el equipo B."
+      "a": "Tiempo muerto. Descalificación para B1. El equipo B reduce el número de jugadores en uno. Reporte. Reinicio con tiro de portero para el equipo B.",
+      "b": "Tiempo muerto. Descalificación para B1. El equipo B reduce el número de jugadores en uno. Reanudación con Golpe franco para el equipo A. Reporte",
+      "c": "Tiempo muerto. Descalificación para B1. El equipo B reduce el número de jugadores en uno. Reanudación con tiro de portero para el equipo B."
     }
   },
   {
     "id": "17.1",
-    "question": "Ambos árbitros silban por la misma infracción de A7. El árbitro del tribunal pidió un tiro libre para el equipo B y la suspensión de A7 y su compañero para un tiro de 6 metros para el equipo B",
+    "question": "Ambos árbitros silban por la misma infracción de A7. El árbitro del tribunal pidió un Golpe franco para el equipo B y la suspensión de A7 y su compañero para un tiro de 6 metros para el equipo B",
     "answers": {
       "a": "6m de lanzamiento",
       "b": "6m-lanzamiento para el equipo B y suspensión del A7.",
-      "c": "Lanzamiento libre para el equipo B y suspensión de A7",
+      "c": "Golpe franco para el equipo B y suspensión de A7",
       "d": "Decisión conjunta. El tiempo muerto es obligatorio."
     }
   },
@@ -1399,7 +1399,7 @@
       "a": "El primer árbitro nombrado en presencia del responsable de cada equipo",
       "b": "El primer árbitro nombrado en presencia del oficial responsable de cada equipo o de un oficial o jugador en nombre del oficial responsable del equipo",
       "c": "Uno de los árbitros en presencia del oficial responsable de cada equipo o un oficial o jugador del equipo en nombre del oficial responsable y el delegado",
-      "d": "Uno de los árbitros en presencia del otro árbitro y el funcionario responsable del equipo de cada equipo o un funcionario del equipo o jugador en nombre del funcionario responsable del equipo."
+      "d": "Uno de los árbitros en presencia del otro árbitro y el oficial responsable del equipo de cada equipo o un oficial del equipo o jugador en nombre del oficial responsable del equipo."
     }
   },
   {
@@ -1424,7 +1424,7 @@
   },
   {
     "id": "17.6",
-    "question": "A4 anota con un tiro de efecto y el árbitro de línea concede 2p de gol y el árbitro de la cancha 1p de gol",
+    "question": "A4 anota con un lanziamento de 360 grados y el árbitro de línea concede 2p de gol y el árbitro de la cancha 1p de gol",
     "answers": {
       "a": "Tiempo muerto. 1p gol sin ninguna consulta porque es la decisión del árbitro de la corte",
       "b": "Tiempo muerto. 2p gol sin ninguna consulta porque es la decisión del árbitro de la línea de meta",
@@ -1435,10 +1435,10 @@
   },
   {
     "id": "17.7",
-    "Pregunta": "Después de una colisión entre A4 y B3 en el área de juego el árbitro de la cancha silba tiro libre para el equipo B y el árbitro de línea silba tiro libre para el equipo A",
+    "Pregunta": "Después de una colisión entre A4 y B3 en el área de juego el árbitro de la cancha silba Golpe franco para el equipo B y el árbitro de línea silba Golpe franco para el equipo A",
     "respuestas": {
-      "a": "Tiempo muerto. Lanzamiento libre para el equipo B sin ninguna consulta porque es la decisión del árbitro del tribunal",
-      "b": "Tiempo muerto. Lanzamiento libre para el equipo A sin ninguna consulta porque es la decisión del árbitro de la línea de meta",
+      "a": "Tiempo muerto. Golpe franco para el equipo B sin ninguna consulta porque es la decisión del árbitro del tribunal",
+      "b": "Tiempo muerto. Golpe franco para el equipo A sin ninguna consulta porque es la decisión del árbitro de la línea de meta",
       "c": "Tiempo muerto. Consulta entre ellos para llegar a una decisión conjunta",
       "d": "Tiempo muerto. Consulta entre ellos para llegar a una decisión conjunta. Si no consiguen llegar a una decisión conjunta, entonces prevalecerá la opinión del árbitro del tribunal",
       "e": "Tiempo muerto. Consulta entre ellos para llegar a una decisión conjunta. Si no logran llegar a una decisión conjunta, entonces prevalecerá la opinión del árbitro de la línea de meta."
@@ -1448,7 +1448,7 @@
     "id": "17.8",
     "Pregunta": "La pelota cruza la línea lateral. El árbitro de la cancha hace un saque de banda para el equipo B y el árbitro de la línea hace un saque de banda para el equipo A",
     "respuestas": {
-      "a": "Tiempo muerto. Lanzamiento para el equipo B sin ninguna consulta porque es la decisión del árbitro del tribunal",
+      "a": "Tiempo muerto. Saque de banda para el equipo B sin ninguna consulta porque es la decisión del árbitro del tribunal",
       "b": "Tiempo muerto. Saque de banda para el equipo A sin ninguna consulta porque es la decisión del árbitro de la línea de meta",
       "c": "Tiempo muerto. Consulta entre ellos para llegar a una decisión conjunta",
       "d": "Tiempo muerto. Consulta entre ellos para llegar a una decisión conjunta. Si no consiguen llegar a una decisión conjunta, entonces prevalecerá la opinión del árbitro del tribunal",

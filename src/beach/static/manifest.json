@@ -1,7 +1,8 @@
 {
   "name": "Beach Handball Referee",
   "short_name": "Beach Handball",
-  "start_url": "/referee-quiz",
+  "start_url": "/",
+  "scope": "/referee-quiz",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#a25500",
