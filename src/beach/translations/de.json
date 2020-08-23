@@ -1,0 +1,67 @@
+{
+  "translation": {
+    "app": {
+      "title": "Beach Handball Schiedsrichter",
+      "language": "Sprache",
+      "toggle-menu": "Menü offnen oder schließen",
+      "quicknav": "Schnellnavigation"
+    },
+    "correct": "richtig",
+    "Reset": "Zurücksetzen",
+    "menu": {
+      "test": "Regelfragentest",
+      "rules": "Spielregeln",
+      "stats": "Statistik",
+      "about": "Informationen"
+    },
+    "rules": {
+      "foreword": "Vorwort",
+      "rules": "Spielregeln",
+      "rule": {
+        "rule1": "Die Spielfläche",
+        "rule2": "Spielbeginn, Spielzeit, Schlusssignal, Time-out und Team-Time-out",
+        "rule3": "Der Ball",
+        "rule4": "Mannschaft, Auswechslung, Ausrüstung",
+        "rule5": "Der Torwart",
+        "rule6": "Der Torraum",
+        "rule7": "Spielen des Balles, passives Spiel",
+        "rule8": "Regelwidrigkeiten und Vergehen",
+        "rule9": "Der Punktgewinn, die Spielentscheidung",
+        "rule10": "Der Schiedsrichterwurf",
+        "rule11": "Der Einwurf",
+        "rule12": "Der Abwurf",
+        "rule13": "Der Freiwurf",
+        "rule14": "Der 6-Meter-Wurf",
+        "rule15": "Allgemeine Anweisungen zur Ausführung der Würfe",
+        "rule16": "Die Strafen",
+        "rule17": "Die Schiedsrichter",
+        "rule18": "Zeitnehmer und Sekretär"
+      },
+      "hand-signals": "Handzeichen",
+      "clarifications": "Erläuterungen zu den Spielregeln",
+      "sar": "Auswechselraum-Reglement",
+      "athlete-uniform-regulations": "Bestimmungen zur Spielkleidung",
+      "sand-quality-and-lighting-regulations": "Bestimmungen zur Beschaffenheit des Sandes und Beleuchtung",
+      "glossary": "Glossar",
+      "equipment-accessories": "Ausrüstungsreglement",
+      "edition": "Ausgabe: 8. Juli 2014",
+      "source": "Quelle: https://www.ihf.info/sites/default/files/2019-05/0_09%20-%20Spielregeln%20Beach%20Handball_ALL.pdf"
+    },
+    "rulestest": {
+      "question": "Frage",
+      "check": "Überprüfen",
+      "next": "Nächste Frage",
+      "overall": "Insgesamt",
+      "relevant-rules": "Relevante Regeln"
+    },
+    "stats": {
+      "overall": "Gesamt",
+      "asked": "beantwortet",
+      "correct": "richtig"
+    },
+    "privacy": {
+      "accept": "Akzeptieren",
+      "decline": "Ablehnen"
+    }
+  }
+}

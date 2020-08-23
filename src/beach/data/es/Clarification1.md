@@ -1,4 +1,4 @@
-## 1. Concesión de puntos (Rule [9](#9))
+## 1. Concesión de puntos (Rule [9](#9:1))
 
 **También en los siguientes goles se concederán dos puntos:**
 Un gol marcado en “flight” (regla [9:2](#9:2)).

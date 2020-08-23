@@ -1,0 +1,1489 @@
+[
+  {
+    "id": "1.1",
+    "question": "A2 versucht einen Kempa-Wurf zu erzielen und landet nach dem Schuss im gegnerischen Torraum. Er läuft und verlässt die Spielfläche jenseits der Seitenlinie des Torraums. Wenn er im Aus ist, betritt A4 die Spielfläche, um ihn zu ersetzen",
+    "answers": {
+      "a": "Normal. Nichts Regelwidriges",
+      "b": "Time-out. Hinausstellung für A2. Freiwurf für Mannschaft B von der Stelle aus, an der A4 den Platz betritt.",
+      "c": "Time-out. Hinausstellung für A2. Freiwurf für Mannschaft B 1m ausserhalb ihres Torraums.",
+      "d": "Time-out. Hinausstellung für A4. Freiwurf für Mannschaft B von der Stelle aus, an der A4 den Platz betritt."
+    }
+  },
+  {
+    "id": "1.2",
+    "question": "Torwart B1 spielt als Feldspieler und versucht, auf das Tor zu schießen. Er landet im gegnerischen Torraum und verlässt die Spielfläche über die Seitenlinie innerhalb des Torraums. Sobald er draußen ist, betritt Torwart B3 die Spielfläche und hält den Direktschuss auf das Tor durch Torwart A1 auf",
+    "answers": {
+      "a": "Time-out. Hinausstellung für B1. 6-Meter-Wurf für Mannschaft A.",
+      "b": "Time-out. Hinausstellung für B3. 6-Meter-Wurf für Mannschaft A.",
+      "c": "Time-out. Hinausstellung für B1. Freiwurf für Mannschaft A.",
+      "d": "Weiterspielen. Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "1.3",
+    "question": "Torwart A1 spielt als Feldspieler und versucht, auf das Tor zu schießen. Er landet im gegnerischen Torraum und verlässt die Spielfläche über die Seitenlinie innerhalb des Torraums. Sobald er aus draußen ist, betritt der Torwart A3, der sich nicht in seinem Mannschaftsauswechselraum befand, sondern ausserhalb der Torraumseitenlinie sitzt, die Spielfläche und hält den Direktschuss auf das Tor durch den Torwart B1 auf",
+    "answers": {
+      "a": "Time-out. Hinausstellung für A1. 6-Meter-Wurf für Mannschaft B.",
+      "b": "Time-out. Hinausstellung für A3. 6-Meter-Wurf für Mannschaft B.",
+      "c": "Time-out. Hinausstellung für A1. Freiwurf für Mannschaft B.",
+      "d": "Weiterspielen. Abwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "1.4",
+    "question": "Was sind die richtigen Abmessungen des Spielfeldes?",
+    "answers": {
+      "a": "20m lang X 15m breit.",
+      "b": "15m lang X 12m breit.",
+      "c": "27m lang X 15m breit.",
+      "d": "27m lang X 12m breit."
+    }
+  },
+  {
+    "id": "1.5",
+    "question": "Was sind die richtigen Abmessungen des Spielfeldes?",
+    "answers": {
+      "a": "30m lang X 20m breit.",
+      "b": "27m lang X 15m breit.",
+      "c": "27m lang X 12m breit.",
+      "d": "27m lang X 17m breit."
+    }
+  },
+  {
+    "id": "1.6",
+    "question": "Was sind die richtigen Dimensionen der Tore?",
+    "answers": {
+      "a": "3 m Innenbreite x 2 m Innenhöhe",
+      "b": "3m Breite zur Außenseite der Torpfosten X 2m Innenhöhe.",
+      "c": "2m Innenbreite x 3m Innenhöhe.",
+      "d": "3,16m Breite zu den Außenseiten der Torpfosten X 2,08m Höhe zur Oberseite der Querlatte."
+    }
+  },
+  {
+    "id": "2.1",
+    "question": "Der Zeitnehmer gab das Schlusssignal für die Halbzeit zu früh. Die Schiedsrichter halten die Spieler auf dem Platz, um die verbleibende Zeit zu spielen. Mannschaft B war im Ballbesitz",
+    "answers": {
+      "a": "Mannschaft B bleibt im Ballbesitz, wenn das Spiel wieder aufgenommen wird.",
+      "b": "Das Spiel wird mit einem Schiedsrichterwurf fortgesetzt.",
+      "c": "Ein Münzwurf entscheidet.",
+      "d": "Mannschaft B beginnt das Spiel mit einem Abwurf des Torwarts."
+    }
+  },
+  {
+    "id": "2.2",
+    "question": "Mannschaft B hat 1 Sekunde vor der Halbzeit einen Freiwurf. Torwart B3 führt nach dem Pfiff einen Direktwurf auf das Tor aus, und wenn der Ball 2 m von der Torlinie entfernt ist, ertönt das Schlusssignal. Der Ball geht in das Tor",
+    "answers": {
+      "a": "Zwei-Punkte-Tor für Mannschaft B.",
+      "b": "Das Spiel ist mit dem Schlusssignal beendet. Kein Tor.",
+      "c": "Der Wurf muss wiederholt werden.",
+      "d": "6-Meter-Wurf für Mannschaft B, da es eine klare Torchance war."
+    }
+  },
+  {
+    "id": "2.3",
+    "question": "In den folgenden Situationen ist ein Time-out zwingend:",
+    "answers": {
+      "a": "Disqualifikation.",
+      "b": "Hinausstellung eines Spielers.",
+      "c": "Hinausstellung eines Mannschaftsoffiziellen.",
+      "d": "6-Meter-Wurf."
+    }
+  },
+  {
+    "id": "2.4",
+    "question": "Mannschafts Time-out für Mannschaft B. A5, der außerhalb des Spielfeldes steht, macht sich eines Angriffs schuldig.",
+    "answers": {
+      "a": "Mündliche Warnung für Α5.",
+      "b": "Hinausstellung für Α5. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf",
+      "c": "Disqualifikation für Α5. Mannschaft A nimmt das Spiel mit 4 Spielern wieder auf. Bericht",
+      "d": "Disqualifikation für Α5. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Bericht."
+    }
+  },
+  {
+    "id": "2.5",
+    "question": "Freiwurf für Mannschaft A am Ende der ersten Halbzeit. Es steht 18:6 für Mannschaft B. A5, der 40 cm von der korrekten Freiwurfposition entfernt steht, reicht den Schiedsrichtern den Ball, um zu zeigen, dass sie nicht an einem Torversuch interessiert sind",
+    "answers": {
+      "a": "Die Schiedsrichter müssen die Position korrigieren und den Freiwurf anpfeifen.",
+      "b": "Die Schiedsrichter werten den Freiwurf als ausgeführt.",
+      "c": "Hinausstellung von A5 wegen unsportlichen Betragens.",
+      "d": "Hinausstellung von A5 wegen unsportlichen Betragens. Der Freiwurf wird nach Anpfiff wiederholt."
+    }
+  },
+  {
+    "id": "2.6",
+    "question": "A7 sitzt eine Hinausstellung ab, während Mannschaft B in Ballbesitz ist. Der Ball geht aus und der Schiedsrichter pfeift einen Einwurf für Mannschaft A. Bevor das Spiel wieder aufgenommen wird, betritt A7 den Platz.",
+    "answers": {
+      "a": "Time-out. Neue Hinausstellung für A7, die eine Disqualifikation für A7 zur Folge hat. Einwurf für Mannschaft A.",
+      "b": "Time-out. Neue Hinausstellung für A7, die eine Disqualifikation für A7 zur Folge hat. Freiwurf für Mannschaft B.",
+      "c": "Normal. Nichts Regelwidriges.",
+      "d": "Time-out. Disqualifikation für A7. Einwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "2.7",
+    "question": "Während des Mannschafts-Time-outs für Mannschaft B protestiert A2 gegen die Schiedsrichter außerhalb des Spielfelds und macht sich schwerem unsportlichen Verhaltens schuldig. Bei der Spielunterbrechung war es Einwurf für Mannschaft B.",
+    "answers": {
+      "a": "Hinausstellung für A2. Das Spiel wird mit Einwurf für Mannschaft B wieder aufgenommen. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "b": "Disqualifikation für A2. Bericht. Das Spiel wird mit Einwurf für Mannschaft B fortgesetzt. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "c": "Nur Bericht. Die Aktion fand während des Time-outs der Mannschaft und außerhalb des Spielfelds statt.",
+      "d": "Disqualifikation für A2. Bericht. Mannschaft A nimmt das Spiel mit 4 Spielern wieder auf. Das Spiel wird mit Einwurf für Mannschaft B fortgesetzt."
+    }
+  },
+  {
+    "id": "2.8",
+    "question": "Mannschafts Time-out für Mannschaft B. A3 und A5 betreten als 5. und 6. Spieler das Spielfeld, um ihren Mannschaftskollegen etwas Wasser zu geben",
+    "answers": {
+      "a": "Normal. Nichts Regelwidriges.",
+      "b": "Hinausstellung für A3. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Freiwurf für Mannschaft B.",
+      "c": "Hinausstellung für A3 und A5. Mannschaft A nimmt das Spiel mit zwei Spielern weniger wieder auf. Freiwurf für Mannschaft B.",
+      "d": "Hinausstellung für den “verantwortlichen Mannschaftsoffiziellen” der Mannschaft A. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Freiwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "2.9",
+    "question": "Während Mannschaft B in Ballbesitz ist, bittet Mannschaftsoffizieller A von Mannschaft B um ein Mannschafts Time-out und der Zeitnehmer pfeift. Bevor der Schiedsrichter das Time-out anpfeift, schiesst B3 auf das Tor und erzielt einen Treffer. In diesem Moment pfeift der Schiedsrichter das Time-out der Mannschaft an",
+    "answers": {
+      "a": "Tor für Mannschaft B. Mannschafts Time-out für Mannschaft B. Neustart mit Abwurf für Mannschaft A.",
+      "b": "Kein Tor. Time-out für Mannschaft B. Neustart mit Freiwurf für Mannschaft B.",
+      "c": "Tor für Mannschaft B. Kein Time-out für Mannschaft B. Neustart mit Abwurf für Mannschaft A.",
+      "d": "Kein Tor. Kein Time-out für Mannschaft B. 6-Meter-Wurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "2.10",
+    "question": "Während Mannschaft A im Ballbesitz war und sich der Ball im Spiel befand, pfiff der Zeitnehmer ein Vergehen an. Bevor der Schiedsrichter die Situation erkannte, pfiff er einen 6-Meter-Wurf für Mannschaft A und die Disqualifikation für B2 an. Nach 2-3 Sekunden erkannten sie die Situation",
+    "answers": {
+      "a": "Time-out. Die Schiedsrichter gehen zum Zeitnehmer und ergreifen Maßnahmen wegen des Vergehens. Der 6-Meter-Wurf und die Disqualifikation auf B2 sind ungültig.",
+      "b": "Time-out. Die Schiedsrichter gehen zum Zeitnehmer und ergreifen Maßnahmen wegen des Vergehens. Der 6-Meter-Wurf ist ungültig und die Disqualifikation für B2 ist gültig.",
+      "c": "Time-out. Die Schiedsrichter gehen zum Zeitnehmer und ergreifen Maßnahmen wegen des Vergehens. Der 6-Meter-Wurf und die Disqualifikation nach B2 sind gültig.",
+      "d": "Time-out. Die Schiedsrichter gehen zum Zeitnehmer und ergreifen Maßnahmen wegen des Vergehens. Der 6-Meter-Wurf ist gültig und die Disqualifikation für B2 ungültig."
+    }
+  },
+  {
+    "id": "2.11",
+    "question": "Die Spielzeit zu Beginn des Spiels oder der zweiten Halbzeit beginnt, wenn:",
+    "answers": {
+      "a": "Der Ball die Hand des Schiedsrichters verlässt.",
+      "b": "Der Ball seinen höchsten Punkt erreicht hat.",
+      "c": "Der Schiedsrichter pfeift.",
+      "d": "Ein Spieler den Ball berührt."
+    }
+  },
+  {
+    "id": "2.12",
+    "question": "Kurz vor dem Schlusssignal für das Spielende pfeift der Schiedsrichter einen Freiwurf für Mannschaft A. Nach dem Schlusssignal, während der Vorbereitung auf die Ausführung des Wurfes, protestiert Mannschaftsoffizieller B von Mannschaft A und macht sich eines Angriffs gegen den Zeitnehmer schuldig.",
+    "answers": {
+      "a": "Disqualifikation für Mannschaftsoffiziellen B. Bericht. Ausführung des Freiwurfs für Mannschaft A.",
+      "b": "Disqualifikation für Mannschaftsoffiziellen B. Bericht. Ende des Spiels.",
+      "c": "Keine Strafen, nur Meldung für Mannschaftsoffiziellen B. Freiwurf für Mannschaft B.",
+      "d": "Hinausstellung für Mannschaftsoffiziellen B. Ausführung des Freiwurfs für Mannschaft A."
+    }
+  },
+  {
+    "id": "2.13",
+    "question": "Wann muss der Zeitnehmer die offizielle Uhr sofort anhalten, ohne eine Bestätigung der Schiedsrichter abzuwarten?",
+    "answers": {
+      "a": "Mannschafts Time-out.",
+      "b": "Disqualifikation eines Mannschaftsoffiziellen.",
+      "c": "Pfeifsignal des Zeitnehmers oder des Delegierten.",
+      "d": "Beratungen zwischen den Schiedsrichtern."
+    }
+  },
+  {
+    "id": "3.1",
+    "question": "Wie viele Regulierungsbälle müssen vor jedem Spiel verfügbar sein?",
+    "answers": {
+      "a": "Mindestens 3.",
+      "b": "4.",
+      "c": "Mindestens 4.",
+      "d": "3."
+    }
+  },
+  {
+    "id": "4.1",
+    "question": "Mannschaftsoffizieller A der Mannschaft A gibt die Spielerliste mit 6 Namen bekannt, aber nur 5 von ihnen sind zum Zeitpunkt des Spielbeginns auf dem Spielfeld anwesend (1 Torwart und 4 Feldspieler). Mannschaftsoffizieller A informiert den Tisch, dass sich der Spieler verspätet, und er wird sofort nach seinem Eintreffen identifiziert. Wie sollten die Schiedsrichter entscheiden?",
+    "answers": {
+      "a": "Das Spiel beginnt und die Mannschaft A wird während des Spiels vervollständigt.",
+      "b": "Das Spiel beginnt nicht, und Mannschaft B ist der Sieger.",
+      "c": "Das Spiel beginnt nur, wenn die andere Mannschaft zustimmt."
+    }
+  },
+  {
+    "id": "4.2",
+    "question": "Wie viele Spieler der gleichen Mannschaft können gleichzeitig als Torhüter gekennzeichnet werden?",
+    "answers": {
+      "a": "1.",
+      "b": "2.",
+      "c": "3.",
+      "d": "Keine Begrenzung."
+    }
+  },
+  {
+    "id": "4.3",
+    "question": "A7 sitzt eine Hinausstellung ab. Mannschaft B ist im Ballbesitz und vor einem Wechsel kommt A7 auf den Platz. Der Schiedsrichter pfeift und unterbricht das Spiel.",
+    "answers": {
+      "a": "Time-out. Zweite Hinausstellung für A7. Freiwurf für Mannschaft B.",
+      "b": "Disqualifikation für A7. Freiwurf für Mannschaft B. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "c": "Time-out. Zusätzliche Hinausstellung, die eine Disqualifikation für A7 zur Folge hat. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Freiwurf für Mannschaft B.",
+      "d": "Keine Strafen mehr wegen “Fairplay”."
+    }
+  },
+  {
+    "id": "4.4",
+    "question": "Schweres unsportliches Verhalten des Mannschaftsoffiziellen A der Mannschaft A. Der Schiedsrichter pfeift und unterbricht das Spiel.",
+    "answers": {
+      "a": "Time-out. Hinausstellung für Mannschaftsoffiziellen A. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Freiwurf für Mannschaft B.",
+      "b": "Time-out. Hinausstellung für Mannschaftsoffiziellen A. Freiwurf für Mannschaft B.",
+      "c": "Disqualifikation für Mannschaftsoffiziellen A. Der Offizielle muss die Spielfläche verlassen. Keine weitere Meldung.",
+      "d": "Time-out. Disqualifikation für Mannschaftsoffiziellen A. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Der Mannschaftsoffizielle muss den Platz verlassen. Freiwurf für Mannschaft B. Bericht bei der Turnierleitung."
+    }
+  },
+  {
+    "id": "4.5",
+    "question": "A5, B2 und B4 sind drei Spieler, die -Socken tragend- am Spiel teilnehmen wollen",
+    "answers": {
+      "a": "Das Tragen von Socken und Bandagen ist erlaubt.",
+      "b": "Von jeder Mannschaft darf nur ein Spieler spielen.",
+      "c": "Nein. Das ist nicht erlaubt.",
+      "d": "Dies ist nur möglich, wenn beide Schiedsrichter zustimmen."
+    }
+  },
+  {
+    "id": "4.6",
+    "question": "Shootout-Situation. Mannschaft A hat nur 4 spielberechtigte Spieler. Mannschaft A hat die 4 Würfe ausgeführt und 8 Punkte erzielt. Mannschaft B führte die 4 Würfe aus und erzielte 5 Punkte, aber sie haben noch einen Wurf. Zu diesem Zeitpunkt wird A1 wegen ernsthaft unsportlichen Verhaltens disqualifiziert. Die Organisatoren hatten angekündigt, dass alle Würfe ausgeführt werden müssen, auch wenn das Ergebnis des Spiels bereits feststeht",
+    "answers": {
+      "a": "Das Spiel ist vorbei. Mannschaft A hat jetzt nur noch 3 spielberechtigte Spieler",
+      "b": "Mannschaft B ist der Sieger mit 2:0.",
+      "c": "Mannschaft A ist der Sieger mit 2:1, da Mannschaft B keine Chance hat zu gewinnen.",
+      "d": "Mannschaft B führt den 5. Wurf für das Endergebnis aus."
+    }
+  },
+  {
+    "id": "4.7",
+    "question": "A5 erzielt ein Tor nach Vorteil und B5 erhält eine Hinausstellung. Torwart B1 führt den Abwurf aus und gibt den Ball 3m außerhalb seiner Torraumlinie an B2 ab. In diesem Moment betritt B3 als vierter Spieler die Spielfläche in der Nähe des gegnerischen Torraums, und der Tisch pfeift wegen unerlaubten Betretens der Spielfläche",
+    "answers": {
+      "a": "Time-out. Hinausstellung für B3. Freiwurf für Mannschaft A von der Stelle, an der B3 den Platz betreten hat. Mannschaft B nimmt das Spiel mit zwei Spielern weniger wieder auf.",
+      "b": "Time-out. Hinausstellung für B3. Freiwurf für Mannschaft A von dort, wo sich der Ball bei der Unterbrechung befand. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "c": "Time-out. Hinausstellung für B3. Freiwurf für Mannschaft A neben dem Tisch. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf",
+      "d": "Time-out. Hinausstellung für B3. Freiwurf für Mannschaft A von dort, wo sich der Ball bei der Unterbrechung befand. Mannschaft B nimmt das Spiel mit zwei Spielern weniger wieder auf."
+    }
+  },
+  {
+    "id": "4.8",
+    "question": "Der Schiedsrichter unterbricht das Spiel, während Mannschaft A in Ballbesitz ist, und pfeift ein Time-out, weil B3 verletzt wurde. A4 betritt den Platz als fünfter Spieler, um A5 Wasser zu geben",
+    "answers": {
+      "a": "Normal. Nichts Regelwidriges.",
+      "b": "Hinausstellung für A4. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Das Spiel wird mit Freiwurf für Mannschaft B fortgesetzt.",
+      "c": "Mündliche Verwarnung.",
+      "d": "Hinausstellung auf A4. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Das Spiel wird mit Freiwurf für Mannschaft A fortgesetzt."
+    }
+  },
+  {
+    "id": "4.9",
+    "question": "6-Meter-Wurf für Mannschaft A und Hinausstellung für B3. A2 führt den Wurf aus, Torwart B1 rettet und der Ball geht über die Seitenlinie. In diesem Moment betreten B5 als Erster und B3 als Zweiter gleichzeitig das Feld",
+    "answers": {
+      "a": "Hinausstellung für B5. Einwurf für Mannschaft A. Mannschaft B nimmt das Spiel mit zwei Spielern weniger wieder auf",
+      "b": "Hinausstellung für B5 und zweite Hinausstellung für B3. Disqualifikation für B3. Einwurf für Mannschaft A. Mannschaft B nimmt das Spiel mit zwei Spielern weniger wieder auf",
+      "c": "Hinausstellung für B5. Freiwurf für Mannschaft A. Mannschaft B nimmt das Spiel mit zwei Spielern weniger wieder auf.",
+      "d": "Hinausstellung für B5 und zweite Hinausstellung für B3. Disqualifikation für B3. Freiwurf für Mannschaft A. Mannschaft B nimmt das Spiel mit zwei Spielern weniger wieder auf."
+    }
+  },
+  {
+    "id": "4.10",
+    "question": "Die Schiedsrichter unterbrachen das Spiel, weil Spieler A4 blutet. A4 verlässt den Platz, um die Blutung zu stoppen. Nach einer Weile war er bereit, das Feld zu betreten, aber bevor er das Feld betrat, sagte ihm der Schiedsrichter, der neben ihm stand, dass er die Wunde abdecken müsse. Nach einigen Sekunden betritt A4 den Platz mit korrekter Auswechslung, aber die Schiedsrichter sehen, dass er weiter blutet und die Wunde unbedeckt ist",
+    "answers": {
+      "a": "Time-out von den Schiedsrichtern. A4 verlässt den Platz wieder. Keine Strafe. Freiwurf für Mannschaft B.",
+      "b": "Time-out. Hinausstellung für A4. Freiwurf für Mannschaft B. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "c": "Time-out. Hinausstellung für den “verantwortlichen Mannschaftsoffiziellen” von Mannschaft A. Freiwurf für Mannschaft B. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf."
+    }
+  },
+  {
+    "id": "4.11",
+    "question": "Die Spieler dürfen nicht tragen:",
+    "answers": {
+      "a": "Gesichtsmaske.",
+      "b": "Kopfschutz",
+      "c": "Ohrringe.",
+      "d": "Stützstreben für Knie/Ellbogen/Fuß.",
+      "e": "Brillen ohne Haltebänder."
+    }
+  },
+  {
+    "id": "4.12",
+    "question": "Bei einem Einwurf für Mannschaft A unterbrechen die Schiedsrichter das Spiel, weil A9 verletzt ist, und erlauben den Personen von Mannschaft A, den Platz zu betreten. Die Mannschaftsoffiziellen A und B laufen auf die Spielfläche, um dem verletzten Spieler zu helfen, und nach einigen Sekunden betritt auch Mannschaftsoffizieller C, der Arzt der Mannschaft, die Spielfläche, um dem Spieler zu helfen",
+    "answers": {
+      "a": "Normal. Nichts Regelwidriges, denn Mannschaftsoffizieller C ist der Arzt",
+      "b": "Hinausstellung für Mannschaftsoffiziellen C. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Freiwurf für Mannschaft B.",
+      "c": "Hinausstellung für Mannschaftsoffiziellen C. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Einwurf für Mannschaft A.",
+      "d": "Hinausstellung für den “verantwortlichen Mannschaftsoffiziellen” der Mannschaft A. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Einwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "4.13",
+    "question": "6-Meter-Wurf für Mannschaft B. Nach dem Time-out erlauben die Schiedsrichter den Mannschaftsoffiziellen von Mannschaft B, den Platz zu betreten, weil B3 verletzt ist. Die Offiziellen A und C betreten die Spielfläche, und während Mannschaftsoffizieller C dem verletzten Spieler beisteht, gibt Offizieller A seinen Spielern B2 und B5 Anweisungen",
+    "answers": {
+      "a": "Normal. Nichts Regelwidriges.",
+      "b": "Hinausstellung für Mannschaftsoffiziellen A. Das Spiel wird mit dem 6-Meter-Wurf für Mannschaft B fortgesetzt.",
+      "c": "Hinausstellung für Mannschaftsoffiziellen A. Das Spiel wird mit Freiwurf für Mannschaft A fortgesetzt.",
+      "d": "Hinausstellung für Mannschaftsoffiziellen A, B2 und B5. Das Spiel wird mit dem 6-Meter-Wurf für Mannschaft B fortgesetzt."
+    }
+  },
+  {
+    "id": "4.14",
+    "question": "Einwurf für Mannschaft A. Nach Time-out erteilt der Schiedsrichter den Mannschaftsoffiziellen von Mannschaft B die Erlaubnis, den Platz zu betreten, weil B2 verletzt ist. Mannschaftsoffizieller A und Mannschaftsoffizieller D betreten die Spielfläche, und während Offizieller A dem verletzten Spieler beisteht, nähert sich Offizieller D den gegnerischen Spielern und den Schiedsrichtern und protestiert wegen eines schweren Fouls",
+    "answers": {
+      "a": "Hinausstellung für Mannschaftsoffiziellen D. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Einwurf für Mannschaft A.",
+      "b": "Hinausstellung für Mannschaftsoffiziellen D. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Freiwurf für Mannschaft A.",
+      "c": "Hinausstellung für Mannschaftsoffiziellen D. Mannschaft B nimmt das Spiel mit 4 Spielern wieder auf. Einwurf für Mannschaft A.",
+      "d": "Normal. Nichts Regelwidriges."
+    }
+  },
+  {
+    "id": "4.15",
+    "question": "A7 sitzt eine Hinausstellung ab. Mannschaft A ist im Ballbesitz und vor einem Ballwechsel kommt A7 auf den Platz. Der Schiedsrichter pfeift und unterbricht das Spiel.",
+    "answers": {
+      "a": "Time-out. Zweite Hinausstellung für A7, die eine Disqualifikation von A7 zur Folge hat. Freiwurf für Mannschaft B. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf",
+      "b": "Disqualifikation für A7. Freiwurf für Mannschaft B. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "c": "Time-out. Zweite Hinausstellung für A7, die eine Disqualifikation für A7 zur Folge hat. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Freiwurf für Mannschaft B.",
+      "d": "Keine Strafen mehr wegen “Fair play”."
+    }
+  },
+  {
+    "id": "4.16",
+    "question": "Mannschaft A hat zu Beginn des Spiels nur 6 Spieler auf dem Spielprotokoll. A8, der zu spät kommt und nicht im Spielprotokoll eingetragen ist, betritt den Platz nach korrekter Auswechslung und der Zeitnehmer pfeift und unterbricht das Spiel.",
+    "answers": {
+      "a": "Time-out. Hinausstellung für A8. A8 kann in das Spielprotokoll eingetragen werden. Freiwurf für Mannschaft B. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf",
+      "b": "Time-out. Hinausstellung für den “verantwortlichen Mannschaftsoffiziellen” der Mannschaft A. A8 darf in das Spielprotokoll eingetragen werden. Freiwurf für Mannschaft B. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "c": "Time-out. Disqualifikation für A8. Freiwurf für Mannschaft B. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "d": "Time-out. Hinausstellung für den “verantwortlichen Mannschaftsoffiziellen” der Mannschaft A. A8 darf nicht in das Spielprotokoll eingetragen werden, weil er zu Spielbeginn nicht anwesend war. Freiwurf für Mannschaft B. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf."
+    }
+  },
+  {
+    "id": "4.17",
+    "question": "Mannschaftsoffizielle A und B der Mannschaft A werden nominiert, im Auswechselraum zu bleiben. Während der ersten Halbzeit möchte Mannschaftsoffizieller C, der als “verantwortlicher Mannschaftsoffizieller” bezeichnet wird, den Offiziellen B ersetzen und bleibt im Auswechselraum, um besseren Kontakt mit dem Tisch und den Schiedsrichtern zu haben",
+    "answers": {
+      "a": "Kein Problem, da alle auf dem Spielprotokoll stehen.",
+      "b": "Mannschaftsoffizieller C muss bis zum Ende der ersten Halbzeit warten.",
+      "c": "Es ist nicht erlaubt, Mannschaftsoffizielle nach Spielbeginn zu ersetzen.",
+      "d": "Es ist nur erlaubt, wenn der “verantwortliche Mannschaftsoffizielle” von Mannschaft B zustimmt."
+    }
+  },
+  {
+    "id": "4.18",
+    "question": "Wer ist berechtigt, sich während des Spiels an die Schiedsrichter zu wenden?",
+    "answers": {
+      "a": "Nur die jeweiligen “verantwortlichen Mannschaftsoffiziellen”.",
+      "b": "Nur die jeweiligen Trainer.",
+      "c": "Nur die jeweiligen Mannschaftsoffiziellen A.",
+      "d": "Niemand."
+    }
+  },
+  {
+    "id": "5.1",
+    "question": "Torwart B12 führt einen Abwurf aus. Er wirft den Ball korrekt, um ein Tor zu erzielen, und er läuft außerhalb seines Torraums. Der Ball trifft den Torpfosten von Mannschaft A und kehrt in den Spielbereich zurück. B12 fängt den Ball im Flug und erzielt ein Tor",
+    "answers": {
+      "a": "2 Punkte Tor für Mannschaft B.",
+      "b": "3 Punkte Tor, weil er Torwart ist und im Flug ein Tor erzielt.",
+      "c": "Freiwurf für Mannschaft A, wo B12 den Ball berührte.",
+      "d": "Hinausstellung für B12 und Abwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "5.2",
+    "question": "A2 schießt aufs Tor und Torwart B1 rettet, der Ball geht zurück auf die Spielfläche. Dann läuft Torwart B1 und berührt den Ball wieder, wenn A3 bereit ist, den Ball zu fangen und das Tor leer ist",
+    "answers": {
+      "a": "Freiwurf für Mannschaft A.",
+      "b": "Freiwurf für Mannschaft A und Hinausstellung für B1.",
+      "c": "6-Meter-Wurf für Mannschaft A.",
+      "d": "Normal. Nichts Regelwidriges"
+    }
+  },
+  {
+    "id": "5.3",
+    "question": "Torwart A1 rettet einen Schuss ins Tor und der Ball rollt im Torraum. B3 ist bereit, nach dem Ball zu tauchen, aber Torwart A1 läuft und fängt den Ball in seinem Torraum. Torwart A1 beginnt einen schnellen Angriff, aber mit seiner Schnelligkeit überquert er die Torraumlinie mit einem Fuß und gibt den Ball dann an A3 ab, der ein Tor erzielt",
+    "answers": {
+      "a": "Tor für Mannschaft A.",
+      "b": "Abwurf für Mannschaft A.",
+      "c": "Freiwurf für Mannschaft B außerhalb der Torraumlinie von Mannschaft A.",
+      "d": "6-Meter-Wurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "5.4",
+    "question": "Torwart B4 kontrolliert den Ball in seinem Torraum.  Die Schiedsrichter pfeifen die Ausführung an. Dann läuft Torwart B4 mit dem Ball außerhalb des Torraums und gibt den Ball an B2 ab, der ein Tor erzielt",
+    "answers": {
+      "a": "Wiederholung des Abwurfs nach einem Pfiff",
+      "b": "Tor für Mannschaft B.",
+      "c": "Freiwurf für Mannschaft A. Hinausstellung für B4.",
+      "d": "Freiwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "5.5",
+    "question": "Torwart A1, der sich innerhalb seines Torraums befindet, nimmt einen stehenden Ball auf, der sich gerade außerhalb seines Torraums, d.h. innerhalb des Spielfelds befindet, und spielt den Ball zu A7, der ein Tor mit 360-Grad-schuss erzielt",
+    "answers": {
+      "a": "Freiwurf für Mannschaft B.",
+      "b": "2-Punkte-Tor für Mannschaft A.",
+      "c": "Abwurf für Mannschaft A nach Anpfiff.",
+      "d": "6-Meter-Wurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "5.6",
+    "question": "Torwart B1 steht in seinem Torraum und als der Ball im Spielfeld rollt, nimmt er den Ball auf, spielt ihn zu B5, der ein Tor durch Kempa-Wurf erzielt",
+    "answers": {
+      "a": "2-Punkte-Tor für Mannschaft B.",
+      "b": "Freiwurf für Mannschaft A.",
+      "c": "Abwurf für Mannschaft B nach Anpfiff.",
+      "d": "6-Meter-Wurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "5.7",
+    "question": "A2 gibt den Ball an Torwart A7 auf dem Spielfeld knapp ausserhalb seiner Torraumlinie ab. Torwart A7 kontrolliert den Ball, während B3 korrekt verteidigt. Torwart A7 betritt seinen Torraum, um B3 auszuweichen",
+    "answers": {
+      "a": "Normal. Nichts Regelwidriges. Abwurf für Mannschaft A.",
+      "b": "6-Meter-Wurf für Mannschaft B.",
+      "c": "Freiwurf für Mannschaft B.",
+      "d": "Freiwurf für Mannschaft B. Hinausstellung für A7."
+    }
+  },
+  {
+    "id": "5.8",
+    "question": "Torwart A1 rettet den Ball nach einem Schuss und der Ball bewegt sich zum Spielfeld hinaus. Er läuft und spielt den Ball mit dem Fuß innerhalb des Torraums, und der Ball überquert die Seitenlinie des Spielfelds.",
+    "answers": {
+      "a": "Einwurf für Mannschaft B.",
+      "b": "Freiwurf für Mannschaft B.",
+      "c": "Freiwurf für Mannschaft B. Hinausstellung für A1.",
+      "d": "Abwurf für Mannschaft A nach Anpfiff."
+    }
+  },
+  {
+    "id": "6.1",
+    "question": "A2 ist bereit, einen 6-Meter-Wurf auszuführen. Er steht in der richtigen Position. Nach dem Pfiff des Schiedsrichters rutscht einer seiner Füße auf dem Sand und überquert die Torraumlinie, kurz bevor der Ball seine Hand verlassen hat. Er wirft den Ball und erzielt ein Tor.",
+    "answers": {
+      "a": "Tor.",
+      "b": "Wiederholung des 6-Meter-Wurfes.",
+      "c": "Abwurf für Mannschaft B.",
+      "d": "Freiwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "6.2",
+    "question": "A5 ist in Ballbesitz außerhalb seines Torraums. Er versucht, A3 einen langen Pass zu geben, aber der Ball rutscht ihm aus der Hand, geht zurück, trifft den Torpfosten seiner Mannschaft und kehrt in den Spielbereich zu A7 zurück.",
+    "answers": {
+      "a": "Freiwurf für Mannschaft B.",
+      "b": "Abwurf für Mannschaft A.",
+      "c": "Weiterspielen."
+    }
+  },
+  {
+    "id": "6.3",
+    "question": "B2 schießt auf das Tor und A4, der sich in der Verteidigung befindet, berührt den Ball und dann fängt Torwart A1 den Ball in seinem Torraum. A1 wirft den Ball direkt auf das Tor von Mannschaft B und erzielt ein Tor",
+    "answers": {
+      "a": "Kein Tor. Freiwurf für Mannschaft B 1m von der Torraumlinie von Mannschaft A entfernt.",
+      "b": "Kein Tor. Abwurf für Mannschaft A nach dem Anpfiff.",
+      "c": "2-Punkte-Tor für Mannschaft A.",
+      "d": "Kein Tor. Time-out. Hinausstellung für A4. Freiwurf für Mannschaft B 1m von der Torraumlinie entfernt."
+    }
+  },
+  {
+    "id": "7.1",
+    "question": "A3 gibt den Ball an A4 ab, der den Ball nimmt und ihn 5 Sekunden lang auf den Boden legt. Dann hebt er ihn auf und schießt ein Tor.",
+    "answers": {
+      "a": "Tor.",
+      "b": "Freiwurf für Mannschaft B.",
+      "c": "Abwurf für Mannschaft B.",
+      "d": "Freiwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "7.2",
+    "question": "Der Ball liegt auf dem Sand und A2 steht daneben. B3 taucht aus einer Entfernung von 2-3 m nach ihm, spielt ihn und erzielt ein Tor",
+    "answers": {
+      "a": "Hinausstellung für B3 (wegen Gefährdung des Gegners) und Freiwurf für Mannschaft A.",
+      "b": "Freiwurf für Mannschaft A.",
+      "c": "Tor.",
+      "d": "Kein Tor. Abwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "7.3",
+    "question": "A3 ist im Besitz des Balls auf dem Spielfeld. Er wirft den Ball hoch in die Luft in Richtung des gegnerischen Torraums, er läuft 5-6 Meter, springt, fängt den Ball und erzielt im Flug ein Tor",
+    "answers": {
+      "a": "2-Punkte-Tor für Mannschaft A.",
+      "b": "Freiwurf für Mannschaft B.",
+      "c": "1-Punkt-Tor für Mannschaft A.",
+      "d": "Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "7.4",
+    "question": "Torwart A5 ist im Ballbesitz und versucht anzugreifen. Er schoss auf das Tor und der Ball traf den vor ihm laufenden Schiedsrichter von hinten. Während der Ball in der Luft ist, läuft er 3 m, fängt den Ball und erzielt im Flug ein Tor",
+    "answers": {
+      "a": "Freiwurf für Mannschaft B.",
+      "b": "2-Punkte-Tor für Mannschaft A.",
+      "c": "Freiwurf für Mannschaft B, Hinausstellung für A5.",
+      "d": "Abwurf für Mannschaft B, Hinausstellung für A5."
+    }
+  },
+  {
+    "id": "7.5",
+    "question": "Mannschaft A ist in Ballbesitz, ohne einen Angriffsversuch zu unternehmen. Die Schiedsrichter haben das Warnsignal für passives Spiel gegeben, und als sie pfeifbereit sind, beantragt Mannschaft A ein korrektes Mannschafts Time-out und der Zeitnehmer pfeift.",
+    "answers": {
+      "a": "Nach der Wiederaufnahme des Spiels ist das Vorwarnsignal weiterhin gültig und sollte erneut angezeigt werden.",
+      "b": "Nach der Wiederaufnahme des Spiels müssen die Schiedsrichter sofort Freiwurf für Mannschaft B anpfeifen.",
+      "c": "Mannschaft A darf ihren Angriff von Anfang an beginnen.",
+      "d": "Mannschaft A muss den Angriff innerhalb von 15 Sekunden beenden."
+    }
+  },
+  {
+    "id": "7.6",
+    "question": "Mannschaft A ist in Ballbesitz, und die Schiedsrichter zeigen das Warnsignal für passives Spiel. A3 schießt aufs Tor, Torwart B1 rettet und der Ball geht über die Seitenlinie",
+    "answers": {
+      "a": "Einwurf für Mannschaft A. Das Vorwarnsignal ist weiterhin gültig und sollte erneut gezeigt werden. Mannschaft A hat mindestens 5 Sekunden Zeit, um eine neue Phase aufzubauen.",
+      "b": "Einwurf für Mannschaft A. Das Vorwarnsignal ist weiterhin gültig und sollte erneut gezeigt werden. Mannschaft A hat mindestens 10 Sekunden Zeit, um eine neue Phase aufzubauen.",
+      "c": "Einwurf für Mannschaft A. Das Vorwarnsignal ist zu stoppen. Mannschaft A darf von Beginn an eine neue Phase aufbauen.",
+      "d": "Einwurf für Mannschaft A. Das Vorwarnsignal ist weiterhin gültig und soll erneut gezeigt werden."
+    }
+  },
+  {
+    "id": "7.7",
+    "question": "Mannschaft B ist in Ballbesitz, und die Schiedsrichter zeigen das Warnsignal für passives Spiel. B6 schiesst aufs Tor, Torwart A1 rettet und der Ball kehrt zu B2 in den Spielbereich zurück",
+    "answers": {
+      "a": "Das Vorwarnsignal sollte erneut angezeigt werden. Mannschaft B hat mindestens 5 Sekunden Zeit, um eine neue Phase aufzubauen.",
+      "b": "Das Vorwarnsignal sollte erneut angezeigt werden. Mannschaft B hat mindestens 10 Pässe Zeit, um eine neue Phase aufzubauen",
+      "c": "Das Vorwarnsignal ist zu stoppen. Mannschaft B darf von Anfang an eine neue Phase aufbauen.",
+      "d": "Das Vorwarnsignal sollte erneut angezeigt werden. Mannschaft B hat mindestens 10 Sekunden Zeit, um eine neue Phase aufzubauen."
+    }
+  },
+  {
+    "id": "7.8",
+    "question": "Mannschaft B ist in Ballbesitz, und die Schiedsrichter zeigen das Warnsignal für passives Spiel. Die Schiedsrichter sind bereit, zum passiven Spiel zu pfeifen, und in diesem Moment greift A5 den im Ballbesitz befindlichen B2 an und drängt ihn zu Boden. Der Schiedsrichter pfeift einen Freiwurf für Mannschaft B und unterbricht A5.",
+    "answers": {
+      "a": "Das Vorwarnsignal ist weiterhin gültig und sollte erneut angezeigt werden. Mannschaft B hat mindestens 5 Sekunden Zeit, um eine neue Phase aufzubauen.",
+      "b": "Das Vorwarnsignal ist weiterhin gültig und sollte erneut angezeigt werden. Mannschaft B hat mindestens 10 Pässe Zeit, um eine neue Phase aufzubauen",
+      "c": "Das Vorwarnsignal ist weiterhin gültig und sollte erneut angezeigt werden. Mannschaft B hat mindestens 10 Sekunden Zeit, um eine neue Phase aufzubauen",
+      "d": "Das Vorwarnsignal ist zu stoppen. Mannschaft B darf von Anfang an eine neue Phase aufbauen."
+    }
+  },
+  {
+    "id": "7.9",
+    "question": "Mannschaft A ist in Ballbesitz, und die Schiedsrichter zeigen das Warnsignal für passives Spiel. Nach einigen Sekunden macht sich Mannschaftsoffizieller A von Mannschaft B eines unsportlichen Verhaltens schuldig. Der Schiedsrichter pfeift, unterbricht das Spiel und verhängt eine Hinausstellung für Mannschaftsoffiziellen A. Freiwurf für Mannschaft A.",
+    "answers": {
+      "a": "Das Vorwarnsignal ist weiterhin gültig und sollte erneut angezeigt werden. Mannschaft A hat mindestens 5 Sekunden Zeit, um eine neue Phase aufzubauen",
+      "b": "Das Vorwarnsignal ist weiterhin gültig und sollte erneut angezeigt werden. Mannschaft A hat mindestens 10 Pässe, um eine neue Phase aufzubauen",
+      "c": "Das Vorwarnsignal ist weiterhin gültig und sollte erneut angezeigt werden. Mannschaft A hat mindestens 10 Sekunden Zeit, um eine neue Phase aufzubauen",
+      "d": "Das Vorwarnsignal ist zu stoppen. Mannschaft A darf von Anfang an eine neue Phase aufbauen."
+    }
+  },
+  {
+    "id": "7.10",
+    "question": "Mannschaft A ist in Ballbesitz, und die Schiedsrichter zeigen das Warnsignal für passives Spiel. A3 schiesst auf das Tor, die Abwehrspieler blockieren und der Ball überquert die Seitenlinie",
+    "answers": {
+      "a": "Einwurf für Mannschaft A. Das Vorwarnsignal ist weiterhin gültig und sollte erneut angezeigt werden.",
+      "b": "Einwurf für Mannschaft A. Das Vorwarnsignal ist weiterhin gültig und sollte erneut angezeigt werden. Mannschaft A hat mindestens 10 Pässe, um eine neue Phase aufzubauen",
+      "c": "Einwurf für Mannschaft A. Das Vorwarnsignal ist zu stoppen. Mannschaft A darf von Anfang an eine neue Phase aufbauen",
+      "d": "Einwurf für Mannschaft A. Das Vorwarnsignal ist weiterhin gültig und sollte erneut angezeigt werden. Mannschaft A hat mindestens 10 Sekunden Zeit, um eine neue Phase aufzubauen"
+    }
+  },
+  {
+    "id": "7.11",
+    "question": "Mannschaft A ist in Ballbesitz, und die Schiedsrichter zeigten das Warnsignal für passives Spiel. A2, der den Ball auf der linken Seite knapp ausserhalb der Torraumlinie hat, versucht, den Ball an A4 zu übergeben, der sich in der Mitte des Spielfelds befindet, und in diesem Moment pfeift der Schiedsrichter zum passiven Spiel. Der Ball geht an A4, der den Ball hinlegt. B3 läuft, nimmt den Ball, schiesst auf das Tor und erzielt ein Tor",
+    "answers": {
+      "a": "Tor für Mannschaft B.",
+      "b": "Kein Tor. Wiederholung des Freiwurfs für Mannschaft B nach Anpfiff von der Stelle, an der A4 den Ball hinlegt",
+      "c": "Kein Tor. Wiederholung des Freiwurfs für Mannschaft B nach Anpfiff von der Stelle aus, an der sich der Ball zum Zeitpunkt der Spielunterbrechung befand",
+      "d": "Kein Tor. Freiwurf für Mannschaft A von der Stelle aus, an der B3 den Freiwurf ausführt"
+    }
+  },
+  {
+    "id": "8.1",
+    "question": "A5 ist bereit, einen Freiwurf auszuführen. Er gibt den Ball an A3 ab, der neben der Seitenlinie steht, aber der Ball trifft das Gesicht von B2, der 2m entfernt stand und sich nicht bewegte",
+    "answers": {
+      "a": "Hinausstellung für A5. Freiwurf für Mannschaft B.",
+      "b": "Disqualifikation für A5. Freiwurf für Mannschaft B. Bericht.",
+      "c": "Weiterspielen.",
+      "d": "Disqualifikation für A5. Freiwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "8.2",
+    "question": "5 Sekunden nach Ende der ersten Halbzeit spuckt A2, der auf dem Spielfeld steht, B3 ins Gesicht.",
+    "answers": {
+      "a": "Hinausstellung für A2.",
+      "b": "A2 wird nicht bestraft, weil dies während der Pause passiert ist.",
+      "c": "Disqualifikation für A2. Mannschaft A beginnt die zweite Halbzeit mit einem Spieler weniger. Bericht",
+      "d": "Disqualifikation für A2. Mannschaft A beginnt die zweite Halbzeit mit 4 Spielern. Bericht."
+    }
+  },
+  {
+    "id": "8.3",
+    "question": "A6 ist bereit, einen Freiwurf auszuführen. Nach dem Anpfiff schießt er direkt auf das Tor und der Ball trifft den Kopf von B3, der korrekt stand und sich nicht bewegte",
+    "answers": {
+      "a": "Disqualifikation für A6. Freiwurf für Mannschaft B. Bericht.",
+      "b": "Hinausstellung für A6. Freiwurf für Mannschaft B. Bericht.",
+      "c": "Disqualifikation für A6. Freiwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "8.4",
+    "question": "B5 hat den Ball in der Hand. Torwart A6 steht neben ihm und zieht den Ball deutlich aus den Händen von B5; er schießt auf das Tor und erzielt ein Tor",
+    "answers": {
+      "a": "2-Punkte-Tor für Mannschaft A.",
+      "b": "Freiwurf für Mannschaft B. Hinausstellung für A6.",
+      "c": "Freiwurf für Mannschaft B. Disqualifikation für A6.",
+      "d": "Freiwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "8.5",
+    "question": "A5 ist bereit, einen 6-Meter-Wurf auszuführen, mit dem Ball in der Hand und in der richtigen Position. Torwart B1 steht neben dem Torpfosten und zeigt damit, dass er gegen die Entscheidung des Schiedsrichters protestiert",
+    "answers": {
+      "a": "Disqualifikation für B1. Bericht",
+      "b": "Hinausstellung für B1.",
+      "c": "Die Schiedsrichter müssen seine Position korrigieren, bevor sie die Ausführung des 6-Meter-Wurfs anpfeifen.",
+      "d": "Nichts Regelwidriges, da er zwischen den Torpfosten steht."
+    }
+  },
+  {
+    "id": "8.6",
+    "question": "Einwurf für Mannschaft B und wenn B5 2m aus dem Spielfeld geht, um den Ball aufzuheben, spuckt A6, der sich im Auswechselbereich seiner Mannschaft befand, auf B5.",
+    "answers": {
+      "a": "Time-out. Disqualifikation für A6. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Bericht. Wiederaufnahme mit Einwurf für Mannschaft B.",
+      "b": "Time-out. Disqualifikation für A6. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Bericht. Wiederaufnahme mit Freiwurf für Mannschaft B.",
+      "c": "Time-out. Hinausstellung für A6. Wiederaufnahme mit Einwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "8.7",
+    "question": "B9 schießt auf das Tor und der Ball geht ins Aus. In diesem Moment rennt Mannschaftsoffizieller B der Mannschaft B in den Spielbereich und protestiert gegen den Schiedsrichter, er wirft ihm die Green Card an den Kopf und tritt ihm in die Beine",
+    "answers": {
+      "a": "Time-out. Disqualifikation für Mannschaftsoffiziellen B. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Abwurf für Mannschaft A.",
+      "b": "Time-out. Disqualifikation für Mannschaftsoffiziellen B. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Abwurf für Mannschaft A. Bericht",
+      "c": "Time-out. Disqualifikation für Mannschaftsoffiziellen B. Neustart mit Freiwurf für Mannschaft A. Bericht.",
+      "d": "Time-out. Disqualifikation für Mannschaftsoffiziellen B. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Freiwurf für Mannschaft A. Bericht."
+    }
+  },
+  {
+    "id": "8.8",
+    "question": "A2 schießt auf das Tor und der Ball geht ins Aus. Bevor Torwart B1 den Abwurf ausführt, rennt A2 auf die Tribüne und greift einen Zuschauer an, der sich über ihn lustig gemacht hat",
+    "answers": {
+      "a": "Time-out. Disqualifikation für A2. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Abwurf für Mannschaft B.",
+      "b": "Time-out. Disqualifikation für A2. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Abwurf für Mannschaft B. Bericht",
+      "c": "Nur Bericht. Die Aktion fand auf der Tribüne mit einem Zuschauer statt.",
+      "d": "Time-out. Disqualifikation für A2. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Freiwurf für Mannschaft B an der Stelle, an der er den Platz verlassen hat. Bericht."
+    }
+  },
+  {
+    "id": "8.9",
+    "question": "B3 versucht, mit einem 360-Grad-schuss zu punkten, er verfehlt und der Ball geht ins Aus. Bevor A1 den Wurf ausführt, läuft B5 auf seinen Mannschaftskollegen B3 zu, weil dieser den Ball nicht zu ihm gepasst hat, er drückt ihn zu Boden und tritt ihm in die Beine",
+    "answers": {
+      "a": "Time-out. Disqualifikation für B5. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Abwurf für Mannschaft A.",
+      "b": "Time-out. Disqualifikation für B5. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Abwurf für Mannschaft A. Bericht",
+      "c": "Nur Bericht. Die Aktion richtete sich gegen einen Mannschaftskollegen.",
+      "d": "Time-out. Disqualifikation für B5. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Freiwurf für Mannschaft A vom Ort des Geschehens aus. Bericht."
+    }
+  },
+  {
+    "id": "8.10",
+    "question": "Welche der folgenden Situationen kann als unsportliches Verhalten angesehen werden?",
+    "answers": {
+      "a": "Anschreien eines Spieler, der einen 6-Meter-Wurf ausführt.",
+      "b": "Den Ball wegschießen, um einen Freiwurf für die Gegner zu verzögern.",
+      "c": "Festhalten des Gegners durch Greifen der Uniform.",
+      "d": "Wenn ein Feldspieler wiederholt Würfe mit dem Fuß oder Unterschenkel abwehrt.",
+      "e": "Beleidigendes Verhalten, das auf eine andere Person gerichtet ist.",
+      "f": "Rache nehmen, nachdem man gefoult wurde."
+    }
+  },
+  {
+    "id": "8.11",
+    "question": "Welche der folgenden Situationen kann als schweres unsportliches Verhalten angesehen werden?",
+    "answers": {
+      "a": "Beleidigendes Verhalten, das auf eine andere Person gerichtet ist.",
+      "b": "Der Torhüter zeigt eine passive Haltung, wenn den Gegnern ein 6-Meter-Wurf zugesprochen wurde.",
+      "c": "Rache nehmen, nachdem man gefoult wurde",
+      "d": "Verzögerung der Ausführung eines formalen Wurfes.",
+      "e": "Wenn ein Spieler versucht, den (falschen) Eindruck zu erwecken, dass ein Gegner einen Verstoß begangen hat.",
+      "f": "Absichtliches Werfen des Balls auf einen Gegner während einer Spielunterbrechung wenn dies in einer Art und Weise geschieht, die als Angriff angesehen werden muss."
+    }
+  },
+  {
+    "id": "8.12",
+    "question": "Freiwurf für Mannschaft A. A3 ist bereit und der Schiedsrichter pfeift zur Ausführung. In diesem Moment und bevor der Ball die Hand von A3 verlässt, schägt A5 B2 ins Gesicht.",
+    "answers": {
+      "a": "Time-out. Disqualifikation für A5. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Freiwurf für Mannschaft A.",
+      "b": "Time-out. Disqualifikation für A5. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Freiwurf für Mannschaft B.",
+      "c": "Time-out. Disqualifikation für A5. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Freiwurf für Mannschaft A. Bericht.",
+      "d": "Time-out. Disqualifikation für A5. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Freiwurf für Mannschaft B. Bericht."
+    }
+  },
+  {
+    "id": "9.1",
+    "question": "In einer “Shootout”-Situation, nachdem Torhüter A1 den Ball zu A5 geworfen hat, rennt der verteidigende Torhüter B12 aus seinem eigenen Torraum heraus und geht direkt auf den Körper von A5 und schiebt ihn zur Seite, dass A5 den Ball verfehlt.",
+    "answers": {
+      "a": "Wiederholung des Wurfes für Mannschaft A.",
+      "b": "Disqualifikation für B12. 6-Meter-Wurf für Mannschaft A. Nur A5 darf den Wurf ausführen.",
+      "c": "Disqualifikation für B12.",
+      "B": "Disqualifikation für B12. 6-Meter-Wurf für Mannschaft A. Jeder Spieler, der spielberechtigt ist, darf den Wurf ausführen..",
+      "d": "6-Meter-Wurf für Mannschaft B. Hinausstellung für B12."
+    }
+  },
+  {
+    "id": "9.2",
+    "question": "In einer “Shootout”-Situation, nachdem Torhüter A12 den Ball auf A2 geworfen hat, läuft der verteidigende Torhüter B5 aus seinem eigenen Torraum, unterbricht den Pass und fängt den Ball.",
+    "answers": {
+      "a": "Der Wurf ist vorbei. Der verteidigende Torwart darf seinen Torraum verlassen.",
+      "b": "Disqualifikation für B5. 6-Meter-Wurf für Mannschaft A.",
+      "c": "6-Meter-Wurf für Mannschaft A.",
+      "d": "Wiederholung des Wurfes für Mannschaft A."
+    }
+  },
+  {
+    "id": "9.3",
+    "question": "Torwart A4 befindet sich außerhalb des Torraums der Mannschaft B und schießt den Ball in das leere Tor. Kurz bevor der Ball die Torlinie überquert, schlägt ein Zuschauer den Ball weg zur Seitenlinie.",
+    "answers": {
+      "a": "6-Meter-Wurf für Mannschaft A.",
+      "b": "Freiwurf für Mannschaft A, bei dem A4 den Ball schießt.",
+      "c": "2-Punkte-Tor für Mannschaft A.",
+      "d": "Einwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "9.4",
+    "question": "Torwart B1 befindet sich gerade außerhalb des gegnerischen Torraums und er wirft den Ball in das leere Tor. Kurz bevor der Ball in das Tor gelangt, rennt Mannschaftsoffizieller A der Mannschaft A und schiesst den Ball weg.",
+    "answers": {
+      "a": "2-Punkte-Tor für Mannschaft B. Hinausstellung für Mannschaftsoffiziellen A.",
+      "b": "2-Punkte-Tor für Mannschaft B. Disqualifikation für Mannschaftsoffiziellen A.",
+      "c": "6-Meter-Wurf für Mannschaft B. Disqualifikation für Mannschaftsoffiziellen A. Bericht.",
+      "d": "6-Meter-Wurf für Mannschaft B. Hinausstellung für Mannschaftsoffiziellen A. Bericht."
+    }
+  },
+  {
+    "id": "9.5",
+    "question": "A7 erzielt ein Tor, Schiedsrichter A lässt es zu und Torwart B1 führt den Abwurf aus. Der Ball geht an B3 und dann pfeift Schiedsrichter B. Er erklärt dem Schiedsrichter A, dass das Tor nicht gültig ist, weil A7 nach zu vielen Schritten ein Tor erzielt",
+    "answers": {
+      "a": "Das Tor wird nicht anerkannt. Freiwurf für Mannschaft B wegen zu vielen Schritten.",
+      "b": "Das Tor ist gültig. Freiwurf für Mannschaft B, wo das Spiel unterbrochen wurde.",
+      "c": "Das Tor ist gültig. Wiederholung des Abwurfs nach Anpfiff",
+      "d": "Das Tor wird nicht anerkannt. Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "9.6",
+    "question": "A3 schießt den Ball in das leere Tor und kurz bevor der Ball die Torlinie überquert, pfeift der Zeitnehmer und unterbricht das Spiel wegen einer fehlerhaften Auswechslung von B6.",
+    "answers": {
+      "a": "Time-out. Hinausstellung für B6. 6-Meter-Wurf für Mannschaft A.",
+      "b": "Time-out. Hinausstellung für B6. Freiwurf für Mannschaft A von dem Punkt aus, an dem A3 auf das Tor geschossen hat.",
+      "c": "Time-out. 1-Punkt-Tor für Mannschaft A. Hinausstellung für B6. Abwurf für Mannschaft B.",
+      "d": "Time-out. Hinausstellung für B6. Freiwurf für Mannschaft B an der Stelle der fehlerhaften Auswechslung."
+    }
+  },
+  {
+    "id": "9.7",
+    "question": "Torwart B1 kontrolliert den Ball in seinem Torraum. Er wirft den Ball zu B3, der Ball überquert die Torraumlinie, kehrt aber wegen zu viel Wind zurück und geht ins Tor",
+    "answers": {
+      "a": "Wiederholung des Abwurfs nach Anpfiff.",
+      "b": "Tor für Mannschaft A. Abwurf für Mannschaft B.",
+      "c": "Freiwurf für Mannschaft A 1m von der Torraumlinie."
+    }
+  },
+  {
+    "id": "10.1",
+    "question": "Schiedsrichter-Wurf zu Beginn der ersten Halbzeit. Alle Spieler, außer einem aus jeder Mannschaft...",
+    "answers": {
+      "a": "müssen mindestens drei Meter vom Schiedsrichter entfernt bleiben und sich auf der Seite positionieren, die dem eigenen Tor am nächsten liegt.",
+      "b": "müssen mindestens einen Meter vom Schiedsrichter entfernt bleiben und dürfen sich an einer beliebigen anderen Stelle auf dem Spielfeld positionieren.",
+      "c": "müssen mindestens drei Meter vom Schiedsrichter entfernt bleiben und dürfen sich überall auf dem Spielfeld positionieren."
+    }
+  },
+  {
+    "id": "10.2",
+    "question": "Schiedsrichter-Wurf zu Beginn der zweiten Halbzeit. Die beiden Spieler, die nach dem Ball springen, müssen:",
+    "answers": {
+      "a": "Mindestens einen Meter vom Schiedsrichter entfernt stehen, jeder auf der Seite, die seinem eigenen Tor am nächsten ist.",
+      "b": "Mindestens drei Meter vom Schiedsrichter entfernt stehen, jeder auf der Seite, die seinem eigenen Tor am nächsten ist.",
+      "c": "Mindestens einen Meter vom Schiedsrichter entfernt stehen und auf einer beliebigen Seite des Spielfelds.",
+      "d": "Neben dem Schiedsrichter stehen jeder auf der Seite, die seinem eigenen Tor am nächsten ist."
+    }
+  },
+  {
+    "id": "10.3",
+    "question": "Schiedsrichter-Wurf zum Spielbeginn. Der Schiedsrichter wirft den Ball nach einem Pfeifsignal. A3 springt und spielt den Ball sofort, nachdem der Ball die Hand des Schiedsrichters verlassen hat (der Ball erreicht nicht den Scheitelpunkt), und erzielt ein Tor",
+    "answers": {
+      "a": "2-Punkte-Tor für Mannschaft A.",
+      "b": "Freiwurf für Mannschaft B.",
+      "c": "Wiederholung des Schiedsrichter-Wurfs.",
+      "d": "Kein Tor. Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "10.4",
+    "question": "Schiedsrichter-Wurf zum Spielbeginn. Der Schiedsrichter wirft den Ball und A3 springt, und wenn der Ball auf dem höchsten Punkt ist, schlägt er den Ball und erzielt ein Tor",
+    "answers": {
+      "a": "2-Punkte-Tor für Mannschaft A.",
+      "b": "1-Punkt-Tor für Mannschaft A.",
+      "c": "Freiwurf für Mannschaft B.",
+      "d": "Wiederholung des Schiedsrichter-Wurfs."
+    }
+  },
+  {
+    "id": "12.1",
+    "question": "Torwart A12 kontrolliert den Ball in seinem eigenen Torraum. Er versucht, den Ball für einen langen Pass auf A3 zu werfen, aber der Ball geht zurück in sein eigenes Tor, ohne jemals die Torraumlinie zu überschreiten",
+    "answers": {
+      "a": "Tor für Mannschaft B. Es wird ein Punkt vergeben.",
+      "b": "Tor für Mannschaft B. Es werden zwei Punkte vergeben.",
+      "c": "Wiederholung des Abwurfs.",
+      "d": "Freiwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "12.2",
+    "question": "Torhüter A1 kontrolliert den Ball in seinem eigenen Torraum. Dann wirft er den Ball in den Spielbereich, läuft hinterher, nimmt ihn auf und schießt ein Tor",
+    "answers": {
+      "a": "Tor. Mannschaft A erhält zwei Punkte.",
+      "b": "Freiwurf für Mannschaft B.",
+      "c": "Freiwurf für Mannschaft B. Hinausstellung für A1.",
+      "d": "Wiederholung des Abwurfs für Mannschaft A."
+    }
+  },
+  {
+    "id": "12.3",
+    "question": "B2 überquert den Torraum des Gegners im Ballbesitz. Abwurf für die Mannschaft A. Torwart A1 nimmt den Ball auf und schießt mit einem Fuß außerhalb des Torraums in Richtung des gegnerischen Tores und erzielt ein Tor",
+    "answers": {
+      "a": "1-Punkt-Tor.",
+      "b": "2-Punkte-Tor.",
+      "c": "Wiederholung des Abwurfs.",
+      "d": "Freiwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "12.4",
+    "question": "Torwart B1 fängt den Ball in seinem Torraum nach einem Schuss von A7. In diesem Moment spuckt B5 auf A2 knapp außerhalb der Torraumlinie",
+    "answers": {
+      "a": "Time-out. Disqualifikation für B5. Freiwurf für Mannschaft A. Bericht.",
+      "b": "Time-out. Disqualifikation für B5. Bericht. Wiederaufnahme mit Abwurf für Mannschaft B.",
+      "c": "Time-out. Disqualifikation für B5. 6-Meter-Wurf für Mannschaft A.",
+      "d": "Time-out. Disqualifikation für B5. Bericht. 6-Meter-Wurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "12.5",
+    "question": "A3 schießt aufs Tor und Torwart B1 rettet und kontrolliert den Ball. Vor der Ausführung des Abwurfs macht sich B2, der sich auf dem Spielfeld befindet, eines Angriffs gegen A7 schuldig",
+    "answers": {
+      "a": "Time-out. Disqualifikation für B2. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Abwurf für Mannschaft B. Bericht.",
+      "b": "Time-out. Disqualifikation für Mannschaft B2. Wiederaufnahme mit Freiwurf für Mannschaft A.",
+      "c": "Time-out. Disqualifikation auf B2. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Freiwurf für Mannschaft A. Bericht."
+    }
+  },
+  {
+    "id": "12.6",
+    "question": "B2 schießt aufs Tor und Torwart A1 rettet und der Ball überquert die Torauslinie. In diesem Moment protestiert Mannschaftsoffizieller A der Mannschaft A gegen die Schiedsrichter und macht sich eines Angriffs schuldig",
+    "answers": {
+      "a": "Time-out. Disqualifikation für Mannschaftsoffiziellen A. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Freiwurf für Mannschaft B. Bericht.",
+      "b": "Time-out. Disqualifikation für Mannschaftsoffiziellen A. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Abwurf für Mannschaft A. Bericht.",
+      "c": "Time-out. Disqualifikation für Mannschaftsoffiziellen A. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Einwurf für Mannschaft B. Bericht."
+    }
+  },
+  {
+    "id": "12.7",
+    "question": "Abwurf für Mannschaft A. Torwart A7, der sich 50cm innerhalb seiner Torraumlinie befindet, wirft den Ball, der die Torraumlinie überquert, und B2, der 30cm außerhalb der Torraumlinie steht, blockiert den Ball und erzielt ein Tor.",
+    "answers": {
+      "a": "Kein Tor. Hinausstellung für B2. Wiederholung des Abwurfs nach Anpfiff.",
+      "b": "Kein Tor. Korrektur der Position von B2. Wiederholung des Abwurfs nach Anpfiff.",
+      "c": "Kein Tor. Hinausstellung für B2. Freiwurf für Mannschaft A.",
+      "d": "Tor für Mannschaft B. Wiederaufnahme mit Abwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "13.1",
+    "question": "Freiwurf für Mannschaft B. B2, der kurz vor der Torraumlinie von Mannschaft A steht, erhält den Ball von B4, der den Freiwurf ausführt. Er schießt ein Tor.",
+    "answers": {
+      "a": "Tor.",
+      "b": "Freiwurf für Mannschaft A.",
+      "c": "Wurfwiederholung für Mannschaft B. Korrektur der Position von B2.",
+      "d": "Freiwurf für Mannschaft A. Hinausstellung für B2."
+    }
+  },
+  {
+    "id": "13.2",
+    "question": "Mannschaftsoffizieller A von Mannschaft A protestiert und erhält eine mündliche Verwarnung. Die mündliche Verwarnung erfolgte, nachdem der Schiedsrichter einen Freiwurf für Mannschaft A gegeben hatte. Was ist die richtige Entscheidung?",
+    "answers": {
+      "a": "Das Spiel beginnt mit der vorherigen Situation und Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "b": "Das Spiel beginnt mit der vorherigen Situation und Mannschaft A spielt auf dem Platz in voller Stärke.",
+      "c": "Das Spiel beginnt mit dem Ball im Besitz von Mannschaft B in der Mitte des Spielfeldes in der Nähe des Auswechselraums der Mannschaft A, das in voller Stärke auf dem Platz spielt.",
+      "d": "Das Spiel beginnt mit dem Ball im Besitz der Mannschaft B in der Mitte des Spielfeldes in der Nähe des Auswechselraums der Mannschaft A, deren Spieler auf der Spielfläche um eine Person reduziert sind."
+    }
+  },
+  {
+    "id": "13.3",
+    "question": "Mannschaft B ist in Ballbesitz, und während B3 den Ball im Spielbereich hat, pfeifen die Schiedsrichter einen Freiwurf für Mannschaft A. Nach dem Abpfiff wirft B3 den Ball auf A2, der sich ausserhalb seines Torraums befindet. B3 hatte bereits eine Hinausstellung",
+    "answers": {
+      "a": "Normal. Keine Strafe für B3, weil der Ball an den Spieler von Mannschaft A ging",
+      "b": "Time-out. Hinausstellung für B3, die eine Disqualifikation zur Folge hat.",
+      "c": "Disqualifikation für B3.",
+      "d": "Time-out. Hinausstellung für B3, die eine Disqualifikation zur Folge hat. Bericht."
+    }
+  },
+  {
+    "id": "13.4",
+    "question": "Nach einem 6-Meter-Wurf von A4 rettet Torwart B1 den Ball, läuft an der Torraumlinie vorbei und bleibt in der Mitte des Spielfeldes stehen. In diesem Moment pfeifen die Schiedsrichter ein Time-out, weil B1 verletzt aussieht. Wie wird das Spiel wieder aufgenommen?",
+    "answers": {
+      "a": "Schiedsrichter-Wurf, wo der Ball stehen geblieben ist.",
+      "b": "Freiwurf für Mannschaft A.",
+      "c": "Freiwurf für Mannschaft B.",
+      "d": "Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "13.5",
+    "question": "A3 hat den Ball in der Hand in der richtigen Position und ist bereit, einen Freiwurf auszuführen. Bevor die Schiedsrichter den Wurf anpfeifen, legt er den Ball auf den Sand und nimmt ihn nach 3 Sekunden wieder auf.",
+    "answers": {
+      "a": "Freiwurf für Mannschaft B.",
+      "b": "Normal. Nichts Regelwidriges.",
+      "c": "Hinausstellung für A3.",
+      "d": "Nur mündliche Verwarnung für A3. Wiederaufnahme mit Freiwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "13.6",
+    "question": "Mannschaft A ist im Angriff und A2 kontrolliert den Ball auf der linken Seite des Spielfeldes. Er springt und wirft den Ball in der Luft auf die andere Seite innerhalb des gegnerischen Torraums. A5 läuft, springt und erzielt einen Kempa-Wurf, aber sein Fuß berührt die Torraumlinie",
+    "answers": {
+      "a": "Kein Tor. Freiwurf für Mannschaft B.",
+      "b": "Kein Tor. Abwurf für Mannschaft B.",
+      "c": "2-Punkte-Tor für Mannschaft A. Abwurf für Mannschaft B.",
+      "d": "1-Punkt-Tor für Mannschaft A. Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "13.7",
+    "question": "Bei der Ausführung der folgenden Würfe müssen die Gegenspieler mindestens 1m vom Werfer entfernt bleiben",
+    "answers": {
+      "a": "Freiwurf.",
+      "b": "Einwurf.",
+      "c": "6-Meter-Wurf.",
+      "d": "Abwurf."
+    }
+  },
+  {
+    "id": "14.1",
+    "question": "A4 ist bereit, einen 6-Meter-Wurf auszuführen. Nach dem Pfiff des Schiedsrichters geht der Ball aus seinen Händen und wenn er in der Luft zwischen A4 und Torwart B1 ist, springt der korrekt stehende A3 und erzielt im Flug einen Treffer.",
+    "answers": {
+      "a": "2-Punkte-Tor für Mannschaft A.",
+      "b": "Freiwurf für Mannschaft B.",
+      "c": "Wiederholung des 6-Meter-Wurfs.",
+      "d": "Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "14.2",
+    "question": "A7 steht kurz vor der Torraumlinie und ist bereit, einen 6-Meter-Wurf auszuführen. Torwart B1 nimmt seine Position 4,5m von der Torlinie entfernt ein",
+    "answers": {
+      "a": "Spiel weiter.",
+      "b": "Korrektur der Position von B1.",
+      "c": "Ausführung des Wurfes direkt nach dem Pfiff eines der Schiedsrichter. Falls B1 rettet, wiederholt A7 den Wurf."
+    }
+  },
+  {
+    "id": "14.3",
+    "question": "Nach einer Parade durch den Torwart B1 kehrt der Ball im Spielfeld zu B6 zurück, der 2m von seiner Torraumlinie entfernt steht, er springt und wirft den Ball in das leere Tor von Mannschaft A. A7 drängt ihn heftig in den Rücken und B6 verliert den Ball.",
+    "answers": {
+      "a": "6-Meter-Wurf für Mannschaft B. Time-out. Hinausstellung für A7.",
+      "b": "6-Meter-Wurf für Mannschaft B. Disqualifikation für A7. Bericht.",
+      "c": "Freiwurf für Mannschaft B. Time-out. Hinausstellung für A7.",
+      "d": "Freiwurf für Mannschaft B. Time-out. Disqualifikation für A7. Bericht."
+    }
+  },
+  {
+    "id": "14.4",
+    "question": "A2 befindet sich gerade außerhalb der gegnerischen Spielfeldlinie allein, bereit, auf das Tor zu schießen, und in diesem Moment kommt ein ungerechtfertigter Pfiff, und A2 stoppt die Aktion.",
+    "answers": {
+      "a": "Freiwurf für Mannschaft B.",
+      "b": "Freiwurf für Mannschaft A.",
+      "c": "6-Meter-Wurf für Mannschaft A.",
+      "d": "Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "14.5",
+    "question": "Das Spiel findet in der Nacht statt. A7 steht allein ausserhalb der gegnerischen Torraumlinie und ist bereit, auf das Tor zu schießen. In diesem Moment gibt es einen Stromausfall, A7 schießt und erzielt ein Tor",
+    "answers": {
+      "a": "Tor für Mannschaft A. Wenn das Problem gelöst ist, beginnt das Spiel mit Abwurf für Mannschaft B.",
+      "b": "Kein Tor. Wenn das Problem gelöst ist, beginnt das Spiel mit 6-Meter-Wurf für Mannschaft A.",
+      "c": "Kein Tor. Wenn das Problem gelöst ist, beginnt das Spiel mit Freiwurf für Mannschaft A.",
+      "d": "Kein Tor. Wenn das Problem gelöst ist, wird das Spiel mit einem Freiwurf 1m von der Torraumlinie von Mannschaft B fortgesetzt."
+    }
+  },
+  {
+    "id": "14.6",
+    "question": "B2 ist allein in einem schnellen Gegenangriff. Als er bereit ist, auf das Tor zu schießen, rennt ein Zuschauer auf den Platz und drängt ihn zu Boden. B2 verliert den Ball, der an Torwart A1 geht.",
+    "answers": {
+      "a": "6-Meter-Wurf für Mannschaft B.",
+      "b": "Freiwurf für Mannschaft B.",
+      "c": "Schiedsrichter-Wurf am Ort des Geschehens.",
+      "d": "Abwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "14.7",
+    "question": "A2 ist bereit, einen 6-Meter-Wurf auszuführen, mit dem Ball in der Hand in der richtigen Position. Torwart B6 verlässt seinen Torraum zur Auswechslung, die Schiedsrichter pfeifen und fordern ihn zur Rückkehr auf, aber er macht weiter und verlässt das Spielfeld",
+    "answers": {
+      "a": "Normal. Nichts Regelwidrigesseit, da Time-out ist.",
+      "b": "Hinausstellung für B6.",
+      "c": "Disqualifikation für B6.",
+      "d": "Hinausstellung für Mannschaftsoffiziellen A von Mannschaft B."
+    }
+  },
+  {
+    "id": "14.8",
+    "question": "A2 führt einen 6-Meter-Wurf aus. Der Ball trifft das Tor und kehrt zu ihm zurück. Er fängt den Ball auf und trifft mit einem 360-Grad-schuss.",
+    "answers": {
+      "a": "Freiwurf für Mannschaft B.",
+      "b": "2-Punkte-Tor für Mannschaft A. Abwurf für Mannschaft B.",
+      "c": "Freiwurf für Mannschaft B. Hinausstellung für A2.",
+      "d": "Kein Tor. Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "14.9",
+    "question": "B5 führt einen 6-Meter-Wurf aus. Er versucht, den Ball zu werfen, der Ball rutscht ihm aus der Hand und trifft B3, der korrekt stand, und geht ins Tor von Mannschaft A.",
+    "answers": {
+      "a": "1-Punkt-Tor für Mannschaft B.",
+      "b": "Wiederholung des 6-Meter-Wurfs.",
+      "c": "Freiwurf für Mannschaft A.",
+      "d": "Kein Tor. Abwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "14.10",
+    "question": "B3 führt einen 6-Meter-Wurf aus. Er versucht, den Ball zu werfen, der Ball rutscht ihm aus der Hand und geht zwischen ihm und Torwart A1 in die Luft. B3 springt und schlägt den Ball ins Tor.",
+    "answers": {
+      "a": "Kein Tor. Freiwurf für Mannschaft A.",
+      "b": "Kein Tor. Abwurf für Mannschaft A.",
+      "c": "2-Punkte-Tor für Mannschaft B.",
+      "d": "1-Punkt-Tor für Mannschaft B."
+    }
+  },
+  {
+    "id": "14.11",
+    "question": "B5 ist bereit, einen 6-Meter-Wurf auszuführen. Der Schiedsrichter pfeift, und bevor der Ball seine Hand verlässt, rutscht sein Fuß unter die Torraumlinie, er wirft den Ball und erzielt ein Tor",
+    "answers": {
+      "a": "2-Punkte-Tor für Mannschaft B.",
+      "b": "Wiederholung des 6-Meter-Wurfs.",
+      "c": "Kein Tor. Freiwurf für Mannschaft A.",
+      "d": "Kein Tor. Abwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "15.1",
+    "question": "Abwurf für Mannschaft B. Torhüter B1 hat den Ball, springt und wirft den Ball direkt und erzielt ein Tor gegen Mannschaft A.",
+    "answers": {
+      "a": "Wiederholung des Wurfs.",
+      "b": "Tor. Es werden zwei Punkte vergeben.",
+      "c": "Freiwurf für Mannschaft A.",
+      "d": "Tor. Es werden drei Punkte vergeben. (Weil der Torhüter ein Tor “im Flug” erzielt hat)"
+    }
+  },
+  {
+    "id": "15.2",
+    "question": "Mannschaft A schießt ein Tor. Torwart B1 nimmt den Ball aus dem Tor, läuft 4 Schritte, springt in die Luft und schießt den Ball auf das Tor von Mannschaft A und erzielt ein Tor",
+    "answers": {
+      "a": "Tor. 2-Punkte-Tor für Mannschaft B.",
+      "b": "Wiederholung des Abwurfs, da der Torwart einen Fußteil in ständigem Bodenkontakt haben muss.",
+      "c": "Abwurf für Mannschaft A.",
+      "d": "Schritte. Freiwurf für Mannschaft A außerhalb der Torraumlinie."
+    }
+  },
+  {
+    "id": "15.3",
+    "question": "Freiwurf für Mannschaft A. B4 steht nur 70cm von A5 entfernt, der bereit ist, den Freiwurf auszuführen. Der Schiedsrichter pfeift den Wurf an und dann greift B4 ein.",
+    "answers": {
+      "a": "Hinausstellung für B4. Wiederholen Sie den Freiwurf nach Anpfiff.",
+      "b": "Weiterspielen.",
+      "c": "Vorteil für Mannschaft A und Hinausstellung für B4 bei der ersten Unterbrechung."
+    }
+  },
+  {
+    "id": "15.4",
+    "question": "A4 ist bereit, einen Freiwurf auszuführen. Er schießt auf das Tor. der Ball trifft das Tor und kehrt auf die Spielfläche zurück. A4 fängt den Ball und erzielt im Flug ein Tor.",
+    "answers": {
+      "a": "Freiwurf für Mannschaft B.",
+      "b": "2-Punkte-Tor für Mannschaft A.",
+      "c": "Wiederholung des Freiwurfs.",
+      "d": "1-Punkt-Tor für Mannschaft A."
+    }
+  },
+  {
+    "id": "15.5",
+    "question": "B6 ist bereit, einen Einwurf auszuführen. Er will den Ball an B2 abgeben, aber der Ball rutscht ihm aus der Hand und fällt 3m weit in den Sand. B6 nimmt den Ball innerhalb von 2 Sekunden auf; er schießt auf das Tor und erzielt ein Tor",
+    "answers": {
+      "a": "Tor. Abwurf für Mannschaft A.",
+      "b": "Freiwurf für Mannschaft A.",
+      "c": "Wiederholung des Einwurfs.",
+      "d": "Kein Tor. Abwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "15.6",
+    "question": "Torwart A1 führt einen Einwurf korrekt aus. Er schießt direkt auf das Tor und erzielt ein Tor.",
+    "answers": {
+      "a": "2-Punkte-Tor für Mannschaft A.",
+      "b": "Kein Tor. Wiederholung des Einwurfs.",
+      "c": "Freiwurf für Mannschaft B.",
+      "d": "Kein Tor. Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "15.7",
+    "question": "Torwart B3 rettet den Ball, nachdem A4 geschossen hat. Er versucht, den Ball zu B2 zu passen, aber der Ball rutscht ihm aus der Hand und geht ins Tor, ohne jemals die Torraumlinie zu überqueren",
+    "answers": {
+      "a": "2-Punkte-Tor für Mannschaft A.",
+      "b": "1-Punkt-Tor für Mannschaft A.",
+      "c": "Wiederholung des Abwurfs.",
+      "d": "Freiwurf für Mannschaft A."
+    }
+  },
+  {
+    "id": "15.8",
+    "question": "Schiedsrichter-Wurf zum Spielbeginn. Der Schiedsrichter wirft den Ball sehr hoch und wegen zu viel Wind geht der Ball in das Tor von Team B.",
+    "answers": {
+      "a": "1-Punkt-Tor für Mannschaft A.",
+      "b": "Kein Tor. Abwurf für Mannschaft B.",
+      "c": "Wiederholung des Schiedsrichter-Wurfs.",
+      "d": "Kein Tor. Freiwurf für Mannschaft A 1m von der Torraumlinie von Mannschaft B."
+    }
+  },
+  {
+    "id": "15.9",
+    "question": "Freiwurf für Mannschaft A. A2 schießt direkt auf das Tor, der Ball trifft das Tor und kehrt zu ihm zurück. A2 befindet sich nun 2m innerhalb des Spielfeldes und erzielt mit einem 360-Grad-Schuss ein Tor",
+    "answers": {
+      "a": "2-Punkte-Tor für Mannschaft A. Abwurf für Mannschaft B.",
+      "b": "Freiwurf für Mannschaft B von der Stelle aus, an der A2 den Ball berührt.",
+      "c": "Kein Tor. Abwurf für Mannschaft B.",
+      "d": "1-Punkt-Tor für Mannschaft A. Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "15.10",
+    "question": "Freiwurf für Mannschaft B knapp außerhalb des Torraums. Torwarteeper B1 versucht, den Wurf auszuführen, der Ball rutscht ihm aus der Hand und geht in sein eigenes Tor",
+    "answers": {
+      "a": "Kein Tor. Wiederholung des Freiwurfs nach Anpfiff.",
+      "b": "2-Punkte-Tor für Mannschaft A.",
+      "c": "Kein Tor. Abwurf für Mannschaft B.",
+      "d": "1-Punkt-Tor für Mannschaft A."
+    }
+  },
+  {
+    "id": "16.1",
+    "question": "Shoot-Out-Situation. Mannschaft A hat nur 4 spielberechtigte Spieler. Nach der ersten Runde (4 und 5 Würfe) steht es 6-6. In der zweiten Runde spielt Mannschaft A zuerst und A4 erzielt ein 2-Punkte-Tor und B2 ein 1-Punkt-Tor. Nachdem das Tor zugesprochen wurde, spuckt Torwart A1 B2 ins Gesicht",
+    "answers": {
+      "a": "Mannschaft A ist der Sieger. Der Spielstand im Shoot-Out beträgt 8:7.",
+      "b": "Mannschaft B ist der Sieger mit 2:0, weil Mannschaft A jetzt 3 spielberechtigte Spieler hat.",
+      "c": "Disqualifikation für A1. Bericht.",
+      "d": "Schriftlicher Bericht an die Behörden."
+    }
+  },
+  {
+    "id": "16.2",
+    "question": "Am Ende der zweiten Halbzeit spielen beide Mannschaften nach einer Hinausstellung für A5 und einer Disqualifikation für B2 mit 3 Spielern. Das Ergebnis ist 10-10 und es wird die “Golden Goal”-Regel angewendet. Wie werden die Mannschaften mit dem “Golden Goal” beginnen?",
+    "answers": {
+      "a": "Mannschaft A mit 4 Spielern und Mannschaft B mit 3 Spielern.",
+      "b": "Beide Mannschaften mit 3 Spielern.",
+      "c": "Beide Mannschaften mit 4 Spielern, ausgenommen B2.",
+      "d": "Beide Mannschaften mit 4 Spielern außer A5 und B2."
+    }
+  },
+  {
+    "id": "16.3",
+    "question": "Hinausstellung für A7 kombiniert mit der Vergabe eines 6-Meter-Wurfs. B3 führt den Wurf aus, der Torwart rettet, und der Ball überquert die Seitenlinie",
+    "answers": {
+      "a": "Der gesperrte Spieler darf ausgewechselt werden.",
+      "b": "Der gesperrte Spieler darf die Spielfläche wieder betreten.",
+      "c": "Der gesperrte Spieler darf nach dem nächsten Wechsel ausgewechselt werden oder die Spielfläche wieder betreten.",
+      "d": "Mannschaft A wird mit einem Spieler weniger weiterspielen."
+    }
+  },
+  {
+    "id": "16.4",
+    "question": "6-Meter-Wurf für Mannschaft B und Hinausstellung für A4. Der gesperrte Spieler oder der Auswechselspieler darf die Spielfläche betreten:",
+    "answers": {
+      "a": "Wenn Mannschaft B mit diesem 6-Meter-Wurf ein Tor erzielt.",
+      "b": "Wenn der 6-Meter-Wurf ausgeführt wird.",
+      "c": "Wenn der Torwart nach der Ausführung den Schuss rettet und der Ball die Seitenlinie überquert.",
+      "d": "Wenn der Torwart nach der Ausführung den Schuss rettet und der Ball zur Spielfläche zurückkehrt und A7 den Ball fängt.",
+      "e": "Wenn der Torwart nach der Ausführung den Schuss rettet und der Ball zur Spielfläche zurückkehrt und B3 den Ball fängt.",
+      "f": "Wenn der Ball nach der Ausführung den Torpfosten trifft und über die Seitenlinie hinausgeht"
+    }
+  },
+  {
+    "id": "16.5",
+    "question": "Mannschaftsoffizieller B der Mannschaft A ist eines Angriffs während einer Pause schuldig. Vor der Pause spielte Mannschaft A mit 4 Spielern.",
+    "answers": {
+      "a": "Mündliche Verwarnung für Mannschaftsoffiziellen B.",
+      "b": "Hinausstellung für Mannschaftsoffiziellenn B. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "c": "Disqualifikation für Mannschaftsoffiziellen B. Mannschaft A nimmt das Spiel mit 4 Spielern wieder auf. Bericht.",
+      "d": "Disqualifikation für Mannschaftsoffiziellen B. Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. Bericht."
+    }
+  },
+  {
+    "id": "16.6",
+    "question": "Spieler A8 hat eine klare Torchance, wird aber von B7 abgedrängt. Er kann schießen und punktet. Der Schiedsrichter bestätigt das Tor und gibt eine Hinausstellung für B7. Wie beginnt das Spiel?",
+    "answers": {
+      "a": "Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "b": "Mannschaft B nimmt das Spiel mit 4 Spielern wieder auf, weil ein Tor erzielt wurde.",
+      "c": "Mit Ausnahme von B7 darf Mannschaft B das Spiel mit 4 Spielern wieder aufnehmen.",
+      "d": "B7 darf nach dem nächsten Wechsel wieder auf die Spielfläche oder zu den Auswechselspielern zurückkehren."
+    }
+  },
+  {
+    "id": "16.7",
+    "question": "Das Ergebnis der ersten Halbzeit ist 16:16, aber in der letzten Spielsituation - kurz vor dem Abpfiff - wird A9 wegen Fouls an B4, der im Ballbesitz war, hinausgestellt. Das Spiel beginnt mit einem Schiedsrichter-Wurf für das “Golden Goal”. Wie viele Spieler der Mannschaft A dürfen teilnehmen?",
+    "answers": {
+      "a": "Mannschaft A nimmt das Spiel mit einem Spieler weniger wieder auf. A9 darf die Spielfläche wieder betreten, wenn seine Mannschaft in Ballbesitz kommt",
+      "b": "Mannschaft A nimmt das Spiel mit 4 Spielern wieder auf. A9 darf sofort teilnehmen.",
+      "c": "Mannschaft A nimmt das Spiel mit 4 Spielern wieder auf, aber ohne A9 bis zum ersten Wechsel."
+    }
+  },
+  {
+    "id": "16.8",
+    "question": "Die beiden Mannschaften und die Schiedsrichter befinden sich auf dem Spielfeld und sind bereit für den Schiedsrichter-Wurf, um das Spiel zu beginnen. Vor dem Wurf spuckt B7 dem A2 ins Gesicht.",
+    "answers": {
+      "a": "Hinausstellung für B7. Freiwurf für Mannschaft A. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf.",
+      "b": "Disqualifikation für B7. Bericht. Mannschaft B darf im Spielbericht B7 ersetzen und beginnt das Spiel mit 4 Spielern auf dem Platz. Das Spiel beginnt mit einem Schiedsrichter-Wurf.",
+      "c": "Disqualifikation für B7. Bericht. Mannschaft B beginnt das Spiel mit einem Spieler weniger und darf B7 im Spielbericht nicht ersetzen. Das Spiel beginnt mit einem Schiedsrichter-Wurf"
+    }
+  },
+  {
+    "id": "16.9",
+    "question": "Der Schiedsrichter pfeift zum Ende der ersten Halbzeit. Nach einigen Sekunden läuft A3 auf B4, wirft ihm den Ball an den Kopf und schubst ihn in den Sand",
+    "answers": {
+      "a": "Disqualifikation für A3. Bericht. Mannschaft A beginnt die zweite Halbzeit mit einem Spieler weniger",
+      "b": "Disqualifikation für A3. Bericht. Mannschaft a beginnt die zweite Halbzeit mit 4 Spielern auf dem Platz.",
+      "c": "Hinausstellung für A3. Mannschaft A beginnt die zweite Halbzeit mit einem Spieler weniger",
+      "d": "Hinausstellung für A3. Bericht. Die Mannschaft A beginnt die zweite Halbzeit mit 4 Spielern auf dem Platz."
+    }
+  },
+  {
+    "id": "16.10",
+    "question": "Kurz nach Ende der ersten Halbzeit protestiert Mannschaftsoffizieller B von Mannschaft A gegen die Zeitnehmer und wirft ihm die grüne Time-out-Karte an den Kopf.",
+    "answers": {
+      "a": "Hinausstellung für Mannschaftsoffiziellen B.",
+      "b": "Disqualifikation für Mannschaftsoffiziellen B. Keine weiteren Maßnahmen.",
+      "c": "Disqualifikation für Mannschaftsoffiziellen B.",
+      "d": "Disqualifikation für Mannschaftsoffiziellen B. Mannschaft B beginnt die zweite Halbzeit mit einem Spieler weniger."
+    }
+  },
+  {
+    "id": "16.11",
+    "question": "5 Minuten nach Spielende protestiert A3 gegen einen der Schiedsrichter, beleidigt ihn und versucht, ihn niederzudrücken.",
+    "answers": {
+      "a": "Disqualifikation für A3.",
+      "b": "Disqualifikation für A3. Bericht.",
+      "c": "Keine Aktion"
+    }
+  },
+  {
+    "id": "16.12",
+    "question": "Während eines schnellen Gegenangriffs läuft Torwart A1 außerhalb seines Torraums, um B5 zu stoppen, der den Ball hat und versucht, auf das Tor zu schießen. Torwart A1 trifft den Arm des Werfers, so dass er den Ball verliert.",
+    "answers": {
+      "a": "Freiwurf für Mannschaft B. Hinausstellung für A1.",
+      "b": "Freiwurf für Mannschaft B. Disqualifikation für A1.",
+      "c": "6-Meter-Wurf für Mannschaft B. Hinausstellung für A1.",
+      "d": "6-Meter-Wurf für Mannschaft B. Disqualifikation für A1."
+    }
+  },
+  {
+    "id": "16.13",
+    "question": "A4 springt zum Kempa-Wurf knapp ausserhalb der Torraumlinie und der Torwart B12 versucht, den Ball zu retten, indem er dem Gegner entgegenspringt (nicht vertikal) um ihn zu erschrecken",
+    "answers": {
+      "a": "Freiwurf für Mannschaft A. Hinausstellung für B12.",
+      "b": "6-Meter-Wurf für Mannschaft A. Disqualifikation für B12.",
+      "c": "Freiwurf für Mannschaft A. Disqualifikation für B12.",
+      "d": "6-Meter-Wurf für Mannschaft A. Hinausstellung für B12."
+    }
+  },
+  {
+    "id": "16.14",
+    "question": "B3 befindet sich gerade außerhalb des gegnerischen Torraums und springt zum Schuss auf das Tor. Torwart A1 springt, um den Ball zu retten, und hat Körperkontakt in der Luft mit B3 2m innerhalb seines Torraums. B3 erzielt kein Tor",
+    "answers": {
+      "a": "6-Meter-Wurf für Mannschaft B. Hinausstellung für A1.",
+      "b": "Freiwurf für Mannschaft B. Hinausstellung für A1.",
+      "c": "6-Meter-Wurf für Mannschaft B. Disqualifikation für A1.",
+      "d": "Freiwurf für Mannschaft B. Disqualifikation für A1."
+    }
+  },
+  {
+    "id": "16.15",
+    "question": "Während des Schusses läuft Torwart B1 außerhalb seines Torraums und versucht, den Ball in der Luft zu fangen, während A4 dasselbe tut. B1 trifft den Arm von A4, so dass er den Ball verliert.",
+    "answers": {
+      "a": "6-Meter-Wurf für Mannschaft A. Disqualifikation für B1. Jeder spielberechtigte Spieler darf diesen 6-Meter-Wurf ausführen",
+      "b": "6-Meter-Wurf für Mannschaft A. Hinausstellung für B1. Jeder spielberechtigte Spieler darf diesen 6-Meter-Wurf ausführen",
+      "c": "6-Meter-Wurf für Mannschaft A. Hinausstellung für B1. Nur A4 darf diesen 6-Meter-Wurf ausführen.",
+      "d": "6-Meter-Wurf für Mannschaft A. Disqualifikation für B1. Jeder Spieler, der im Spielprotokoll aufgeführt ist, darf diesen 6-Meter-Wurf ausführen."
+    }
+  },
+  {
+    "id": "16.16",
+    "question": "Die Spielzeit umfasst:",
+    "answers": {
+      "a": "Golden Goal",
+      "b": "Time-outs.",
+      "c": "Pausen.",
+      "d": "Shootout."
+    }
+  },
+  {
+    "id": "16.17",
+    "question": "3 Minuten nach Spielbeginn und während Mannschaft B in Ballbesitz ist, stellen die Schiedsrichter fest, dass sich 3 Mannschaftsoffizielle im Auswechselraum von Mannschaft B befinden, und pfeifen ein Time-out. Der “verantwortliche Mannschaftsoffizielle” erklärt, dass die 3. Person der Präsident und “Goldener Sponsor” der Mannschaft ist",
+    "answers": {
+      "a": "Normal. Nichts Regelwidriges aufgrund seiner Funktion",
+      "b": "Disqualifikation für den “verantwortlichen Mannschaftsoffiziellen” der Mannschaft B. Der Präsident darf sich im Auswechselraum aufhalten.",
+      "c": "Hinausstellung für den “verantwortlichen Mannschaftsoffiziellen” der Mannschaft B. Der Präsident muss den Auswechselraum verlassen.",
+      "d": "Hinausstellung für den “verantwortlichen Mannschaftsoffiziellen” der Mannschaft B. Der Präsident darf im Auswechselraum bleiben."
+    }
+  },
+  {
+    "id": "16.18",
+    "question": "5 Minuten nach Spielbeginn und während Mannschaft B in Ballbesitz ist, stellen die Schiedsrichter fest, dass sich im Auswechselraum von Mannschaft B ein Spieler mehr befindet, als registriert ist, und pfeifen ein Time-out. Der “verantwortliche Mannschaftsoffizielle” erklärt, der Spieler sei verletzt, und er sitze nur mit seinen Mannschaftskameraden zusammen",
+    "answers": {
+      "a": "Normal. Nichts Regelwidriges, wenn die Schiedsrichter sicher sind, dass der Spieler verletzt ist.",
+      "b": "Hinausstellung für den “verantwortlichen Mannschaftsoffiziellen” der Mannschaft B. Der Spieler muss den Auswechselraum verlassen.",
+      "c": "Hinausstellung für den “verantwortlichen Mannschaftsoffiziellen” von Mannschaft B. Der Spieler darf im Auswechselraum bleiben.",
+      "d": "Mündliche Verwarnung an den “verantwortlichen Mannschaftsoffiziellen” und den Spieler. Bericht."
+    }
+  },
+  {
+    "id": "16.19",
+    "question": "Welche der folgenden Strafen müssen von den Schiedsrichtern im Spielbericht erklärt werden?",
+    "answers": {
+      "a": "Hinausstellung eines Mannschaftsoffiziellen.",
+      "b": "Disqualifikation eines Spielers.",
+      "c": "Disqualifikation eines Mannschaftsoffiziellen.",
+      "d": "Disqualifikation eines Spielers wegen zweiter Hinausstellung"
+    }
+  },
+  {
+    "id": "16.20",
+    "question": "A2 erzielt einen Kempa-Wurf in der ersten Spielminute, und wenn der Ball im Tor ist, greift Torwart B1 A2 an, der unten im Sand liegt, und er tritt ihn mehrmals an Kopf und Körper.",
+    "answers": {
+      "a": "Time-out. Disqualifikation für B1. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Abwurf für Mannschaft B. Bericht.",
+      "b": "Time-out. Disqualifikation für B1. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Freiwurf für Mannschaft A. Bericht.",
+      "c": "Time-out. Disqualifikation für B1. Mannschaft B nimmt das Spiel mit einem Spieler weniger wieder auf. Wiederaufnahme mit Abwurf für Mannschaft B."
+    }
+  },
+  {
+    "id": "17.1",
+    "question": "Beide Schiedsrichter pfeifen dasselbe Vergehen durch A7. Der Feld-Schiedsrichter forderte einen Freiwurf für Mannschaft B und eine Hinausstellung für A7 und sein Partner einen 6-Meter-Wurf für Mannschaft B.",
+    "answers": {
+      "a": "6-Meter-Wurf.",
+      "b": "6-Meter-Wurf für Mannschaft B und Hinausstellung für A7.",
+      "c": "Freiwurf für Mannschaft B und Hinausstellung für A7.",
+      "d": "Gemeinsame Entscheidung. Ein Time-out ist obligatorisch."
+    }
+  },
+  {
+    "id": "17.2",
+    "question": "Wer entscheidet, welcher Ball verwendet wird?",
+    "answers": {
+      "a": "Die verantwortlichen Mannschaftsoffiziellen der beiden Mannschaften.",
+      "b": "Die Schiedsrichter.",
+      "c": "Die Trainer der beiden Mannschaften.",
+      "d": "Der Delegierte."
+    }
+  },
+  {
+    "id": "17.3",
+    "question": "Der Münzwurf wird durchgeführt von:",
+    "answers": {
+      "a": "Dem erstgenannten Schiedsrichter in Anwesenheit des verantwortlichen Mannschaftsoffiziellen für jede Mannschaft",
+      "b": "Dem erstgenannten Schiedsrichter in Anwesenheit des verantwortlichen Mannschaftsoffiziellen für jede Mannschaft oder eines Mannschaftsoffiziellen oder Spielers im Namen des verantwortlichen Mannschaftsoffiziellen",
+      "c": "Einem der Schiedsrichter in Anwesenheit des verantwortlichen Mannschaftsoffiziellen für jede Mannschaft oder eines Mannschaftsoffiziellen oder Spielers im Namen des verantwortlichen Mannschaftsoffiziellen und des Delegierten",
+      "d": "Einem der Schiedsrichter in Anwesenheit des anderen Schiedsrichters und des verantwortlichen Mannschaftsoffiziellen für jede Mannschaft oder eines Mannschaftsoffiziellen oder Spielers im Namen des verantwortlichen Mannschaftsoffiziellen und des Delegierten."
+    }
+  },
+  {
+    "id": "17.4",
+    "question": "Schiedsrichter-Wurf zum Spielbeginn. Die korrekte Positionierung lautet wie folgt:",
+    "answers": {
+      "a": "Der erstgenannte Schiedsrichter positioniert sich außerhalb der Seitenlinie auf der gegenüberliegenden Seite des Tisches und der andere Schiedsrichter in der Mitte des Spielfeldes",
+      "b": "Der zweitgenannte Schiedsrichter positioniert sich ausserhalb der Seitenlinie auf der gegenüberliegenden Seite des Tisches und der andere Schiedsrichter positioniert sich in der Mitte der Spielfläche",
+      "c": "Ein Schiedsrichter positioniert sich ausserhalb der Seitenlinie neben dem Tisch und der andere Schiedsrichter positioniert sich in der Mitte der Spielfläche",
+      "d": "Ein Schiedsrichter positioniert sich ausserhalb der Seitenlinie auf der gegenüberliegenden Seite des Tisches und der andere Schiedsrichter positioniert sich in der Mitte der Spielfläche"
+    }
+  },
+  {
+    "id": "17.5",
+    "question": "Schiedsrichter-Wurf zum Spielbeginn.",
+    "answers": {
+      "a": "Der Schiedsrichter, der sich außerhalb der Seitenlinie befindet, pfeift zuerst und danach wirft der andere Schiedsrichter den Ball.",
+      "b": "Der Schiedsrichter, der sich in der Mitte des Spielfelds befindet, wirft den Ball, und der andere Schiedsrichter pfeift danach.",
+      "c": "Der Schiedsrichter, der sich in der Mitte der Spielfelds befindet, wirft den Ball, und der andere Schiedsrichter pfeift, wenn ein Spieler den Ball berührt.",
+      "d": "Der Schiedsrichter, der sich in der Mitte der Spielfelds befindet, wirft den Ball, und der andere Schiedsrichter pfeift, wenn der Ball seinen höchsten Punkt erreicht hat."
+    }
+  },
+  {
+    "id": "17.6",
+    "question": "A4 erzielt ein Tor mit einem 360-Grad-schuss und der Linienrichter vergibt ein 2-Punkte-Tor und der Feld-Schiedsrichter 1-Punkt-Tor.",
+    "answers": {
+      "a": "Time-out. 1-Puunkt-Tor ohne jegliche Rücksprache, weil es die Entscheidung des Feld-Schiedsrichters ist.",
+      "b": "Time-out. 2-Punkte-Tor ohne jegliche Rücksprache, weil es die Entscheidung des Torlinien-Schiedsrichters ist.",
+      "c": "Time-out. Beratung zwischen den Schiedrichtern, um eine gemeinsame Entscheidung zu treffen.",
+      "d": "Time-out. Beratung zwischen den Schiedrichtern, um eine gemeinsame Entscheidung zu treffen. Wenn es ihnen nicht gelingt, zu einer gemeinsamen Entscheidung zu gelangen, hat die Meinung des Feld-Schiedsrichters Vorrang.",
+      "e": "Time-out. Beratung zwischen den Schiedrichtern, um eine gemeinsame Entscheidung zu treffen. Wenn es ihnen nicht gelingt, zu einer gemeinsamen Entscheidung zu gelangen, hat die Meinung des Torlinien-Schiedsrichters Vorrang."
+    }
+  },
+  {
+    "id": "17.7",
+    "question": "Nach einer Kollision zwischen A4 und B3 auf der Spielfläche pfeift der Feld-Schiedsrichter Freiwurf für Mannschaft B und der Linienrichter Freiwurf für Mannschaft A.",
+    "answers": {
+      "a": "Time-out. Freiwurf für Mannschaft B ohne Rücksprache, da es die Entscheidung des Feld-Schiedsrichters ist.",
+      "b": "Time-out. Freiwurf für Mannschaft A ohne Rücksprache, da es die Entscheidung des Torlinien-Schiedsrichters ist.",
+      "c": "Time-out. Beratung zwischen den Schiedrichtern, um eine gemeinsame Entscheidung zu treffen.",
+      "d": "Time-out. Beratung zwischen den Schiedrichtern, um eine gemeinsame Entscheidung zu treffen. Wenn es ihnen nicht gelingt, zu einer gemeinsamen Entscheidung zu gelangen, hat die Meinung des Feld-Schiedsrichters Vorrang.",
+      "e": "Time-out. Beratung zwischen den Schiedrichtern, um eine gemeinsame Entscheidung zu treffen. Wenn es ihnen nicht gelingt, zu einer gemeinsamen Entscheidung zu gelangen, hat die Meinung des Torlinien-Schiedsrichters Vorrang."
+    }
+  },
+  {
+    "id": "17.8",
+    "question": "Der Ball geht über die Seitenlinie. Der Feld-Schiedsrichter pfeift den Einwurf für Mannschaft B und der Linienrichter pfeift den Einwurf für Mannschaft A.",
+    "answers": {
+      "a": "Time-out. Einwurf für Mannschaft B ohne Rücksprache, da es die Entscheidung des Feld-Schiedsrichters ist.",
+      "b": "Time-out. Einwurf für Mannschaft A ohne Rücksprache, da es die Entscheidung des Torlinien-Schiedsrichters ist.",
+      "c": "Time-out. Beratung zwischen den Schiedrichtern, um eine gemeinsame Entscheidung zu treffen.",
+      "d": "Time-out. Beratung zwischen den Schiedrichtern, um eine gemeinsame Entscheidung zu treffen. Wenn es ihnen nicht gelingt, zu einer gemeinsamen Entscheidung zu gelangen, hat die Meinung des Feld-Schiedsrichters Vorrang.",
+      "e": "Time-out. Beratung zwischen den Schiedrichtern, um eine gemeinsame Entscheidung zu treffen. Wenn es ihnen nicht gelingt, zu einer gemeinsamen Entscheidung zu gelangen, hat die Meinung des Torlinien-Schiedsrichters Vorrang."
+    }
+  },
+  {
+    "id": "17.9",
+    "question": "Wer ist dafür verantwortlich, nach dem Spiel sicherzustellen, dass der Spielstandsbogen (Spielbericht) korrekt ausgefüllt wird?",
+    "answers": {
+      "a": "Der erstgenannte Schiedsrichter",
+      "b": "Der zweitgenannte Schiedsrichter.",
+      "c": "Beide Schiedsrichter.",
+      "d": "Der Sekretär.",
+      "e": "Der Delegierte."
+    }
+  },
+  {
+    "id": "17.10",
+    "question": "Wer ist berechtigt, sich während des Spiels an die Schiedsrichter zu wenden?",
+    "answers": {
+      "a": "Die jeweiligen Trainer.",
+      "b": "Die jeweiligen Mannschaftsoffiziellen A.",
+      "c": "Die zwei Mannschaftsoffiziellen, die sich in den Auswechselzonen aufhalten.",
+      "d": "Die jeweiligen “verantwortlichen Mannschaftsoffiziellen”."
+    }
+  },
+  {
+    "id": "17.11",
+    "question": "Wer hat das Recht, ein Spiel vorübergehend oder dauerhaft zu unterbrechen?",
+    "answers": {
+      "a": "Die Organisatoren nach Rücksprache mit den Schiedsrichtern und den jeweiligen Trainern",
+      "b": "Die Schiedsrichter.",
+      "c": "Die Schiedsrichter in gemeinsamer Entscheidung mit dem Delegierten.",
+      "d": "Die Schiedsrichter, wenn der jeweils “verantwortliche Mannschaftsoffizielle” zustimmt."
+    }
+  }
+]

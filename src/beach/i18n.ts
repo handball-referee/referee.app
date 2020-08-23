@@ -1,5 +1,6 @@
 import en from "./translations/en.json";
 import es from "./translations/es.json";
+import de from "./translations/de.json";
 
 const i18n = {
   fallbackLng: "en",
@@ -9,9 +10,10 @@ const i18n = {
   },
   resources: {
     en,
-    es
+    es,
+    de
   },
-  whitelist: ["en", "es"],
+  whitelist: ["en", "es", "de"],
 };
 
 export default i18n;

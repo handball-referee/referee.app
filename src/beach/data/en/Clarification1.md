@@ -1,4 +1,4 @@
-## 1. Awarding of Points (Rule [9](#9))
+## 1. Awarding of Points (Rule [9](#9:1))
 
 **Also in the following scoring situation two points are awarded.**
 A goal scored in “in-flight” (Rule [9:2](#9:2)).
