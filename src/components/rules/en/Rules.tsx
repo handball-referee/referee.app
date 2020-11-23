@@ -33,7 +33,6 @@ import sar from "../../../data/en/SAR.md";
 import guidelines from "../../../data/en/Guidelines.md";
 import newGuidelines from "../../../data/en/NewGuidelines.md";
 import playingCourt from "../../../data/en/GuidelinesPlayingCourts.md";
-import equipment from "../../../data/en/EquipmentAccessories.md";
 
 const English = () => {
   const { t } = useTranslation();
@@ -74,7 +73,6 @@ const English = () => {
     ${guidelines}
     ${newGuidelines}
     ${playingCourt}
-    ${equipment}
   `;
 
   return (
