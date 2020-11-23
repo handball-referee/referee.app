@@ -50,6 +50,7 @@ const HandballRules = () => (
       <RulesItem textKey="rules.clarifications" />
       <RulesItem textKey="rules.sar" />
       <RulesItem textKey="rules.guidelines" />
+      <RulesItem textKey="rules.new-guidelines" />
       <RulesItem textKey="rules.playing-court" />
     </RulesSelector>
     <RulesText />

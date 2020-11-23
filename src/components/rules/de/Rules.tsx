@@ -30,6 +30,7 @@ import clarification7 from "../../../data/de/Clarification7.md";
 import clarification8 from "../../../data/de/Clarification8.md";
 import sar from "../../../data/de/SAR.md";
 import guidelines from "../../../data/de/Guidelines.md";
+import newGuidelines from "../../../data/de/NewGuidelines.md";
 import playingCourt from "../../../data/de/GuidelinesPlayingCourts.md";
 import useScrollToAnchor from "../../../hooks/useScrollToAnchor";
 
@@ -70,6 +71,7 @@ const German = () => {
     ${clarification8}
     ${sar}
     ${guidelines}
+    ${newGuidelines}
     ${playingCourt}
   `;
 

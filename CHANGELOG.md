@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/cevou/referee.app/compare/v1.2.0...v1.3.0) (2020-11-23)
+
+
+### Features
+
+* add french rules text ([6cf7727](https://github.com/cevou/referee.app/commit/6cf772797706715055cb613822deaaa92cf49554))
+* added french rules questions ([611013d](https://github.com/cevou/referee.app/commit/611013d1d3e0c296fe36c80c63b1ec302e93f247))
+* added new guidelines document to rules ([cc498f7](https://github.com/cevou/referee.app/commit/cc498f736367c73e2ac6a716f2463877e28d17a1))
+* remove equipment until it's complete ([d40ce68](https://github.com/cevou/referee.app/commit/d40ce685db7a005676261dbe2c14ceb719ae2f06))
+* switch to AWS ([740e1b1](https://github.com/cevou/referee.app/commit/740e1b16db9cb110372c0de5d9db9dde301f2336))
+
+
+### Bug Fixes
+
+* **issue-13:** add equipment appendix ([c6ca7ea](https://github.com/cevou/referee.app/commit/c6ca7ea077ee177ff3b41648c5da147b001c75ca))
+* formatting of question 16.19 wrong in German ([98b3edb](https://github.com/cevou/referee.app/commit/98b3edb176afa724221782262a8af01d96cca6d3)), closes [#12](https://github.com/cevou/referee.app/issues/12)
+
 ## [1.2.0](https://github.com/cevou/referee.app/compare/v1.1.0...v1.2.0) (2020-05-02)
 
 
