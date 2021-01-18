@@ -31,7 +31,7 @@
   },
   {
     "id": "1.4",
-    "question": "Was sind die richtigen Abmessungen des Spielfeldes?",
+    "question": "Was sind die richtigen Abmessungen des Spielfeldes ohne Torräume?",
     "answers": {
       "a": "20m lang X 15m breit.",
       "b": "15m lang X 12m breit.",
@@ -1280,7 +1280,8 @@
     "answers": {
       "a": "Disqualifikation für A3.",
       "b": "Disqualifikation für A3. Bericht.",
-      "c": "Keine Aktion"
+      "c": "Keine Aktion",
+      "d": "Bericht"
     }
   },
   {
