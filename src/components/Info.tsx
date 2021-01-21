@@ -29,7 +29,7 @@ const Info = () => {
   };
 
   return (
-    <div id="info-wrapper">
+    <div id="info-wrapper" lang="en">
       <div id="info" className="info-box">
         <div>Website built by</div>
         <div id="info-name">Christoph Kraemer</div>

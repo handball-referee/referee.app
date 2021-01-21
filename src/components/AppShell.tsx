@@ -1,5 +1,6 @@
 import React, { FunctionComponent, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Helmet } from 'react-helmet';
 import { Route, useHistory } from "react-router";
 import loadable from "@loadable/component";
 import Menu from "./Menu";
@@ -29,7 +30,7 @@ const Stats = loadable(() => import("./stats/Stats"), {
 });
 
 const AppShell: FunctionComponent = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { listen } = useHistory();
   const { updateConfig } = useAnalytics();
 
@@ -42,6 +43,7 @@ const AppShell: FunctionComponent = () => {
 
   return (
     <div id="page-wrapper">
+      <Helmet htmlAttributes={{ lang: i18n.language }} />
       <Menu />
       <div id="page-body">
         <Tracking />
