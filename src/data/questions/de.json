@@ -2386,7 +2386,8 @@
       "a": "Stürmerfoul: Freiwurf für Team SCHWARZ",
       "b": "Freiwurf für Team WEISS",
       "c": "7-Meter-Wurf für Team WEISS",
-      "d": "Progressive Bestrafung gegen SCHWARZ 1 e) Disqualifikation von SCHWARZ 1 ohne schriftlichen Bericht (rote Karte)"
+      "d": "Progressive Bestrafung gegen SCHWARZ 1",
+      "e": "Disqualifikation von SCHWARZ 1 ohne schriftlichen Bericht (rote Karte)"
     }
   },
   {
@@ -2447,7 +2448,7 @@
     "id": "8.50",
     "question": "Team WEISS spielt mit sieben Feldspielern und befindet sich im Angriff. WEISS 4 wirft auf das Tor, aber Torwart SCHWARZ 1 wehrt den Ball ab. SCHWARZ 1 steht nun mit dem Ball in der Hand in seinem Torraum und ist bereit zum Abwurf. In diesem Moment unterbricht der Delegierte das Spiel aufgrund eines Wechselfehlers: Torwart WEISS 1 hat das Spielfeld betreten, bevor WEISS 7 das Spielfeld verlassen hatte. Wie ist zu entscheiden?",
     "answers": {
-      "a": "Abwurf für Team WEISS nach Anpfiff",
+      "a": "Abwurf für Team SCHWARZ nach Anpfiff",
       "b": "Time-out",
       "c": "Freiwurf für Team SCHWARZ",
       "d": "7-Meter-Wurf für Team SCHWARZ",
