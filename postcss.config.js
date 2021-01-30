@@ -4,6 +4,6 @@ module.exports = {
     "postcss-custom-properties": {
       importFrom: "src/components/shared.css",
     },
-    "postcss-preset-env": {},
+    autoprefixer: {},
   },
 };
