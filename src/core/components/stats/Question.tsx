@@ -78,7 +78,7 @@ const QuestionComponent: FunctionComponent<Props> = ({ question }) => {
         </div>
         <div className="related-rules">
           <span>{t("rulestest.relevant-rules")}</span>
-          {`: `}
+          {": "}
           {question.rules.map((rule) => (
             <Link to={`/rules${mapRuleToAnchor(rule, language)}`}>{rule}</Link>
           ))}

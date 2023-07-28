@@ -27,7 +27,7 @@ const RulesTest = loadable(() => import("../../core/components/rules-test/RulesT
   fallback: <Loading />,
 });
 
-const IndoorRulesTest = () => {
+function IndoorRulesTest() {
   return (
     <RulesTest mapRuleToAnchor={mapRuleToAnchor} />
   );

@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Route, useHistory } from "react-router";
+import { Route, useLocation } from "react-router";
 import loadable from "@loadable/component";
 import Menu from "../../core/components/Menu";
 import Loading from "../../core/components/Loading";
@@ -38,14 +38,12 @@ const Stats = loadable(() => import("../../core/components/stats/Stats"), {
 
 const AppShell: FunctionComponent = () => {
   const { t } = useTranslation();
-  const { listen } = useHistory();
   const { updateConfig } = useAnalytics();
 
-  useEffect(() => listen((location) => {
+  useEffect(() =>
     updateConfig({
       anonymize_ip: true,
-      page_path: location.pathname,
-    });
+      page_path: useLocation().pathname,
   }), []);
 
   return (

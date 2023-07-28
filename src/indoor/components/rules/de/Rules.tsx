@@ -35,7 +35,7 @@ import playingCourt from "../../../data/de/GuidelinesPlayingCourts.md";
 import useScrollToAnchor from "../../../../core/hooks/useScrollToAnchor";
 import equipment from "../../../data/de/EquipmentAccessories.md";
 
-const German = () => {
+function German() {
   const { t } = useTranslation();
   useScrollToAnchor();
 
@@ -80,6 +80,6 @@ const German = () => {
   return (
     <div dangerouslySetInnerHTML={{ __html: text }} />
   );
-};
+}
 
 export default German;

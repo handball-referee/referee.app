@@ -66,7 +66,7 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children, 
         correct: 0,
         data: {},
         checked: [],
-        reveal: false
+        reveal: false,
       }) => {
         context = {
           ...context,

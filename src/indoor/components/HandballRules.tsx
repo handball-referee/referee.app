@@ -23,39 +23,41 @@ const RulesItem: FunctionComponent<RuleItemProps> = ({ textKey, className }) => 
   );
 };
 
-const HandballRules = () => (
-  <div id="rules">
-    <RulesSelector>
-      <RulesItem textKey="rules.foreword" />
-      <RulesItem textKey="rules.rules" />
-      <RulesItem textKey="rules.rule.rule1" className="indent" />
-      <RulesItem textKey="rules.rule.rule2" className="indent" />
-      <RulesItem textKey="rules.rule.rule3" className="indent" />
-      <RulesItem textKey="rules.rule.rule4" className="indent" />
-      <RulesItem textKey="rules.rule.rule5" className="indent" />
-      <RulesItem textKey="rules.rule.rule6" className="indent" />
-      <RulesItem textKey="rules.rule.rule7" className="indent" />
-      <RulesItem textKey="rules.rule.rule8" className="indent" />
-      <RulesItem textKey="rules.rule.rule9" className="indent" />
-      <RulesItem textKey="rules.rule.rule10" className="indent" />
-      <RulesItem textKey="rules.rule.rule11" className="indent" />
-      <RulesItem textKey="rules.rule.rule12" className="indent" />
-      <RulesItem textKey="rules.rule.rule13" className="indent" />
-      <RulesItem textKey="rules.rule.rule14" className="indent" />
-      <RulesItem textKey="rules.rule.rule15" className="indent" />
-      <RulesItem textKey="rules.rule.rule16" className="indent" />
-      <RulesItem textKey="rules.rule.rule17" className="indent" />
-      <RulesItem textKey="rules.rule.rule18" className="indent" />
-      <RulesItem textKey="rules.hand-signals" />
-      <RulesItem textKey="rules.clarifications" />
-      <RulesItem textKey="rules.sar" />
-      <RulesItem textKey="rules.guidelines" />
-      <RulesItem textKey="rules.new-guidelines" />
-      <RulesItem textKey="rules.playing-court" />
-      <RulesItem textKey="rules.equipment-accessories" />
-    </RulesSelector>
-    <RulesText ruleBasePath="indoor/components/rules" />
-  </div>
-);
+function HandballRules() {
+  return (
+    <div id="rules">
+      <RulesSelector>
+        <RulesItem textKey="rules.foreword" />
+        <RulesItem textKey="rules.rules" />
+        <RulesItem textKey="rules.rule.rule1" className="indent" />
+        <RulesItem textKey="rules.rule.rule2" className="indent" />
+        <RulesItem textKey="rules.rule.rule3" className="indent" />
+        <RulesItem textKey="rules.rule.rule4" className="indent" />
+        <RulesItem textKey="rules.rule.rule5" className="indent" />
+        <RulesItem textKey="rules.rule.rule6" className="indent" />
+        <RulesItem textKey="rules.rule.rule7" className="indent" />
+        <RulesItem textKey="rules.rule.rule8" className="indent" />
+        <RulesItem textKey="rules.rule.rule9" className="indent" />
+        <RulesItem textKey="rules.rule.rule10" className="indent" />
+        <RulesItem textKey="rules.rule.rule11" className="indent" />
+        <RulesItem textKey="rules.rule.rule12" className="indent" />
+        <RulesItem textKey="rules.rule.rule13" className="indent" />
+        <RulesItem textKey="rules.rule.rule14" className="indent" />
+        <RulesItem textKey="rules.rule.rule15" className="indent" />
+        <RulesItem textKey="rules.rule.rule16" className="indent" />
+        <RulesItem textKey="rules.rule.rule17" className="indent" />
+        <RulesItem textKey="rules.rule.rule18" className="indent" />
+        <RulesItem textKey="rules.hand-signals" />
+        <RulesItem textKey="rules.clarifications" />
+        <RulesItem textKey="rules.sar" />
+        <RulesItem textKey="rules.guidelines" />
+        <RulesItem textKey="rules.new-guidelines" />
+        <RulesItem textKey="rules.playing-court" />
+        <RulesItem textKey="rules.equipment-accessories" />
+      </RulesSelector>
+      <RulesText ruleBasePath="indoor/components/rules" />
+    </div>
+  );
+}
 
 export default HandballRules;

@@ -33,12 +33,11 @@ const Menu: FunctionComponent<MenuProps> = ({ logo, link }) => {
   });
   const rotation = open ? 180 : undefined;
 
-  const ConditionalWrapper: FunctionComponent<ConditionalWrapperProps> = ({ condition, wrapper, children }) =>
-    condition ? wrapper(children) : children;
+  const ConditionalWrapper: FunctionComponent<ConditionalWrapperProps> = ({ condition, wrapper, children }) => (condition ? wrapper(children) : children);
 
   return (
     <div id="menu" className={className}>
-      <ConditionalWrapper condition={!!link} wrapper={children => <a href={link}>{children}</a>}>
+      <ConditionalWrapper condition={!!link} wrapper={(children) => <a href={link}>{children}</a>}>
         <div id="logo">
           <img src={logo} alt={t("app.title")} />
         </div>

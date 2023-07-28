@@ -36,7 +36,7 @@ import sandRegulations from "../../../data/es/SandRegulations.md";
 import glossary from "../../../data/es/Glossary.md";
 import equipment from "../../../data/es/EquipmentAccessories.md";
 
-const English = () => {
+function English() {
   const { t } = useTranslation();
   useScrollToAnchor();
 
@@ -82,6 +82,6 @@ const English = () => {
   return (
     <div dangerouslySetInnerHTML={{ __html: text }} />
   );
-};
+}
 
 export default English;

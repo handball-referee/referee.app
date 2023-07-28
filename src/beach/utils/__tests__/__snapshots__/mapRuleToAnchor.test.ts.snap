@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`mapRuleToAnchor should map all available rules to the correct anchor 1`] = `
-Array [
+[
   "#10:2",
   "#10:4",
   "#10:5",
@@ -70,8 +70,8 @@ Array [
   "#1:1",
   "#1:2",
   "#1:4",
-  "#1:8",
-  "#1:8",
+  "#1:7",
+  "#1:7",
   "#2:10",
   "#2:11",
   "#2:12",
@@ -136,7 +136,7 @@ Array [
 `;
 
 exports[`mapRuleToAnchor should map all available rules to the correct anchor 2`] = `
-Array [
+[
   "#10:2",
   "#10:4",
   "#10:5",
@@ -205,8 +205,8 @@ Array [
   "#1:1",
   "#1:2",
   "#1:4",
-  "#1:8",
-  "#1:8",
+  "#1:7",
+  "#1:7",
   "#2:10",
   "#2:11",
   "#2:12",
@@ -259,19 +259,19 @@ Array [
   "#9:6",
   "#9:8",
   "#9:9",
-  "#1.-awarding-of-points",
-  "#3.-free-throw-execution-after-the-final-signal",
-  "#4.-passive-play",
-  "#4.-passive-play",
-  "#5.-unsportsmanlike-conduct",
-  "#6.-seriously-unsportsmanlike-conduct",
-  "#6.-seriously-unsportsmanlike-conduct",
-  "#8.-interruption-by-the-timekeeper",
+  "#1.-wertung-der-punkte",
+  "#3.-freiwurf-ausführung-nach-dem-schlusssignal",
+  "#4.-passives-spiel",
+  "#4.-passives-spiel",
+  "#5.-unsportliches-verhalten",
+  "#6.-grob-unsportliches-verhalten",
+  "#6.-grob-unsportliches-verhalten",
+  "#8.-unterbrechung-durch-den-zeitnehmer",
 ]
 `;
 
 exports[`mapRuleToAnchor should map all available rules to the correct anchor 3`] = `
-Array [
+[
   "#10:2",
   "#10:4",
   "#10:5",
@@ -340,8 +340,8 @@ Array [
   "#1:1",
   "#1:2",
   "#1:4",
-  "#1:8",
-  "#1:8",
+  "#1:7",
+  "#1:7",
   "#2:10",
   "#2:11",
   "#2:12",
@@ -394,13 +394,14 @@ Array [
   "#9:6",
   "#9:8",
   "#9:9",
-  "#1.-awarding-of-points",
-  "#3.-free-throw-execution-after-the-final-signal",
-  "#4.-passive-play",
-  "#4.-passive-play",
-  "#5.-unsportsmanlike-conduct",
-  "#6.-seriously-unsportsmanlike-conduct",
-  "#6.-seriously-unsportsmanlike-conduct",
-  "#8.-interruption-by-the-timekeeper",
+  "#1.-concesión-de-puntos",
+  "#3.-ejecución-del-golpe-franco-después-de-la-señal-final",
+  "#4.-juego-pasivo",
+  "#4.-juego-pasivo",
+  "#5.-conducta-antideportiva",
+  "#6.-conducta-antideportiva-grave",
+  "#6.-conducta-antideportiva-grave",
+  "#8.-interrupción-por-el-cronometrador",
 ]
 `;
+np

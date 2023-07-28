@@ -24,9 +24,9 @@ export default class TestDataManager {
 
   private _wrong = 0;
 
-  private _answerData: Array<IAnswer> = [];
+  private _answerData: IAnswer[] = [];
 
-  constructor(answerData: Array<IAnswer>) {
+  constructor(answerData: IAnswer[]) {
     this._answerData = answerData;
   }
 

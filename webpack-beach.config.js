@@ -37,6 +37,7 @@ const config = {
   resolve: {
     extensions: [".js", ".ts", ".json", ".tsx"],
   },
+  mode: 'production',
   module: {
     rules: [
       {
@@ -95,20 +96,21 @@ const config = {
     new HtmlWebpackPlugin({
       template: "beach/index.html",
     }),
-    new CopyPlugin([
-      {
-        from: "data/questions/*",
-        context: path.resolve(__dirname, 'src', 'beach'),
-      },
-      {
-        from: "beach/static/*",
-        to: "static",
-        flatten: true
-      },
-      {
-        from: "beach/favicon.ico",
-      },
-    ]),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: "data/questions/*",
+          context: path.resolve(__dirname, 'src', 'beach'),
+        },
+        {
+          from: "beach/static/*",
+          to: "static"
+        },
+        {
+          from: "beach/favicon.ico",
+        },
+      ]
+    }),
     new GenerateSW({
       clientsClaim: true,
       skipWaiting: true,
