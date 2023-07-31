@@ -24,9 +24,7 @@ markdownRenderer.heading = function (text, level, raw, slugger)
 
 const config = {
   context: appPath,
-  entry: {
-    client: './beach/app.tsx',
-  },
+  entry: './beach/app.tsx',
   output: {
     path: buildPath,
     filename: "js/[name].[chunkhash].js",
@@ -37,7 +35,7 @@ const config = {
   resolve: {
     extensions: [".js", ".ts", ".json", ".tsx"],
   },
-  mode: 'production',
+  mode: 'development',
   module: {
     rules: [
       {
@@ -92,7 +90,11 @@ const config = {
     },
   },
   plugins: [
-    new EnvironmentPlugin(['SENTRY_DSN', 'SENTRY_ENV', 'GA_TRACKING_ID']),
+    new EnvironmentPlugin({
+      SENTRY_DSN: '',
+      SENTRY_ENV: '',
+      GA_TRACKING_ID: ''
+    }),
     new HtmlWebpackPlugin({
       template: "beach/index.html",
     }),
@@ -129,7 +131,7 @@ const config = {
     host: '0.0.0.0',
     port: '8081'
   },
-  devtool: "source-map"
+  devtool: 'source-map'
 };
 
 module.exports = config;

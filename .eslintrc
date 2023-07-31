@@ -22,7 +22,14 @@
       }
     ],
     "@typescript-eslint/camelcase": 0,
-    "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/indent": [
+      "error",
+      2
+    ],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-unused-vars": "off",
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/no-empty-interface": [
       "error",
@@ -42,11 +49,31 @@
         "tsx": "never"
       }
     ],
-    "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".jsx",
+          ".tsx"
+        ]
+      }
+    ],
     "react/prop-types": 0,
-    "react/static-property-placement": ["error", "static public field"],
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function"
+      }
+    ],
+    "react/static-property-placement": [
+      "error",
+      "static public field"
+    ],
     "camelcase": 0,
-    "quotes": ["error", "double"]
+    "quotes": [
+      "error",
+      "double"
+    ]
   },
   "overrides": [
     {
@@ -64,7 +91,13 @@
     },
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"]
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx",
+          ".json"
+        ]
       }
     }
   }

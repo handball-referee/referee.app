@@ -35,7 +35,7 @@ import playingCourt from "../../../data/es/GuidelinesPlayingCourts.md";
 import useScrollToAnchor from "../../../../core/hooks/useScrollToAnchor";
 import equipment from "../../../data/es/EquipmentAccessories.md";
 
-function Spanish() {
+const Spanish = () => {
   const { t } = useTranslation();
   useScrollToAnchor();
 
@@ -80,6 +80,6 @@ function Spanish() {
   return (
     <div dangerouslySetInnerHTML={{ __html: text }} />
   );
-}
+};
 
 export default Spanish;

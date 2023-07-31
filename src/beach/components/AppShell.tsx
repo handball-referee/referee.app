@@ -26,11 +26,9 @@ const RulesTest = loadable(() => import("../../core/components/rules-test/RulesT
   fallback: <Loading />,
 });
 
-const BeachRulesTest = () => {
-  return (
-    <RulesTest mapRuleToAnchor={mapRuleToAnchor} />
-  );
-}
+const BeachRulesTest = () => (
+  <RulesTest mapRuleToAnchor={mapRuleToAnchor} />
+);
 
 const Stats = loadable(() => import("../../core/components/stats/Stats"), {
   fallback: <Loading />,
@@ -40,10 +38,9 @@ const AppShell: FunctionComponent = () => {
   const { t } = useTranslation();
   const { updateConfig } = useAnalytics();
 
-  useEffect(() =>
-    updateConfig({
-      anonymize_ip: true,
-      page_path: useLocation().pathname,
+  useEffect(() => updateConfig({
+    anonymize_ip: true,
+    page_path: useLocation().pathname,
   }), []);
 
   return (

@@ -34,7 +34,7 @@ import guidelines from "../../../data/fr/Guidelines.md";
 import newGuidelines from "../../../data/fr/NewGuidelines.md";
 import playingCourt from "../../../data/fr/GuidelinesPlayingCourts.md";
 
-function French() {
+const French = () => {
   const { t } = useTranslation();
   useScrollToAnchor();
 
@@ -78,6 +78,6 @@ function French() {
   return (
     <div dangerouslySetInnerHTML={{ __html: text }} />
   );
-}
+};
 
 export default French;

@@ -1,12 +1,12 @@
 /* eslint-disable no-mixed-operators */
 import React, { FunctionComponent, KeyboardEvent, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import { faChevronDown, faChevronRight, faFolderOpen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Question from "../../model/Question";
 import "./Question.css";
 import CheckBox from "../CheckBox";
-import { Link } from "react-router-dom";
 import mapRuleToAnchor from "../../../beach/utils/mapRuleToAnchor";
 
 interface Props {

@@ -30,6 +30,7 @@ const RulesSelector: FunctionComponent<Props> = ({ children }) => {
         role="listbox"
         tabIndex={0}
         onClick={handleTogglePopup}
+        onKeyDown={handleTogglePopup}
       >
         <div id="selector-content">
           {t("app.quicknav")}

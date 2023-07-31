@@ -13,11 +13,6 @@ interface MenuProps {
   link?: string;
 }
 
-interface ConditionalWrapperProps {
-  condition: boolean;
-  wrapper: (children: any) => any;
-}
-
 const Menu: FunctionComponent<MenuProps> = ({ logo, link }) => {
   const [open, setOpen] = useState(false);
   const { t } = useTranslation();
@@ -33,17 +28,21 @@ const Menu: FunctionComponent<MenuProps> = ({ logo, link }) => {
   });
   const rotation = open ? 180 : undefined;
 
-  const ConditionalWrapper: FunctionComponent<ConditionalWrapperProps> = ({ condition, wrapper, children }) => (condition ? wrapper(children) : children);
+  const menuLogoDiv = (
+    <div id="logo">
+      <img src={logo} alt={t("app.title")} />
+    </div>
+  );
 
   return (
     <div id="menu" className={className}>
-      <ConditionalWrapper condition={!!link} wrapper={(children) => <a href={link}>{children}</a>}>
-        <div id="logo">
-          <img src={logo} alt={t("app.title")} />
-        </div>
-      </ConditionalWrapper>
+      {
+        link
+          ? <a href={link}>{menuLogoDiv}</a>
+          : { menuLogoDiv }
+      }
       <nav>
-        <NavLink to="/" exact>
+        <NavLink to="/" exact="true">
           <div className="icon"><FontAwesomeIcon icon={faTasks} size="lg" /></div>
           <div className="text">{t("menu.test")}</div>
         </NavLink>
@@ -70,6 +69,10 @@ const Menu: FunctionComponent<MenuProps> = ({ logo, link }) => {
       </div>
     </div>
   );
+};
+
+Menu.defaultProps = {
+  link: "",
 };
 
 export default Menu;

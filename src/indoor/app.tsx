@@ -4,11 +4,11 @@ import "core-js/features/object/assign";
 import "core-js/features/array/includes";
 import "whatwg-fetch";
 import React from "react";
-import { render } from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 import i18next from "i18next";
+import { createRoot } from "react-dom/client";
 import AppShell from "./components/AppShell";
 import i18n from "./i18n";
 import PrivacyProvider from "../core/context/PrivacyProvider";
@@ -25,6 +25,7 @@ i18next
   .init(i18n);
 
 const rootElement = document.getElementById("app");
+const root = createRoot(rootElement!);
 
 const app = (
   <BrowserRouter>
@@ -38,4 +39,4 @@ const app = (
   </BrowserRouter>
 );
 
-render(app, rootElement);
+root.render(app);

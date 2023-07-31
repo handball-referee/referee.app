@@ -4,7 +4,7 @@ import "core-js/features/object/assign";
 import "core-js/features/array/includes";
 import "whatwg-fetch";
 import React from "react";
-import { render } from "react-dom";
+import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
@@ -25,6 +25,7 @@ i18next
   .init(i18n);
 
 const rootElement = document.getElementById("app");
+const root = createRoot(rootElement!);
 
 const app = (
   <BrowserRouter basename="/referee-quiz/">
@@ -38,4 +39,4 @@ const app = (
   </BrowserRouter>
 );
 
-render(app, rootElement);
+root.render(app);

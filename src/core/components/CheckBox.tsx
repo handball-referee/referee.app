@@ -17,7 +17,7 @@ const CheckBox: FunctionComponent<Props> = ({
   readOnly,
 }) => {
   const handleKeyDown = (event: KeyboardEvent) => {
-    if (event.keyCode === 32 && onChange) {
+    if (event.code === "Space" && onChange) {
       onChange();
     }
   };
@@ -41,6 +41,12 @@ const CheckBox: FunctionComponent<Props> = ({
       <FontAwesomeIcon className="checkmark" icon={faCheck} />
     </div>
   );
+};
+
+CheckBox.defaultProps = {
+  onChange: () => null,
+  labelledBy: "",
+  readOnly: false,
 };
 
 export default CheckBox;

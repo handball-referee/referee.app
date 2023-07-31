@@ -35,7 +35,7 @@ import newGuidelines from "../../../data/en/NewGuidelines.md";
 import playingCourt from "../../../data/en/GuidelinesPlayingCourts.md";
 import equipment from "../../../data/en/EquipmentAccessories.md";
 
-function English() {
+const English = () => {
   const { t } = useTranslation();
   useScrollToAnchor();
 
@@ -80,6 +80,6 @@ function English() {
   return (
     <div dangerouslySetInnerHTML={{ __html: text }} />
   );
-}
+};
 
 export default English;

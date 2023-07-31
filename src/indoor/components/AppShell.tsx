@@ -27,11 +27,9 @@ const RulesTest = loadable(() => import("../../core/components/rules-test/RulesT
   fallback: <Loading />,
 });
 
-function IndoorRulesTest() {
-  return (
-    <RulesTest mapRuleToAnchor={mapRuleToAnchor} />
-  );
-}
+const IndoorRulesTest = () => (
+  <RulesTest mapRuleToAnchor={mapRuleToAnchor} />
+);
 
 const Stats = loadable(() => import("../../core/components/stats/Stats"), {
   fallback: <Loading />,

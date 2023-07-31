@@ -4,7 +4,7 @@ import CheckBox from "./CheckBox";
 import usePrivacySettings from "../hooks/usePrivacySettings";
 import { Decision } from "../context/PrivacyContext";
 
-function Info() {
+const Info = () => {
   const {
     allowTracking,
     allowReporting,
@@ -223,6 +223,6 @@ function Info() {
       </div>
     </div>
   );
-}
+};
 
 export default Info;

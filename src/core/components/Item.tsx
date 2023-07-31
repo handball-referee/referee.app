@@ -13,15 +13,24 @@ const Item: FunctionComponent<ItemProps> = ({
   children,
   onClick,
   className,
+  code,
 }) => (
   <li
     className={className}
     role="option"
     aria-selected={selected}
+    value={code}
     onClick={onClick}
+    onKeyDown={onClick}
   >
     {children}
   </li>
 );
+
+Item.defaultProps = {
+  className: "",
+  onClick: () => null,
+  selected: false,
+};
 
 export default Item;
