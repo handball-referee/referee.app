@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/MichiMensing/referee.app/compare/v1.2.0...v1.3.0) (2023-07-31)
+
+
+### Features
+
+* add french rules text ([6cf7727](https://github.com/MichiMensing/referee.app/commit/6cf772797706715055cb613822deaaa92cf49554))
+* add home link to logo ([957dbdd](https://github.com/MichiMensing/referee.app/commit/957dbdd283990527fee9eb2800dee401eecc9c2f))
+* add spanish beach handball rules ([d2cc7ce](https://github.com/MichiMensing/referee.app/commit/d2cc7cec7f4fd939a50c2baee5a7bd788ec55da2))
+* add spanish question translation ([e48c01d](https://github.com/MichiMensing/referee.app/commit/e48c01d306b47bc4c5bb585be3cf43ecda55ece1))
+* added french rules questions ([611013d](https://github.com/MichiMensing/referee.app/commit/611013d1d3e0c296fe36c80c63b1ec302e93f247))
+* added new guidelines document to rules ([cc498f7](https://github.com/MichiMensing/referee.app/commit/cc498f736367c73e2ac6a716f2463877e28d17a1))
+* german translation ([ce7df05](https://github.com/MichiMensing/referee.app/commit/ce7df05789c3c2b655331ba844294b8becfa7c40))
+* relevant rules on stats page ([3a346a9](https://github.com/MichiMensing/referee.app/commit/3a346a9f1ccb0d82a73b2536c844511396f911da))
+* usabeachtour theme ([0af727c](https://github.com/MichiMensing/referee.app/commit/0af727ce7afba4606e0c1e910880f40ac050479f))
+
+
+### Bug Fixes
+
+* change evaluation coloring ([23cfbe7](https://github.com/MichiMensing/referee.app/commit/23cfbe71f5094b0e62e8d97801c1e113ef5af7c3))
+* correct german translation ([1d530a3](https://github.com/MichiMensing/referee.app/commit/1d530a336818e860cc46af06e090a8c164e64845))
+* correct question 8.1 ([e0bd055](https://github.com/MichiMensing/referee.app/commit/e0bd055454867b54cf778e01a108038eca93f606))
+* correct question text for 13.4 ([6f17e7b](https://github.com/MichiMensing/referee.app/commit/6f17e7b87976bc56b2bc65f46de0bec938874c7d))
+* english question wording ([5a05a21](https://github.com/MichiMensing/referee.app/commit/5a05a2158983359b5103ca2c2f994901e12c96ec))
+* fix rule 6.1 ([f6d9625](https://github.com/MichiMensing/referee.app/commit/f6d9625fc71a47dd1e3cc7d9c9dd03109aa48b20))
+* formatting of question 16.19 wrong in German ([98b3edb](https://github.com/MichiMensing/referee.app/commit/98b3edb176afa724221782262a8af01d96cca6d3)), closes [#12](https://github.com/MichiMensing/referee.app/issues/12)
+* **issue-13:** add equipment appendix ([c6ca7ea](https://github.com/MichiMensing/referee.app/commit/c6ca7ea077ee177ff3b41648c5da147b001c75ca))
+* language picker styling ([340d5c1](https://github.com/MichiMensing/referee.app/commit/340d5c122ded148b39f9560d63a4b860eaf25e0d))
+* spanish questions ([29ce60c](https://github.com/MichiMensing/referee.app/commit/29ce60cf3cdf8b20251637d36957c542bad2ece6))
+* update related rules for 1.x questions ([cd32cde](https://github.com/MichiMensing/referee.app/commit/cd32cde774ae3f77456b504d7771b30e33b9edfc))
+
 ## [1.2.0](https://github.com/cevou/referee.app/compare/v1.1.0...v1.2.0) (2020-05-02)
 
 
