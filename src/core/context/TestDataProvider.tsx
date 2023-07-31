@@ -8,6 +8,7 @@ import Loading from "../components/Loading";
 import TestDataManager from "../model/TestDataManager";
 import Question from "../model/Question";
 import { IAnswer } from "../model";
+import { Routes } from "react-router-dom";
 
 interface TestDataProviderProps {
   children: ReactNode;
@@ -86,7 +87,11 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children, 
             <Loading />
           );
         } else {
-          content = children;
+          content = (
+            <Routes>
+              {children}
+            </Routes>
+          );
         }
 
         return (

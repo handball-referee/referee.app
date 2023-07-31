@@ -40,7 +40,7 @@ const AppShell: FunctionComponent = () => {
 
   useEffect(() => updateConfig({
     anonymize_ip: true,
-    page_path: useLocation().pathname,
+    page_path: window.location.pathname,
   }), []);
 
   return (
