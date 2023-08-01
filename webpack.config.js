@@ -27,6 +27,7 @@ const config = {
   entry: {
     client: './indoor/app.tsx',
   },
+  mode: 'production',
   output: {
     path: buildPath,
     filename: "js/[name].[chunkhash].js",
@@ -91,24 +92,29 @@ const config = {
     },
   },
   plugins: [
-    new EnvironmentPlugin(['SENTRY_DSN', 'SENTRY_ENV', 'GA_TRACKING_ID']),
+    new EnvironmentPlugin({
+      SENTRY_DSN: '',
+      SENTRY_ENV: '',
+      GA_TRACKING_ID: ''
+    }),
     new HtmlWebpackPlugin({
       template: "indoor/index.html",
     }),
-    new CopyPlugin([
-      {
-        from: "data/questions/*",
-        context: path.resolve(__dirname, 'src', 'indoor'),
-      },
-      {
-        from: "indoor/static/*",
-        to: "static/",
-        flatten: true
-      },
-      {
-        from: "indoor/favicon.ico",
-      },
-    ]),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: "data/questions/*",
+          context: path.resolve(__dirname, 'src', 'indoor'),
+        },
+        {
+          from: "indoor/static/*",
+          to: "static/"
+        },
+        {
+          from: "indoor/favicon.ico",
+        },
+      ]
+    }),
     new GenerateSW({
       clientsClaim: true,
       skipWaiting: true,

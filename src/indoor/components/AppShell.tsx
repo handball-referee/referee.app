@@ -1,6 +1,7 @@
 import React, { FunctionComponent, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Route, useHistory } from "react-router";
+import { Helmet } from "react-helmet";
+import { Route } from "react-router";
 import loadable from "@loadable/component";
 import Menu from "../../core/components/Menu";
 import Loading from "../../core/components/Loading";
@@ -27,30 +28,26 @@ const RulesTest = loadable(() => import("../../core/components/rules-test/RulesT
   fallback: <Loading />,
 });
 
-const IndoorRulesTest = () => {
-  return (
-    <RulesTest mapRuleToAnchor={mapRuleToAnchor} />
-  );
-}
+const IndoorRulesTest = () => (
+  <RulesTest mapRuleToAnchor={mapRuleToAnchor} />
+);
 
 const Stats = loadable(() => import("../../core/components/stats/Stats"), {
   fallback: <Loading />,
 });
 
 const AppShell: FunctionComponent = () => {
-  const { t } = useTranslation();
-  const { listen } = useHistory();
+  const { t, i18n } = useTranslation();
   const { updateConfig } = useAnalytics();
 
-  useEffect(() => listen((location) => {
-    updateConfig({
-      anonymize_ip: true,
-      page_path: location.pathname,
-    });
+  useEffect(() => updateConfig({
+    anonymize_ip: true,
+    page_path: window.location.pathname,
   }), []);
 
   return (
     <div id="page-wrapper">
+      <Helmet htmlAttributes={{ lang: i18n.language }} />
       <Menu logo={Logo} />
       <div id="page-body">
         <Tracking />
@@ -76,10 +73,10 @@ const AppShell: FunctionComponent = () => {
           </LanguagePicker>
         </header>
         <TestDataProvider answerData={answerData}>
-          <Route path="/" exact render={IndoorRulesTest} />
-          <Route path="/rules" component={HandballRules} />
-          <Route path="/stats" component={Stats} />
-          <Route path="/about" component={About} />
+          <Route path="/" element={<IndoorRulesTest />} />
+          <Route path="/rules" element={<HandballRules />} />
+          <Route path="/stats" element={<Stats />} />
+          <Route path="/about" element={<About />} />
         </TestDataProvider>
       </div>
     </div>

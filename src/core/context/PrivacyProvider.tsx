@@ -1,4 +1,8 @@
-import React, { FunctionComponent, useEffect, useState } from "react";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
+import React, {
+  FunctionComponent, ReactNode, useEffect, useState,
+} from "react";
 import * as Sentry from "@sentry/browser";
 import { Decision, getPrivacyContext } from "./PrivacyContext";
 
@@ -8,13 +12,12 @@ declare global {
 
 window.dataLayer = window.dataLayer || [];
 
-// eslint-disable-next-line prefer-rest-params,no-unused-vars
+// eslint-disable-next-line prefer-rest-params,@typescript-eslint/no-unused-vars
 function gtag(...args: any[]) { window.dataLayer.push(arguments); }
 
 interface Props {
   trackingId?: string;
-  sentryDsn?: string;
-  environment?: string;
+  children?: ReactNode;
 }
 
 const TRACKING_KEY = "allowTracking";
@@ -60,6 +63,11 @@ const PrivacyProvider: FunctionComponent<Props> = ({ trackingId, children }) => 
 
     setTrackingCodeLoaded(true);
   }, [allowTracking, trackingCodeLoaded]);
+
+  PrivacyProvider.defaultProps = {
+    trackingId: "",
+    children: null,
+  };
 
   useEffect(() => {
     if (!allowReporting) {
@@ -107,4 +115,5 @@ const PrivacyProvider: FunctionComponent<Props> = ({ trackingId, children }) => 
   );
 };
 
+// eslint-enable @typescript-eslint/no-explicit-any
 export default PrivacyProvider;

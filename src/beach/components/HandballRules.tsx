@@ -23,6 +23,10 @@ const RulesItem: FunctionComponent<RuleItemProps> = ({ textKey, className }) => 
   );
 };
 
+RulesItem.defaultProps = {
+  className: "",
+};
+
 const HandballRules = () => (
   <div id="rules">
     <RulesSelector>

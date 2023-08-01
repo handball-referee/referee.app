@@ -24,9 +24,8 @@ markdownRenderer.heading = function (text, level, raw, slugger)
 
 const config = {
   context: appPath,
-  entry: {
-    client: './beach/app.tsx',
-  },
+  entry: './beach/app.tsx',
+  mode: 'prodution',
   output: {
     path: buildPath,
     filename: "js/[name].[chunkhash].js",
@@ -91,24 +90,29 @@ const config = {
     },
   },
   plugins: [
-    new EnvironmentPlugin(['SENTRY_DSN', 'SENTRY_ENV', 'GA_TRACKING_ID']),
+    new EnvironmentPlugin({
+      SENTRY_DSN: '',
+      SENTRY_ENV: '',
+      GA_TRACKING_ID: ''
+    }),
     new HtmlWebpackPlugin({
       template: "beach/index.html",
     }),
-    new CopyPlugin([
-      {
-        from: "data/questions/*",
-        context: path.resolve(__dirname, 'src', 'beach'),
-      },
-      {
-        from: "beach/static/*",
-        to: "static",
-        flatten: true
-      },
-      {
-        from: "beach/favicon.ico",
-      },
-    ]),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: "data/questions/*",
+          context: path.resolve(__dirname, 'src', 'beach'),
+        },
+        {
+          from: "beach/static/*",
+          to: "static"
+        },
+        {
+          from: "beach/favicon.ico",
+        },
+      ]
+    }),
     new GenerateSW({
       clientsClaim: true,
       skipWaiting: true,
@@ -123,11 +127,23 @@ const config = {
     }) */
   ],
   devServer: {
-    historyApiFallback: true,
+    historyApiFallback: {
+      index: '/referee-quiz/index.html',
+      rewrites: [
+        { from: /./, to: './beach/app.tsx' }
+      ]
+    },
     host: '0.0.0.0',
-    port: '8081'
+    port: '8081',
+    client: {
+      overlay: {
+        errors: true,
+        warnings: false,
+        runtimeErrors: true,
+      }
+    }
   },
-  devtool: "source-map"
+  devtool: 'source-map'
 };
 
 module.exports = config;

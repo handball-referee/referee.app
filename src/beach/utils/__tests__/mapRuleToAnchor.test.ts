@@ -1,4 +1,4 @@
-import { IAnswer } from "../../model";
+import { IAnswer } from "../../../core/model";
 import mapRuleToAnchor from "../mapRuleToAnchor";
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires

@@ -11,7 +11,7 @@ const i18n = {
   resources: {
     en,
     es,
-    de
+    de,
   },
   whitelist: ["en", "es", "de"],
 };

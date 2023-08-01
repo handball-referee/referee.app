@@ -23,6 +23,10 @@ const RulesItem: FunctionComponent<RuleItemProps> = ({ textKey, className }) => 
   );
 };
 
+RulesItem.defaultProps = {
+  className: "",
+};
+
 const HandballRules = () => (
   <div id="rules">
     <RulesSelector>
@@ -52,7 +56,6 @@ const HandballRules = () => (
       <RulesItem textKey="rules.guidelines" />
       <RulesItem textKey="rules.new-guidelines" />
       <RulesItem textKey="rules.playing-court" />
-      <RulesItem textKey="rules.equipment-accessories" />
     </RulesSelector>
     <RulesText ruleBasePath="indoor/components/rules" />
   </div>

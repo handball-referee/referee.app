@@ -3,6 +3,7 @@ import React, {
   FunctionComponent, ReactNode, useEffect, useRef, useState,
 } from "react";
 import { useTranslation } from "react-i18next";
+import { Routes } from "react-router-dom";
 import { getTestDataContext } from "./TestDataContext";
 import Loading from "../components/Loading";
 import TestDataManager from "../model/TestDataManager";
@@ -66,7 +67,7 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children, 
         correct: 0,
         data: {},
         checked: [],
-        reveal: false
+        reveal: false,
       }) => {
         context = {
           ...context,
@@ -86,7 +87,11 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children, 
             <Loading />
           );
         } else {
-          content = children;
+          content = (
+            <Routes>
+              {children}
+            </Routes>
+          );
         }
 
         return (

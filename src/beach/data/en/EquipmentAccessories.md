@@ -2,7 +2,7 @@
 
 Edition: July 2017
 
-Source: https://www.ihf.info/sites/default/files/2019-07/0_Regulations%20on%20Protective%20Equipment%20and%20Accessories_GB.pdf
+*Source: https://www.ihf.info/sites/default/files/2019-07/0_Regulations%20on%20Protective%20Equipment%20and%20Accessories_GB.pdf*
 
 ## 1. Head/face protection
 
