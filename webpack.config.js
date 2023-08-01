@@ -92,7 +92,11 @@ const config = {
     },
   },
   plugins: [
-    new EnvironmentPlugin(['SENTRY_DSN', 'SENTRY_ENV', 'GA_TRACKING_ID']),
+    new EnvironmentPlugin({
+      SENTRY_DSN: '',
+      SENTRY_ENV: '',
+      GA_TRACKING_ID: ''
+    }),
     new HtmlWebpackPlugin({
       template: "indoor/index.html",
     }),

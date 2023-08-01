@@ -3,12 +3,12 @@ import React, {
   FunctionComponent, ReactNode, useEffect, useRef, useState,
 } from "react";
 import { useTranslation } from "react-i18next";
+import { Routes } from "react-router-dom";
 import { getTestDataContext } from "./TestDataContext";
 import Loading from "../components/Loading";
 import TestDataManager from "../model/TestDataManager";
 import Question from "../model/Question";
 import { IAnswer } from "../model";
-import { Routes } from "react-router-dom";
 
 interface TestDataProviderProps {
   children: ReactNode;

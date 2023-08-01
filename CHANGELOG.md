@@ -2,7 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [1.3.0](https://github.com/MichiMensing/referee.app/compare/v1.2.0...v1.3.0) (2023-07-31)
+
+### [1.3.3](https://github.com/handball-referee/referee.app/compare/v1.3.2...v1.3.3) (2021-01-30)
+
+### [1.3.2](https://github.com/handball-referee/referee.app/compare/v1.3.1...v1.3.2) (2021-01-30)
+
+
+### Bug Fixes
+
+* bug in german test data ([674a66f](https://github.com/handball-referee/referee.app/commit/674a66fe7094e4bba90699a98b17ea1e70871a55))
+
+### [1.3.1](https://github.com/handball-referee/referee.app/compare/v1.3.0...v1.3.1) (2021-01-21)
+
+
+### Bug Fixes
+
+* always set selected language on html tag ([4bfd001](https://github.com/handball-referee/referee.app/commit/4bfd001ef3987fb0a84bab2fa88d7c0cf86de587))
+
+## [1.3.0](https://github.com/cevou/referee.app/compare/v1.2.0...v1.3.0) (2020-11-23)
 
 
 ### Features
@@ -16,6 +33,11 @@ All notable changes to this project will be documented in this file. See [standa
 * german translation ([ce7df05](https://github.com/MichiMensing/referee.app/commit/ce7df05789c3c2b655331ba844294b8becfa7c40))
 * relevant rules on stats page ([3a346a9](https://github.com/MichiMensing/referee.app/commit/3a346a9f1ccb0d82a73b2536c844511396f911da))
 * usabeachtour theme ([0af727c](https://github.com/MichiMensing/referee.app/commit/0af727ce7afba4606e0c1e910880f40ac050479f))
+* add french rules text ([6cf7727](https://github.com/cevou/referee.app/commit/6cf772797706715055cb613822deaaa92cf49554))
+* added french rules questions ([611013d](https://github.com/cevou/referee.app/commit/611013d1d3e0c296fe36c80c63b1ec302e93f247))
+* added new guidelines document to rules ([cc498f7](https://github.com/cevou/referee.app/commit/cc498f736367c73e2ac6a716f2463877e28d17a1))
+* remove equipment until it's complete ([d40ce68](https://github.com/cevou/referee.app/commit/d40ce685db7a005676261dbe2c14ceb719ae2f06))
+* switch to AWS ([740e1b1](https://github.com/cevou/referee.app/commit/740e1b16db9cb110372c0de5d9db9dde301f2336))
 
 
 ### Bug Fixes
@@ -31,6 +53,8 @@ All notable changes to this project will be documented in this file. See [standa
 * language picker styling ([340d5c1](https://github.com/MichiMensing/referee.app/commit/340d5c122ded148b39f9560d63a4b860eaf25e0d))
 * spanish questions ([29ce60c](https://github.com/MichiMensing/referee.app/commit/29ce60cf3cdf8b20251637d36957c542bad2ece6))
 * update related rules for 1.x questions ([cd32cde](https://github.com/MichiMensing/referee.app/commit/cd32cde774ae3f77456b504d7771b30e33b9edfc))
+* **issue-13:** add equipment appendix ([c6ca7ea](https://github.com/cevou/referee.app/commit/c6ca7ea077ee177ff3b41648c5da147b001c75ca))
+* formatting of question 16.19 wrong in German ([98b3edb](https://github.com/cevou/referee.app/commit/98b3edb176afa724221782262a8af01d96cca6d3)), closes [#12](https://github.com/cevou/referee.app/issues/12)
 
 ## [1.2.0](https://github.com/cevou/referee.app/compare/v1.1.0...v1.2.0) (2020-05-02)
 

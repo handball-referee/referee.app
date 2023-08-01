@@ -2,7 +2,7 @@
 
 Ausgabe: Juli 2017
 
-Quelle: https://www.ihf.info/sites/default/files/2019-07/0_Regulations%20on%20Protective%20Equipment%20and%20Accessories_GB.pdf
+Quelle: https://www.ihf.info/sites/default/files/2019-07/0_Regulations%20on%20Protective%20Equipment%20and%20Accessories_ALL.pdf*
 
 ## 1. Kopf- und Gesichtsschutz
 

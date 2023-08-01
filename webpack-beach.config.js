@@ -25,6 +25,7 @@ markdownRenderer.heading = function (text, level, raw, slugger)
 const config = {
   context: appPath,
   entry: './beach/app.tsx',
+  mode: 'prodution',
   output: {
     path: buildPath,
     filename: "js/[name].[chunkhash].js",
@@ -35,7 +36,6 @@ const config = {
   resolve: {
     extensions: [".js", ".ts", ".json", ".tsx"],
   },
-  mode: 'development',
   module: {
     rules: [
       {

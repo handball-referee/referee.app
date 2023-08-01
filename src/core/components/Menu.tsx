@@ -13,6 +13,19 @@ interface MenuProps {
   link?: string;
 }
 
+interface LogoProps {
+  logo: string;
+}
+
+const Logo: FunctionComponent<LogoProps> = ({ logo }) => {
+  const { t } = useTranslation();
+  return (
+    <div id="logo">
+      <img src={logo} alt={t("app.title")} />
+    </div>
+  );
+};
+
 const Menu: FunctionComponent<MenuProps> = ({ logo, link }) => {
   const [open, setOpen] = useState(false);
   const { t } = useTranslation();
@@ -28,22 +41,19 @@ const Menu: FunctionComponent<MenuProps> = ({ logo, link }) => {
   });
   const rotation = open ? 180 : undefined;
 
-  const menuLogoDiv = (
-    <div id="logo">
-      <img src={logo} alt={t("app.title")} />
-    </div>
-  );
-
   return (
     <div id="menu" className={className}>
       {
-        link ?
-          <a href={link}>{menuLogoDiv}</a>
-          :
-          { menuLogoDiv }
+        link
+          ? (
+            <a href={link}>
+              <Logo logo={logo} />
+            </a>
+          )
+          : <Logo logo={logo} />
       }
       <nav>
-        <NavLink to="/" >
+        <NavLink to="/">
           <div className="icon"><FontAwesomeIcon icon={faTasks} size="lg" /></div>
           <div className="text">{t("menu.test")}</div>
         </NavLink>
