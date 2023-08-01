@@ -15,83 +15,37 @@ Frauenmannschaften muss die nachfolgenden Bestimmungen erfüllen.
 Gemäß der Olympischen Charta sind religiös, politisch oder rassistisch
 motivierte Botschaften auf der Spielkleidung strengstens untersagt. 
 
-### Tank-Tops der Männer / Tops der Frauen 
-Die Tank-Tops und Tops müssen den Abbildungen entsprechen. Die TankTops der Männer müssen ärmellos und eng geschnitten sein, unter
-Berücksichtigung der vorgesehenen Werbeflächen. Die Tops der Frauen
-(bauchfrei) müssen ebenfalls eng geschnitten sein, mit einem weit nach
-innen laufenden Armloch auf dem Rücken unter Berücksichtigung der
-vorgesehenen Werbeflächen. Das Tragen von T-Shirts unter den TankTops für die Mannschaftsoffiziellen ist nicht erlaubt. 
+### Tank-Tops der Männer / körpernahe Tank-Tops der Frauen 
+Die Tank-Tops/körpernahen Tank-Tops müssen den Abbildungen entsprechen. Die
+Tank-Tops der Männer und die körpernahen Tank-Tops der Frauen müssen ärmellos und eng geschnitten sein, wobei die vorgesehenen Werbeflächen zu berücksichtigen sind. Das Tragen von T-Shirts unter den Tank-Tops ist nicht erlaubt.
 
 #### Farbe
-Die Tank-Tops/Tops sind in hellen Farben (rot, blau, gelb, grün,
-orange und weiß) zu halten; damit sind am Strand übliche Farben
-gewählt. 
+Um möglichst die am Strand üblichen Farben zu verwenden, sind die Tank-Tops bzw. körpernahen Tank-Tops in hellen Farben (rot, blau, gelb, grün, orange und weiß) zu halten.
 
 #### Werbung
 - Logos der Promoter und Sponsoren:
 
-   Die Logos der Promoter und Sponsoren können auf der Vorder- und
-Rückseite der Tank-Tops der Männer und der Tops der Frauen
-platziert werden. 
+   Die Logos der Promoter und Sponsoren können auf der Vorder- und Rückseite der Tank-Tops der Männer und der körpernahen Tank-Tops der Frauen platziert werden.
 - Herstellerlogos:
 
-   Das Logo des Herstellers wird auf der Vorderseite der Tank-Tops/Tops
-platziert und ist höchstens 20 cm2
-groß.
+   Das Logo des Herstellers wird auf der Vorderseite der Tank-Tops/körpernahen Tank-Tops platziert und ist höchstens 20 cm2 groß.
 
 #### Spielernummer
-Die Spielernummern (ca. 12 cm x 10 cm auf den Tank-Tops der
-Männer und 8 cm x 6 cm auf den Tops der Frauen) müssen auf der
-Vorder- und Rückseite platziert werden. Die Farbe der Spielernummer
-muss sich von der Farbe des Tank-Tops/Tops deutlich abheben (z.B.
-helle Nummer auf dunklem Tank-Top/Top; dunkle Nummer auf hellem
-Tank-Top/Top).
+Die Spielernummern (ca. 12 cm x 10 cm) müssen auf der Vorder- und Rückseite der Tank-Tops der Männer und der körpernahen Tank-Tops der Frauen platziert werden. Die Farbe der Spielernummer muss sich von der Farbe des Tank-Tops/körpernah Tank-Tops deutlich abheben (z. B. helle Nummer auf dunklem Tank-Top/körpernahem Tank-Top; dunkle Nummer auf hellem Tank-Top/körpernahem Tank-Top).
 
-### Männer-Shorts/Bikinihosen der Frauen
-Die Mitglieder einer Mannschaft tragen die gleichen Shorts/Bikinihosen. Die
-Männer-Shorts müssen der angehängten Abbildung entsprechen. Die
-Shorts, sofern sie nicht zu lässig geschnitten sind, können länger sein, aber
-**nicht länger als 10 cm über dem Knie**. Spielerinnen müssen Bikinihosen
-tragen, die der angehängten Abbildung entsprechen. Sie müssen
-körperbetont geschnitten sein, mit einem hohen Beinausschnitt. Die
-Seitenbreite darf **höchstens 10 cm betragen**.
+### Shorts der Männer und Frauen
+Die Mitglieder einer Mannschaft tragen die gleichen Shorts. Die Shorts der Männer müssen der Abbildung entsprechen, Die Shorts, sofern sie nicht zu lässig geschnitten sind, können länger sein, aber nicht länger als 10 cm über dem Knie. Die kurzen, enganliegenden Hosen der Frauen müssen der Abbildung entsprechen.
 
-Die Mannschaften dürfen unabhängig von Stelle oder Größe
-Sponsorenlogos (oder Herstellerlogos) auf ihren Shorts / Bikinihosen (oder
-auf ihrem Badeanzug) tragen.
-
-Die Anzahl der erlaubten Sponsoren auf den Shorts ist nicht begrenzt. Die
-Shorts/Bikinihosen haben die Namen/Spitznamen der Spieler zu tragen.
-
-Die jeweiligen Mannschaftsoffiziellen müssen ihre eigene Kleidung (TankTops/Tops, Shorts/Bikinihosen oder Badeanzug) während der Technischen
-Sitzung vor Wettkampfbeginn zur Genehmigung vorlegen.
-
-Die Mannschaftsoffiziellen dürfen unter den Tank-Tops keine T-Shirts
-tragen.
-
-Des Weiteren muss die Farbe von Thermohosen mit der Farbe des
-entsprechenden Teils der Ausrüstung übereinstimmen. 
+Die Mannschaften dürfen unabhängig von Stelle oder Größe Sponsorenlogos (oder Herstellerlogos) auf ihren Shorts tragen. Die Anzahl der erlaubten Sponsoren auf den Shorts ist nicht begrenzt. Die Shorts haben die Namen/Spitznamen der Spieler zu tragen. Die jeweiligen Mannschaftsoffiziellen müssen die Spielkleidung ihrer Mannschaft während der
+Technischen Sitzung vor Wettkampfbeginn zur Genehmigung vorlegen.
 
 ### Bei kalter Witterung
 Bei extremen Witterungsbedingungen dürfen die Spieler enge Shirts
 und lange enge Hosen (nicht bis zum Knie sondern bis zum Knöchel)
-tragen. Bezüglich Schnitt und Farbe müssen diese ebenfalls die für
-Shorts/Bikinihosen geltenden Marketing-Bestimmungen erfüllen,
-unabhängig von Größe und Position. Die Wettkampfleitung ist
-letztendlich und nach Rücksprache mit der medizinischen Abteilung für
-die Genehmigung dieser besonderen Spielkleidung verantwortlich.
+tragen. Bezüglich Schnitt und Farbe müssen diese
+ebenfalls die für Shorts geltenden Marketing-Bestimmungen erfüllen, unabhängig von Größe und Position. 
 
-Die Spielkleidung bei kalter Witterung besteht aus einem engen Shirt
-mit langen oder kurzen Ärmeln und/oder langen engen Hosen. Die
-Kleidung muss körperbetont und für eine Mannschaft einheitlich in Stil,
-Länge und Farbe sein.
-
-Sponsorenlogos auf der Spielkleidung der Männer und Frauen bei
-kalter Witterung sind erlaubt. Gemäß den oben genannten
-Bestimmungen sind Sponsorenlogos auf den bei kalter Witterung
-getragenen langen Hosen erlaubt (dabei können die Männer-Shorts
-über der Hose getragen werden). Spielerinnen allerdings dürfen ihre
-Bikinihose nicht über der langen Hose tragen.
+Die Wettkampfleitung ist letztendlich und nach Rücksprache mit der medizinischen Abteilung für die Genehmigung dieser besonderen Spielkleidung verantwortlich. Sponsorenlogos auf den Tank-Tops der Männer/körpernahen Tank-Tops der Frauen für kalte Witterung sind erlaubt. Gemäß den oben genannten Bestimmungen sind Sponsorenlogos auf den bei kalter Witterung getragenen langen Hosen erlaubt.
 
 ### Spielkleidung der Männer
 
