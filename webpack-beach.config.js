@@ -127,9 +127,21 @@ const config = {
     }) */
   ],
   devServer: {
-    historyApiFallback: true,
+    historyApiFallback: {
+      index: '/referee-quiz/index.html',
+      rewrites: [
+        { from: /./, to: './beach/app.tsx' }
+      ]
+    },
     host: '0.0.0.0',
-    port: '8081'
+    port: '8081',
+    client: {
+      overlay: {
+        errors: true,
+        warnings: false,
+        runtimeErrors: true,
+      }
+    }
   },
   devtool: 'source-map'
 };

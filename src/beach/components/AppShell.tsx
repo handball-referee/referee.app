@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Route, useLocation } from "react-router";
+import { Route } from "react-router";
 import loadable from "@loadable/component";
 import Menu from "../../core/components/Menu";
 import Loading from "../../core/components/Loading";
@@ -66,10 +66,10 @@ const AppShell: FunctionComponent = () => {
           </LanguagePicker>
         </header>
         <TestDataProvider answerData={answerData}>
-          <Route path="/" exact render={BeachRulesTest} />
-          <Route path="/rules" component={HandballRules} />
-          <Route path="/stats" component={Stats} />
-          <Route path="/about" component={About} />
+          <Route path="/" element={<BeachRulesTest />} />
+          <Route path="/rules" element={<HandballRules />} />
+          <Route path="/stats" element={<Stats />} />
+          <Route path="/about" element={<About />} />
         </TestDataProvider>
       </div>
     </div>

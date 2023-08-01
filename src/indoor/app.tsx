@@ -31,8 +31,6 @@ const app = (
   <BrowserRouter>
     <PrivacyProvider
       trackingId={process.env.GA_TRACKING_ID}
-      sentryDsn={process.env.SENTRY_DSN}
-      environment={process.env.SENTRY_ENV}
     >
       <AppShell />
     </PrivacyProvider>

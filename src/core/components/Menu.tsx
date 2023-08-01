@@ -37,12 +37,13 @@ const Menu: FunctionComponent<MenuProps> = ({ logo, link }) => {
   return (
     <div id="menu" className={className}>
       {
-        link
-          ? <a href={link}>{menuLogoDiv}</a>
-          : { menuLogoDiv }
+        link ?
+          <a href={link}>{menuLogoDiv}</a>
+          :
+          { menuLogoDiv }
       }
       <nav>
-        <NavLink to="/" exact="true">
+        <NavLink to="/" >
           <div className="icon"><FontAwesomeIcon icon={faTasks} size="lg" /></div>
           <div className="text">{t("menu.test")}</div>
         </NavLink>
