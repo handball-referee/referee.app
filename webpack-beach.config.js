@@ -25,7 +25,7 @@ markdownRenderer.heading = function (text, level, raw, slugger)
 const config = {
   context: appPath,
   entry: './beach/app.tsx',
-  mode: 'prodution',
+  mode: 'production',
   output: {
     path: buildPath,
     filename: "js/[name].[chunkhash].js",
@@ -73,9 +73,9 @@ const config = {
       },
       {
         test: /\.png|\.svg$/,
-        loader: "file-loader",
-        options: {
-          outputPath: 'static',
+        type: 'asset/resource',
+        generator: {
+          filename: 'static/[hash][ext][query]'
         },
         exclude: ["/src/indoor/"],
       },
