@@ -14,6 +14,8 @@ export default function mapRuleToAnchor(rule: string, language: string) {
             return "#1.-concesión-de-puntos";
           case "de":
             return "#1.-wertung-der-punkte";
+          case "fr":
+            return "#1.---";
           default:
             return "#1.-awarding-of-points";
         }

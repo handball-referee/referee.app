@@ -1,7 +1,7 @@
 {
   "translation": {
     "app": {
-      "title": "Arbitre de Handball",
+      "title": "Arbitre de Beach Handball",
       "language": "Langue",
       "toggle-menu": "Menu à Bascule",
       "quicknav": "Navigation Rapide"
@@ -10,42 +10,42 @@
     "Reset": "Remettre",
     "menu": {
       "test": "Test d'arbitre",
-      "rules": "Règles de jeu",
+      "rules": "Règles du jeu",
       "stats": "Statistiques",
       "about": "Information"
     },
     "rules": {
       "foreword": "Préface",
-      "rules": "Règles de jeu",
+      "rules": "Règles du jeu",
       "rule": {
         "rule1": "L’aire de jeu",
-        "rule2": "Temps de jeu, signal de fin et arrêt du temps de jeu",
+        "rule2": "Début du match, temps de jeu, signal de fin, time-out et team time-out",
         "rule3": "Le ballon",
-        "rule4": "L’équipe, les changements, l’équipement, blessures",
+        "rule4": "L‘équipe, les changements de joueurs, l‘équipment",
         "rule5": "Le gardien de but",
         "rule6": "La surface de but",
         "rule7": "Le maniement du ballon, le jeu passif",
         "rule8": "Irrégularités et comportements antisportifs",
-        "rule9": "Validité du but",
-        "rule10": "L’engagement",
+        "rule9": "Validité des points, le vainqueur du match",
+        "rule10": "Le jet d’arbitre",
         "rule11": "La remise en jeu",
         "rule12": "Le renvoi",
         "rule13": "Le jet franc",
-        "rule14": "Le jet de 7 mètres",
-        "rule15": "Instructions générales pour l’exécution des jets",
+        "rule14": "Le jet de 6 mètres",
+        "rule15": "Instructions générales pour l‘exécution des jets (remise en jeu, renvoi, jet franc, jet de 6 mètres)",
         "rule16": "Les sanctions",
         "rule17": "Les arbitres",
-        "rule18": "Le secrétaire et le chronométreur"
+        "rule18": "Le chronométreur et le secrétaire"
       },
-      "hand-signals": "Gestes",
+      "hand-signals": "Gestes des arbitres",
       "clarifications": "Interprétations des Règles de jeu",
       "sar": "Règlement des zones de changement",
-      "guidelines": "Directives et Interprétations",
-      "new-guidelines": "Nouvelle Directives",
-      "playing-court": "Directives pour la construction des aires de jeu et des buts",
+      "athlete-uniform-regulations": "Règlement de la tenue de jeu des athlètes",
+      "sand-quality-and-lighting-regulations": "Règlement sur la qualité du sable",
+      "glossary": "Glossaire",
       "equipment-accessories": "Règlement pour les équipements de protection et accessoires",
-      "edition": "Edition : 1er juillet 2016",
-      "source": "Source: https://www.ihf.info/sites/default/files/2019-07/New-Rules%20of%20the%20Game_F.pdf"
+      "edition": "Edition: 1er Janvier 2022",
+      "source": "Source: https://www.ihf.info/sites/default/files/2022-02/09B%20-%20Rules%20of%20the%20Game_Beach%20Handball_F.pdf"
     },
     "rulestest": {
       "question": "Question",

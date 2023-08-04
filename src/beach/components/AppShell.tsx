@@ -17,6 +17,7 @@ import Item from "../../core/components/Item";
 import us from "../../img/us.svg";
 import es from "../../img/es.svg";
 import de from "../../img/de.svg";
+import fr from "../../img/fr.svg";
 
 const HandballRules = loadable(() => import("./HandballRules"), {
   fallback: <Loading />,
@@ -62,6 +63,10 @@ const AppShell: FunctionComponent = () => {
             <Item code="de">
               <img src={de} alt="Deutsch" />
               <span>Deutsch</span>
+            </Item>
+            <Item code="fr">
+              <img src={fr} alt="Français" />
+              <span>Français</span>
             </Item>
           </LanguagePicker>
         </header>
