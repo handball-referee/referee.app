@@ -81,7 +81,7 @@ attaque essaie en fait de tirer ou d’entreprendre une action en direction du b
 ### C. Comment montrer le geste d‘avertissement préalable
 
 Si un arbitre (soit l’arbitre de champ soit l’arbitre de ligne de but) reconnaît une tendance au jeu passif,
-il lève le bras (geste n° 16) pour indiquer qu’aucune action ou tentative de tir vers le but n’est
+il lève le bras ([geste n° 16](16---geste-d'avertissement-pour-jeu-passif)) pour indiquer qu’aucune action ou tentative de tir vers le but n’est
 reconnaissable. 
 
 L’autre arbitre devrait reprendre ce geste.
@@ -101,8 +101,9 @@ le signal d’avertissement préalable doit être arrêté immédiatement :
 
 - a) l’équipe en possession du ballon tire au but et le ballon lui revient directement, renvoyé par un
 montant du but, la traverse ou le gardien de but (directement ou en forme d’une remise) ;
+
 - b) un joueur ou un officiel de l’équipe qui défend se voit infliger une sanction personnelle
-conformément à la règle 16 à cause d’une infraction aux règles ou d’un comportement antisportif.
+conformément à la règle [16](#16:1) à cause d’une infraction aux règles ou d’un comportement antisportif.
 
 Dans ces deux situations, l’équipe en possession du ballon doit être autorisée à une nouvelle phase de
 construction.

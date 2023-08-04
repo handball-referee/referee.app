@@ -1,7 +1,7 @@
 ## 1. Évaluation des points (règle [9](#9:1))
 
 **On comptabilise aussi deux points pour la situation suivante :**
-Le but inscrit sur « Kung fu » (règle 9:2).
+Le but inscrit sur « Kung fu » (règle [9:2](#9:2)).
 
 Deux points sont donnés seulement si le joueur qui en suspension est capable de contrôler le ballon et
 de tirer au but pendant qu’il est en l’air (un point si le ballon est frappé ou poussé dans le but).

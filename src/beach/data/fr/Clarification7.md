@@ -1,6 +1,6 @@
 ## 7. Définition d‘une « occasion manifeste de but » (règles [14:1](#14:1))
 
-Il y a une « occasion manifeste de but » en vertu de la règle 14:1 lorsque :
+Il y a une « occasion manifeste de but » en vertu de la règle [14:1](#14:1) lorsque :
 - a) un joueur qui maîtrise déjà le ballon et son équilibre au niveau de la ligne de surface de but de
 l’équipe adverse a la possibilité de tirer au but, sans qu’aucun joueur adverse ne puisse
 l’empêcher de tirer avec des méthodes régulières ;

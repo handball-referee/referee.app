@@ -1,4 +1,4 @@
-# Regulations on Protective Equipment and Accessories
+# Règlement pour les équipements de protection et accessoires
 
 Edition: July 2017
 

@@ -1,44 +1,44 @@
-# Gestes des arbitres de beach handball
+# Gestes des arbitres
 
 ## Directives
 
-1. Un but peut valoir 1 ou 2 points. L’arbitre central doit indiquer clairement cette règle (règles 9, 14:4,
-interprétation n° 1), en pointant 1 ou 2 doigts. Lors d’un but à 2 points, l'arbitre de but effectuera
+1. Un but peut valoir 1 ou 2 points. L’arbitre central doit indiquer clairement cette règle (règles [9](#9:1), [14:4](#14:4),
+[interprétation n° 1](#1.-évaluation-des-points)), en pointant 1 ou 2 doigts. Lors d’un but à 2 points, l'arbitre de but effectuera
 avec son bras un « moulinet » vertical au moment du coup de sifflet
-2. Geste 12 : L’arbitre montre l'irrégularité et indique le joueur fautif.
+2. [Geste 12](#12---exclusion) : L’arbitre montre l'irrégularité et indique le joueur fautif.
 Un bras plié, saisi au poignet par l'autre bras, indique une exclusion.
 3. Une disqualification « directe » est indiquée par l'arbitre en montrant un carton rouge.
 4. Les disqualifications doivent être confirmées par le secrétaire en montrant clairement un carton
 rouge.
 5. Lorsqu’un jet franc ou une remise en jeu est ordonné, les arbitres doivent immédiatement indiquer
-la direction du jet (geste 7 ou 9).
-Par la suite, le(s) geste(s) obligatoire(s) approprié(s) doi(ven)t être effectué(s) (gestes 12-13) pour
+la direction du jet ([geste 7](#7---remise-en-jeu---direction) ou [9](#9---jet-franc---direction)).
+Par la suite, le(s) geste(s) obligatoire(s) approprié(s) doi(ven)t être effectué(s) (gestes [12](#12---exclusion)-[13](#13---disqualification)) pour
 indiquer toute sanction personnelle.
 Lorsqu’il apparaît utile d’expliquer une décision de jet franc ou un jet de 6 mètres, il convient
-d’effectuer l’un des gestes 1-6 pour information.
-6. Les gestes 11, 14 et 15sont obligatoires dans les situations où ils s’appliquent.
-7. Les gestes 8, 10 et 16 sont utilisés si les arbitres les estiment nécessaires.
+d’effectuer l’un des gestes [1-6](#1---avantage-jeu) pour information.
+6. Les gestes [11](#11.1---but---validation-d’un-point), [14](#14---time-out) et [15](#15---autorisation-accordée-à-deux-personnes-autorisées-à-participer--au-jeu-de-pénétrer-sur-l’aire-de-jeu-pendant-le-time-out) sont obligatoires dans les situations où ils s’appliquent.
+7. Les gestes [8](#8---renvoi), [10](#10---non-respect-de-la-distance-d’un-mètre) et [16](#16---geste-d'avertissement-pour-jeu-passif) sont utilisés si les arbitres les estiment nécessaires.
 
 **Table des matières:**
 
-1. [Avantage](#1---advantage)
+1. [Avantage](#1---avantage-jeu)
 2. [Double dribble](#2---double-dribble)
-3. [Marcher ou garder le ballon pendant plus de trois secondes](#3---travelling-or-holding-the-ball-more-than-three-seconds)
-4. [Ceinturer, retenir ou pousser](#4---restraining,-holding-or-pushing)
-5. [Frapper](#5---hitting)
-6. [Faute d’attaquant](#6---offensive-foul)
-7. [Remise en jeu - Direction](#7---throw-in-–-direction)
-8. [Renvoi](#8---goalkeeper-throw)
-9. [Jet franc - Direction](#9---free-throw-–-direction)
-10. [Non-respect de la distance d’un mètre](#10---keep-the-distance-of-1-meter)
-11. [But - Validation de points](#11.1---gaining-1-point)
-    1. [But - Validation d’un point](#11.1---gaining-1-point)
-    2. [But - Validation deux points](#11.2---gaining-2-points)
-12. [Exclusion](#12---suspension)
+3. [Marcher ou garder le ballon pendant plus de trois secondes](#3---marcher-ou-garder-le-ballon-pendant-plus-de-trois-secondes)
+4. [Ceinturer, retenir ou pousser](#4---ceinturer-retenir-ou-pousser)
+5. [Frapper](#5---frapper)
+6. [Faute d’attaquant](#6---faute-d’attaquant)
+7. [Remise en jeu - Direction](#7---remise-en-jeu---direction)
+8. [Renvoi](#8---renvoi)
+9. [Jet franc - Direction](#9---jet-franc---direction)
+10. [Non-respect de la distance d’un mètre](#10---non-respect-de-la-distance-d’un-mètre)
+11. [But - Validation de points](#11.1---but---validation-d’un-point)
+    1. [But - Validation d’un point](#11.1---but---validation-d’un-point)
+    2. [But - Validation deux points](#11.2---but---validation-deux-points)
+12. [Exclusion](#12---exclusion)
 13. [Disqualification](#13---disqualification)
 14. [Time-out](#14---time-out)
-15. [Autorisation accordée à deux personnes autorisées à participer  au jeu de pénétrer sur l’aire de jeu pendant le time-out](#15---permission-for-two-persons-(who-are-entitled-to-participate)-to-enter-the-court-during-time-out)
-16. [Geste d'avertissement pour jeu passif](#16---forewarning-signal-for-passive-play)
+15. [Autorisation accordée à deux personnes autorisées à participer  au jeu de pénétrer sur l’aire de jeu pendant le time-out](#15---autorisation-accordée-à-deux-personnes-autorisées-à-participer--au-jeu-de-pénétrer-sur-l’aire-de-jeu-pendant-le-time-out)
+16. [Geste d'avertissement pour jeu passif](#16---geste-d'avertissement-pour-jeu-passif)
 
 ## 1 - Avantage, jeu
 

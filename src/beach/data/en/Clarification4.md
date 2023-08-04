@@ -115,6 +115,7 @@ where the judgment of passive play is no longer valid and the forewarning
 signal is to be stopped:
 - a) The team in possession takes a shot on goal and the ball rebounds to
 the team from the goal or the goalkeeper (directly or in the form of a throwin);
+
 - b) A player or team official of the defending team is given a personal
 punishment under Rule [16](#16:1) due to a foul or unsportsmanlike conduct.
 

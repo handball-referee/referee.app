@@ -75,7 +75,7 @@ Un ataque comienza cuando un equipo consigue la posesión del balón, y se consi
 La gestoforma de advertencia de juego pasivo normalmente tiene validez durante todo el resto del ataque. Sin embargo, durante el curso de un ataque, existen dos situaciones en las que el juicio del juego pasivo deja de existir y la gestoforma deja de realizarse:
 
  - a) el equipo en posesión del balón lanza a portería y el balón vuelve al equipo lanzador tras rebotar en la portería o el portero (directamente o en forma de un saque de banda);
- - b) un jugador o un oficial del  equipo defensor recibe una sanción disciplinaria según la regla [16](#16) debido a una falta o conducta antideportiva.
+ - b) un jugador o un oficial del  equipo defensor recibe una sanción disciplinaria según la regla [16](#16:1) debido a una falta o conducta antideportiva.
 
 En estas dos situaciones, al equipo en posesión del balón se le debe permitir una nueva fase de construcción.
 

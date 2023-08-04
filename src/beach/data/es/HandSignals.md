@@ -2,7 +2,7 @@
 
 ## Pautas
 
-1. Si se conceden uno o dos puntos cuando se marca un gol (regla [9](#9), [14:4](#14:4), [aclaración Num. 1](#1.-concesión-de-puntos)), entonces el árbitro central tiene que indicarlo mostrando uno o dos dedos. Cuando se otorgan dos puntos, el árbitro de portería hace además un giro vertical completo con su brazo. 
+1. Si se conceden uno o dos puntos cuando se marca un gol (regla [9](#9:1), [14:4](#14:4), [aclaración Num. 1](#1.-concesión-de-puntos)), entonces el árbitro central tiene que indicarlo mostrando uno o dos dedos. Cuando se otorgan dos puntos, el árbitro de portería hace además un giro vertical completo con su brazo. 
 
 2. Gestoforma [12](#12---exclusión): El árbitro indica la infracción de la regla y señala al jugador infractor.
 

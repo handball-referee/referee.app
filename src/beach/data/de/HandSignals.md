@@ -2,7 +2,7 @@
 
 ## Guidelines
 
-1. Werden für einen Treffer 1 oder 2 Punkte gewertet (Regeln [9](#9), [14:4](#14:4), [Erläuterung No. 1](#1.-wertung-der-punkte)), ist dies vom Feldschiedsrichter mit 1 oder 2 Fingern deutlich
+1. Werden für einen Treffer 1 oder 2 Punkte gewertet (Regeln [9](#9:1), [14:4](#14:4), [Erläuterung No. 1](#1.-wertung-der-punkte)), ist dies vom Feldschiedsrichter mit 1 oder 2 Fingern deutlich
 anzuzeigen. Bei der Wertung von 2 Punkten führt der
 Torschiedsrichter zusätzlich einen senkrechten Armkreis aus.
 2. Handzeichen [12](#12---hinausstellung): Der Schiedsrichter zeigt den Regelverstoß an und

@@ -2,7 +2,7 @@
 
 ## Guidelines
 
-1. If 1 or 2 points are credited when a goal is scored (Rules [9](#9), [14:4](#14:4), [Clarification No. 1](#1.-awarding-of-points)), then the court referee must indicate this by displaying 1 or 2 fingers. When 2 points are awarded, the goal referee
+1. If 1 or 2 points are credited when a goal is scored (Rules [9](#9:1), [14:4](#14:4), [Clarification No. 1](#1.-awarding-of-points)), then the court referee must indicate this by displaying 1 or 2 fingers. When 2 points are awarded, the goal referee
 does a full vertical arm swing additionally.
 2. Hand Signal [12](#12---suspension): The referee indicates the rule violation and points
 to the offending player.

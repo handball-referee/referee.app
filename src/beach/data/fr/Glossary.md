@@ -1,4 +1,4 @@
-# Glossary of Terms
+# Glossaire
 
 | Term | Definition |
 |-------|-----------|
