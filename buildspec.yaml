@@ -6,6 +6,8 @@ phases:
       nodejs: 20
   pre_build:
     commands:
+      - corepack enable
+      - corepack prepare pnpm@latest-9 --activate
       - pnpm install
   build:
     commands:
