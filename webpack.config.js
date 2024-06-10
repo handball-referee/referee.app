@@ -23,6 +23,7 @@ markdownRenderer.heading = function (text, level, raw, slugger) {
 
 const config = {
   context: appPath,
+  mode: process.env.NODE_ENV === 'dev' ? 'development' : 'production',
   entry: {
     client: './app.tsx',
   },
@@ -90,17 +91,19 @@ const config = {
     new HtmlWebpackPlugin({
       template: "index.html",
     }),
-    new CopyPlugin([
-      {
-        from: "data/questions/*",
-      },
-      {
-        from: "static/*",
-      },
-      {
-        from: "favicon.ico",
-      },
-    ]),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: "data/questions/*",
+        },
+        {
+          from: "static/*",
+        },
+        {
+          from: "favicon.ico",
+        },
+      ]
+    }),
     new GenerateSW({
       clientsClaim: true,
       skipWaiting: true,

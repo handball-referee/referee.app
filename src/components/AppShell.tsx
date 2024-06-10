@@ -1,7 +1,7 @@
 import React, { FunctionComponent, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Helmet } from 'react-helmet';
-import { Route, useHistory } from "react-router";
+import { Helmet } from "react-helmet";
+import { Route, Routes, useLocation } from "react-router";
 import loadable from "@loadable/component";
 import Menu from "./Menu";
 import Loading from "./Loading";
@@ -31,15 +31,15 @@ const Stats = loadable(() => import("./stats/Stats"), {
 
 const AppShell: FunctionComponent = () => {
   const { t, i18n } = useTranslation();
-  const { listen } = useHistory();
+  const location = useLocation();
   const { updateConfig } = useAnalytics();
 
-  useEffect(() => listen((location) => {
+  useEffect(() => {
     updateConfig({
       anonymize_ip: true,
       page_path: location.pathname,
     });
-  }), []);
+  }, [location]);
 
   return (
     <div id="page-wrapper">
@@ -69,10 +69,12 @@ const AppShell: FunctionComponent = () => {
           </LanguagePicker>
         </header>
         <TestDataProvider>
-          <Route path="/" component={RulesTest} exact />
-          <Route path="/rules" component={HandballRules} />
-          <Route path="/stats" component={Stats} />
-          <Route path="/about" component={About} />
+          <Routes>
+            <Route index element={<RulesTest />} />
+            <Route path="rules" element={<HandballRules />} />
+            <Route path="stats" element={<Stats />} />
+            <Route path="about" element={<About />} />
+          </Routes>
         </TestDataProvider>
       </div>
     </div>

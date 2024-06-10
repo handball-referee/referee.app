@@ -30,7 +30,7 @@ const Menu: FunctionComponent = () => {
         <img src={Logo} alt={t("app.title")} />
       </div>
       <nav>
-        <NavLink to="/" exact>
+        <NavLink to="/" end>
           <div className="icon"><FontAwesomeIcon icon={faTasks} size="lg" /></div>
           <div className="text">{t("menu.test")}</div>
         </NavLink>
