@@ -23,7 +23,7 @@ export function getTestDataContext() {
       correct: 0,
       data: {},
       checked: [],
-      reveal: false
+      reveal: false,
     });
   }
   return TestDataContext;

@@ -8,7 +8,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRulesTestData } from "../../context/TestDataContext";
 import CheckBox from "../CheckBox";
 import useAnalytics from "../../hooks/useAnalytics";
-import { Link } from "react-router-dom";
 import RelevantRules from "./RelevantRules";
 
 const RulesTest: FunctionComponent = () => {

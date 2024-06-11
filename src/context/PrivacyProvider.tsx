@@ -1,14 +1,18 @@
-import React, { FunctionComponent, useEffect, useState } from "react";
+import React, {
+  FunctionComponent, PropsWithChildren, useCallback, useEffect, useMemo, useState,
+} from "react";
 import * as Sentry from "@sentry/browser";
-import { Decision, getPrivacyContext } from "./PrivacyContext";
+import { Decision, getPrivacyContext, PrivacyContextValue } from "./PrivacyContext";
 
 declare global {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   interface Window { dataLayer: any[] }
 }
 
 window.dataLayer = window.dataLayer || [];
 
-// eslint-disable-next-line prefer-rest-params,no-unused-vars
+// eslint-disable-next-line max-len
+// eslint-disable-next-line prefer-rest-params,@typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any
 function gtag(...args: any[]) { window.dataLayer.push(arguments); }
 
 interface Props {
@@ -32,7 +36,9 @@ function fromDecision(key: string, decision: Decision) {
   localStorage.setItem(key, `${decision}`);
 }
 
-const PrivacyProvider: FunctionComponent<Props> = ({ trackingId, children }) => {
+const PrivacyProvider: FunctionComponent<PropsWithChildren<Props>> = ({
+  trackingId, sentryDsn, environment, children,
+}) => {
   const PrivacyContext = getPrivacyContext();
   const [allowTracking, setAllowTracking] = useState<Decision|undefined>(toDecision(TRACKING_KEY));
   const [allowReporting, setAllowReporting] = useState<Decision|undefined>(
@@ -54,7 +60,7 @@ const PrivacyProvider: FunctionComponent<Props> = ({ trackingId, children }) => 
 
     const gascript = document.createElement("script");
     gascript.async = true;
-    gascript.src = `https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`;
+    gascript.src = `https://www.googletagmanager.com/gtag/js?id=${trackingId}`;
 
     document.getElementsByTagName("head")[0].append(gascript);
 
@@ -67,43 +73,37 @@ const PrivacyProvider: FunctionComponent<Props> = ({ trackingId, children }) => 
     }
 
     Sentry.init({
-      dsn: process.env.SENTRY_DSN,
-      environment: process.env.SENTRY_ENV,
+      dsn: sentryDsn,
+      environment,
     });
   }, [allowReporting]);
 
-  const updateTrackingDecision = (decision: Decision) => {
+  const updateTrackingDecision = useCallback((decision: Decision) => {
     setAllowTracking(decision);
     fromDecision(TRACKING_KEY, decision);
     if (decision === Decision.DECLINED) {
       window.location.reload();
     }
-  };
+  }, []);
 
-  const updateReportingDecision = (decision: Decision) => {
+  const updateReportingDecision = useCallback((decision: Decision) => {
     setAllowReporting(decision);
     fromDecision(ERROR_REPORTING_KEY, decision);
-  };
+  }, []);
+
+  const contextValue = useMemo<PrivacyContextValue>(() => ({
+    gtag,
+    trackingId,
+    allowTracking,
+    allowReporting,
+    updateTrackingDecision,
+    updateReportingDecision,
+  }), [trackingId, allowTracking, allowReporting, updateTrackingDecision, updateReportingDecision]);
 
   return (
-    <PrivacyContext.Consumer>
-      {(context: any = {}) => {
-        // eslint-disable-next-line no-param-reassign
-        context = {
-          gtag,
-          trackingId,
-          allowTracking,
-          allowReporting,
-          updateTrackingDecision,
-          updateReportingDecision,
-        };
-        return (
-          <PrivacyContext.Provider value={context}>
-            {children}
-          </PrivacyContext.Provider>
-        );
-      }}
-    </PrivacyContext.Consumer>
+    <PrivacyContext.Provider value={contextValue}>
+      {children}
+    </PrivacyContext.Provider>
   );
 };
 
