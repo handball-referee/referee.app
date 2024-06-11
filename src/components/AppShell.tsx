@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { Route, Routes, useLocation } from "react-router";
 import loadable from "@loadable/component";
 import Menu from "./Menu";

@@ -5,7 +5,7 @@ interface Props {
   error?: Error|null;
 }
 
-const Loading: FunctionComponent<Props> = ({ error }) => {
+const Loading: FunctionComponent<Props> = ({ error = null }) => {
   if (error) {
     console.log(error); // eslint-disable-line
   }
@@ -35,10 +35,6 @@ const Loading: FunctionComponent<Props> = ({ error }) => {
       Loading...
     </div>
   );
-};
-
-Loading.defaultProps = {
-  error: null,
 };
 
 export default Loading;
