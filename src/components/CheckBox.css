@@ -34,5 +34,6 @@
     display: none;
     position: absolute;
     color: var(--white);
+    padding-left: 0.1rem;
   }
 }
