@@ -1,21 +1,28 @@
 /* eslint-disable no-underscore-dangle */
 import { IDBPDatabase, openDB } from "idb";
-import answerData from "../data/answers.json";
 import {
   IAnswer, IQuestion, ITestData, RefereeDB,
 } from "./index";
 import Question from "./Question";
+import { loadQuestions } from "../utils/loadTestData";
+
+export const AVAILABLE_LANGUAGES = {
+  ihf_05_2024: ["en"],
+  ihf_08_2019: ["en", "de", "fr", "es"],
+};
 
 export default class TestDataManager {
   private db: IDBPDatabase<RefereeDB>|null = null;
 
   private _data: {[id: string]: Question } = {};
 
-  private loadedLanguages: string[] = [];
+  private loadedLanguages: Map<string, string[]> = new Map();
 
   private todo: string[] = [];
 
   private initialized = false;
+
+  private _version: string = "";
 
   private currentId = "";
 
@@ -25,22 +32,32 @@ export default class TestDataManager {
 
   private _wrong = 0;
 
-  public async initialize(language: string) {
-    if (this.initialized) {
+  private _languageMissing: boolean = false;
+
+  public async initialize(lang: string, version: keyof typeof AVAILABLE_LANGUAGES = "ihf_05_2024") {
+    let language = lang;
+    if (!AVAILABLE_LANGUAGES[version].includes(language)) {
+      this._languageMissing = true;
+      language = "en";
+    } else {
+      this._languageMissing = false;
+    }
+
+    if (this.initialized && this._version === version) {
       await this.switchLanguage(language);
       return this._data[this.currentId];
     }
 
-    const mappedAnswers = answerData.reduce<{[id: string]: IAnswer}>((prev, curr) => ({
+    const data = await loadQuestions(language, version);
+
+    this.loadedLanguages.set(version, [language]);
+
+    const mappedAnswers = data.answers.reduce<{[id: string]: IAnswer}>((prev, curr) => ({
       ...prev,
       [curr.id]: curr,
     }), {});
 
-    const questions = await TestDataManager.loadQuestions(language);
-
-    this.loadedLanguages = [language];
-
-    const mappedQuestions = questions.reduce<{[id: string]: IQuestion}>((prev, curr) => ({
+    const mappedQuestions = data.questions.reduce<{[id: string]: IQuestion}>((prev, curr) => ({
       ...prev,
       [curr.id]: curr,
     }), {});
@@ -49,17 +66,16 @@ export default class TestDataManager {
 
     let db;
 
-    // idb library does not support IE
-    const ua = window.navigator.userAgent;
-    const isIE = /MSIE|Trident/.test(ua);
-    if (!isIE) {
-      db = await openDB<RefereeDB>("referee", 1, {
+    try {
+      db = await openDB<RefereeDB>(version, 1, {
         async upgrade(currentDB, oldVersion) {
           if (oldVersion < 1) {
             currentDB.createObjectStore("questions");
           }
         },
       });
+    } catch (err) {
+      // silently fail
     }
 
     const ids = Object.keys(mappedAnswers);
@@ -125,6 +141,7 @@ export default class TestDataManager {
     }
 
     this.initialized = true;
+    this._version = version;
 
     return this.next();
   }
@@ -143,6 +160,10 @@ export default class TestDataManager {
 
   get data(): { [p: string]: Question } {
     return this._data;
+  }
+
+  get languageMissing(): boolean {
+    return this._languageMissing;
   }
 
   public async checkAnswer(answers: string[]) {
@@ -184,26 +205,17 @@ export default class TestDataManager {
   }
 
   private async switchLanguage(language: string) {
-    if (this.loadedLanguages.includes(language)) {
+    const languages = this.loadedLanguages.get(this._version);
+    if (languages && languages.includes(language)) {
       return;
     }
 
-    const questions = await TestDataManager.loadQuestions(language);
-    for (let i = 0; i < questions.length; i += 1) {
-      const question = questions[i];
+    const data = await loadQuestions(language, this._version);
+    for (let i = 0; i < data.questions.length; i += 1) {
+      const question = data.questions[i];
       this._data[question.id].updateData(language, question);
     }
 
-    this.loadedLanguages = [...this.loadedLanguages, language];
-  }
-
-  private static async loadQuestions(language: string): Promise<IQuestion[]> {
-    const response = await fetch(`/data/questions/${language}.json`);
-    const json = await response.json();
-    if (!response.ok) {
-      throw new Error(json);
-    }
-
-    return json;
+    this.loadedLanguages.set(this._version, [...languages || [], language]);
   }
 }

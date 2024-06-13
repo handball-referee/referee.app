@@ -29,7 +29,7 @@ const plugins = [
   new CopyPlugin({
     patterns: [
       {
-        from: "data/questions/*",
+        from: "data/questions/**",
       },
       {
         from: "static/*",

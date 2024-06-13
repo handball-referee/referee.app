@@ -1,11 +1,11 @@
 /* eslint-disable no-param-reassign */
 import React, {
-  FunctionComponent, ReactNode, useEffect, useRef, useState,
+  FunctionComponent, ReactNode, useCallback, useEffect, useMemo, useRef, useState,
 } from "react";
 import { useTranslation } from "react-i18next";
-import { getTestDataContext } from "./TestDataContext";
+import { getTestDataContext, TestDataContextValue } from "./TestDataContext";
 import Loading from "../components/Loading";
-import TestDataManager from "../model/TestDataManager";
+import TestDataManager, { AVAILABLE_LANGUAGES } from "../model/TestDataManager";
 import Question from "../model/Question";
 
 interface TestDataProviderProps {
@@ -19,6 +19,8 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
   const [correct, setCorrect] = useState(0);
   const [checked, setChecked] = useState<string[]>([]);
   const [reveal, setReveal] = useState(false);
+  const [version, setVersion] = useState<keyof typeof AVAILABLE_LANGUAGES>('ihf_05_2024');
+  const [languageMissing, setLanguageMissing] = useState(false);
   const manager = useRef<TestDataManager>(new TestDataManager());
   const { i18n: { language } } = useTranslation();
 
@@ -28,24 +30,25 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
       setLoading(true);
 
       try {
-        setQuestion(await manager.current.initialize(language));
+        setQuestion(await manager.current.initialize(language, version));
         setAsked(manager.current.asked);
         setCorrect(manager.current.correct);
+        setLanguageMissing(manager.current.languageMissing);
       } finally {
         setLoading(false);
       }
     };
 
     loadData();
-  }, [language]);
+  }, [language, version]);
 
-  const nextQuestion = () => {
+  const nextQuestion = useCallback(() => {
     setQuestion(manager.current.next());
     setReveal(false);
     setChecked([]);
-  };
+  }, []);
 
-  const checkAnswers = async (options: string[]) => {
+  const checkAnswers = useCallback(async (options: string[]) => {
     const result = manager.current.checkAnswer(options);
 
     setAsked(manager.current.asked);
@@ -54,46 +57,46 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
     setReveal(true);
 
     return result;
-  };
+  }, []);
+
+  const ctx = useMemo<TestDataContextValue>(() => ({
+    checkAnswers,
+    nextQuestion,
+    question,
+    asked,
+    correct,
+    checked,
+    reveal,
+    data: manager.current.data,
+    languageMissing,
+    version,
+    setVersion,
+  }), [
+    checkAnswers,
+    nextQuestion,
+    question, asked,
+    correct, checked,
+    reveal,
+    manager.current.data,
+    languageMissing,
+    version,
+  ]);
 
   const TestDataContext = getTestDataContext();
+
+  let content;
+  if (loading) {
+    content = (
+      <Loading />
+    );
+  } else {
+    content = children;
+  }
+
   return (
-    <TestDataContext.Consumer>
-      {(context = {
-        asked: 0,
-        correct: 0,
-        data: {},
-        checked: [],
-        reveal: false,
-      }) => {
-        context = {
-          ...context,
-          checkAnswers,
-          nextQuestion,
-          question,
-          asked,
-          correct,
-          checked,
-          reveal,
-          data: manager.current.data,
-        };
-
-        let content;
-        if (loading) {
-          content = (
-            <Loading />
-          );
-        } else {
-          content = children;
-        }
-
-        return (
-          <TestDataContext.Provider value={context}>
-            {content}
-          </TestDataContext.Provider>
-        );
-      }}
-    </TestDataContext.Consumer>
+    <TestDataContext.Provider value={ctx}>
+      {content}
+    </TestDataContext.Provider>
   );
 };
 

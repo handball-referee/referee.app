@@ -2,6 +2,7 @@ import React from "react";
 import invariant from "ts-invariant";
 import Question from "../model/Question";
 import { ITestResponse } from "../model";
+import { AVAILABLE_LANGUAGES } from "../model/TestDataManager";
 
 export interface TestDataContextValue {
   checkAnswers?: (options: string[]) => Promise<ITestResponse>;
@@ -12,6 +13,9 @@ export interface TestDataContextValue {
   checked: string[];
   data: {[id: string]: Question };
   reveal: boolean;
+  languageMissing: boolean;
+  version: keyof typeof AVAILABLE_LANGUAGES;
+  setVersion?: (version: keyof typeof AVAILABLE_LANGUAGES) => void;
 }
 
 let TestDataContext: React.Context<TestDataContextValue>;
@@ -24,6 +28,8 @@ export function getTestDataContext() {
       data: {},
       checked: [],
       reveal: false,
+      languageMissing: false,
+      version: "ihf_05_2024",
     });
   }
   return TestDataContext;

@@ -1,10 +1,15 @@
 @import "../shared.css";
 
 #test-header {
-  height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-#test-header svg {
+#test-header-text {
+  margin: 0.5rem 0;
+}
+
+#test-header svg, #error-message svg {
   margin-right: 1rem;
   color: #063e67;
 }
@@ -40,11 +45,25 @@
   }
 }
 
-.box-with-header > div, #test-options > div, #test-header {
+.box-with-header > div, #test-options > div, #test-header, #error-message {
   background-color: var(--white);
   box-shadow: var(--shadow);
   padding: 1rem;
 }
+
+#test-header {
+  padding: 0.5rem 1rem;
+}
+
+#error-message {
+  background-color: var(--red2);
+  color: var(--white);
+}
+
+#error-message svg {
+  color: var(--white);
+}
+
 
 #test-options {
   margin-top: 1rem;

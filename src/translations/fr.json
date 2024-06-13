@@ -52,7 +52,8 @@
       "check": "Vérifier",
       "next": "Prochain",
       "overall": "au total",
-      "relevant-rules": "Règles Pertinentes"
+      "relevant-rules": "Règles Pertinentes",
+      "language-missing": "La version la plus récente des questions n'est pas disponible dans votre langue. Vous pouvez changer de version en haut à droite."
     },
     "stats": {
       "overall": "Au Total",

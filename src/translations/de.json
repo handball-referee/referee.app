@@ -52,7 +52,8 @@
       "check": "Überprüfen",
       "next": "Nächste Frage",
       "overall": "Insgesamt",
-      "relevant-rules": "Relevante Regeln"
+      "relevant-rules": "Relevante Regeln",
+      "language-missing": "Die neueste Version der Fragen ist in Ihrer Sprache nicht verfügbar. Sie können die Version oben rechts wechseln."
     },
     "stats": {
       "overall": "Gesamt",
