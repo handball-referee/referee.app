@@ -13,6 +13,7 @@ import AppShell from "./components/AppShell";
 import i18n from "./i18n";
 import PrivacyProvider from "./context/PrivacyProvider";
 import {HelmetProvider} from "react-helmet-async";
+import './styles.css';
 
 if (process.env.NODE_ENV === "production") {
   if ("serviceWorker" in navigator) {

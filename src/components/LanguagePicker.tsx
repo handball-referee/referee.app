@@ -1,21 +1,17 @@
 import React, {
-  FunctionComponent, MouseEvent, KeyboardEvent, ReactElement, useState,
+  FunctionComponent,
 } from "react";
-import "./LanguagePicker.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import classNames from "classnames";
 import { useTranslation } from "react-i18next";
-import { ItemProps } from "./Item";
+import Item from "./Item";
 import useAnalytics from "../hooks/useAnalytics";
+import Dropdown from "./Dropdown";
+import us from "../img/us.svg";
+import de from "../img/de.svg";
+import fr from "../img/fr.svg";
+import es from "../img/es.svg";
 
-interface Props {
-  children: Array<ReactElement<ItemProps>>;
-}
-
-const LanguagePicker: FunctionComponent<Props> = ({ children }) => {
-  const [open, setOpen] = useState(false);
-  const { t, i18n } = useTranslation();
+const LanguagePicker: FunctionComponent = () => {
+  const { i18n } = useTranslation();
   const { trackEvent } = useAnalytics();
 
   const handleLanguageChange = async (lang: string) => {
@@ -26,69 +22,31 @@ const LanguagePicker: FunctionComponent<Props> = ({ children }) => {
     });
   };
 
-  const handleTogglePopup = (event: MouseEvent) => {
-    event.preventDefault();
-    event.stopPropagation();
-
-    setOpen(!open);
-  };
-
-  const handleKeyDown = (event: KeyboardEvent) => {
-    if (event.keyCode === 32) {
-      setOpen(!open);
-    } else if (open) {
-      if (event.keyCode === 27 || event.keyCode === 9) {
-        setOpen(false);
-      } else {
-        return;
-      }
-    } else if (event.keyCode === 40) {
-      setOpen(true);
-    } else {
-      return;
-    }
-
-    event.preventDefault();
-  };
-
-  let content = null;
   const currentLanguage = i18n.language;
-  const items = React.Children.map(children, (item: ReactElement<ItemProps>) => {
-    const isSelected = item.props.code === currentLanguage;
-    if (isSelected) {
-      content = item.props.children;
-    }
-
-    return React.cloneElement(item, {
-      selected: isSelected,
-      onClick: () => handleLanguageChange(item.props.code),
-    });
-  });
-
-  const className = classNames({
-    open,
-  });
 
   return (
-    <div
-      id="language-picker"
-      className={className}
-      role="listbox"
-      aria-label={t("app.language")}
-      tabIndex={0}
-      onClick={handleTogglePopup}
-      onKeyDown={handleKeyDown}
+    <Dropdown<string>
+      selected={currentLanguage}
+      onSelect={(newLang) => handleLanguageChange(newLang)}
+      type="header"
     >
-      <div id="picker-content">
-        {content}
-      </div>
-      <div id="picker-indicator">
-        <FontAwesomeIcon icon={faAngleDown} />
-      </div>
-      <ul id="picker-popup">
-        {items}
-      </ul>
-    </div>
+      <Item code="en">
+        <img src={us} alt="English" className="rounded mr-1 h-5" />
+        <span>English</span>
+      </Item>
+      <Item code="de">
+        <img src={de} alt="Deutsch" className="rounded mr-1 h-5" />
+        <span>Deutsch</span>
+      </Item>
+      <Item code="fr">
+        <img src={fr} alt="Français" className="rounded mr-1 h-5" />
+        <span>Français</span>
+      </Item>
+      <Item code="es">
+        <img src={es} alt="Español" className="rounded mr-1 h-5" />
+        <span>Español</span>
+      </Item>
+    </Dropdown>
   );
 };
 

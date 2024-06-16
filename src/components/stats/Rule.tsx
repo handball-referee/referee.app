@@ -1,6 +1,5 @@
 /* eslint-disable no-mixed-operators */
 import React, { FunctionComponent } from "react";
-import "./Rule.css";
 import { useTranslation } from "react-i18next";
 import QuestionComponent from "./Question";
 import Question from "../../model/Question";
@@ -25,13 +24,13 @@ const Rule: FunctionComponent<Props> = ({
   }
 
   const percent = asked ? Math.round(100 / asked * correct) : 0;
-  let color = "bad";
+  let color = "bg-red-100 text-white";
   if (!asked) {
-    color = "empty";
+    color = "bg-grey-300 text-grey-400";
   } else if (percent >= 80) {
-    color = "good";
+    color = "bg-green-300 text-white";
   } else if (percent >= 50) {
-    color = "ok";
+    color = "bg-orange-100 text-white";
   }
 
   const details = questions.map((question) => (
@@ -39,10 +38,10 @@ const Rule: FunctionComponent<Props> = ({
   ));
 
   return (
-    <div className="rule-stat-box">
-      <div className="rule-stat-header">
-        <h2 className="rule-stat-title">{t(key)}</h2>
-        <div className={`rule-stat-stats ${color}`}>{`${correct} / ${asked} (${percent}%)`}</div>
+    <div className="mx-4 mt-4">
+      <div className="blocks md:flex justify-between">
+        <h2 className="bg-blue-400 p-2 font-bold text-white text-base">{t(key)}</h2>
+        <div className={`text-base p-2 ${color}`}>{`${correct} / ${asked} (${percent}%)`}</div>
       </div>
       <div className="rule-stat-content">
         {details}

@@ -1,9 +1,0 @@
-@import "../shared.css";
-
-#relevant-rules {
-  margin-top: 1rem;
-
-  & a {
-    color: var(--black);
-  }
-}
