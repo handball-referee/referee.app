@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.1](https://github.com/handball-referee/referee.app/compare/v1.4.0...v1.4.1) (2024-06-18)
+
+
+### Bug Fixes
+
+* supported languages ([cf4d97e](https://github.com/handball-referee/referee.app/commit/cf4d97e40c0358d8c62975b606223d1732f12353))
+
 ## [1.4.0](https://github.com/handball-referee/referee.app/compare/v1.3.3...v1.4.0) (2024-06-18)
 
 

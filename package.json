@@ -1,6 +1,6 @@
 {
   "name": "referee.app",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "App to study for handball referee tests",
   "license": "MIT",
   "scripts": {
