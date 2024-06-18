@@ -52,12 +52,14 @@
       "check": "Examinar",
       "next": "Siguiente Pregunta",
       "overall": "En General",
-      "relevant-rules": "Reglas Relevantes"
+      "relevant-rules": "Reglas Relevantes",
+      "language-missing": "La versión más reciente de las preguntas no está disponible en su idioma. Puede cambiar la versión en la parte superior derecha."
     },
     "stats": {
       "overall": "Total",
       "asked": "respondió",
-      "correct": "correcta"
+      "correct": "correcta",
+      "reset": "Reiniciar"
     },
     "privacy": {
       "accept": "Aceptar",

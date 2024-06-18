@@ -1,8 +1,6 @@
 import { IAnswer } from "../../model";
 import mapRuleToAnchor from "../mapRuleToAnchor";
-
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const Answers = require("../../data/answers.json");
+import * as Answers from "../../data/questions/ihf_08_2019/answers.json";
 
 describe("mapRuleToAnchor", () => {
   it("should map all available rules to the correct anchor", () => {

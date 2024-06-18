@@ -12,6 +12,11 @@ export interface IAnswer {
   rule: string[];
 }
 
+export interface IQABundle {
+  questions: IQuestion[];
+  answers: IAnswer[];
+}
+
 export interface ITestData {
   box: number;
   lastAsked: Date|null;

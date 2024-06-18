@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from "react";
-import "./Tracking.css";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import usePrivacySettings from "../hooks/usePrivacySettings";
@@ -29,18 +28,18 @@ const Tracking: FunctionComponent = () => {
   };
 
   return (
-    <div id="tracking">
-      <div id="tracking-text">
+    <div className="flex bg-blue-100 border-b border-blue-500 flex-col md:flex-row">
+      <div className="p-2 text-xs">
         We use cookies to analyse our traffic. We may also use features such as offline data,
         browser storage and error reporting to help improve our service. By clicking &quot;
         {t("privacy.accept")}
         &quot; you will allow the use of cookies.
         {" "}
-        <Link to="/about">More information</Link>
+        <Link to="/about" className="text-white">More information</Link>
       </div>
-      <div id="tracking-buttons">
-        <button id="accept-button" type="button" onClick={handleAccept}>{t("privacy.accept")}</button>
-        <button id="decline-button" type="button" onClick={handleDecline}>{t("privacy.decline")}</button>
+      <div id="tracking-buttons" className="flex p-2">
+        <button type="button" onClick={handleAccept} className="text-base rounded-lg h-8 box-border w-1/2 md:w-28 bg-green-100 border border-green-300 text-black mr-2">{t("privacy.accept")}</button>
+        <button type="button" onClick={handleDecline} className="text-base rounded-lg h-8 box-border w-1/2 md:w-28 bg-blue-400 border border-blue-500 text-white">{t("privacy.decline")}</button>
       </div>
     </div>
   );

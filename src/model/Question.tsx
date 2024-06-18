@@ -142,4 +142,14 @@ export default class Question {
       lastAsked: this.lastAsked,
     }, this.id);
   }
+
+  public async reset(db: IDBPDatabase<RefereeDB>) {
+    this._box = 1;
+    this._numAsked = 0;
+    this._numCorrect = 0;
+    this._numWrong = 0;
+    this.previousResults = [];
+    this.lastAsked = null;
+    await this.persist(db);
+  }
 }

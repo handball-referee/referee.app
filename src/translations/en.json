@@ -52,12 +52,14 @@
       "check": "Check",
       "next": "Next",
       "overall": "Overall",
-      "relevant-rules": "Relevant Rules"
+      "relevant-rules": "Relevant Rules",
+      "language-missing": "The most recent version of the questions is not available in your language. You can switch the version on the top right."
     },
     "stats": {
       "overall": "Overall",
       "asked": "answered",
-      "correct": "correct"
+      "correct": "correct",
+      "reset": "Reset"
     },
     "privacy": {
       "accept": "Accept",

@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/handball-referee/referee.app/compare/v1.3.3...v1.4.0) (2024-06-18)
+
+
+### Features
+
+* ability to remove error message ([7eebee8](https://github.com/handball-referee/referee.app/commit/7eebee8b97ef23538b5b5228c6ae150722fd758f))
+* english version of 2024 questions ([999ad09](https://github.com/handball-referee/referee.app/commit/999ad09cbf1c600f6a21cb8a1743c83dadbc5673))
+* reset stats ([734400f](https://github.com/handball-referee/referee.app/commit/734400f721cdd2c8a36eeba428246489c790e744))
+* upgrade dependencies ([0ea7d33](https://github.com/handball-referee/referee.app/commit/0ea7d332fd6877a0c065f60755e419e17dff633b))
+* use react 18 ([5b450dc](https://github.com/handball-referee/referee.app/commit/5b450dcc462adb853f6d48ccb42272c60269a513))
+* use tailwind css ([67f7aa6](https://github.com/handball-referee/referee.app/commit/67f7aa680895212a9bbbdd17b8a8bf082a626d42))
+
+
+### Bug Fixes
+
+* icon styling ([875ebfa](https://github.com/handball-referee/referee.app/commit/875ebfa16121e3afa74198b41d7ea67502ed7f3f))
+* install pnpm in CI ([a5cd9c0](https://github.com/handball-referee/referee.app/commit/a5cd9c0509be5924b2e52413641e3347e8f2d9dc))
+* missing text in answers ([e687bdc](https://github.com/handball-referee/referee.app/commit/e687bdca3d11aaaa6cb8a8add5c84927a5a4d491))
+* most linting ([e20306f](https://github.com/handball-referee/referee.app/commit/e20306fbb0c42d4dda22c52aa13d72de890907bc))
+* release please target branch ([396e596](https://github.com/handball-referee/referee.app/commit/396e59644646fd9c4aaa793857e79a894141ef71))
+* styling issues on mobile ([fef4881](https://github.com/handball-referee/referee.app/commit/fef48815799977089fa13b533bcda5262d1cc973))
+
 ### [1.3.3](https://github.com/handball-referee/referee.app/compare/v1.3.2...v1.3.3) (2021-01-30)
 
 ### [1.3.2](https://github.com/handball-referee/referee.app/compare/v1.3.1...v1.3.2) (2021-01-30)

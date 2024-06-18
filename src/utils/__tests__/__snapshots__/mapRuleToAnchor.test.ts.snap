@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`mapRuleToAnchor should map all available rules to the correct anchor 1`] = `
-Array [
+[
   "#10:1",
   "#10:2",
   "#10:3",
@@ -225,7 +225,7 @@ Array [
   "#disqualification-during-the-last-30-seconds",
   "#hand-signals",
   "#guidelines-and-interpretations",
-  "",
+  "#regulations-on-protective-equipment-and-accessories",
   "#substitution-area-regulations",
   "#substitution-area-regulations",
   "#substitution-area-regulations",
@@ -233,7 +233,7 @@ Array [
 `;
 
 exports[`mapRuleToAnchor should map all available rules to the correct anchor 2`] = `
-Array [
+[
   "#10:1",
   "#10:2",
   "#10:3",
@@ -457,7 +457,7 @@ Array [
   "#disqualifikation-in-den-letzten-30-sekunden",
   "#handzeichen",
   "#guidelines-und-interpretationen",
-  "",
+  "#ausrüstungsreglement",
   "#auswechselraum-reglement",
   "#auswechselraum-reglement",
   "#auswechselraum-reglement",
@@ -465,7 +465,7 @@ Array [
 `;
 
 exports[`mapRuleToAnchor should map all available rules to the correct anchor 3`] = `
-Array [
+[
   "#10:1",
   "#10:2",
   "#10:3",
@@ -689,7 +689,7 @@ Array [
   "#descalificación-durante-los-últimos-30-segundos-de-juego",
   "#gestoforma",
   "#directrices-e-interpretaciones",
-  "",
+  "#reglamento-sobre-equipos-de-protección-y-accesorios",
   "#reglamento-relativo-a-la-zona-de-cambios",
   "#reglamento-relativo-a-la-zona-de-cambios",
   "#reglamento-relativo-a-la-zona-de-cambios",

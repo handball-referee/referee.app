@@ -1,15 +1,15 @@
 /* eslint-disable no-mixed-operators */
 import React, { FunctionComponent, useState, MouseEvent } from "react";
 import classnames from "classnames";
-import "./RulesTest.css";
 import { useTranslation } from "react-i18next";
-import { faChartPie } from "@fortawesome/free-solid-svg-icons";
+import {faChartPie, faCircleExclamation, faXmark} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRulesTestData } from "../../context/TestDataContext";
 import CheckBox from "../CheckBox";
 import useAnalytics from "../../hooks/useAnalytics";
-import { Link } from "react-router-dom";
 import RelevantRules from "./RelevantRules";
+import VersionPicker from "../VersionPicker";
+import Item from "../Item";
 
 const RulesTest: FunctionComponent = () => {
   const {
@@ -20,8 +20,10 @@ const RulesTest: FunctionComponent = () => {
     correct: numCorrect,
     checked: initialChecked,
     reveal,
+    languageMissing,
   } = useRulesTestData();
   const [checked, setChecked] = useState<string[]>(initialChecked);
+  const [errorHidden, setErrorHidden] = useState(false);
 
   const { t, i18n: { language } } = useTranslation();
   const { trackEvent } = useAnalytics();
@@ -70,26 +72,27 @@ const RulesTest: FunctionComponent = () => {
     return <div>No more question</div>;
   }
 
-  const answers = question.answers[language] || [];
+  const answers = question.answers[languageMissing ? "en" : language] || [];
   const options = Object.keys(answers).map((key) => {
     const isCorrect = question.correct.includes(key);
     const isChecked = checked.includes(key);
-    const className = classnames("option", {
-      correct: reveal && isCorrect === isChecked,
-      wrong: reveal && isCorrect !== isChecked,
+    const className = classnames("flex shadow p-4", {
+      'bg-green-100': reveal && isCorrect === isChecked,
+      'bg-red-100': reveal && isCorrect !== isChecked,
+      'bg-white': !reveal
     });
 
     return (
       <div key={key} className={className}>
-        <div className="check">
+        <div className="flex flex-shrink-0 basis-8">
           <CheckBox
             checked={isChecked}
             onChange={() => updateChecked(key)}
             labelledBy={`test-option-${key}`}
           />
         </div>
-        <div id={`test-option-${key}`} className="text">
-          {question?.answers[language][key]}
+        <div id={`test-option-${key}`} className="flex-grow">
+          {question?.answers[languageMissing ? "en" : language][key]}
         </div>
       </div>
     );
@@ -109,26 +112,43 @@ const RulesTest: FunctionComponent = () => {
 
   return (
     <>
-      <div id="test-header">
-        <FontAwesomeIcon icon={faChartPie} />
-        <span>{`${t("rulestest.overall")} ${numCorrect}/${numAsked} (${percentOverall}%)`}</span>
-        <span> - </span>
-        <span>{`${t("rulestest.question")} ${question.numCorrect}/${question.numAsked} (${percentQuestion}%)`}</span>
+      <div className="flex justify-between px-4 py-2 bg-white">
+        <div className="my-2">
+          <FontAwesomeIcon icon={faChartPie} className="mr-4 text-blue-400" />
+          <span>{`${t("rulestest.overall")} ${numCorrect}/${numAsked} (${percentOverall}%)`}</span>
+          <span> - </span>
+          <span>{`${t("rulestest.question")} ${question.numCorrect}/${question.numAsked} (${percentQuestion}%)`}</span>
+        </div>
+        <VersionPicker>
+          <Item code="ihf_05_2024">
+            <span>2024</span>
+          </Item>
+          <Item code="ihf_08_2019">
+            <span>2019</span>
+          </Item>
+        </VersionPicker>
       </div>
-      <form id="test-content">
-        <div id="test-question" className="box-with-header">
-          <h2>
+      { (languageMissing && !errorHidden) && (
+        <div className="flex px-4 py-4 bg-red-200 text-white relative">
+          <FontAwesomeIcon icon={faCircleExclamation} className="mr-4"/>
+          <span className="grow">{`${t("rulestest.language-missing")}`}</span>
+          <button className="border-0 mr-4 h-6" onClick={() => setErrorHidden(true)}><FontAwesomeIcon icon={faXmark} /></button>
+        </div>
+      )}
+      <form className="overflow-auto p-4">
+        <div>
+          <h2 className="text-white p-2 bg-blue-300 inline-block shadow">
             {`${t("rulestest.question")} ${question.id}`}
           </h2>
-          <div>
-            {question.question[language]}
+          <div className="bg-white shadow p-4">
+            {question.question[languageMissing ? "en" : language]}
           </div>
         </div>
-        <div id="test-options">
+        <div className="mt-4">
           {options}
         </div>
         {relevantRules}
-        <button type="submit" onClick={handleButtonClick}>{buttonText}</button>
+        <button type="submit" className="bg-blue-400 border border-blue-500 text-white mt-4 text-base py-1 px-2 cursor-pointer hover:bg-blue-500" onClick={handleButtonClick}>{buttonText}</button>
       </form>
     </>
   );
