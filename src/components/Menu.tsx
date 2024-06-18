@@ -41,7 +41,7 @@ const Menu: FunctionComponent = () => {
 
   return (
     <div id="menu" className={className}>
-      <div id="logo" className="flex justify-end p-2 bg-blue-300 h-14">
+      <div id="logo" className="flex flex-shrink-0 justify-end p-2 bg-blue-300 h-14">
         <img className="h-10 w-10" src={Logo} alt={t("app.title")} />
       </div>
       <nav className="flex flex-row md:flex-col text-xs">

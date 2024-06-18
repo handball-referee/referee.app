@@ -40,7 +40,7 @@ const RulesSelector: FunctionComponent = () => {
   });
 
   return (
-    <aside id="rules-selector-wrapper" className="bg-grey-200 shadow flex flex-grow-0 shrink-0 basis-60 overflow-auto">
+    <aside id="rules-selector-wrapper" className="bg-grey-200 shadow flex flex-grow-0 shrink-0 basis-14 md:basis-60 md:overflow-auto">
       <div
         className={className}
         role="listbox"

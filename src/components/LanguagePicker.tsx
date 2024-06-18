@@ -22,7 +22,7 @@ const LanguagePicker: FunctionComponent = () => {
     });
   };
 
-  const currentLanguage = i18n.language;
+  const currentLanguage = i18n.language || 'en';
 
   return (
     <Dropdown<string>

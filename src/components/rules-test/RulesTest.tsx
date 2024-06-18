@@ -83,7 +83,7 @@ const RulesTest: FunctionComponent = () => {
 
     return (
       <div key={key} className={className}>
-        <div className="flex basis-8">
+        <div className="flex flex-shrink-0 basis-8">
           <CheckBox
             checked={isChecked}
             onChange={() => updateChecked(key)}
