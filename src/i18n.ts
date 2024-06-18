@@ -15,7 +15,7 @@ const i18n = {
     es,
     fr,
   },
-  whitelist: ["en", "es", "de", "fr"],
+  supportedLngs: ["en", "es", "de", "fr"],
 };
 
 export default i18n;
