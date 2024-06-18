@@ -2,7 +2,7 @@
 import React, { FunctionComponent, useState, MouseEvent } from "react";
 import classnames from "classnames";
 import { useTranslation } from "react-i18next";
-import { faChartPie, faCircleExclamation } from "@fortawesome/free-solid-svg-icons";
+import {faChartPie, faCircleExclamation, faXmark} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRulesTestData } from "../../context/TestDataContext";
 import CheckBox from "../CheckBox";
@@ -23,6 +23,7 @@ const RulesTest: FunctionComponent = () => {
     languageMissing,
   } = useRulesTestData();
   const [checked, setChecked] = useState<string[]>(initialChecked);
+  const [errorHidden, setErrorHidden] = useState(false);
 
   const { t, i18n: { language } } = useTranslation();
   const { trackEvent } = useAnalytics();
@@ -127,10 +128,11 @@ const RulesTest: FunctionComponent = () => {
           </Item>
         </VersionPicker>
       </div>
-      { languageMissing && (
-        <div className="flex px-4 py-4 bg-red-200 text-white">
+      { (languageMissing && !errorHidden) && (
+        <div className="flex px-4 py-4 bg-red-200 text-white relative">
           <FontAwesomeIcon icon={faCircleExclamation} className="mr-4"/>
-          <span>{`${t("rulestest.language-missing")}`}</span>
+          <span className="grow">{`${t("rulestest.language-missing")}`}</span>
+          <button className="border-0 mr-4 h-6" onClick={() => setErrorHidden(true)}><FontAwesomeIcon icon={faXmark} /></button>
         </div>
       )}
       <form className="overflow-auto p-4">
