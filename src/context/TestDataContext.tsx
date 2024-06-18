@@ -16,6 +16,7 @@ export interface TestDataContextValue {
   languageMissing: boolean;
   version: keyof typeof AVAILABLE_LANGUAGES;
   setVersion?: (version: keyof typeof AVAILABLE_LANGUAGES) => void;
+  resetStats: () => Promise<void>;
 }
 
 let TestDataContext: React.Context<TestDataContextValue>;
@@ -30,6 +31,7 @@ export function getTestDataContext() {
       reveal: false,
       languageMissing: false,
       version: "ihf_05_2024",
+      resetStats: async () => {},
     });
   }
   return TestDataContext;

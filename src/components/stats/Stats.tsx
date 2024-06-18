@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign, no-mixed-operators */
-import React, { FunctionComponent, useMemo } from "react";
+import React, {FunctionComponent, useMemo, useState} from "react";
 import { useTranslation } from "react-i18next";
 import { faCheck, faPercent, faQuestion } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,8 +17,11 @@ type OrderedData = {
 };
 
 const Stats: FunctionComponent = () => {
-  const { asked, correct, data } = useRulesTestData();
+  const {
+    asked, correct, data, resetStats,
+  } = useRulesTestData();
   const { t } = useTranslation();
+  const [rerender, setRerender] = useState(0);
 
   const percent = asked ? Math.round(100 / asked * correct) : 0;
   const orderedData = useMemo(() => Object.values(data).reduce<OrderedData>((prev, question) => {
@@ -38,7 +41,12 @@ const Stats: FunctionComponent = () => {
     };
 
     return prev;
-  }, {}), [data]);
+  }, {}), [data, rerender]);
+
+  const handleReset = async () => {
+    await resetStats();
+    setRerender(rerender + 1);
+  };
 
   const rules = Object.keys(orderedData).map((id: string) => {
     const ruleData = orderedData[id];
@@ -69,6 +77,9 @@ const Stats: FunctionComponent = () => {
           <FontAwesomeIcon className="inline-block mr-4 w-5" icon={faPercent} size="lg" />
           {`${percent}%`}
         </div>
+        <button className="border mt-4 w-full md:w-60 rounded-md active:bg-grey-300" onClick={handleReset}>
+          {t("stats.reset")}
+        </button>
       </Box>
       {rules}
     </div>

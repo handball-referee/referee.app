@@ -58,7 +58,8 @@
     "stats": {
       "overall": "Au Total",
       "asked": "répondue",
-      "correct": "correcte"
+      "correct": "correcte",
+      "reset": "Remettre"
     },
     "privacy": {
       "accept": "J'accepte",

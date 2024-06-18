@@ -218,4 +218,16 @@ export default class TestDataManager {
 
     this.loadedLanguages.set(this._version, [...languages || [], language]);
   }
+
+  public async reset() {
+    this._asked = 0;
+    this._correct = 0;
+    this._wrong = 0;
+    if (this.db) {
+      await Promise.all(Object.keys(this._data).map(async (id) => {
+        const question = this._data[id];
+        await question.reset(this.db);
+      }));
+    }
+  }
 }

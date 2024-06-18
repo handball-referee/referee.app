@@ -59,6 +59,12 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
     return result;
   }, []);
 
+  const resetStats = useCallback(async () => {
+    await manager.current!.reset();
+    setAsked(manager.current.asked);
+    setCorrect(manager.current.correct);
+  }, []);
+
   const ctx = useMemo<TestDataContextValue>(() => ({
     checkAnswers,
     nextQuestion,
@@ -71,6 +77,7 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
     languageMissing,
     version,
     setVersion,
+    resetStats,
   }), [
     checkAnswers,
     nextQuestion,
@@ -80,6 +87,7 @@ const TestDataProvider: FunctionComponent<TestDataProviderProps> = ({ children }
     manager.current.data,
     languageMissing,
     version,
+    resetStats,
   ]);
 
   const TestDataContext = getTestDataContext();
