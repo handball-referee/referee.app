@@ -9,6 +9,7 @@ import us from "../img/us.svg";
 import de from "../img/de.svg";
 import fr from "../img/fr.svg";
 import es from "../img/es.svg";
+import pl from "../img/pl.svg";
 
 const LanguagePicker: FunctionComponent = () => {
   const { i18n } = useTranslation();
@@ -45,6 +46,10 @@ const LanguagePicker: FunctionComponent = () => {
       <Item code="es">
         <img src={es} alt="Español" className="rounded mr-1 h-5" />
         <span>Español</span>
+      </Item>
+      <Item code="pl">
+        <img src={pl} alt="Polski" className="rounded mr-1 h-5" />
+        <span>Polski</span>
       </Item>
     </Dropdown>
   );

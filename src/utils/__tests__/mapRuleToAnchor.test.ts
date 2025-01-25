@@ -12,9 +12,11 @@ describe("mapRuleToAnchor", () => {
     const en = texts.map((text) => mapRuleToAnchor(text, "en"));
     const de = texts.map((text) => mapRuleToAnchor(text, "de"));
     const es = texts.map((text) => mapRuleToAnchor(text, "es"));
+    const pl = texts.map((text) => mapRuleToAnchor(text, "pl"));
 
     expect(en).toMatchSnapshot();
     expect(de).toMatchSnapshot();
     expect(es).toMatchSnapshot();
+    expect(pl).toMatchSnapshot();
   });
 });
