@@ -2,6 +2,7 @@ import de from "./translations/de.json";
 import en from "./translations/en.json";
 import es from "./translations/es.json";
 import fr from "./translations/fr.json";
+import pl from "./translations/pl.json";
 
 const i18n = {
   fallbackLng: "en",
@@ -14,8 +15,9 @@ const i18n = {
     en,
     es,
     fr,
+    pl,
   },
-  supportedLngs: ["en", "es", "de", "fr"],
+  supportedLngs: ["en", "es", "de", "fr","pl"],
 };
 
 export default i18n;
