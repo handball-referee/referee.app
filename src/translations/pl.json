@@ -1,0 +1,70 @@
+{
+  "translation": {
+    "app": {
+      "title": "Sędzia Piłki Ręcznej",
+      "language": "Język",
+      "toggle-menu": "Przełącz Menu",
+      "quicknav": "Szybka Nawigacja"
+    },
+    "correct": "poprawny",
+    "Reset": "Resetuj",
+    "menu": {
+      "test": "Test Sędziego",
+      "rules": "Zasady Gry",
+      "stats": "Statystyki",
+      "about": "O Aplikacji"
+    },
+    "rules": {
+      "foreword": "Przedmowa",
+      "rules": "Zasady Gry",
+      "rule": {
+        "rule1": "Boisko do Gry",
+        "rule2": "Czas Gry, Sygnał Końcowy i Przerwa na Żądanie",
+        "rule3": "Piłka",
+        "rule4": "Drużyna, Zmiany, Wyposażenie, Kontuzje Zawodników",
+        "rule5": "Bramkarz",
+        "rule6": "Pole Bramkowe",
+        "rule7": "Gra Piłką, Gra Pasywna",
+        "rule8": "Faule i Niesportowe Zachowanie",
+        "rule9": "Punktowanie",
+        "rule10": "Rzut Rozpoczynający",
+        "rule11": "Rzut z Autu",
+        "rule12": "Rzut Bramkarski",
+        "rule13": "Rzut Wolny",
+        "rule14": "Rzut 7-Metrowy",
+        "rule15": "Ogólne Instrukcje dotyczące Wykonywania Rzutów",
+        "rule16": "Kary",
+        "rule17": "Sędziowie",
+        "rule18": "Czasomierz i Sekretarz"
+      },
+      "hand-signals": "Sygnały Ręczne",
+      "clarifications": "Wyjaśnienia do Zasad Gry",
+      "sar": "Regulacje dotyczące Strefy Zmian",
+      "guidelines": "Wytyczne i Interpretacje",
+      "new-guidelines": "Nowe Wytyczne",
+      "playing-court": "Wytyczne dotyczące Boisk i Bramki",
+      "equipment-accessories": "Regulacje dotyczące Sprzętu Ochronnego i Akcesoriów",
+      "edition": "Wydanie: 1 Lipca 2016",
+      "source": "Źródło: https://www.ihf.info/sites/default/files/2019-07/New-Rules%20of%20the%20Game_GB.pdf"
+    },
+    "rulestest": {
+      "question": "Pytanie",
+      "check": "Sprawdź",
+      "next": "Następne",
+      "overall": "Ogólnie",
+      "relevant-rules": "Odpowiednie Zasady",
+      "language-missing": "Najnowsza wersja pytań nie jest dostępna w Twoim języku. Możesz zmienić wersję w prawym górnym rogu."
+    },
+    "stats": {
+      "overall": "Ogólnie",
+      "asked": "odpowiedziane",
+      "correct": "poprawne",
+      "reset": "Resetuj"
+    },
+    "privacy": {
+      "accept": "Akceptuj",
+      "decline": "Odrzuć"
+    }
+  }
+}
+
