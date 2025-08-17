@@ -7,7 +7,7 @@ import Question from "./Question";
 import { loadQuestions } from "../utils/loadTestData";
 
 export const AVAILABLE_LANGUAGES = {
-  ihf_07_2025: ["en"],
+  ihf_07_2025: ["en", "de"],
   ihf_05_2024: ["en", "pl"],
   ihf_08_2019: ["en", "de", "fr", "es"],
 };
