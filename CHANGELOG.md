@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/handball-referee/referee.app/compare/v1.5.0...v1.6.0) (2025-08-17)
+
+
+### Features
+
+* add 2025 questions ([583c0b6](https://github.com/handball-referee/referee.app/commit/583c0b6b127902b4038d8d1d8ccaccbab91d4888))
+* bump node and pnpm ([083f2ae](https://github.com/handball-referee/referee.app/commit/083f2ae589fd13d32999ab3425344d453531e7e7))
+* remove rules section ([04e2f3b](https://github.com/handball-referee/referee.app/commit/04e2f3bdce00d93eaaf2b97edf77eefcd2e65278))
+
+
+### Bug Fixes
+
+* german version of 2025 questions ([afd06cc](https://github.com/handball-referee/referee.app/commit/afd06cc9d81a7ab525b9e2df5f0862bd6d1f7ba4))
+* node and pnpm version ([9d4297e](https://github.com/handball-referee/referee.app/commit/9d4297e40d1fcbc8c7f5aec7a20cc4149ee17eb2))
+* revert package.json ([3834e75](https://github.com/handball-referee/referee.app/commit/3834e75be43514410bbac56dd2584d46eb8c63f0))
+
 ## [1.5.0](https://github.com/handball-referee/referee.app/compare/v1.4.1...v1.5.0) (2025-01-28)
 
 
