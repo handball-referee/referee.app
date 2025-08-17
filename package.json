@@ -1,6 +1,6 @@
 {
   "name": "referee.app",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "App to study for handball referee tests",
   "license": "MIT",
   "scripts": {
@@ -10,8 +10,8 @@
     "test": "jest"
   },
   "engines": {
-    "node": "^20.0.0",
-    "pnpm": "^9.2.0"
+    "node": "^24.0.0",
+    "pnpm": "^10.14.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
@@ -83,5 +83,6 @@
     "webpack-dev-server": "^5.0.4",
     "webpack-node-externals": "^1.7.2",
     "workbox-webpack-plugin": "^7.1.0"
-  }
+  },
+  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
 }

@@ -120,6 +120,9 @@ const RulesTest: FunctionComponent = () => {
           <span>{`${t("rulestest.question")} ${question.numCorrect}/${question.numAsked} (${percentQuestion}%)`}</span>
         </div>
         <VersionPicker>
+          <Item code="ihf_07_2025">
+            <span>2025</span>
+          </Item>
           <Item code="ihf_05_2024">
             <span>2024</span>
           </Item>

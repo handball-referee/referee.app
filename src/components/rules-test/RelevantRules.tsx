@@ -17,7 +17,8 @@ const RelevantRules: FunctionComponent<Props> = ({ question }) => {
       </h2>
       {question.rules.map((rule) => (
         <div key={rule} className="bg-white shadow p-4 underline">
-          <Link className="text-black" to={`/rules${mapRuleToAnchor(rule, language)}`}>{rule}</Link>
+          {/* <Link className="text-black" to={`/rules${mapRuleToAnchor(rule, language)}`}>{rule}</Link> */}
+          {rule}
         </div>
       ))}
     </div>

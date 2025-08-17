@@ -48,7 +48,7 @@ const AppShell: FunctionComponent = () => {
         <TestDataProvider>
           <Routes>
             <Route index element={<RulesTest />} />
-            <Route path="rules" element={<HandballRules />} />
+            {/* <Route path="rules" element={<HandballRules />} /> */}
             <Route path="stats" element={<Stats />} />
             <Route path="about" element={<About />} />
           </Routes>

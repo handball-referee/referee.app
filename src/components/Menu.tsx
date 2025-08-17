@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowAltCircleRight, faBookOpen, faChartArea, faInfoCircle, faTasks,
+  faArrowAltCircleRight, faChartArea, faInfoCircle, faTasks,
 } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../static/logo57.png";
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
@@ -46,7 +46,7 @@ const Menu: FunctionComponent = () => {
       </div>
       <nav className="flex flex-row md:flex-col text-xs">
         <MenuItem to="/" text={t("menu.test")} icon={faTasks} />
-        <MenuItem to="/rules" text={t("menu.rules")} icon={faBookOpen} />
+        {/* <MenuItem to="/rules" text={t("menu.rules")} icon={faBookOpen} /> */}
         <MenuItem to="/stats" text={t("menu.stats")} icon={faChartArea} />
         <MenuItem to="/about" text={t("menu.about")} icon={faInfoCircle} />
       </nav>

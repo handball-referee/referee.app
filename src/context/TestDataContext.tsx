@@ -30,7 +30,7 @@ export function getTestDataContext() {
       checked: [],
       reveal: false,
       languageMissing: false,
-      version: "ihf_05_2024",
+      version: "ihf_07_2025",
       resetStats: async () => {},
     });
   }
